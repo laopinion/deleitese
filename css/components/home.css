@@ -1,0 +1,1245 @@
+/* line 2, ../../sass/components/home.scss */
+#home .slide {
+  z-index: -100;
+  width: 100%;
+  height: 500px;
+  background-position: 0px;
+  margin: 0px;
+  background: url(../images/slide.jpg) no-repeat fixed;
+  background-size: cover;
+  top: 0px;
+}
+/* line 3, ../../sass/components/home.scss */
+#home .slide #logo_home {
+  padding: 0px;
+  position: relative;
+  width: 270px;
+  height: 120px;
+  opacity: 1;
+  margin: 0 auto;
+  padding: 180px 0px;
+  transition: all 0.5s ease-in-out;
+}
+/* line 4, ../../sass/components/home.scss */
+#home .slide #logo_home h1 {
+  background: url(../images/logo_centro.svg) 0px -7px/280px auto no-repeat;
+  height: 120px;
+  width: auto;
+  display: block;
+  text-indent: -9999px;
+  margin: 0 auto;
+}
+/* line 5, ../../sass/components/home.scss */
+#home .slide #logo_home h1 a {
+  display: block;
+  height: 120px;
+  text-indent: -9999px;
+}
+/* line 9, ../../sass/components/home.scss */
+#home .personajes {
+  width: 100%;
+  height: 470px;
+  margin: 50px 0px 20px 0px;
+}
+/* line 10, ../../sass/components/home.scss */
+#home .personajes .view-id-home.view-display-id-block_1 {
+  width: 984px;
+  height: 330px;
+  margin: 0 auto;
+}
+/* line 11, ../../sass/components/home.scss */
+#home .personajes .view-id-home.view-display-id-block_1 .personaje {
+  position: relative;
+  width: 944px;
+  height: 300px;
+  padding: 0px 20px;
+  opacity: 1;
+  float: left;
+  transition: all 0.5s ease-in-out;
+}
+/* line 12, ../../sass/components/home.scss */
+#home .personajes .view-id-home.view-display-id-block_1 .personaje .info {
+  position: relative;
+  width: 600px;
+  height: 300px;
+  margin-right: 20px;
+  opacity: 1;
+  float: left;
+  transition: all 0.5s ease-in-out;
+}
+/* line 13, ../../sass/components/home.scss */
+#home .personajes .view-id-home.view-display-id-block_1 .personaje .info h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 72px;
+  width: 310px;
+  margin: 0 auto;
+  padding: 20px 0px;
+  text-align: center;
+  height: 40px;
+}
+/* line 14, ../../sass/components/home.scss */
+#home .personajes .view-id-home.view-display-id-block_1 .personaje .info .titulo {
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 15, ../../sass/components/home.scss */
+#home .personajes .view-id-home.view-display-id-block_1 .personaje .info .titulo a {
+  color: #000;
+  text-decoration: none;
+}
+/* line 17, ../../sass/components/home.scss */
+#home .personajes .view-id-home.view-display-id-block_1 .personaje .info .resumen {
+  font-size: 16px;
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 18, ../../sass/components/home.scss */
+#home .personajes .view-id-home.view-display-id-block_1 .personaje .info .resumen p {
+  font-weight: 300;
+}
+/* line 20, ../../sass/components/home.scss */
+#home .personajes .view-id-home.view-display-id-block_1 .personaje .info .mas {
+  background: #000;
+  border-radius: 22px;
+  margin: 0 auto;
+  width: 70px;
+  padding: 10px 10px;
+  text-align: center;
+}
+/* line 21, ../../sass/components/home.scss */
+#home .personajes .view-id-home.view-display-id-block_1 .personaje .info .mas a {
+  position: relative;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  margin: 0 auto;
+  text-decoration: none;
+}
+/* line 24, ../../sass/components/home.scss */
+#home .personajes .view-id-home.view-display-id-block_1 .personaje .foto {
+  width: 300px;
+  height: auto;
+  float: left;
+  position: relative;
+  top: -30px;
+}
+/* line 25, ../../sass/components/home.scss */
+#home .personajes .view-id-home.view-display-id-block_1 .personaje .foto img {
+  width: 220px;
+  height: auto;
+  margin: 0px 30px;
+}
+/* line 31, ../../sass/components/home.scss */
+#home .buena_mesa {
+  z-index: -100;
+  width: 100%;
+  height: 470px;
+  background-position: 0px;
+  margin: 0px;
+  background: url(../images/buenamesa.jpg) no-repeat fixed;
+  background-size: cover;
+  top: 0px;
+}
+/* line 32, ../../sass/components/home.scss */
+#home .buena_mesa .pautas {
+  width: 728px;
+  height: auto;
+  position: relative;
+  margin: 0 auto;
+  top: -70px;
+}
+/* line 33, ../../sass/components/home.scss */
+#home .buena_mesa .view-id-home.view-display-id-block_2 {
+  width: 984px;
+  height: 300px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+/* line 34, ../../sass/components/home.scss */
+#home .buena_mesa .view-id-home.view-display-id-block_2 .mesa {
+  position: relative;
+  width: 944px;
+  height: 350px;
+  padding: 0px 20px;
+  opacity: 1;
+  float: left;
+  transition: all 0.5s ease-in-out;
+}
+/* line 35, ../../sass/components/home.scss */
+#home .buena_mesa .view-id-home.view-display-id-block_2 .mesa .info {
+  position: relative;
+  width: 600px;
+  height: 300px;
+  margin-right: 0px;
+  opacity: 1;
+  float: left;
+  margin-left: 300px;
+  transition: all 0.5s ease-in-out;
+}
+/* line 36, ../../sass/components/home.scss */
+#home .buena_mesa .view-id-home.view-display-id-block_2 .mesa .info h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 72px;
+  width: 350px;
+  margin: 0 auto;
+  padding: 20px 0px;
+  text-align: center;
+  height: 40px;
+}
+/* line 37, ../../sass/components/home.scss */
+#home .buena_mesa .view-id-home.view-display-id-block_2 .mesa .info .titulo {
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 38, ../../sass/components/home.scss */
+#home .buena_mesa .view-id-home.view-display-id-block_2 .mesa .info .titulo a {
+  color: #000;
+  text-decoration: none;
+}
+/* line 40, ../../sass/components/home.scss */
+#home .buena_mesa .view-id-home.view-display-id-block_2 .mesa .info .resumen {
+  font-size: 16px;
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 41, ../../sass/components/home.scss */
+#home .buena_mesa .view-id-home.view-display-id-block_2 .mesa .info .resumen p {
+  font-weight: 300;
+}
+/* line 43, ../../sass/components/home.scss */
+#home .buena_mesa .view-id-home.view-display-id-block_2 .mesa .info .mas {
+  background: #000;
+  border-radius: 22px;
+  margin: 0 auto;
+  width: 70px;
+  padding: 10px 10px;
+  text-align: center;
+}
+/* line 44, ../../sass/components/home.scss */
+#home .buena_mesa .view-id-home.view-display-id-block_2 .mesa .info .mas a {
+  position: relative;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  margin: 0 auto;
+  text-decoration: none;
+}
+/* line 50, ../../sass/components/home.scss */
+#home .lonuestro {
+  width: 100%;
+  height: 1040px;
+  margin: 30px 0px 30px 0px;
+}
+/* line 51, ../../sass/components/home.scss */
+#home .lonuestro .view-id-home.view-display-id-block_3 {
+  width: 984px;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+/* line 52, ../../sass/components/home.scss */
+#home .lonuestro .view-id-home.view-display-id-block_3 h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 72px;
+  width: 350px;
+  margin: 0 auto;
+  padding: 20px 0px;
+  text-align: center;
+  height: 40px;
+}
+/* line 53, ../../sass/components/home.scss */
+#home .lonuestro .view-id-home.view-display-id-block_3 .mas {
+  background: #000;
+  border-radius: 22px;
+  width: 70px;
+  padding: 10px 10px;
+  text-align: center;
+  position: relative;
+  float: left;
+  margin: 0px 435px;
+}
+/* line 54, ../../sass/components/home.scss */
+#home .lonuestro .view-id-home.view-display-id-block_3 .mas a {
+  position: relative;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  margin: 0 auto;
+  text-decoration: none;
+}
+/* line 56, ../../sass/components/home.scss */
+#home .lonuestro .view-id-home.view-display-id-block_3 .views-row-1, #home .lonuestro .view-id-home.view-display-id-block_3 .views-row-3 {
+  margin-right: 40px;
+  position: relative;
+  float: left;
+}
+/* line 57, ../../sass/components/home.scss */
+#home .lonuestro .view-id-home.view-display-id-block_3 .info {
+  position: relative;
+  width: 470px;
+  height: auto;
+  opacity: 1;
+  float: left;
+  transition: all 0.5s ease-in-out;
+}
+/* line 58, ../../sass/components/home.scss */
+#home .lonuestro .view-id-home.view-display-id-block_3 .info .icon {
+  display: block;
+  background: url(../images/iconos/icono_texto.svg) 0px 0px/70px auto no-repeat;
+  height: 70px;
+  width: 70px;
+  display: block;
+  text-indent: -9999px;
+  float: left;
+  position: absolute;
+  left: 10px;
+  top: 220px;
+  opacity: 0.7;
+  z-index: 1;
+}
+/* line 59, ../../sass/components/home.scss */
+#home .lonuestro .view-id-home.view-display-id-block_3 .info .foto {
+  float: left;
+  position: relative;
+  width: 470px;
+  height: 300px;
+  overflow: hidden;
+}
+/* line 60, ../../sass/components/home.scss */
+#home .lonuestro .view-id-home.view-display-id-block_3 .info .foto img {
+  width: 470px;
+  height: 300px;
+  transition: all 0.5s ease-in-out;
+}
+/* line 61, ../../sass/components/home.scss */
+#home .lonuestro .view-id-home.view-display-id-block_3 .info .foto img:hover {
+  opacity: 0.9;
+  width: 500px;
+  height: 330px;
+  left: -15px;
+  top: -15px;
+}
+/* line 63, ../../sass/components/home.scss */
+#home .lonuestro .view-id-home.view-display-id-block_3 .info .titulo {
+  width: 470px;
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding: 20px 0px;
+  position: relative;
+  float: left;
+  text-align: center;
+}
+/* line 64, ../../sass/components/home.scss */
+#home .lonuestro .view-id-home.view-display-id-block_3 .info .titulo a {
+  color: #000;
+  text-decoration: none;
+}
+/* line 66, ../../sass/components/home.scss */
+#home .lonuestro .view-id-home.view-display-id-block_3 .info .resumen {
+  font-size: 16px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  float: left;
+}
+/* line 67, ../../sass/components/home.scss */
+#home .lonuestro .view-id-home.view-display-id-block_3 .info .resumen p {
+  font-weight: 300;
+}
+/* line 72, ../../sass/components/home.scss */
+#home .recetas {
+  width: 100%;
+  height: 1100px;
+  margin: 30px 0px 30px 0px;
+  background: #000;
+}
+/* line 73, ../../sass/components/home.scss */
+#home .recetas .view-id-home.view-display-id-block_4 {
+  width: 984px;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+/* line 74, ../../sass/components/home.scss */
+#home .recetas .view-id-home.view-display-id-block_4 h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 72px;
+  width: 350px;
+  margin: 0 auto;
+  padding: 20px 0px;
+  text-align: center;
+  height: 40px;
+  color: #fff;
+}
+/* line 75, ../../sass/components/home.scss */
+#home .recetas .view-id-home.view-display-id-block_4 .views-row {
+  position: relative;
+  float: left;
+}
+/* line 77, ../../sass/components/home.scss */
+#home .recetas .view-id-home.view-display-id-block_4 .views-row-2 .icon, #home .recetas .view-id-home.view-display-id-block_4 .views-row-5 .icon, #home .recetas .view-id-home.view-display-id-block_4 .views-row-7 .icon, #home .recetas .view-id-home.view-display-id-block_4 .views-row-9 .icon {
+  opacity: 0 !important;
+}
+/* line 78, ../../sass/components/home.scss */
+#home .recetas .view-id-home.view-display-id-block_4 .views-row-2 .info, #home .recetas .view-id-home.view-display-id-block_4 .views-row-5 .info, #home .recetas .view-id-home.view-display-id-block_4 .views-row-7 .info, #home .recetas .view-id-home.view-display-id-block_4 .views-row-9 .info {
+  opacity: 1 !important;
+}
+/* line 80, ../../sass/components/home.scss */
+#home .recetas .view-id-home.view-display-id-block_4 .views-row-1, #home .recetas .view-id-home.view-display-id-block_4 .views-row-2, #home .recetas .view-id-home.view-display-id-block_4 .views-row-4, #home .recetas .view-id-home.view-display-id-block_4 .views-row-6, #home .recetas .view-id-home.view-display-id-block_4 .views-row-7, #home .recetas .view-id-home.view-display-id-block_4 .views-row-8, #home .recetas .view-id-home.view-display-id-block_4 .views-row-9, #home .recetas .view-id-home.view-display-id-block_4 .views-row-10 {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  float: left;
+}
+/* line 81, ../../sass/components/home.scss */
+#home .recetas .view-id-home.view-display-id-block_4 .views-row-1 .icon, #home .recetas .view-id-home.view-display-id-block_4 .views-row-2 .icon, #home .recetas .view-id-home.view-display-id-block_4 .views-row-4 .icon, #home .recetas .view-id-home.view-display-id-block_4 .views-row-6 .icon, #home .recetas .view-id-home.view-display-id-block_4 .views-row-7 .icon, #home .recetas .view-id-home.view-display-id-block_4 .views-row-8 .icon, #home .recetas .view-id-home.view-display-id-block_4 .views-row-9 .icon, #home .recetas .view-id-home.view-display-id-block_4 .views-row-10 .icon {
+  opacity: 1;
+  display: block;
+  background: url(../images/iconos/video.svg) -10px 15px/140px auto no-repeat;
+  height: 110px;
+  width: 110px;
+  display: block;
+  text-indent: -9999px;
+  float: left;
+  position: absolute;
+  left: 60px;
+  top: 100px;
+  opacity: 0.7;
+  z-index: 1;
+  transition: all 0.5s ease-in-out;
+}
+/* line 82, ../../sass/components/home.scss */
+#home .recetas .view-id-home.view-display-id-block_4 .views-row-1 .foto, #home .recetas .view-id-home.view-display-id-block_4 .views-row-2 .foto, #home .recetas .view-id-home.view-display-id-block_4 .views-row-4 .foto, #home .recetas .view-id-home.view-display-id-block_4 .views-row-6 .foto, #home .recetas .view-id-home.view-display-id-block_4 .views-row-7 .foto, #home .recetas .view-id-home.view-display-id-block_4 .views-row-8 .foto, #home .recetas .view-id-home.view-display-id-block_4 .views-row-9 .foto, #home .recetas .view-id-home.view-display-id-block_4 .views-row-10 .foto {
+  float: left;
+  position: relative;
+  width: 245px;
+  height: 310px;
+  overflow: hidden;
+}
+/* line 83, ../../sass/components/home.scss */
+#home .recetas .view-id-home.view-display-id-block_4 .views-row-1 .foto img, #home .recetas .view-id-home.view-display-id-block_4 .views-row-2 .foto img, #home .recetas .view-id-home.view-display-id-block_4 .views-row-4 .foto img, #home .recetas .view-id-home.view-display-id-block_4 .views-row-6 .foto img, #home .recetas .view-id-home.view-display-id-block_4 .views-row-7 .foto img, #home .recetas .view-id-home.view-display-id-block_4 .views-row-8 .foto img, #home .recetas .view-id-home.view-display-id-block_4 .views-row-9 .foto img, #home .recetas .view-id-home.view-display-id-block_4 .views-row-10 .foto img {
+  width: 470px;
+  height: auto;
+  left: -200px;
+  transition: all 0.5s ease-in-out;
+}
+/* line 85, ../../sass/components/home.scss */
+#home .recetas .view-id-home.view-display-id-block_4 .views-row-1 .titulo_movil, #home .recetas .view-id-home.view-display-id-block_4 .views-row-2 .titulo_movil, #home .recetas .view-id-home.view-display-id-block_4 .views-row-4 .titulo_movil, #home .recetas .view-id-home.view-display-id-block_4 .views-row-6 .titulo_movil, #home .recetas .view-id-home.view-display-id-block_4 .views-row-7 .titulo_movil, #home .recetas .view-id-home.view-display-id-block_4 .views-row-8 .titulo_movil, #home .recetas .view-id-home.view-display-id-block_4 .views-row-9 .titulo_movil, #home .recetas .view-id-home.view-display-id-block_4 .views-row-10 .titulo_movil {
+  display: none;
+}
+/* line 86, ../../sass/components/home.scss */
+#home .recetas .view-id-home.view-display-id-block_4 .views-row-1 .info, #home .recetas .view-id-home.view-display-id-block_4 .views-row-2 .info, #home .recetas .view-id-home.view-display-id-block_4 .views-row-4 .info, #home .recetas .view-id-home.view-display-id-block_4 .views-row-6 .info, #home .recetas .view-id-home.view-display-id-block_4 .views-row-7 .info, #home .recetas .view-id-home.view-display-id-block_4 .views-row-8 .info, #home .recetas .view-id-home.view-display-id-block_4 .views-row-9 .info, #home .recetas .view-id-home.view-display-id-block_4 .views-row-10 .info {
+  opacity: 0;
+  position: absolute;
+  width: 215px;
+  height: 290px;
+  background: rgba(28, 28, 28, 0.8);
+  float: left;
+  padding: 10px 15px;
+  z-index: 1;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+/* line 87, ../../sass/components/home.scss */
+#home .recetas .view-id-home.view-display-id-block_4 .views-row-1 .info .enlace, #home .recetas .view-id-home.view-display-id-block_4 .views-row-2 .info .enlace, #home .recetas .view-id-home.view-display-id-block_4 .views-row-4 .info .enlace, #home .recetas .view-id-home.view-display-id-block_4 .views-row-6 .info .enlace, #home .recetas .view-id-home.view-display-id-block_4 .views-row-7 .info .enlace, #home .recetas .view-id-home.view-display-id-block_4 .views-row-8 .info .enlace, #home .recetas .view-id-home.view-display-id-block_4 .views-row-9 .info .enlace, #home .recetas .view-id-home.view-display-id-block_4 .views-row-10 .info .enlace {
+  width: 215px;
+  height: 290px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  text-indent: -9999px;
+  padding: 10px 20px;
+  cursor: pointer;
+  z-index: 2;
+}
+/* line 88, ../../sass/components/home.scss */
+#home .recetas .view-id-home.view-display-id-block_4 .views-row-1 .info .enlace a, #home .recetas .view-id-home.view-display-id-block_4 .views-row-2 .info .enlace a, #home .recetas .view-id-home.view-display-id-block_4 .views-row-4 .info .enlace a, #home .recetas .view-id-home.view-display-id-block_4 .views-row-6 .info .enlace a, #home .recetas .view-id-home.view-display-id-block_4 .views-row-7 .info .enlace a, #home .recetas .view-id-home.view-display-id-block_4 .views-row-8 .info .enlace a, #home .recetas .view-id-home.view-display-id-block_4 .views-row-9 .info .enlace a, #home .recetas .view-id-home.view-display-id-block_4 .views-row-10 .info .enlace a {
+  width: 215px;
+  height: 290px;
+  float: left;
+  color: #fff;
+  text-decoration: none;
+}
+/* line 90, ../../sass/components/home.scss */
+#home .recetas .view-id-home.view-display-id-block_4 .views-row-1 .info .titulo, #home .recetas .view-id-home.view-display-id-block_4 .views-row-2 .info .titulo, #home .recetas .view-id-home.view-display-id-block_4 .views-row-4 .info .titulo, #home .recetas .view-id-home.view-display-id-block_4 .views-row-6 .info .titulo, #home .recetas .view-id-home.view-display-id-block_4 .views-row-7 .info .titulo, #home .recetas .view-id-home.view-display-id-block_4 .views-row-8 .info .titulo, #home .recetas .view-id-home.view-display-id-block_4 .views-row-9 .info .titulo, #home .recetas .view-id-home.view-display-id-block_4 .views-row-10 .info .titulo {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding: 0px;
+  position: relative;
+  text-align: center;
+  padding: 20px 0px;
+  margin-top: 90px;
+}
+/* line 91, ../../sass/components/home.scss */
+#home .recetas .view-id-home.view-display-id-block_4 .views-row-1 .info .titulo a, #home .recetas .view-id-home.view-display-id-block_4 .views-row-2 .info .titulo a, #home .recetas .view-id-home.view-display-id-block_4 .views-row-4 .info .titulo a, #home .recetas .view-id-home.view-display-id-block_4 .views-row-6 .info .titulo a, #home .recetas .view-id-home.view-display-id-block_4 .views-row-7 .info .titulo a, #home .recetas .view-id-home.view-display-id-block_4 .views-row-8 .info .titulo a, #home .recetas .view-id-home.view-display-id-block_4 .views-row-9 .info .titulo a, #home .recetas .view-id-home.view-display-id-block_4 .views-row-10 .info .titulo a {
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+  width: 100%;
+  height: auto;
+  padding: 20px 10px;
+}
+/* line 95, ../../sass/components/home.scss */
+#home .recetas .view-id-home.view-display-id-block_4 .views-row-3, #home .recetas .view-id-home.view-display-id-block_4 .views-row-5 {
+  margin-right: 0px;
+  margin-bottom: 10px;
+  position: relative;
+  float: left;
+}
+/* line 96, ../../sass/components/home.scss */
+#home .recetas .view-id-home.view-display-id-block_4 .views-row-3 .icon, #home .recetas .view-id-home.view-display-id-block_4 .views-row-5 .icon {
+  opacity: 1;
+  display: block;
+  background: url(../images/iconos/video.svg) -10px 15px/140px auto no-repeat;
+  height: 110px;
+  width: 110px;
+  display: block;
+  text-indent: -9999px;
+  float: left;
+  position: absolute;
+  left: 190px;
+  top: 100px;
+  opacity: 0.7;
+  z-index: 1;
+  transition: all 0.5s ease-in-out;
+}
+/* line 97, ../../sass/components/home.scss */
+#home .recetas .view-id-home.view-display-id-block_4 .views-row-3 .foto, #home .recetas .view-id-home.view-display-id-block_4 .views-row-5 .foto {
+  float: left;
+  position: relative;
+  width: 470px;
+  height: 310px;
+  overflow: hidden;
+}
+/* line 98, ../../sass/components/home.scss */
+#home .recetas .view-id-home.view-display-id-block_4 .views-row-3 .foto img, #home .recetas .view-id-home.view-display-id-block_4 .views-row-5 .foto img {
+  width: 470px;
+  height: 310px;
+  transition: all 0.5s ease-in-out;
+}
+/* line 100, ../../sass/components/home.scss */
+#home .recetas .view-id-home.view-display-id-block_4 .views-row-3 .titulo_movil, #home .recetas .view-id-home.view-display-id-block_4 .views-row-5 .titulo_movil {
+  display: none;
+}
+/* line 101, ../../sass/components/home.scss */
+#home .recetas .view-id-home.view-display-id-block_4 .views-row-3 .info, #home .recetas .view-id-home.view-display-id-block_4 .views-row-5 .info {
+  opacity: 0;
+  position: absolute;
+  width: 440px;
+  height: 290px;
+  background: rgba(28, 28, 28, 0.8);
+  float: left;
+  padding: 10px 15px;
+  z-index: 1;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+/* line 102, ../../sass/components/home.scss */
+#home .recetas .view-id-home.view-display-id-block_4 .views-row-3 .info .enlace, #home .recetas .view-id-home.view-display-id-block_4 .views-row-5 .info .enlace {
+  width: 440px;
+  height: 290px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  text-indent: -9999px;
+  padding: 10px 20px;
+  cursor: pointer;
+  z-index: 2;
+}
+/* line 103, ../../sass/components/home.scss */
+#home .recetas .view-id-home.view-display-id-block_4 .views-row-3 .info .enlace a, #home .recetas .view-id-home.view-display-id-block_4 .views-row-5 .info .enlace a {
+  width: 440px;
+  height: 290px;
+  float: left;
+  color: #fff;
+  text-decoration: none;
+}
+/* line 105, ../../sass/components/home.scss */
+#home .recetas .view-id-home.view-display-id-block_4 .views-row-3 .info .titulo, #home .recetas .view-id-home.view-display-id-block_4 .views-row-5 .info .titulo {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding: 0px;
+  position: relative;
+  text-align: center;
+  padding: 20px 0px;
+  margin-top: 90px;
+}
+/* line 106, ../../sass/components/home.scss */
+#home .recetas .view-id-home.view-display-id-block_4 .views-row-3 .info .titulo a, #home .recetas .view-id-home.view-display-id-block_4 .views-row-5 .info .titulo a {
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+  height: auto;
+  padding: 20px 10px;
+}
+/* line 110, ../../sass/components/home.scss */
+#home .recetas .view-id-home.view-display-id-block_4 .views-row-8, #home .recetas .view-id-home.view-display-id-block_4 .views-row-9 {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  float: left;
+}
+/* line 111, ../../sass/components/home.scss */
+#home .recetas .view-id-home.view-display-id-block_4 .views-row-8 .icon, #home .recetas .view-id-home.view-display-id-block_4 .views-row-9 .icon {
+  opacity: 1;
+  display: block;
+  background: url(../images/iconos/video.svg) -10px 15px/140px auto no-repeat;
+  height: 110px;
+  width: 110px;
+  display: block;
+  text-indent: -9999px;
+  float: left;
+  position: absolute;
+  left: 60px;
+  top: 100px;
+  opacity: 0.7;
+  z-index: 1;
+  transition: all 0.5s ease-in-out;
+}
+/* line 112, ../../sass/components/home.scss */
+#home .recetas .view-id-home.view-display-id-block_4 .views-row-8 .foto, #home .recetas .view-id-home.view-display-id-block_4 .views-row-9 .foto {
+  float: left;
+  position: relative;
+  width: 230px;
+  height: 310px;
+  overflow: hidden;
+}
+/* line 113, ../../sass/components/home.scss */
+#home .recetas .view-id-home.view-display-id-block_4 .views-row-8 .foto img, #home .recetas .view-id-home.view-display-id-block_4 .views-row-9 .foto img {
+  width: 470px;
+  height: auto;
+  left: -200px;
+  transition: all 0.5s ease-in-out;
+}
+/* line 115, ../../sass/components/home.scss */
+#home .recetas .view-id-home.view-display-id-block_4 .views-row-8 .info, #home .recetas .view-id-home.view-display-id-block_4 .views-row-9 .info {
+  opacity: 0;
+  position: absolute;
+  width: 200px;
+  height: 290px;
+  background: rgba(28, 28, 28, 0.8);
+  float: left;
+  padding: 10px 15px;
+  z-index: 1;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+/* line 116, ../../sass/components/home.scss */
+#home .recetas .view-id-home.view-display-id-block_4 .views-row-8 .info .enlace, #home .recetas .view-id-home.view-display-id-block_4 .views-row-9 .info .enlace {
+  width: 215px;
+  height: 290px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  text-indent: -9999px;
+  padding: 10px 20px;
+  cursor: pointer;
+  z-index: 2;
+}
+/* line 117, ../../sass/components/home.scss */
+#home .recetas .view-id-home.view-display-id-block_4 .views-row-8 .info .enlace a, #home .recetas .view-id-home.view-display-id-block_4 .views-row-9 .info .enlace a {
+  width: 215px;
+  height: 290px;
+  float: left;
+}
+/* line 119, ../../sass/components/home.scss */
+#home .recetas .view-id-home.view-display-id-block_4 .views-row-8 .info .titulo, #home .recetas .view-id-home.view-display-id-block_4 .views-row-9 .info .titulo {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding: 0px;
+  position: relative;
+  text-align: center;
+  padding: 20px 0px;
+  margin-top: 90px;
+}
+/* line 120, ../../sass/components/home.scss */
+#home .recetas .view-id-home.view-display-id-block_4 .views-row-8 .info .titulo a, #home .recetas .view-id-home.view-display-id-block_4 .views-row-9 .info .titulo a {
+  cursor: pointer;
+}
+/* line 124, ../../sass/components/home.scss */
+#home .recetas .view-id-home.view-display-id-block_4 .views-row-5 {
+  margin-right: 10px;
+}
+/* line 125, ../../sass/components/home.scss */
+#home .recetas .view-id-home.view-display-id-block_4 .views-row-6, #home .recetas .view-id-home.view-display-id-block_4 .views-row-10 {
+  margin-right: 0px;
+}
+/* line 130, ../../sass/components/home.scss */
+#home .establecimientos {
+  width: 100%;
+  height: 1060px;
+  margin: 30px 0px 30px 0px;
+}
+/* line 131, ../../sass/components/home.scss */
+#home .establecimientos .view-id-home.view-display-id-block_5 {
+  width: 984px;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+/* line 132, ../../sass/components/home.scss */
+#home .establecimientos .view-id-home.view-display-id-block_5 h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 72px;
+  width: 350px;
+  margin: 0 auto;
+  padding: 20px 0px;
+  text-align: center;
+  height: 40px;
+}
+/* line 133, ../../sass/components/home.scss */
+#home .establecimientos .view-id-home.view-display-id-block_5 .views-row-4, #home .establecimientos .view-id-home.view-display-id-block_5 .views-row-8, #home .establecimientos .view-id-home.view-display-id-block_5 .views-row-12 {
+  margin-right: 0px;
+}
+/* line 134, ../../sass/components/home.scss */
+#home .establecimientos .view-id-home.view-display-id-block_5 .views-row-4 .circulo, #home .establecimientos .view-id-home.view-display-id-block_5 .views-row-8 .circulo, #home .establecimientos .view-id-home.view-display-id-block_5 .views-row-12 .circulo {
+  display: none;
+}
+/* line 136, ../../sass/components/home.scss */
+#home .establecimientos .view-id-home.view-display-id-block_5 .views-row {
+  margin: 20px 0px 20px 0px;
+  position: relative;
+  float: left;
+}
+/* line 137, ../../sass/components/home.scss */
+#home .establecimientos .view-id-home.view-display-id-block_5 .info {
+  position: absolute;
+  left: 80px;
+  z-index: 1;
+  top: 0px;
+  background: #fff;
+  width: 230px;
+  height: auto;
+  opacity: 1;
+  float: left;
+  display: none;
+  border-left: 7px solid #FE8702;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  transition: all 0.5s ease-in-out;
+  /*
+  .mas{background: #000;border-radius: 22px;width: 50px; padding:10px 10px; text-align:center; position: relative; float:left; margin:0px 15px;
+  	a{position: relative;color: #fff;font-size: 14px;font-weight: 300;text-align: center;margin: 0 auto;text-decoration: none;}
+  }
+  */
+}
+/* line 138, ../../sass/components/home.scss */
+#home .establecimientos .view-id-home.view-display-id-block_5 .info .triangulo {
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-right: 20px solid #FE8702;
+  border-bottom: 20px solid transparent;
+  position: absolute;
+  left: -20px;
+  top: 55px;
+}
+/* line 139, ../../sass/components/home.scss */
+#home .establecimientos .view-id-home.view-display-id-block_5 .info .fachada {
+  float: left;
+  position: relative;
+  width: 110px;
+  height: 150px;
+  overflow: hidden;
+}
+/* line 140, ../../sass/components/home.scss */
+#home .establecimientos .view-id-home.view-display-id-block_5 .info .fachada img {
+  width: 110px;
+  height: 150px;
+  transition: all 0.5s ease-in-out;
+}
+/* line 141, ../../sass/components/home.scss */
+#home .establecimientos .view-id-home.view-display-id-block_5 .info .fachada img:hover {
+  opacity: 0.9;
+  width: 120px;
+  height: 160px;
+  left: -5px;
+  top: -5px;
+}
+/* line 143, ../../sass/components/home.scss */
+#home .establecimientos .view-id-home.view-display-id-block_5 .info .resumen {
+  width: 110px;
+  font-size: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 20px 5px;
+  position: relative;
+  float: left;
+  text-align: center;
+}
+/* line 150, ../../sass/components/home.scss */
+#home .establecimientos .view-id-home.view-display-id-block_5 .logo {
+  max-width: 200px;
+  height: auto;
+  position: relative;
+  float: left;
+}
+/* line 151, ../../sass/components/home.scss */
+#home .establecimientos .view-id-home.view-display-id-block_5 .circulo {
+  border-radius: 50px;
+  width: 15px;
+  height: 15px;
+  background: #FE8702;
+  float: left;
+  position: relative;
+  margin: 60px 30px;
+}
+/* line 154, ../../sass/components/home.scss */
+#home .cronograma {
+  z-index: -100;
+  width: 100%;
+  height: 680px;
+  background-position: 0px;
+  margin: 0px;
+  background: url(../images/cronograma.jpg) no-repeat fixed;
+  background-size: cover;
+  top: 0px;
+}
+/* line 155, ../../sass/components/home.scss */
+#home .cronograma .content {
+  margin: 0 auto;
+  width: 984px;
+}
+/* line 156, ../../sass/components/home.scss */
+#home .cronograma .content .pautas {
+  width: 300px;
+  height: 600px;
+  position: relative;
+  float: left;
+}
+/* line 157, ../../sass/components/home.scss */
+#home .cronograma .content .view-id-home.view-display-id-block_6 {
+  height: 300px;
+  float: left;
+  position: relative;
+  padding-top: 30px;
+  width: 620px;
+  margin-left: 20px;
+}
+/* line 158, ../../sass/components/home.scss */
+#home .cronograma .content .view-id-home.view-display-id-block_6 .views-row {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #000;
+  float: left;
+  height: auto;
+}
+/* line 159, ../../sass/components/home.scss */
+#home .cronograma .content .view-id-home.view-display-id-block_6 h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 72px;
+  width: 350px;
+  margin: 0 auto;
+  padding: 20px 0px;
+  text-align: center;
+  height: 40px;
+}
+/* line 160, ../../sass/components/home.scss */
+#home .cronograma .content .view-id-home.view-display-id-block_6 .evento {
+  position: relative;
+  width: 620px;
+  height: auto;
+  margin-bottom: 20px;
+  padding: 0px 20px;
+  opacity: 1;
+  float: left;
+  transition: all 0.5s ease-in-out;
+}
+/* line 161, ../../sass/components/home.scss */
+#home .cronograma .content .view-id-home.view-display-id-block_6 .evento .fecha {
+  width: 70px;
+  height: 70px;
+  float: left;
+  position: relative;
+}
+/* line 162, ../../sass/components/home.scss */
+#home .cronograma .content .view-id-home.view-display-id-block_6 .evento .fecha .dia {
+  width: 70px;
+  height: 30px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  color: #000;
+  float: left;
+  text-align: center;
+}
+/* line 163, ../../sass/components/home.scss */
+#home .cronograma .content .view-id-home.view-display-id-block_6 .evento .fecha .mes {
+  background: #FE8702;
+  border-radius: 22px;
+  width: 70px;
+  text-align: center;
+  float: left;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #fff;
+  padding: 3px;
+}
+/* line 165, ../../sass/components/home.scss */
+#home .cronograma .content .view-id-home.view-display-id-block_6 .evento .info {
+  position: relative;
+  width: 500px;
+  height: 70px;
+  margin-right: 0px;
+  opacity: 1;
+  float: left;
+  margin-left: 20px;
+  transition: all 0.5s ease-in-out;
+}
+/* line 166, ../../sass/components/home.scss */
+#home .cronograma .content .view-id-home.view-display-id-block_6 .evento .info .titulo {
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0 auto;
+  text-align: left;
+}
+/* line 167, ../../sass/components/home.scss */
+#home .cronograma .content .view-id-home.view-display-id-block_6 .evento .info .titulo a {
+  color: #000;
+  text-decoration: none;
+}
+/* line 169, ../../sass/components/home.scss */
+#home .cronograma .content .view-id-home.view-display-id-block_6 .evento .info .resumen {
+  font-size: 16px;
+  margin: 0 auto;
+  text-align: left;
+}
+/* line 170, ../../sass/components/home.scss */
+#home .cronograma .content .view-id-home.view-display-id-block_6 .evento .info .resumen p {
+  font-weight: 300;
+}
+/* line 177, ../../sass/components/home.scss */
+#home .mundo {
+  width: 100%;
+  height: 650px;
+  margin: 30px 0px 30px 0px;
+}
+/* line 178, ../../sass/components/home.scss */
+#home .mundo .view-id-home.view-display-id-block_7 {
+  width: 984px;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+/* line 179, ../../sass/components/home.scss */
+#home .mundo .view-id-home.view-display-id-block_7 h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 72px;
+  width: 510px;
+  margin: 0 auto;
+  padding: 20px 0px;
+  text-align: center;
+  height: 40px;
+}
+/* line 180, ../../sass/components/home.scss */
+#home .mundo .view-id-home.view-display-id-block_7 .mas {
+  background: #000;
+  border-radius: 22px;
+  width: 70px;
+  padding: 10px 10px;
+  text-align: center;
+  position: relative;
+  float: left;
+  margin: 0px 435px;
+}
+/* line 181, ../../sass/components/home.scss */
+#home .mundo .view-id-home.view-display-id-block_7 .mas a {
+  position: relative;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  margin: 0 auto;
+  text-decoration: none;
+}
+/* line 183, ../../sass/components/home.scss */
+#home .mundo .view-id-home.view-display-id-block_7 .views-row-1 {
+  margin-right: 20px;
+  position: relative;
+  float: left;
+}
+/* line 184, ../../sass/components/home.scss */
+#home .mundo .view-id-home.view-display-id-block_7 .info {
+  position: relative;
+  width: 470px;
+  height: auto;
+  opacity: 1;
+  float: left;
+  transition: all 0.5s ease-in-out;
+}
+/* line 185, ../../sass/components/home.scss */
+#home .mundo .view-id-home.view-display-id-block_7 .info .icon {
+  display: block;
+  background: url(../images/iconos/icono_texto.svg) 0px 0px/70px auto no-repeat;
+  height: 70px;
+  width: 70px;
+  display: block;
+  text-indent: -9999px;
+  float: left;
+  position: absolute;
+  left: 10px;
+  top: 220px;
+  opacity: 0.7;
+  z-index: 1;
+}
+/* line 186, ../../sass/components/home.scss */
+#home .mundo .view-id-home.view-display-id-block_7 .info .foto {
+  float: left;
+  position: relative;
+  width: 470px;
+  height: 300px;
+  overflow: hidden;
+}
+/* line 187, ../../sass/components/home.scss */
+#home .mundo .view-id-home.view-display-id-block_7 .info .foto img {
+  width: 470px;
+  height: 300px;
+  transition: all 0.5s ease-in-out;
+}
+/* line 188, ../../sass/components/home.scss */
+#home .mundo .view-id-home.view-display-id-block_7 .info .foto img:hover {
+  opacity: 0.9;
+  width: 500px;
+  height: 330px;
+  left: -15px;
+  top: -15px;
+}
+/* line 190, ../../sass/components/home.scss */
+#home .mundo .view-id-home.view-display-id-block_7 .info .titulo {
+  width: 470px;
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding: 20px 0px;
+  position: relative;
+  float: left;
+  text-align: center;
+}
+/* line 191, ../../sass/components/home.scss */
+#home .mundo .view-id-home.view-display-id-block_7 .info .titulo a {
+  color: #000;
+  text-decoration: none;
+}
+/* line 193, ../../sass/components/home.scss */
+#home .mundo .view-id-home.view-display-id-block_7 .info .resumen {
+  font-size: 16px;
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 194, ../../sass/components/home.scss */
+#home .mundo .view-id-home.view-display-id-block_7 .info .resumen p {
+  font-weight: 300;
+}
+/* line 199, ../../sass/components/home.scss */
+#home .suscripciones {
+  z-index: -100;
+  width: 100%;
+  height: 670px;
+  background-position: 0px;
+  margin: 0px;
+  background: url(../images/suscripcion.jpg) no-repeat fixed;
+  background-size: cover;
+  top: 0px;
+}
+/* line 200, ../../sass/components/home.scss */
+#home .suscripciones .content {
+  margin: 0 auto;
+  width: 984px;
+}
+/* line 201, ../../sass/components/home.scss */
+#home .suscripciones .content .formulario {
+  width: 620px;
+  margin-right: 40px;
+  float: left;
+  position: relative;
+  margin-top: 30px;
+}
+/* line 202, ../../sass/components/home.scss */
+#home .suscripciones .content .formulario h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 72px;
+  width: 510px;
+  margin: 0 auto;
+  padding: 20px 0px;
+  text-align: center;
+  height: 40px;
+}
+/* line 203, ../../sass/components/home.scss */
+#home .suscripciones .content .formulario .webform-client-form-24 {
+  width: 600px;
+  float: left;
+  position: relative;
+  height: 450px;
+}
+/* line 204, ../../sass/components/home.scss */
+#home .suscripciones .content .formulario .webform-client-form-24 .form-item {
+  font-size: 16px;
+  font-weight: 300;
+  float: left;
+  position: relative;
+  width: 100%;
+}
+/* line 205, ../../sass/components/home.scss */
+#home .suscripciones .content .formulario .webform-client-form-24 .form-item label {
+  text-align: center;
+  margin: 5px 0px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #333;
+  text-transform: uppercase;
+}
+/* line 206, ../../sass/components/home.scss */
+#home .suscripciones .content .formulario .webform-client-form-24 .form-item input {
+  color: #000;
+  font-weight: 300;
+  width: 330px;
+  margin: 2px 120px;
+  border-radius: 12px;
+  border: 1px solid #f3f3f3;
+  padding: 2px 10px;
+  text-align: center;
+}
+/* line 209, ../../sass/components/home.scss */
+#home .suscripciones .content .formulario .webform-client-form-24 .webform-component--correo-electronico label {
+  width: 250px;
+  float: left;
+  margin: 0px 170px;
+}
+/* line 211, ../../sass/components/home.scss */
+#home .suscripciones .content .formulario .webform-client-form-24 .form-actions {
+  width: 150px;
+  margin: 0 210px;
+  position: relative;
+  float: left;
+  height: 43px;
+}
+/* line 212, ../../sass/components/home.scss */
+#home .suscripciones .content .formulario .webform-client-form-24 .form-actions .webform-submit {
+  background: #000;
+  border-radius: 22px;
+  color: #fff;
+  margin: 0 auto;
+  width: 150px;
+  font-weight: 300;
+  text-align: center;
+  padding: 10px 10px;
+  text-transform: uppercase;
+  border: 1px solid #333;
+}
+/* line 220, ../../sass/components/home.scss */
+#home .final {
+  width: 100%;
+  height: 640px;
+  margin: 30px 0px 30px 0px;
+}
+/* line 221, ../../sass/components/home.scss */
+#home .final .content {
+  width: 984px;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+/* line 222, ../../sass/components/home.scss */
+#home .final .content #instafeed {
+  width: 480px;
+  float: left;
+  position: relative;
+}
+/* line 223, ../../sass/components/home.scss */
+#home .final .content #instafeed h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 72px;
+  width: 470px;
+  margin: 0 auto;
+  padding: 20px 0px;
+  text-align: center;
+  height: 40px;
+}
+/* line 224, ../../sass/components/home.scss */
+#home .final .content #instafeed .text {
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* line 226, ../../sass/components/home.scss */
+#home .final .content .promociones {
+  width: 480px;
+  margin-right: 0px;
+  float: left;
+  position: relative;
+}
+/* line 227, ../../sass/components/home.scss */
+#home .final .content .promociones .view-id-home.view-display-id-block_8 {
+  width: 490px;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 0px;
+}
+/* line 228, ../../sass/components/home.scss */
+#home .final .content .promociones .view-id-home.view-display-id-block_8 h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 72px;
+  width: 470px;
+  margin: 0 auto;
+  padding: 20px 0px;
+  text-align: center;
+  height: 40px;
+}
+/* line 229, ../../sass/components/home.scss */
+#home .final .content .promociones .view-id-home.view-display-id-block_8 .text {
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* line 230, ../../sass/components/home.scss */
+#home .final .content .promociones .view-id-home.view-display-id-block_8 .views-row {
+  margin: 0px 20px 20px 0px;
+  position: relative;
+  float: left;
+}
+/* line 231, ../../sass/components/home.scss */
+#home .final .content .promociones .view-id-home.view-display-id-block_8 .views-row-2, #home .final .content .promociones .view-id-home.view-display-id-block_8 .views-row-4 {
+  margin-right: 0px;
+}
+/* line 232, ../../sass/components/home.scss */
+#home .final .content .promociones .view-id-home.view-display-id-block_8 .foto {
+  float: left;
+  position: relative;
+  width: 230px;
+  height: 230px;
+  overflow: hidden;
+}
+/* line 233, ../../sass/components/home.scss */
+#home .final .content .promociones .view-id-home.view-display-id-block_8 .foto img {
+  width: 230px;
+  height: 230px;
+  transition: all 0.5s ease-in-out;
+}
+/* line 234, ../../sass/components/home.scss */
+#home .final .content .promociones .view-id-home.view-display-id-block_8 .foto img:hover {
+  opacity: 0.9;
+}

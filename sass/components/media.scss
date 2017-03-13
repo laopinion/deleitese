@@ -1,0 +1,866 @@
+@media screen and (max-width: 2400px) {
+	.head_desktop{display:block;}
+	.head_movil{display:none;}
+	.footer_desktop{display:block;}
+	.footer_movil{display:none;}
+	.pauta_movil{display:none;}
+	.pauta {display:block;}
+}
+
+@media screen and (max-width: 480px) {
+	.pauta{display:none;}
+	.pauta_movil {display:block;}
+	.head_desktop{display: none;}
+	.head_movil{display: block;
+		.top{background:rgba(28, 28, 28, 0.8); height:50px; width:100%; padding: 10px 0px; position: fixed; z-index:10;
+			.center{width:300px; position: relative; margin:0 auto;padding:0px 20px;
+				#logo{padding:0px; position: relative; width: 210px; height:70px; float:left; top: -10px; opacity: 1; transition: all 0.5s ease-in-out;
+		            h1 {background:url(../images/logo_blanco.svg) 5px -7px/180px auto no-repeat; height:70px; width:auto; display:block; text-indent:-9999px; margin: 0 auto;
+		            a {display:block; height:70px; text-indent:-9999px;}
+					}
+				}
+				.icon_menu{display:block; position:absolute;width: 60px;right: 50px;height: 40px;top: -10px;background: #FF8801;padding: 15px 0px;  
+					.boton{cursor: pointer; border-radius:30px; border: 3px solid #fff; margin: 0px 5px;width: 30px;padding: 5px;float: left;position: relative;height: 30px;}
+						.uno{margin-top:5px;}
+						.uno, .dos, .tres{width: 30px;height: 4px;background-color: #fff; margin-bottom: 4px;}
+				}
+				.icon_close{display:none; position:absolute;width: 60px;right: 50px;height: 40px;top: -10px;background: #FF8801;padding: 15px 0px; 
+					.boton{cursor: pointer; border-radius:30px; border: 3px solid #fff; margin: 0px 5px;width: 30px;padding: 5px;float: left;position: relative;height: 30px;}
+						.flecha{background: url(../images/iconos/icon_close.svg) -4px -10px/40px auto no-repeat;height: 36px;width: 30px;display:block; text-indent:-9999px; margin: 0 auto;}
+				}
+				.triangulo_inf {width: 0;height: 0;border-left: 31px solid transparent;border-right: 31px solid transparent;border-top: 15px solid #FF8801;float: left;position: absolute;top: 59px;right: 50px;border-radius: 8px; z-index:1;}
+			}
+			.menu{display:block; width:100%; background:#000; margin: 0 auto;margin-top: 60px;height:100%; position: relative; height:500px;left:-100%; transition: all 0.5s ease-in-out;
+				.item_menu{width:auto;padding:20px 0px;text-align:center;width: 100%;float:left;margin: 0px;height: 16px; border-bottom:1px solid #ccc;}				
+				.item_menu:hover{background:#EB871E;}
+				a{font:'Lato', sans-serif; font-size:14px; line-height:16px; color:#fff; font-weight:300;padding: 20px 80px;text-decoration: none;width: 300px;height: 30px; text-decoration:none;}
+				//REDES
+				.redes{left: 0px;display: block;width: 180px;height: 40px;position: relative;list-style: none;margin: 0 auto;margin-top: 20px;transition: all 0.5s ease;
+		            a{margin: 0px;}
+		            a:hover{opacity: 0.8;}
+		            li.leaf{list-style: none; margin: 0px; padding: 0px;}
+		            .facebook{ 
+		            	a{background: url(../images/redes.svg) no-repeat -3px 0px/230px auto transparent;position: relative; width: 60px; height: 60px; float: left; text-indent: -9999px; padding: 0px;transition:all 0.2s ease; }
+		            }
+		            .twitter{ 
+		            	a{background: url(../images/redes.svg) no-repeat -59px 0px/230px auto transparent;position: relative; width: 60px; height: 60px; float: left; text-indent: -9999px; padding: 0px; transition:all 0.2s ease;}
+		            }
+		            .instagram{ 
+		            	a{background: url(../images/redes.svg) no-repeat -173px 0px/230px auto transparent;position: relative; width: 60px; height: 60px; float: left; text-indent: -9999px; padding: 0px; transition:all 0.2s ease;}
+		            }
+		            .youtube{ 
+		            	a{background: url(../images/redes.svg) no-repeat -113px 0px/230px auto transparent;position: relative; width: 60px; height: 60px; float: left; text-indent: -9999px; padding: 0px; transition:all 0.2s ease;}
+		            }
+				}//FIN REDES
+			}	
+		}
+	}//FIN HEADER
+
+	//FOOTER
+	.footer_desktop{display: none;}
+	.footer_movil{display: block;
+		.bottom{background:rgba(0, 0, 0, 01); height:320px; width:100%; padding: 10px 0px;float:left; position: relative;height:460px;
+			.center{width:280px;padding:0px 10px; position: relative; margin:0 auto;
+				#logo{padding:0px; position: relative; width: 210px; height:70px; margin:0 auto; top: -10px; opacity: 1; margin-top:10px; transition: all 0.5s ease-in-out;
+		            h1 {background:url(../images/logo_footer.svg) 5px -7px/175px auto no-repeat; height:70px; width:auto; display:block; text-indent:-9999px; margin: 0 auto;
+		            a {display:block; height:70px; text-indent:-9999px;}
+					}
+				}
+				.copy{margin:0 auto; width:280px; padding:20px 0px;
+					.txt{color:#fff; font-size:14px;font-weight:300;}
+					.red{font-size:20px; font-weight:300; font-style:italic; width:235px;margin:0 auto;color:#fff;margin-top:20px;
+						span{text-transform:uppercase;}
+					}
+				}
+				.redes{width: 180px; height: 75px; position: relative; list-style: none; margin:0 auto; padding:0px;
+		            a{margin: 0px;}
+		            a:hover{opacity: 0.8;}
+		            li.leaf{list-style: none; margin: 0px; padding: 0px;}
+		            .facebook{ 
+		            	a{background: url(../images/redes.svg) no-repeat -3px 0px/230px auto transparent;position: relative; width: 60px; height: 60px; float: left; text-indent: -9999px; transition:all 0.2s ease; }
+		            }
+		            .twitter{ 
+		            	a{background: url(../images/redes.svg) no-repeat -59px 0px/230px auto transparent;position: relative; width: 60px; height: 60px; float: left; text-indent: -9999px; transition:all 0.2s ease;}
+		            }
+		            .instagram{ 
+		            	a{background: url(../images/redes.svg) no-repeat -173px 0px/230px auto transparent;position: relative; width: 60px; height: 60px; float: left; text-indent: -9999px; transition:all 0.2s ease;}
+		            }
+		            .youtube{ 
+		            	a{background: url(../images/redes.svg) no-repeat -113px 0px/230px auto transparent;position: relative; width: 60px; height: 60px; float: left; text-indent: -9999px; transition:all 0.2s ease;}
+		            }
+				}/*Redes*/
+			}
+		}
+	}//FIN FOOTER
+
+	//HOME
+	#home{ 
+		//SLIDE
+		.slide{background:url(../images/slide_m.jpg) no-repeat fixed; height:400px;}
+		//FIN SLIDE
+		//PERSONAJES
+		.personajes {height:630px;
+			.view-id-home.view-display-id-block_1{ width: 300px; height:auto;
+				.personaje{width:280px;height:500px;padding:0px 10px;
+					.info{width:280px; height:auto; margin-right:0px;
+						h2{width:280px;}
+						.resumen{display:none;}
+						.mas{margin-top:400px; z-index:1; position: relative;}
+					}
+					.foto{width:280px;height:auto; position: absolute; bottom:0px; right:0px; top:100px !important;
+
+						img{width:200px;}
+					}
+				}
+			}
+		}
+		//FIN PERSONAJES
+		//BUENA MESA
+		.buena_mesa {height:350px;background:url(../images/buenamesa_m.jpg) no-repeat fixed;
+			.pautas{width:300px; height:100px;}
+			.view-id-home.view-display-id-block_2{width:300px;
+				.mesa{width:280px;padding:0px 10px;
+					.info{width:300px;margin-left:0px;
+						h2{width:300px; font-size:60px;}
+					}
+				}
+			}
+		}
+		//FIN BUENA MESA
+		//LO NUESTRO
+		.lonuestro {height:1600px;
+			.view-id-home.view-display-id-block_3{width:300px;
+				h2{width:280px;}
+				.views-row-1{margin-right:0px;}
+				.views-row{width:300px; margin-bottom:20px;
+					.info{width:300px;margin-left:0px;
+						h2{width:300px; font-size:66px;}
+						.icon{top:110px;}
+						.titulo{width:300px;}
+						.foto{width:300px; height:190px; 
+							img{width:300px; height:auto;}
+						}
+					}
+				}
+			.mas{margin:0px 100px; }
+			}
+		}
+		//FIN LO NUESTRO
+		//RECETAS
+		.recetas {height:3000px;
+			.view-id-home.view-display-id-block_4{width:300px;
+				h2{width:280px;}
+				.views-row-1{margin-right:0px;}
+				.views-row{width:300px; margin-bottom:20px;
+					.info{display:none;}
+					.icon{top:40px;left:90px;}
+					.titulo{width:300px;}
+					.foto{width:300px; height:190px; 
+						img{width:300px; height:auto;}
+					}
+					.titulo_movil{display:block; float:left; text-transform:uppercase; padding: 0px;position: relative;text-align:center;padding: 20px 0px;
+						a{cursor:pointer;color: #fff;font-weight:300; text-transform:uppercase; font-size:20px; text-decoration:none;}
+					}
+				}
+			}
+		}
+		//FIN RECETAS
+		//ESTABLECIMIENTOS
+		.establecimientos {height:1860px;
+			.view-id-home.view-display-id-block_5{width:300px;
+				h2{width:280px; font-size:60px;}
+				.views-row-1{margin-right:0px;}
+				.views-row{width:300px; margin-bottom:20px;
+					.circulo{display:none;}
+					.logo{margin:0 auto;float:none;}
+					.info{display:none;}
+				}
+			}
+		}
+		//FIN ESTABLECIMIENTOS
+		//CRONOGRAMA
+		.cronograma {height:780px;background:url(../images/cronograma_m.jpg) no-repeat fixed;
+			.content{width:300px;
+				.pautas{height:290px;}
+				.view-id-home.view-display-id-block_6{width:300px;margin-left:0px;height:auto;
+					h2{width:280px; font-size:60px;}
+					.views-row-1{margin-right:0px;}
+					.views-row{width:300px; margin-bottom:20px;
+						.evento{width:280px; padding:0px 10px;
+							.fecha{margin-right:20px;}
+							.info{width:150px;margin-left:0px;
+								.resumen{display:none;}
+								.titulo{font-size:16px; line-height:18px;}
+							}
+						}
+					}
+				}
+			}
+		}
+		//FIN CRONOGRAMA
+		//COCINAS DEL MUNDO
+		.mundo {height:900px;
+			.view-id-home.view-display-id-block_7{width:300px;
+				h2{width:280px;  line-height: 44px;top: -50px;position: relative; font-size:60px;}
+				.views-row-1{margin-right:0px;}
+				.views-row{width:300px; margin-bottom:20px;
+					.info{width:300px;margin-left:0px;
+						h2{width:300px; font-size:66px;}
+						.icon{top:110px;}
+						.titulo{width:300px;}
+						.foto{width:300px; height:190px; 
+							img{width:300px; height:auto;}
+						}
+					}
+				}
+				.mas{margin:0px 100px; }
+			}
+		}
+		//FIN COCINAS DEL MUNDOç
+
+		//SUSCRIPCIONES
+		.suscripciones {height:690px;background:url(../images/suscripciones_m.jpg) no-repeat fixed;
+			.content{width:300px;
+				.formulario{width:300px;margin-right:0px;
+					h2{width:280px; font-size:60px;}
+					.webform-client-form-24{width:280px;
+						.form-item {
+							label{}
+							input{width:230px; margin:2px 20px;}
+						}
+						.webform-component--correo-electronico {
+							label{width:230px; margin:0px 20px;}
+						}
+						.form-actions{margin:0 60px;}
+					}
+				}	
+				.view-id-home.view-display-id-block_6{width:300px;margin-left:0px;height:auto;
+					h2{width:280px; font-size:60px;}
+					.views-row-1{margin-right:0px;}
+					.views-row{width:300px; margin-bottom:20px;
+						.evento{
+							.fecha{margin-right:20px;}
+							.info{width:150px;margin-left:0px;
+								.resumen{display:none;}
+								.titulo{font-size:16px; line-height:18px;}
+							}
+						}
+					}
+				}
+			}
+		}
+		//FIN SUSCRIPCIONES
+
+		//FINAL
+		.final {height:1760px;background:url(../images/suscripciones_m.jpg) no-repeat fixed;
+			.content{width:300px;
+				#instafeed{width:300px;
+					h2{width:280px;}
+				}
+				.promociones{width:300px;
+					.view-id-home.view-display-id-block_8{width:300px;margin-left:0px;
+						h2{width:280px; font-size:60px;}
+						.views-row{width:230px;margin:0px 25px 20px 25px;}
+					}
+				}
+			}
+		}
+		//FIN FINAL								
+	}//FIN HOME
+
+//DETALLES
+	//PAGINAS
+	#pagina{width:100%;
+		.contenido{width: 100%;position: relative;margin: 0 auto;
+			h1{width: 280px;padding: 0px 10px;}
+				.texto{width: 280px;padding: 0px 10px; margin:0 auto;
+				img{max-width:280px; height:auto;}
+					li{margin:15px 0px;}
+			}
+		}
+	}
+	//FIN PAGINAS
+	//ARTICULO
+	#articulo{width:100%;
+		.contenido {width: 100%;position: relative;margin: 0 auto;
+			.foto{width:100%; height:200px; overflow:hidden;
+				img{width:100%; height:auto;}
+			}
+			.etiquetas{display:block; width: 100%;margin:20px 0px 20px 0px;
+				.icon{left:0px;background:url(../images/iconos/icono_d.svg) 20px 3px/70px auto no-repeat #000;}
+				.triangulo{left:80px;}
+				.field-name-field-tags{width: 230px;margin-left: 70px;height: 30px;float: left;position: relative;}
+			}
+			.izq, .der{display:none;}
+			.movil{display:block;width: 300px;margin: 0 auto;
+				h1{font-family: 'Dancing Script', cursive;font-size: 40px; line-height:42px; width: 280px;padding: 0px 10px;text-align:left;height: auto;}
+				.texto{color:#333; font-weight:300;font-size:18px;line-height:20px;width: 280px;padding: 0px 10px;
+					a{color:#FF8801; text-decoration:none;}
+					a:hover{text-decoration:underline;}
+					img{max-width:280px; height:auto;}
+					li{margin:15px 0px;}
+				}
+				.fecha{width:280px; padding:0px 10px;
+					.icono{background:url(../images/iconos/icono_fecha.svg) 0px 0px/55px auto no-repeat;height: 50px;width: 60px;float:left;position: relative;} 
+					.dia{font-size:18px; font-weight:400; color:#FF8801; height:50px; width:210px; margin-top:10px;float:left;
+						label{font-weight:400;font-size:16px;width:210px;color:#000;}
+					}
+				}
+				.seccion{width:300px; padding:0px 10px; margin-bottom:20px;
+					.icono{background:url(../images/iconos/icono_seccion.svg) 3px 7px/50px auto no-repeat;height: 50px;width: 60px;float:left;position: relative;} 
+					.tax{width:210px; margin-top:10px; float:left;
+						a{font-size:18px; font-weight:400; color:#FF8801; height:50px; text-decoration:none;}
+						a:hover{text-decoration:underline;}
+						label{font-weight:400;font-size:16px;width:210px;color:#000;}
+					}
+				}
+				.redes_sociales{position: relative;float:left;width:280px;padding:0px; height: 30px;margin: 20px 20px;
+	                li{list-style:none; float:left; position: relative; width:40px;height:40px; margin:5px 10px;cursor:pointer;margin:0px;}
+	                .fb{ 
+	                    .st_facebook_large{background: url(../images/compartir.svg) no-repeat -5px -4px/270px auto transparent;position: relative; width: 40px; height: 40px; float: left; text-indent: -9999px; transition:all 0.2s ease; }
+	                }
+	                .tw{ 
+	                    .st_twitter_large{background: url(../images/compartir.svg) no-repeat -45px -4px/270px auto transparent;position: relative; width: 40px; height: 40px; float: left; text-indent: -9999px; transition:all 0.2s ease; }
+	                }
+	                .go{ 
+	                    .st_googleplus_large{background: url(../images/compartir.svg) no-repeat -85px -4px/270px auto transparent;position: relative; width: 40px; height: 40px; float: left; text-indent: -9999px; transition:all 0.2s ease; }
+	                }
+	                .pin{ 
+	                    .st_pinterest_large{background: url(../images/compartir.svg) no-repeat -124px -4px/270px auto transparent;position: relative; width: 40px; height: 40px; float: left; text-indent: -9999px; transition:all 0.2s ease; }
+	                }
+	                .wp{
+	                    .st_whatsapp_large{background:url(../images/compartir.svg) no-repeat -163px -4px/270px auto transparent;position: relative; width: 40px; height: 40px; float: left; text-indent: -9999px; transition:all 0.2s ease; }
+	                }
+	            }
+				//Recomendados
+				.view-id-detalle.view-display-id-block{width:300px; height:auto; float:left; padding:0px;
+					h2{font-family: 'Dancing Script', cursive;font-size: 30px;width: 280px;padding: 15px 10px;text-align: center;height: auto;background: #000;color: #fff;margin: 5px 0px;}
+					.views-row{width:280px; border-bottom:1px solid #000; float:left; margin-bottom:20px; padding:0px 10px;}
+					.restaurante{width:280px; position: relative; float:left; height:auto;
+						.foto{width:280px; height:180px; position: relative; float:left;border:1px solid #000;margin:0px;
+							img{width:280px; height:180px;}
+							img:hover{opacity:0.8;}
+						}
+						.nombre{width:280px; height:30px; position: relative; float:left;margin:0px;background:url(../images/iconos/icono_cubiertos.svg) 0px -5px/40px auto no-repeat;
+							a{margin-left:50px; text-align:left;color:#000;font-size:20px; font-weight:400; text-decoration:none;height:30px;float:left; padding:5px 0px 0px 0px;}
+						}
+					}
+				}
+				//FIN Recomendados
+				//Promociones
+				.view-id-detalle.view-display-id-block_1{width:300px; height:auto; float:left; padding:0px;
+					h2{font-family: 'Dancing Script', cursive;font-size: 30px;width: 280px;padding: 15px 10px;text-align: center;height: auto;background: #000;color: #fff;margin: 5px 0px;}
+					.views-row{width:280px; float:left; margin-bottom:20px;padding:0px 10px;}
+					.promocion{width:280px; position: relative; float:left; height:auto;
+						.foto{width:280px; height:auto; position: relative; float:left;border:1px solid #000;margin:0px;
+							img{width:280px; height:auto;}
+							img:hover{opacity:0.8;}
+						}
+					}
+				}
+				//FIN Promociones
+			}//FIN MOVIL
+			.abajo{width:300px; margin: 0 auto; float:none;
+				.view-id-mas.view-display-id-block{width:300px;
+					h2{width:300px;}
+					.views-row{width:300px;margin-right:0px;
+						.nota{width:300px;
+							.foto{width: 145px;height: 190px;
+								img{width: 145px;height: auto;}
+							}
+							.info{width:145px; height:190px;
+								.titulo{width: 135px;font-size: 16px; line-height:18px;}
+								.resumen{display:none;}
+								.mas{margin:0px 30px 10px;}
+							}
+						}
+
+					}
+				}
+
+			}
+		}//FIN CONTENIDO	
+	}//FIN ARTICULO
+
+	//VIDEO
+	#video{width:100%;
+		.contenido {width: 100%;position: relative;margin: 0 auto;
+			.video-player{width:100%; height:170px; overflow:hidden;
+				iframe{width:100%; height:auto;}
+			}
+			.etiquetas{display:block; width: 100%;margin:20px 0px 20px 0px;
+				.icon{left:0px;background:url(../images/iconos/icono_d.svg) 20px 3px/70px auto no-repeat #000;}
+				.triangulo{left:80px;}
+				.field-name-field-tags{width: 230px;margin-left: 70px;height: 30px;float: left;position: relative;}
+			}
+			.izq, .der{display:none;}
+			.movil{display:block;width: 300px;margin: 0 auto;
+				h1{font-family: 'Dancing Script', cursive;font-size: 40px; line-height:42px; width: 280px;padding: 0px 10px;text-align:left;height: auto;}
+				.ingredientes{padding:0px 10px;font-weight:300;font-size:18px;width:270px;color:#666;margin:0px 15px;
+					h2{font-weight:400;font-size:20px;width:280px;color:#FF8801;}
+					strong{font-weight:500; color:#000;}
+				}
+				.tiempo{width:300px; padding:0px 10px;font-weight:300;font-size:20px;width:280px;color:#FF8801;
+					.icono{background:url(../images/iconos/icono_tiempo.svg) 0px 0px/40px auto no-repeat;height: 40px;width: 50px;float:left;position: relative;} 		
+					span{width: 230px;float:left;position: relative;height: 50px;
+						.field p{margin:15px 0px;}
+					}
+				}
+				.chef{padding:0px 10px;font-weight:300;font-size:20px;width:280px;color:#FF8801;
+					.icono{background:url(../images/iconos/icono_chef.svg) 0px 0px/40px auto no-repeat;height: 40px;width: 50px;float:left;position: relative;} 		
+					span{width: 230px;float:left;position: relative;height: 50px;
+						.field p{margin:11px 0px;}
+					}
+				}
+				.texto{color:#333; font-weight:300;font-size:18px;line-height:20px;width: 280px;padding: 0px 10px;
+					a{color:#FF8801; text-decoration:none;}
+					a:hover{text-decoration:underline;}
+					img{max-width:280px;height:auto;}
+					li{margin:15px 0px;}
+				}
+				.fecha{width:280px; padding:0px 10px;
+					.icono{background:url(../images/iconos/icono_fecha.svg) 0px 0px/55px auto no-repeat;height: 50px;width: 60px;float:left;position: relative;} 
+					.dia{font-size:18px; font-weight:400; color:#FF8801; height:50px; width:210px; margin-top:10px;float:left;
+						label{font-weight:400;font-size:16px;width:210px;color:#000;}
+					}
+				}
+				.seccion{width:300px; padding:0px 10px; margin-bottom:20px;
+					.icono{background:url(../images/iconos/icono_seccion.svg) 3px 7px/50px auto no-repeat;height: 50px;width: 60px;float:left;position: relative;} 
+					.tax{width:210px; margin-top:10px; float:left;
+						a{font-size:18px; font-weight:400; color:#FF8801; height:50px; text-decoration:none;}
+						a:hover{text-decoration:underline;}
+						label{font-weight:400;font-size:16px;width:210px;color:#000;}
+					}
+				}
+				.redes_sociales{position: relative;float:left;width:280px;padding:0px; height: 30px;margin: 20px 20px;
+	                li{list-style:none; float:left; position: relative; width:40px;height:40px; margin:5px 10px;cursor:pointer;margin:0px;}
+	                .fb{ 
+	                    .st_facebook_large{background: url(../images/compartir.svg) no-repeat -5px -4px/270px auto transparent;position: relative; width: 40px; height: 40px; float: left; text-indent: -9999px; transition:all 0.2s ease; }
+	                }
+	                .tw{ 
+	                    .st_twitter_large{background: url(../images/compartir.svg) no-repeat -45px -4px/270px auto transparent;position: relative; width: 40px; height: 40px; float: left; text-indent: -9999px; transition:all 0.2s ease; }
+	                }
+	                .go{ 
+	                    .st_googleplus_large{background: url(../images/compartir.svg) no-repeat -85px -4px/270px auto transparent;position: relative; width: 40px; height: 40px; float: left; text-indent: -9999px; transition:all 0.2s ease; }
+	                }
+	                .pin{ 
+	                    .st_pinterest_large{background: url(../images/compartir.svg) no-repeat -124px -4px/270px auto transparent;position: relative; width: 40px; height: 40px; float: left; text-indent: -9999px; transition:all 0.2s ease; }
+	                }
+	                .wp{
+	                    .st_whatsapp_large{background:url(../images/compartir.svg) no-repeat -163px -4px/270px auto transparent;position: relative; width: 40px; height: 40px; float: left; text-indent: -9999px; transition:all 0.2s ease; }
+	                }
+	            }
+				//Recomendados
+				.view-id-detalle.view-display-id-block{width:300px; height:auto; float:left; padding:0px;
+					h2{font-family: 'Dancing Script', cursive;font-size: 30px;width: 280px;padding: 15px 10px;text-align: center;height: auto;background: #000;color: #fff;margin: 5px 0px;}
+					.views-row{width:280px; border-bottom:1px solid #000; float:left; margin-bottom:20px; padding:0px 10px;}
+					.restaurante{width:280px; position: relative; float:left; height:auto;
+						.foto{width:280px; height:180px; position: relative; float:left;border:1px solid #000;margin:0px;
+							img{width:280px; height:180px;}
+							img:hover{opacity:0.8;}
+						}
+						.nombre{width:280px; height:30px; position: relative; float:left;margin:0px;background:url(../images/iconos/icono_cubiertos.svg) 0px -5px/40px auto no-repeat;
+							a{margin-left:50px; text-align:left;color:#000;font-size:20px; font-weight:400; text-decoration:none;height:30px;float:left; padding:5px 0px 0px 0px;}
+						}
+					}
+				}
+				//FIN Recomendados
+				//Promociones
+				.view-id-detalle.view-display-id-block_1{width:300px; height:auto; float:left; padding:0px;
+					h2{font-family: 'Dancing Script', cursive;font-size: 30px;width: 280px;padding: 15px 10px;text-align: center;height: auto;background: #000;color: #fff;margin: 5px 0px;}
+					.views-row{width:280px; float:left; margin-bottom:20px;padding:0px 10px;}
+					.promocion{width:280px; position: relative; float:left; height:auto;
+						.foto{width:280px; height:auto; position: relative; float:left;border:1px solid #000;margin:0px;
+							img{width:280px; height:auto;}
+							img:hover{opacity:0.8;}
+						}
+					}
+				}
+				//FIN Promociones
+			}//FIN MOVIL
+			//ABAJO
+			.abajo{width:300px; margin: 0 auto; float:none;
+				.view-id-mas.view-display-id-block_1{width:300px;
+					h2{width:300px;}
+					.views-row{width:300px;margin-right:0px;
+						.nota{width:300px;
+							.video{width: 145px;height: 190px;
+								img{width: 145px;height: auto;}
+							}
+							.icon{background: url(../images/iconos/video.svg) -10px 15px/120px auto no-repeat;left: 25px;top: 40px;}
+							.info{width:145px; height:190px;
+								.titulo{width: 135px;font-size: 16px; line-height:18px;}
+								.resumen{display:none;}
+								.mas{margin:0px 30px 10px;}
+							}
+						}
+					}
+				}
+			}//FIN ABAJO
+		}//FIN CONTENIDO	
+	}//FIN VIDEO
+
+	//PERSONAJE
+	#personaje{width:100%;
+		.branding{width:100%; height:200px; overflow:hidden;
+			img{width:100%; height:auto;}
+		}
+		.contenido {width: 100%;position: relative;margin: 0 auto;
+			.etiquetas{display:block; width: 100%;margin:20px 0px 20px 0px;
+				.icon{left:0px;background:url(../images/iconos/icono_d.svg) 20px 3px/70px auto no-repeat #000;}
+				.triangulo{left:80px;}
+				.field-name-field-tags{width: 230px;margin-left: 70px;height: 30px;float: left;position: relative;}
+			}
+			.izq, .der{display:none;}
+			.movil{display:block;width: 300px;margin: 0 auto;
+				h1{font-family: 'Dancing Script', cursive;font-size: 40px; line-height:42px; width: 280px;padding: 0px 10px;text-align:left;height: auto;}
+				.foto{width:100%; height:auto; overflow:hidden;
+					img{width:100%; height:auto;}
+				}
+				.texto{color:#333; font-weight:300;font-size:18px;line-height:20px;width: 280px;padding: 0px 10px;
+					a{color:#FF8801; text-decoration:none;}
+					a:hover{text-decoration:underline;}
+					img{max-width:300px;height:auto;}
+					li{margin:15px 0px;}
+				}
+				.redes_sociales{position: relative;float:left;width:280px;padding:0px; height: 30px;margin: 20px 20px;
+	                li{list-style:none; float:left; position: relative; width:40px;height:40px; margin:5px 10px;cursor:pointer;margin:0px;}
+	                .fb{ 
+	                    .st_facebook_large{background: url(../images/compartir.svg) no-repeat -5px -4px/270px auto transparent;position: relative; width: 40px; height: 40px; float: left; text-indent: -9999px; transition:all 0.2s ease; }
+	                }
+	                .tw{ 
+	                    .st_twitter_large{background: url(../images/compartir.svg) no-repeat -45px -4px/270px auto transparent;position: relative; width: 40px; height: 40px; float: left; text-indent: -9999px; transition:all 0.2s ease; }
+	                }
+	                .go{ 
+	                    .st_googleplus_large{background: url(../images/compartir.svg) no-repeat -85px -4px/270px auto transparent;position: relative; width: 40px; height: 40px; float: left; text-indent: -9999px; transition:all 0.2s ease; }
+	                }
+	                .pin{ 
+	                    .st_pinterest_large{background: url(../images/compartir.svg) no-repeat -124px -4px/270px auto transparent;position: relative; width: 40px; height: 40px; float: left; text-indent: -9999px; transition:all 0.2s ease; }
+	                }
+	                .wp{
+	                    .st_whatsapp_large{background:url(../images/compartir.svg) no-repeat -163px -4px/270px auto transparent;position: relative; width: 40px; height: 40px; float: left; text-indent: -9999px; transition:all 0.2s ease; }
+	                }
+	            }
+				//Recomendados
+				.view-id-detalle.view-display-id-block{width:300px; height:auto; float:left; padding:0px;
+					h2{font-family: 'Dancing Script', cursive;font-size: 30px;width: 280px;padding: 15px 10px;text-align: center;height: auto;background: #000;color: #fff;margin: 5px 0px;}
+					.views-row{width:280px; border-bottom:1px solid #000; float:left; margin-bottom:20px; padding:0px 10px;}
+					.restaurante{width:280px; position: relative; float:left; height:auto;
+						.foto{width:280px; height:180px; position: relative; float:left;border:1px solid #000;margin:0px;
+							img{width:280px; height:180px;}
+							img:hover{opacity:0.8;}
+						}
+						.nombre{width:280px; height:30px; position: relative; float:left;margin:0px;background:url(../images/iconos/icono_cubiertos.svg) 0px -5px/40px auto no-repeat;
+							a{margin-left:50px; text-align:left;color:#000;font-size:20px; font-weight:400; text-decoration:none;height:30px;float:left; padding:5px 0px 0px 0px;}
+						}
+					}
+				}
+				//FIN Recomendados
+				//Promociones
+				.view-id-detalle.view-display-id-block_1{width:300px; height:auto; float:left; padding:0px;
+					h2{font-family: 'Dancing Script', cursive;font-size: 30px;width: 280px;padding: 15px 10px;text-align: center;height: auto;background: #000;color: #fff;margin: 5px 0px;}
+					.views-row{width:280px; float:left; margin-bottom:20px;padding:0px 10px;}
+					.promocion{width:280px; position: relative; float:left; height:auto;
+						.foto{width:280px; height:auto; position: relative; float:left;border:1px solid #000;margin:0px;
+							img{width:280px; height:auto;}
+							img:hover{opacity:0.8;}
+						}
+					}
+				}
+				//FIN Promociones
+			}//FIN MOVIL
+			.abajo{width:300px; margin: 0 auto; float:none;
+				.view-id-mas.view-display-id-block_2{width:300px;
+					h2{width:300px;}
+					.views-row{width:300px;margin-right:0px;
+						.nota{width:300px;
+							.foto{width: 145px;height: 190px;
+								img{width: 145px;height: auto;}
+							}
+							.info{width:145px; height:190px;
+								.titulo{width: 135px;font-size: 16px; line-height:18px;}
+								.resumen{display:none;}
+								.mas{margin:0px 30px 10px;}
+							}
+						}
+
+					}
+				}
+
+			}
+		}//FIN CONTENIDO	
+	}//FIN PERSONAJE
+
+	//ESTABLECIMIENTO
+	#establecimiento{width:100%;
+		.foto{width:100%; height:200px; overflow:hidden;
+			img{width:100%; height:auto;}
+		}
+		.contenido {width: 100%;position: relative;margin: 0 auto;
+			.especialidad{display:block; width: 100%;margin:20px 0px 20px 0px;
+				.icon{left:0px;background:url(../images/iconos/icono_d.svg) 20px 3px/70px auto no-repeat #000;}
+				.triangulo{left:80px;}
+				.field-name-field-especialidad{width: 230px;margin-left: 70px;height: 30px;float: left;position: relative;}
+			}
+			.izq, .der{display:none;}
+			.movil{display:block;width: 300px;margin: 0 auto;
+				h1{font-family: 'Dancing Script', cursive;font-size: 40px; line-height:42px; width: 280px;padding: 0px 10px;text-align:left;height: auto;}
+				.foto{width:100%; height:auto; overflow:hidden;
+					img{width:100%; height:auto;}
+				}
+				.numero{display:none;}
+				.logo{ margin:0 auto;position: relative;width: 150px;}
+				.tel{display:block !important; margin: 0 auto; position: relative; width:87px; height:104px;
+					.llamar{width: 86px;height: 104px; position: relative; float:left;
+						.icono{background:url(../images/iconos/icono_llamar.svg) -5px -4px/80px auto no-repeat #FF8801;height: 50px;width: 60px;margin: 0 auto;position: relative;padding: 10px 5px;border-radius: 50%;border-color: #FF8801;border: 3px solid #FF8801; z-index: 1;top: 10px;} 
+						a{background:#FF8801; border-radius:5px; position: relative; float:left; padding:5px 10px; color:#fff; font-weight:500; text-decoration:none;}
+					}
+				}
+				.texto{color:#333; font-weight:300;font-size:18px;line-height:20px;width: 280px;padding: 0px 10px;
+					a{color:#FF8801; text-decoration:none;}
+					a:hover{text-decoration:underline;}
+					img{max-width:300px;height:auto;}
+					li{margin:15px 0px;}
+				}
+				.mapa{width:300px; height:auto; float:left; padding:10px 0px;
+					h2{font-family: 'Dancing Script', cursive;font-size: 40px;width: 300px; height:30px; padding: 20px 0px;text-align: center;height: auto;background: #000;color: #fff;margin: 5px 0px 20px 0px;}
+					.i4ewOd-pzNkMb-haAclf{display:none !important;}
+				}
+				.redes_sociales{position: relative;float:left;width:280px;padding:0px; height: 30px;margin: 20px 20px;
+	                li{list-style:none; float:left; position: relative; width:40px;height:40px; margin:5px 10px;cursor:pointer;margin:0px;}
+	                .fb{ 
+	                    .st_facebook_large{background: url(../images/compartir.svg) no-repeat -5px -4px/270px auto transparent;position: relative; width: 40px; height: 40px; float: left; text-indent: -9999px; transition:all 0.2s ease; }
+	                }
+	                .tw{ 
+	                    .st_twitter_large{background: url(../images/compartir.svg) no-repeat -45px -4px/270px auto transparent;position: relative; width: 40px; height: 40px; float: left; text-indent: -9999px; transition:all 0.2s ease; }
+	                }
+	                .go{ 
+	                    .st_googleplus_large{background: url(../images/compartir.svg) no-repeat -85px -4px/270px auto transparent;position: relative; width: 40px; height: 40px; float: left; text-indent: -9999px; transition:all 0.2s ease; }
+	                }
+	                .pin{ 
+	                    .st_pinterest_large{background: url(../images/compartir.svg) no-repeat -124px -4px/270px auto transparent;position: relative; width: 40px; height: 40px; float: left; text-indent: -9999px; transition:all 0.2s ease; }
+	                }
+	                .wp{
+	                    .st_whatsapp_large{background:url(../images/compartir.svg) no-repeat -163px -4px/270px auto transparent;position: relative; width: 40px; height: 40px; float: left; text-indent: -9999px; transition:all 0.2s ease; }
+	                }
+	            }
+	            //Recomendados
+				.view-id-detalle.view-display-id-block_3{width:300px; height:auto; float:left; padding:0px;
+					h2{font-family: 'Dancing Script', cursive;font-size: 30px;width: 280px;padding: 15px 10px;text-align: center;height: auto;background: #000;color: #fff;margin: 5px 0px;}
+					.views-row{width:300px; border-bottom:1px solid #000; float:left; margin-bottom:0px;}
+					.establecimiento{width:280px; position: relative; float:left; height:auto; padding:5px 10px;
+						.icono{background: url(../images/iconos/icono_establecimiento.svg) 0px 4px/44px auto no-repeat;height: 44px;width: 48px;float: left;position: relative;} 
+						.nombre{width:200px; height:30px; position: relative; float:left;margin:15px 0px 0px 0px;
+							a{margin-left:0px; text-align:left;color:#000;font-size:20px; font-weight:400; text-decoration:none;height:20px;float:left; padding:5px 0px 0px 0px;}
+						}
+					}
+				}
+				//Promociones
+				.view-id-detalle.view-display-id-block_1{width:300px; height:auto; float:left; padding:0px;
+					h2{font-family: 'Dancing Script', cursive;font-size: 30px;width: 280px;padding: 15px 10px;text-align: center;height: auto;background: #000;color: #fff;margin: 5px 0px;}
+					.views-row{width:280px; float:left; margin-bottom:20px;padding:0px 10px;}
+					.promocion{width:280px; position: relative; float:left; height:auto;
+						.foto{width:280px; height:auto; position: relative; float:left;border:1px solid #000;margin:0px;
+							img{width:280px; height:auto;}
+							img:hover{opacity:0.8;}
+						}
+					}
+				}
+				//FIN Promociones
+			}//FIN MOVIL
+			.abajo{width:300px; margin: 0 auto; float:none;
+				.mapa{display:none;}
+				.view-id-mas.view-display-id-block_3{width:300px;
+					h2{width:300px;}
+					.views-row{width:300px;margin-right:0px;
+						.nota{width:300px;
+							.foto{width: 145px;height: 190px;
+								img{width: 145px;height: auto;}
+							}
+							.info{width:145px; height:190px;
+								.titulo{width: 135px;font-size: 16px; line-height:18px;}
+								.resumen{display:none;}
+								.mas{margin:0px 30px 10px;}
+							}
+						}
+					}
+				}
+			}
+		}//FIN CONTENIDO	
+	}//FIN ESTABLECIMIENTO
+
+	//PROMOCION
+	#promocion{width:100%;
+		.foto{width:100%; height:200px; overflow:hidden;
+			img{width:100%; height:auto;}
+		}
+		.contenido {width: 100%;position: relative;margin: 0 auto;
+			.etiquetas{display:block; width: 100%;margin:20px 0px 20px 0px;
+				.icon{left:0px;background:url(../images/iconos/icono_d.svg) 20px 3px/70px auto no-repeat #000;}
+				.triangulo{left:80px;}
+				.field-name-field-tags{width: 230px;margin-left: 70px;height: 30px;float: left;position: relative;}
+			}
+			.izq, .der{display:none;}
+			.movil{display:block;width: 300px;margin: 0 auto;
+				h1{font-family: 'Dancing Script', cursive;font-size: 40px; line-height:42px; width: 280px;padding: 0px 10px;text-align:left;height: auto;}
+				.foto{width:100%; height:auto; overflow:hidden;
+					img{width:100%; height:auto;}
+				}
+				.texto{color:#333; font-weight:300;font-size:18px;line-height:20px;width: 280px;padding: 0px 10px;
+					a{color:#FF8801; text-decoration:none;}
+					a:hover{text-decoration:underline;}
+					img{max-width:300px;height:auto;}
+					li{margin:15px 0px;}
+				}
+				.fecha{width:280px; padding:0px 10px;
+					.icono{background:url(../images/iconos/icono_fecha.svg) 0px 0px/55px auto no-repeat;height: 50px;width: 60px;float:left;position: relative;} 
+					.dia{font-size:18px; font-weight:400; color:#FF8801; height:50px; width:210px; margin-top:10px;float:left;
+						label{font-weight:400;font-size:16px;width:210px;color:#000;}
+					}
+				}
+				.redes_sociales{position: relative;float:left;width:280px;padding:0px; height: 30px;margin: 20px 20px;
+	                li{list-style:none; float:left; position: relative; width:40px;height:40px; margin:5px 10px;cursor:pointer;margin:0px;}
+	                .fb{ 
+	                    .st_facebook_large{background: url(../images/compartir.svg) no-repeat -5px -4px/270px auto transparent;position: relative; width: 40px; height: 40px; float: left; text-indent: -9999px; transition:all 0.2s ease; }
+	                }
+	                .tw{ 
+	                    .st_twitter_large{background: url(../images/compartir.svg) no-repeat -45px -4px/270px auto transparent;position: relative; width: 40px; height: 40px; float: left; text-indent: -9999px; transition:all 0.2s ease; }
+	                }
+	                .go{ 
+	                    .st_googleplus_large{background: url(../images/compartir.svg) no-repeat -85px -4px/270px auto transparent;position: relative; width: 40px; height: 40px; float: left; text-indent: -9999px; transition:all 0.2s ease; }
+	                }
+	                .pin{ 
+	                    .st_pinterest_large{background: url(../images/compartir.svg) no-repeat -124px -4px/270px auto transparent;position: relative; width: 40px; height: 40px; float: left; text-indent: -9999px; transition:all 0.2s ease; }
+	                }
+	                .wp{
+	                    .st_whatsapp_large{background:url(../images/compartir.svg) no-repeat -163px -4px/270px auto transparent;position: relative; width: 40px; height: 40px; float: left; text-indent: -9999px; transition:all 0.2s ease; }
+	                }
+	            }
+			}//FIN MOVIL
+			.abajo{width:300px; margin: 0 auto; float:none;
+				.view-id-mas.view-display-id-block_3, .view-id-mas.view-display-id-42cf6a53afdec04b42cf2735dc8a9959{width:300px;
+					h2{width:300px;}
+					.views-row{width:300px;margin-right:0px;
+						.nota{width:300px;
+							.foto{width: 145px;height: 190px;
+								img{width: 145px;height: auto;}
+							}
+							.info{width:145px; height:190px;
+								.titulo{width: 135px;font-size: 16px; line-height:18px;}
+								.resumen{display:none;}
+								.mas{margin:0px 30px 10px;}
+							}
+						}
+					}
+				}
+			}
+		}//FIN CONTENIDO	
+	}//FIN PROMOCION
+
+//FIN DETALLES
+
+
+//SECCIONES
+#seccion{
+	.seccion_bm{height:300px; background:url(../images/secciones/buenamesa_m.jpg) no-repeat; z-index:-100;background-size: cover; margin-top:0px;}
+	.seccion_pe{height:300px; background:url(../images/secciones/personajes_m.jpg) no-repeat; z-index:-100;background-size: cover; margin-top:0px;}
+	.seccion_ln{height:300px; background:url(../images/secciones/lonuestro_m.jpg) no-repeat; z-index:-100;background-size: cover; margin-top:0px;}
+	.seccion_re{height:300px; background:url(../images/secciones/recetas_m.jpg) no-repeat; z-index:-100;background-size: cover; margin-top:0px;}
+	.seccion_di{height:300px; background:url(../images/secciones/directorio_m.jpg) no-repeat; z-index:-100;background-size: cover; margin-top:0px;}
+	.seccion_cm{height:300px; background:url(../images/secciones/cocinas_m.jpg) no-repeat; z-index:-100;background-size: cover; margin-top:0px;}
+	.head{margin-top:130px;
+		.taxonomia{background: url(../images/iconos/seccion.svg) 0px 0px/210px auto no-repeat transparent;width: 210px;
+			h2{font-size: 45px;width: 190px;padding: 35px 10px 0px 10px;}
+		}
+	}
+	.contenido{width:300px;padding:20px 0px;margin:0 auto; position: relative;margin-top:50px;
+		//SECCION NOTAS
+		.view-id-secciones.view-display-id-block, .view-id-secciones.view-display-id-block_3{width:300px;
+			h2{width:300px;}
+			.views-row{width:300px;margin-right:0px;
+				.nota{width:300px;
+					.foto{width: 145px;height: 190px;
+						img{width: 145px;height: auto;}
+					}
+					.info{width:145px; height:190px;
+						.titulo{width: 135px;font-size: 16px; line-height:18px;}
+						.resumen{display:none;}
+						.mas{margin:0px 30px 10px;}
+					}
+				}
+			}
+		}
+		//GENERALES Y TAGS
+		.view-taxonomy-term.view-id-taxonomy_term{width:300px;
+			h2{width:300px;}
+			.views-row{width:300px;margin-right:0px;
+				.nota{width:300px;
+					.foto{width: 145px;height: 190px;
+						img{width: 145px;height: auto;}
+					}
+					.info{width:145px; height:190px;
+						.titulo{width: 135px;font-size: 16px; line-height:18px;}
+						.resumen{display:none;}
+						.mas{margin:0px 30px 10px;}
+					}
+				}
+			}
+		}
+		//PERSONAJES
+		.view-id-secciones.view-display-id-block_2{width:300px;
+			h2{width:300px;}
+			.views-row{width:300px;margin-right:0px;
+				.nota{width:300px;
+					.foto{width: 145px;height: 190px;
+						img{width: 145px;height: auto;}
+					}
+					.info{width:145px; height:190px;
+						.titulo{width: 135px;font-size: 16px; line-height:18px;}
+						.pais{width:135px;}
+						.resumen{display:none;}
+						.mas{margin:0px 30px 10px;}
+					}
+				}
+			}
+		}
+		//RECETAS
+		.view-id-secciones.view-display-id-block_1{width:300px;
+			h2{width:300px;}
+			.views-row{width:300px;margin-right:0px;
+				.nota{width:300px;
+					.video{width: 145px;height: 190px;
+					img{width: 145px;height: auto;}
+				}
+				.icon{background: url(../images/iconos/video.svg) -10px 15px/120px auto no-repeat;left: 25px;top: 40px;}
+				.info{width:145px; height:190px;
+					.titulo{width: 135px;font-size: 16px; line-height:18px;}
+					.resumen{display:none;}
+					.mas{margin:0px 30px 10px;}
+					}
+				}
+			}
+		}
+		//FIN RECETAS
+		//DIRECTORIO
+		.tabla{width:300px;
+			.triangulo_back, .triangulo_back_2, .triangulo_2, .triangulo_3, .tipo, .calificacion{display:none;}
+			.nombre{width:260px;}
+		}
+		.view-id-secciones.view-display-id-block_3{width:300px;
+			h2{width:300px;}
+			.views-row{width:280px;margin:10px 10px;
+				.nombre{width:240px;}
+				.especialidad{width:240px;text-align:left;margin: 0px 0px 0px 30px;top: -10px; padding:0px 0px 0px 5px;}
+				.info{display:none;}
+			}
+			.views-row-last{margin-bottom:40px;}
+		}
+		//FIN DIRECTORIO
+	.pager{width:300px; height:auto;}
+	}//FIN CONTENIDO
+}
+
+//FIN SECCIONES
+
+
+}//FIN MEDIA
