@@ -11,17 +11,18 @@
       </div>
 
       <ul class="redes">
-        <li class="facebook"><a href="https://www.facebook.com/deleitese.co" target="_blank" style="border:0px;">Facebook</a></li>
-        <li class="twitter"><a href="https://www.twitter.com/deleitese_co" target="_blank" style="border:0px;">Twitter</a></li>
-        <li class="instagram"><a href="https://www.instagram.com/deleitese_co" target="_blank" style="border:0px;">Instagram</a></li>
-        <!--<li class="youtube"><a href="https://www.youtube.com/user/deleitese_co" target="_blank" style="border:0px;">Youtube</a></li>-->
+        <div class="triLeft"></div>
+        <li>Siganos</li>
+        <li class="facebook"><a href="https://www.facebook.com/deleitese.co" target="_blank" style="border:0px;"></a></li>
+        <li class="twitter"><a href="https://www.twitter.com/deleitese_co" target="_blank" style="border:0px;"></a></li>
+        <li class="instagram"><a href="https://www.instagram.com/deleitese_co" target="_blank" style="border:0px;"></a></li>
+        <li class="youtube"><a href="https://www.youtube.com/user/deleitese_co" target="_blank" style="border:0px;"></a></li>
+        <div class="triRight"></div>
       </ul>
     </div>
     <div class="right">
       <h2>Formulario</h2>
-      <form action="">
-        
-      </form>
+     <!--formulario--><?php $block = module_invoke('webform', 'block_view', 'unete-469');print render($block['content']); ?><!--FIN formulario-->
     </div>
   </section>
 </footer>
