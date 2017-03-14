@@ -28,6 +28,7 @@
   <!--FIN Icono precomposed-->
   <script type="text/javascript" src="<?php print base_path(); ?>sites/default/themes/deleitese/js/jquery-1.10.min.js"></script>
   <script type="text/javascript" src="<?php print base_path(); ?>sites/default/themes/deleitese/js/script.js"></script>
+  <script type="text/javascript" src="<?php print base_path(); ?>sites/default/themes/deleitese/js/slide.js"></script>
   <script type="text/javascript" src="<?php print base_path(); ?>sites/default/themes/deleitese/js/functions.js"></script>
   <script type="text/javascript" src="<?php print base_path(); ?>sites/default/themes/deleitese/js/modernizr.js"></script>
   <script type="text/javascript" src="<?php print base_path(); ?>sites/default/themes/deleitese/js/instafeed.min.js"></script>

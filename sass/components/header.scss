@@ -55,6 +55,14 @@
       .promociones:hover{background:url(../images/btn_promociones.svg) no-repeat; background-position: 33px 10px; }
       .foodies:hover{background:url(../images/btn_footies.svg) no-repeat; background-position: 15px 10px; }
       .contactos:hover{background:url(../images/btn_contacto.svg) no-repeat; background-position: 20px 10px; }
+      
+      .active-noticias{background:url(../images/btn_noticias.svg) no-repeat; background-position: 25px 28px; }
+      .active-personajes{background:url(../images/btn_personajes.svg) no-repeat; background-position: 28px 13px; }
+      .active-recetas{background:url(../images/btn_recetas.svg) no-repeat; background-position: 10px 13px;}
+      .active-restaurantes{background:url(../images/btn_restaurantes.svg) no-repeat;background-position: 28px -3px; }
+      .active-promociones{background:url(../images/btn_promociones.svg) no-repeat; background-position: 33px 10px; }
+      .active-foodies{background:url(../images/btn_footies.svg) no-repeat; background-position: 15px 10px; }
+      .active-contactos{background:url(../images/btn_contacto.svg) no-repeat; background-position: 20px 10px; }
       a{text-align: center;position: relative;font-size:18px;color:#000; font-weight:700; padding: 75px 10px 0 10px; text-decoration:none;height:20px;}
     }
     .search{display:none;}
