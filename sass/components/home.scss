@@ -1,5 +1,86 @@
 #home{
   width: 100%;
+  .container{
+    margin: 0 auto;
+    width: 1240px;
+  }
+
+  .buscador{
+    background-color: $orange;
+    height: 158px;
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    .buscar{
+      display: flex;
+      display: -webkit-flex;
+      display: -moz-flex;
+      justify-content: center;
+      -webkit-justify-content: center;
+      -moz-justify-content: center;
+      align-items: center;
+      -webkit-align-items: center;
+      -moz-align-items: center;
+      .icono{
+        background:url(../images/encuentraRestaurante.png) no-repeat;
+        background-position: 0px 0px;
+        display: block;
+        height: 58px;
+        width: 178px;
+      }
+      form{
+        display: flex;
+        display: -webkit-flex;
+        display: -moz-flex;
+        align-items: center;
+        -webkit-align-items: center;
+        -moz-align-items: center;
+        input{
+          background-color: #EAEAEA;
+          border: none;
+          color: #333;
+          font-size: 18px;
+          height: 51px;
+          padding-left: 10px;
+          margin: 0 10px;
+          width: 310px;
+        }
+
+        .select{
+          width: 310px;
+          overflow: hidden;
+          background: #EAEAEA url("../images/iconoSelect.svg") 255px 3px/50px auto no-repeat;
+          select{
+            border: none;
+            color: #333;
+            cursor: pointer;
+            font-size: 18px;
+            height: 51px;
+            padding-left: 10px;
+            width: 310px;
+            box-shadow: none;
+            background: transparent;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+          }
+        }
+        #btnBuscar{
+          background:url(../images/buscar.png) no-repeat;
+          background-position: 0px 5px;
+          height: 50px;
+          width: 125px;
+          border: none;
+          padding: 0;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+
   .slides{
     position: relative;
     .rslides {
@@ -55,8 +136,120 @@
       z-index: 10;
     }
   }
-  .container{
-    margin: 0 auto;
-    width: 1240px;
+  
+  #rutas{
+    margin: 115px 0;
+    height: 432px;
+    width: 100%;
+    .notas{
+      display: flex;
+      display: -webkit-flex;
+      display: -moz-flex;
+      justify-content: center;
+      -webkit-justify-content: center;
+      -moz-justify-content: center;
+      height: 432px;
+      .grafiLeft{
+        width: 280px;
+        background-color: $orange;
+      }
+      .grafiRight{
+        width: 280px;
+        background-color: $negro;
+      }
+      .leftOrange{
+        width: 50%;
+        height: 432px;
+        .left{
+          display: flex;
+          display: -webkit-flex;
+          display: -moz-flex;
+          height: 432px;
+          width: 100%;
+          align-items: center;
+          -webkit-align-items: center;
+          -moz-align-items: center;
+          .destacada{
+            background-color: $orange;
+            box-sizing: border-box;
+            padding: 15px 12px;
+            height: 432px;
+            width: 295px;
+            h2{
+              margin: 0 auto;
+              padding-bottom: 10px;
+              border-bottom: 1px solid $negro;
+              margin-bottom: 10px;
+              text-align: right;
+              font-size: 30px;
+              width: 90%;
+              font-weight: 900;
+            }
+            .nota{
+              .foto{}
+              .title{
+                padding-left: 5px;
+                margin-bottom: 8px;
+                a{
+                  text-decoration: none;
+                  color: $negro;
+                  font-weight: 700;
+                  font-size: 20px;
+                  line-height: 22px;
+                }
+              }
+              .body{
+                padding-left: 5px;
+                font-size: 18px;
+                line-height: 20px;
+                font-weight: 400;
+                p{
+                  margin: 0;
+                }
+              }
+            }
+          }
+          .lateral{
+            background-color: $negro;
+            box-sizing: border-box;
+            height: 404px;
+            padding: 10px 15px;
+            .view-content{
+              .views-row{
+                margin: 10px 0;
+                padding-bottom: 10px;
+                border-bottom: 1px solid #fff;
+              }
+            }
+            .nota{
+              .title{
+                a{
+                  text-decoration: none;
+                  color: #fff;
+                  font-weight: 700;
+                  font-size: 18px;
+                  line-height: 20px;
+                }
+              }
+            }
+          }
+        }
+      }
+      .rightNegro{
+        width: 50%;
+        .right{
+          display: flex;
+          display: -webkit-flex;
+          display: -moz-flex;
+          width: 100%;
+          .destacada{
+            background-color: $orange;
+          }
+          .lateral{
+            background-color: $negro;
+          }
+        }
+      }
+    }
   }
 }
