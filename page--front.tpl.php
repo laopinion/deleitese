@@ -15,6 +15,23 @@
 </head>
 <body>
   <section id="home">
+    <div class="buscador">
+      <div class="container buscar">
+        <i class="icono"></i>
+        <form action="">
+          <input type="text" placeholder="Escriba su busqueda">
+          <div class="select">
+            <select name="" id="">
+              <option value="">Option1</option>
+              <option value="">Option3</option>
+              <option value="">Option2</option>
+            </select>
+          </div>
+          <button id="btnBuscar"></button>
+        </form>
+      </div>
+    </div>
+
     <div class="slides">
       <ul class="rslides">
         <li><img src="<?php print base_path(); ?>sites/default/themes/deleitese/images/slide/queremosComer.jpg" alt="queremosComer"></li>
@@ -23,66 +40,34 @@
       </ul>
     </div>
 
-    <div class="lonuestro">
-    <!--Lo nuestro--><?php $view = views_get_view('home'); print $view->preview('block_3'); ?><!--FIN Lo nuestro-->
-    </div>
-    <div class="buena_mesa">
-    <!--Buena mesa--><?php $view = views_get_view('home'); print $view->preview('block_2'); ?><!--FIN Buena mesa-->
-        <div class="pautas">
-            <div class="pauta p728x90"><h2 class="anuncio_txt">Publicidad</h2><div class="info"><?php $block =block_load('block',4); $output = drupal_render(_block_get_renderable_array(_block_render_blocks(array($block)))); print $output; ?></div></div>
-            <div class="pauta_movil p320x50"><h2 class="anuncio_txt">Publicidad</h2><div class="info"><?php $block =block_load('block',19); $output = drupal_render(_block_get_renderable_array(_block_render_blocks(array($block)))); print $output; ?></div></div>
-        </div>
-    </div>
-    <div class="personajes">
-    <!--Personaje--><?php $view = views_get_view('home'); print $view->preview('block_1'); ?><!--FIN Personaje-->
-    </div>
-    <div class="recetas">
-    <!--Recetas--><?php $view = views_get_view('home'); print $view->preview('block_4'); ?><!--FIN recetas-->
-    </div>
-    <div class="foodies">
-    <!--foodies--><?php $view = views_get_view('home'); print $view->preview('block_9'); ?><!--FIN foodies-->
-    </div>
-    <div class="establecimientos">
-    <!--Establecimientos--><?php $view = views_get_view('home'); print $view->preview('block_5'); ?><!--FIN Establecimientos-->
-    </div>
-    <div class="cronograma">
-        <div class="content">
-        <!--Pautas-->
-            <div class="pautas">
-                <div class="pauta_movil p300x250"><h2 class="anuncio_txt">Publicidad</h2><div class="info"><?php $block =block_load('block',20); $output = drupal_render(_block_get_renderable_array(_block_render_blocks(array($block)))); print $output; ?></div></div>
-                <div class="pauta p300x250"><h2 class="anuncio_txt">Publicidad</h2><div class="info"><?php $block =block_load('block',1); $output = drupal_render(_block_get_renderable_array(_block_render_blocks(array($block)))); print $output; ?></div></div>
-                <div class="pauta p300x250"><h2 class="anuncio_txt">Publicidad</h2><div class="info"><?php $block =block_load('block',2); $output = drupal_render(_block_get_renderable_array(_block_render_blocks(array($block)))); print $output; ?></div></div>
+    <article id="rutas">
+      <section class="notas">
+        <div class="grafiLeft"></div>
+        <div class="leftOrange"> 
+          <div class="left">
+            <div class="destacada">
+              <h2>Rutas culinarias</h2>
+              <?php $view = views_get_view('rutas'); print $view->preview('block'); ?>
             </div>
-        <!--FIN Pautas-->
-        <!--Cronograma--><?php $view = views_get_view('home'); print $view->preview('block_6'); ?><!--FIN Cronograma-->
-        </div>
-    </div>
-    <div class="mundo">
-    <!--Cocinas del mundo--><?php $view = views_get_view('home'); print $view->preview('block_7'); ?><!--FIN Cocinas del mundo-->
-    </div>
-    <div id="suscripcion">
-    <div class="suscripciones" id="suscripcion">
-        <div class="content">
-            <div class="formulario">
-                <h2>Suscríbase</h2>
-                <!--denuncia--><?php $block = module_invoke('webform', 'block_view', 'client-block-24');print render($block['content']); ?><!--FIN denuncia-->
+            <div class="lateral">
+              <?php $view = views_get_view('rutas'); print $view->preview('block_1'); ?>
             </div>
-            <div class="pauta_movil p320x50"><h2 class="anuncio_txt">Publicidad</h2><div class="info"><?php $block =block_load('block',18); $output = drupal_render(_block_get_renderable_array(_block_render_blocks(array($block)))); print $output; ?></div></div>
-            <div class="pauta p300x600"><h2 class="anuncio_txt">Publicidad</h2><div class="info"><?php $block =block_load('block',3); $output = drupal_render(_block_get_renderable_array(_block_render_blocks(array($block)))); print $output; ?></div></div>
+          </div>
         </div>
-    </div>
-    <div class="final">
-        <div class="content">
-            <div id="instafeed">
-                <h2>Instagram</h2>
-                <div class="text">- Live Feed -</div>
+        <div class="rightNegro"> 
+          <div class="right">
+            <div class="destacada">
+              <?php $view = views_get_view('rutas'); print $view->preview('block_2'); ?>
             </div>
-            <div class="promociones">
-                <!--Promociones--><?php $view = views_get_view('home'); print $view->preview('block_8'); ?><!--FIN Promociones-->
+            <div class="lateral">
+              <?php $view = views_get_view('rutas'); print $view->preview('block_3'); ?>
             </div>
-        </div>
-    <!--<div class="pauta_movil p320x50"><h2 class="anuncio_txt">Publicidad</h2><div class="info"><?php // $block =block_load('block',17); $output = drupal_render(_block_get_renderable_array(_block_render_blocks(array($block)))); print $output; ?></div></div>-->
-    </div>     
+          </div>
+        </div>       
+        <div class="grafiRight"></div>
+      </section>
+    </article>
+    
   </section>
 </body>
 </html>

@@ -9,14 +9,13 @@ $(document).ready(function(){
       }
     });
   }
-
+  //Cambiar la ruta por la de producción
   if(ruta == 'http://localhost/deleitese/' || ruta == 'http://localhost/deleitese/lo-nuestro'){
     // var styles = {
     //   background : "url(../images/btn_noticias.svg) no-repeat",
     //   backgroundPosition: "25px 28px"
     // };
-    clearClass();
-   
+    clearClass();   
     $('#header .menu .noticias').addClass('active-noticias');
   }else if(ruta == 'http://localhost/deleitese/personajes'){
     clearClass();
