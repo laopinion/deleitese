@@ -42,11 +42,14 @@
 
     <article id="rutas">
       <section class="notas">
-        <div class="grafiLeft"></div>
         <div class="leftOrange"> 
+          <div class="grafiLeft"></div>
           <div class="left">
             <div class="destacada">
-              <h2>Rutas culinarias</h2>
+              <div class="title">
+                <i class="icono"></i>
+                <h2>Rutas culinarias</h2>
+              </div>
               <?php $view = views_get_view('rutas'); print $view->preview('block'); ?>
             </div>
             <div class="lateral">
@@ -57,15 +60,23 @@
         <div class="rightNegro"> 
           <div class="right">
             <div class="destacada">
+              <div class="title">
+                <h2>El mejor plato de</h2>
+                <i class="icono"></i>
+              </div>
               <?php $view = views_get_view('rutas'); print $view->preview('block_2'); ?>
             </div>
             <div class="lateral">
               <?php $view = views_get_view('rutas'); print $view->preview('block_3'); ?>
             </div>
           </div>
-        </div>       
-        <div class="grafiRight"></div>
+          <div class="grafiRight"></div>
+        </div>
       </section>
+    </article>
+
+    <article id="noticias">
+      <?php $view = views_get_view('home'); print $view->preview('block_2'); ?>
     </article>
     
   </section>

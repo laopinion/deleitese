@@ -150,16 +150,27 @@
       -moz-justify-content: center;
       height: 432px;
       .grafiLeft{
-        width: 280px;
-        background-color: $orange;
+        width: 100%;
+        background: $orange url(../images/lineasNaranjas.svg) repeat;
+        background-position: 0px 0px;
       }
       .grafiRight{
-        width: 280px;
-        background-color: $negro;
+        background: $negro url(../images/lineasGrises.svg) repeat;
+        background-position: 0px 0px;
+        height: 404px;
+        width: 100%;
+        position: relative;
+        top: 14px;
       }
       .leftOrange{
-        width: 50%;
+        width: 100%;
         height: 432px;
+        display: flex;        
+        display: -webkit-flex;
+        display: -moz-flex;
+        justify-content: flex-end;
+        -webkit-justify-content: flex-end;
+        -moz-justify-content: flex-end;
         .left{
           display: flex;
           display: -webkit-flex;
@@ -169,24 +180,62 @@
           align-items: center;
           -webkit-align-items: center;
           -moz-align-items: center;
+          justify-content: flex-end;
+          -webkit-justify-content: flex-end;
+          -moz-justify-content: flex-end;
           .destacada{
             background-color: $orange;
             box-sizing: border-box;
             padding: 15px 12px;
             height: 432px;
             width: 295px;
-            h2{
-              margin: 0 auto;
-              padding-bottom: 10px;
-              border-bottom: 1px solid $negro;
+            .title{
+              display: flex;
+              display: -webkit-flex;
+              display: -moz-flex;
+              position: relative;
               margin-bottom: 10px;
-              text-align: right;
-              font-size: 30px;
-              width: 90%;
-              font-weight: 900;
+              .icono{
+                display: block;
+                height: 50px;
+                background:url(../images/iconoMapa.svg) no-repeat;
+                background-position: 0px 0px;
+                position: absolute;
+                left: 0;
+                top: -10px;
+                width: 50px;
+              }
+              h2{
+                margin: 0 auto;
+                padding-bottom: 10px;
+                border-bottom: 1px solid $negro;
+                text-align: right;
+                font-size: 30px;
+                width: 90%;
+                font-weight: 900;
+              }
             }
             .nota{
-              .foto{}
+              .foto{                
+                margin-bottom: 10px;
+                position: relative;
+                left: 3px;
+                .marco{
+                  background:url(../images/marcoRuta.png) no-repeat;
+                  background-position: 0px 0px;
+                  height: 240px;
+                  position: absolute;
+                  width: 280px;
+                  z-index: 4;
+                  top: -2px;
+                  left: -10px;
+                  a{
+                    display: block;
+                    height: 228px;
+                    text-indent: -9999px;
+                  }
+                }
+              }
               .title{
                 padding-left: 5px;
                 margin-bottom: 8px;
@@ -208,12 +257,14 @@
                 }
               }
             }
-          }
+          }//Fin destacada
           .lateral{
             background-color: $negro;
             box-sizing: border-box;
             height: 404px;
-            padding: 10px 15px;
+            overflow: hidden;
+            padding: 5px 15px;
+            width: 205px;
             .view-content{
               .views-row{
                 margin: 10px 0;
@@ -232,24 +283,278 @@
                 }
               }
             }
-          }
+          }//Fin lateral
         }
       }
       .rightNegro{
-        width: 50%;
+        width: 100%;
+        display: flex;
+        display: -webkit-flex;
+        display: -moz-flex;
+        justify-content: flex-end;
+        -webkit-justify-content: flex-end;
+        -moz-justify-content: flex-end;
         .right{
           display: flex;
           display: -webkit-flex;
           display: -moz-flex;
+          align-items: center;
+          -webkit-align-items: center;
+          -moz-align-items: center;
           width: 100%;
           .destacada{
             background-color: $orange;
-          }
+            box-sizing: border-box;
+            padding: 15px 8px 15px 15px;
+            height: 432px;
+            width: 302px;
+            .title{
+              display: flex;
+              display: -webkit-flex;
+              display: -moz-flex;
+              position: relative;
+              margin-bottom: 20px;
+              left: -7px;
+              .icono{
+                display: block;
+                height: 35px;
+                background:url(../images/plato.svg) no-repeat;
+                background-position: 0px 0px;
+                position: absolute;
+                right: -10px;
+                top: -6px;
+                width: 59px;
+              }
+              h2{
+                margin: 0;
+                text-align: left;
+                font-size: 30px;
+                font-weight: 900;
+              }
+            }
+            .nota{
+              .foto{
+                position: relative;
+                margin-bottom: 10px;
+                .marco{
+                  background:url(../images/marcoRuta.png) no-repeat;
+                  background-position: 0px 0px;
+                  height: 240px;
+                  position: absolute;
+                  width: 280px;
+                  z-index: 4;
+                  top: -2px;
+                  left: -10px;
+                  a{
+                    display: block;
+                    height: 228px;
+                    text-indent: -9999px;
+                  }
+                }
+              }
+              .title{
+                padding-left: 5px;
+                margin-bottom: 8px;
+                a{
+                  text-decoration: none;
+                  color: $negro;
+                  font-weight: 700;
+                  font-size: 20px;
+                  line-height: 22px;
+                }
+              }
+              .body{
+                padding-left: 5px;
+                font-size: 18px;
+                line-height: 20px;
+                font-weight: 400;
+                p{
+                  margin: 0;
+                }
+              }
+            }
+          }//Fin destacada
           .lateral{
             background-color: $negro;
-          }
+            box-sizing: border-box;
+            height: 404px;
+            width: 205px;
+            display: flex;
+            display: -webkit-flex;
+            display: -moz-flex;
+            justify-content: flex-end;
+            -webkit-justify-content: flex-end;
+            -moz-justify-content: flex-end;
+            .view-rutas{
+              width: 205px;
+              overflow: hidden;
+              padding: 5px 15px;
+            }
+            .view-content{
+              .views-row{
+                margin: 10px 0;
+                padding-bottom: 10px;
+                border-bottom: 1px solid #fff;
+              }
+            }
+            .nota{
+              .title{
+                a{
+                  text-decoration: none;
+                  color: #fff;
+                  font-weight: 700;
+                  font-size: 18px;
+                  line-height: 20px;
+                }
+              }
+            }
+          }//Fin lateral
         }
       }
     }
   }
-}
+
+  #noticias{
+    width: 100%;
+    .view-content{
+      display: flex;
+      display: -webkit-flex;
+      display: -moz-flex;
+      flex-wrap: wrap;
+      -webkit-flex-wrap: wrap;
+      -moz-flex-wrap: wrap;
+      justify-content: space-around;
+      -webkit-justify-content: space-around;
+      -moz-justify-content: space-around;
+      .views-row{
+        max-width: 499px;
+        position: relative;
+        margin-bottom: 130px;
+        a{
+          text-decoration: none;
+          color: $negro;
+          font-size: 20px;
+          line-height: 22px;
+          font-weight: $light;
+        }
+
+        .nota{
+          .foto{}
+          .text{
+            width: 400px;
+            height: 115px;
+            background-color: #F7931E;
+            padding: 10px 35px;
+            box-sizing: border-box;
+            position: absolute;
+            bottom: -69px;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            .title{
+              margin: 10px 0 0 0;
+            }
+            span{
+              width: 180px;
+              border-bottom: 1px solid #fff;
+              padding-bottom: 5px;
+              margin: 0 auto;
+              display: block;
+            }
+          }
+        }
+      }//Fin views
+      .views-row:nth-child(1){
+        .nota{
+          span:after{
+            content: "Lo nuestro";
+            font-size: 30px;
+            font-weight: $black;
+            position: relative;
+            right: -8px;
+          }
+          span:before{
+            content: url("../images/corazon.svg");
+          }
+        }
+      }
+      .views-row:nth-child(2){
+        .nota{
+          span{
+            width: 202px;
+          }
+          span:after{
+            content: "Buena mesa";
+            font-size: 30px;
+            font-weight: $black;
+            position: relative;
+            right: -8px;
+          }
+          span:before{
+            content: url("../images/mesa.svg");
+          }
+        }
+      }
+      .views-row:nth-child(3){
+        .nota{
+          span:after{
+            content: "Lo nuestro";
+            font-size: 30px;
+            font-weight: $black;
+            position: relative;
+            right: -8px;
+          }
+          span:before{
+            content: url("../images/corazon.svg");
+          }
+        }
+      }
+      .views-row:nth-child(4){
+        .nota{
+          span:after{
+            content: "Lo nuestro";
+            font-size: 30px;
+            font-weight: $black;
+            position: relative;
+            right: -8px;
+          }
+          span:before{
+            content: url("../images/corazon.svg");
+          }
+        }
+      }
+      .views-row:nth-child(5){
+        .nota{
+          span{
+            width: 202px;
+          }
+          span:after{
+            content: "Buena mesa";
+            font-size: 30px;
+            font-weight: $black;
+            position: relative;
+            right: -8px;
+          }
+          span:before{
+            content: url("../images/mesa.svg");
+          }
+        }
+      }
+      .views-row:nth-child(6){
+        .nota{
+          span:after{
+            content: "Lo nuestro";
+            font-size: 30px;
+            font-weight: $black;
+            position: relative;
+            right: -8px;
+          }
+          span:before{
+            content: url("../images/corazon.svg");
+          }
+        }
+      }
+    }//Fin view content
+  }//Fin noticias
+
+}//Fin home
