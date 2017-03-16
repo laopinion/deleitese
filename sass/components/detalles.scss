@@ -3,7 +3,7 @@
 	.primary li a{border-color: #bbb;border-style: solid solid none solid;border-width: 1px;height: auto;margin-right: 0.5em;padding: 0 1em;text-decoration: none;}
 	li a{background: none repeat scroll 0 0 #F8F8F8 !important;border: 1px solid #DDD !important;color: #666;display: inline-block;font: 10px/10px Arial;padding: 5px !important;text-align: center;text-transform: uppercase;}
 }
-#page{width: 100%; position: relative; float:left;}
+#page{width: 100%; position: relative; float:left;background: #fff;}
 
 //PAGINAS
 #pagina{width:1024px;padding:20px 0px;margin:0 auto; position: relative;margin-top:50px;
@@ -19,14 +19,33 @@
 //FIN PAGINAS
 
 //NOTAS
-#articulo{width:1024px;padding:20px 0px;margin:0 auto; position: relative;margin-top:50px;
-	.contenido{position: relative; float:left;
-		.foto{width:1024px; height:550px; position: relative; float:left; margin-bottom:10px;}
-		.etiquetas{background:#FF8801; width: 955px;position: relative;float: left;margin: 20px 0px;height: 40px;margin-left: 70px;
-			.triangulo{width: 0;height: 0;border-top: 35px solid transparent;border-left: 14px solid #000;border-bottom: 35px solid transparent; position: absolute;left: 10px;top: -15px;}
-			.icon{background:url(../images/iconos/icono_d.svg) -4px -1px/90px auto no-repeat #000;height: 50px;width: 70px;float: left;position: absolute;padding: 10px 5px;top: -15px;left: -70px;} 
-			a{color:#fff; float:left; position: relative;font-size:16px;line-height:18px; font-weight:300; text-decoration:none; margin-left: 30px;padding: 10px 0px;font-style: italic;}
+#articulo{width:100%;float:left; position: relative;
+	.foto{width:100%; height:450px; position: relative; float:left; margin-bottom:10px; overflow:hidden;
+		img{width:100%; height:auto;background-position: 50% 0px;}
+	}
+	.contenido{position: relative; margin:0 auto;width:1200px;padding:0px 20px;
+		.seccion{width:100%; padding:10px 0px; margin-bottom:20px;float:left;
+			a{font-size:18px;font-weight:400; color:#000; text-decoration:underline; height:50px; text-transform:uppercase;}
+			a:hover{text-decoration:underline;}
 		}
+		.etiquetas{width: 100%;position: relative;float:left;height: 40px;margin-bottom:20px;
+			a{color:#000; float:left; position: relative;font-size:16px;line-height:18px; font-weight:300; text-decoration:none; margin-right: 30px;padding: 10px 0px;font-style: italic;}
+			.even {
+				a{color:$orange;}
+			}
+		}
+		h1{font-size: 40px; line-height:42px; width: 100%;margin: 0 auto;padding: 0px 0px 20px 0px;text-align:left;float:left; height: auto;}
+		.texto{color:#333; font-weight:300;font-size:16px;line-height:18px;
+			a{color:#FF8801; text-decoration:none;}
+			a:hover{text-decoration:underline;}
+		}
+		.fecha{width:300px; padding:0px 10px;
+			.icono{background:url(../images/iconos/icono_fecha.svg) 0px 0px/55px auto no-repeat;height: 50px;width: 60px;float:left;position: relative;} 
+			.dia{font-size:18px; font-weight:400; color:#FF8801; height:50px; width:210px; margin-top:10px;float:left;
+				label{font-weight:400;font-size:16px;width:210px;color:#000;}
+			}
+		}
+
 		.movil{display:none;}
 		.izq{width:320px; margin-right:20px; border-right: 1px solid #000; height:auto; float:left;
 			.fecha{width:300px; padding:0px 10px;
@@ -35,14 +54,7 @@
 					label{font-weight:400;font-size:16px;width:210px;color:#000;}
 				}
 			}
-			.seccion{width:300px; padding:0px 10px; margin-bottom:20px;
-				.icono{background:url(../images/iconos/icono_seccion.svg) 3px 7px/50px auto no-repeat;height: 50px;width: 60px;float:left;position: relative;} 
-				.tax{width:210px; margin-top:10px; float:left;
-					a{font-size:18px; font-weight:400; color:#FF8801; height:50px; text-decoration:none;}
-					a:hover{text-decoration:underline;}
-					label{font-weight:400;font-size:16px;width:210px;color:#000;}
-				}
-			}
+			
 			.redes_sociales{position: relative;float:left;width:280px;padding:0px; height: 30px;margin: 20px 20px;
                 li{list-style:none; float:left; position: relative; width:40px;height:40px; margin:5px 10px;cursor:pointer;margin:0px;}
                 .fb{ 
@@ -90,13 +102,7 @@
 		//FIN Promociones
 		
 		}//FIN IZQUIERDA
-		.der{width: 660px;height: auto;float: left;padding: 0px 20px 0px 0px;
-			h1{font-family: 'Dancing Script', cursive;font-size: 40px; line-height:42px; width: 100%;margin: 0 auto;padding: 0px 0px 20px 0px;text-align: left;height: auto;}
-			.texto{color:#333; font-weight:300;font-size:18px;line-height:20px;
-				a{color:#FF8801; text-decoration:none;}
-				a:hover{text-decoration:underline;}
-			}
-		}
+
 		.abajo{width:1024px;height: auto;float: left;padding: 20px 0px;position: relative;
 			//Mas notas
 			.view-id-mas.view-display-id-block{width:1024px; height:auto; float:left; padding:10px 0px;

@@ -146,4 +146,10 @@ $(document).ready(function(){
     //FIN RECETAS
 
 
+    //Scroll EFECTO PARALLAX
+    $(window).scroll(function() {
+        var scrolled = $(window).scrollTop();           
+        $('#articulo .foto img').css({'background-position' : '50% '+ (-(scrolled / 2)) + 'px'});
+    }); // window scroll Ends
+
 }); 
