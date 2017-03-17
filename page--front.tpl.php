@@ -77,8 +77,27 @@
 
     <article id="noticias">
       <?php $view = views_get_view('home'); print $view->preview('block_2'); ?>
+      <div class="verMas" data-activo='0'>
+        <h2>Ver más</h2>
+        <span></span>
+        <div class="tri"></div>
+      </div>
     </article>
-    
+
+    <article id="modulo1">
+      <div class="notas">
+        <aside class="flechaIzq"></aside>
+        <!-- Tener en cuenta el tipo de contenido el campo direccion como field_dire -->
+        <?php $view = views_get_view('home'); print $view->preview('block_8'); ?>
+        <aside class="flechaDer"></aside>
+      </div>
+      <div class="newsletter">
+        <h3>Hola formulario</h3>
+      </div>
+      <div class="personajes">
+        
+      </div>
+    </article>    
   </section>
 </body>
 </html>

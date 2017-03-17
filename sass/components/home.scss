@@ -415,7 +415,50 @@
   }
 
   #noticias{
+    height: 934px;
+    // overflow: hidden;
+    position: relative;
     width: 100%;
+    box-shadow: 0px 12px 30px -8px $negro;
+    -webkit-box-shadow: 0px 12px 30px -8px $negro;
+    -moz-box-shadow: 0px 12px 30px -8px $negro;
+    .verMas{
+      cursor: pointer;
+      height: 90px;
+      bottom: -51px;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      position: absolute;
+      width: 100px;
+      z-index: 5;
+      h2{
+        font-size: 20px;
+        font-weight: $regular;
+        text-align: center;
+        margin: 0;
+      }
+      span{
+        background:url(../images/flecha.svg) no-repeat;
+        background-position: 0px 5px;
+        height: 50px;
+        width: 77px;
+        display: block;
+        position: absolute;
+        z-index: 5;
+        top: 12px;
+        left: 11px;
+      }
+      .tri{
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-top: 45px solid #fff;
+        position: absolute;
+        top: 39px;
+      }
+    }
     .view-content{
       display: flex;
       display: -webkit-flex;
@@ -429,7 +472,7 @@
       .views-row{
         max-width: 499px;
         position: relative;
-        margin-bottom: 130px;
+        margin-bottom: 140px;
         a{
           text-decoration: none;
           color: $negro;
@@ -437,7 +480,6 @@
           line-height: 22px;
           font-weight: $light;
         }
-
         .nota{
           .foto{}
           .text{
@@ -453,6 +495,8 @@
             margin: 0 auto;
             .title{
               margin: 10px 0 0 0;
+              position: relative;
+              z-index: 1;
             }
             span{
               width: 180px;
@@ -462,9 +506,19 @@
               display: block;
             }
           }
+          .text:before{
+            content: url("../images/marcoNoticias.png");
+            position: absolute;
+            top: -5px;
+            left: -12px;
+            z-index: 0;
+          }
         }
       }//Fin views
-      .views-row:nth-child(1){
+      .views-row-7, .views-row-8, .views-row-9, .views-row-10, .views-row-11, .views-row-12{
+        display: none;
+      } 
+      .views-row:nth-child(1), .views-row:nth-child(3), .views-row:nth-child(4), .views-row:nth-child(6), .views-row:nth-child(7), .views-row:nth-child(9), .views-row:nth-child(10), .views-row:nth-child(12){
         .nota{
           span:after{
             content: "Lo nuestro";
@@ -478,7 +532,7 @@
           }
         }
       }
-      .views-row:nth-child(2){
+      .views-row:nth-child(2), .views-row:nth-child(5), .views-row:nth-child(8), .views-row:nth-child(11){
         .nota{
           span{
             width: 202px;
@@ -492,69 +546,96 @@
           }
           span:before{
             content: url("../images/mesa.svg");
-          }
-        }
-      }
-      .views-row:nth-child(3){
-        .nota{
-          span:after{
-            content: "Lo nuestro";
-            font-size: 30px;
-            font-weight: $black;
-            position: relative;
-            right: -8px;
-          }
-          span:before{
-            content: url("../images/corazon.svg");
-          }
-        }
-      }
-      .views-row:nth-child(4){
-        .nota{
-          span:after{
-            content: "Lo nuestro";
-            font-size: 30px;
-            font-weight: $black;
-            position: relative;
-            right: -8px;
-          }
-          span:before{
-            content: url("../images/corazon.svg");
-          }
-        }
-      }
-      .views-row:nth-child(5){
-        .nota{
-          span{
-            width: 202px;
-          }
-          span:after{
-            content: "Buena mesa";
-            font-size: 30px;
-            font-weight: $black;
-            position: relative;
-            right: -8px;
-          }
-          span:before{
-            content: url("../images/mesa.svg");
-          }
-        }
-      }
-      .views-row:nth-child(6){
-        .nota{
-          span:after{
-            content: "Lo nuestro";
-            font-size: 30px;
-            font-weight: $black;
-            position: relative;
-            right: -8px;
-          }
-          span:before{
-            content: url("../images/corazon.svg");
           }
         }
       }
     }//Fin view content
   }//Fin noticias
+
+  #modulo1{
+    width: 100%;
+    height: auto;
+    background-color: $orange;
+    margin-bottom: 50px;
+    .notas{
+      padding: 100px 50px 0 50px;
+      position: relative;
+      height: 438px;
+      .view-display-id-block_8{
+        overflow: hidden;
+        height: 438px;
+        .view-content{
+          display: flex;
+          display: -webkit-flex;
+          display: -moz-flex;
+          height: 438px;
+          position: relative;
+          left: 0;
+          transition: .3s;
+          .views-row{
+            margin-right: 28px;
+            background-color: #fff;
+            a{
+              text-decoration: none;
+              color: $negro;
+              font-size: 25px;
+              font-weight: $black;
+              line-height: 27px;
+            }
+            .nota{
+              .info{
+                box-sizing: border-box;
+                height: 152px;
+                overflow: hidden;
+                padding: 10px 20px;
+                h2{
+                  margin: 0;
+                  border-bottom: 1px solid $orange;
+                  padding-bottom: 10px;
+                  text-align: center;
+                }
+                .address{
+                  margin: 10px 0;
+                  display: flex;
+                  display: -webkit-flex;
+                  display: -moz-flex;
+                  align-items: center;
+                  -webkit-align-items: center;
+                  -moz-align-items: center;
+                  font-size: 20px;
+                  font-weight: $regular;
+                }
+                .address:before{
+                  content: url("../images/iconoMapaPromo.svg");
+                  height: 39px;
+                  padding-right: 5px;
+                }
+              }
+            }
+          }
+        }
+      }
+      .flechaIzq{
+        background:url(../images/btn_flecha_izq.svg) no-repeat;
+        background-position: -3px 0px;
+        cursor: pointer;
+        height: 50px;
+        position: absolute;
+        left: 0px;
+        top: 97px;
+        width: 56px;
+      }
+      .flechaDer{
+        background:url(../images/btn_flecha_der.svg) no-repeat;
+        background-position: 3px 0px;
+        cursor: pointer;
+        height: 50px;
+        position: absolute;
+        right: 0px;
+        top: 97px;
+        width: 56px;
+      }
+    }
+  }
 
 }//Fin home
