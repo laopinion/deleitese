@@ -587,15 +587,19 @@
                 box-sizing: border-box;
                 height: 152px;
                 overflow: hidden;
-                padding: 10px 20px;
+                padding: 8px 20px;
                 h2{
                   margin: 0;
-                  border-bottom: 1px solid $orange;
-                  padding-bottom: 10px;
+                  margin-bottom: 10px;
                   text-align: center;
+                  a{
+                    padding: 0 5px 5px 5px;
+                    box-sizing: border-box;
+                    border-bottom: 1px solid $orange;
+                  }
                 }
-                .address{
-                  margin: 10px 0;
+                .address, .promo{
+                  margin: 0 0 10px 0;
                   display: flex;
                   display: -webkit-flex;
                   display: -moz-flex;
@@ -608,7 +612,12 @@
                 .address:before{
                   content: url("../images/iconoMapaPromo.svg");
                   height: 39px;
-                  padding-right: 5px;
+                  padding-right: 8px;
+                }
+                .promo:before{
+                  content: url("../images/iconoCalendario.svg");
+                  height: 39px;
+                  padding-right: 8px;
                 }
               }
             }
@@ -635,6 +644,80 @@
         top: 97px;
         width: 56px;
       }
+    }
+
+    .newsletter{
+      background-color: #474747;
+      box-sizing: border-box;
+      height: 230px;
+      margin: 0 auto;
+      margin-top: 58px;
+      position: relative;
+      padding: 8px;
+      width: 1000px;
+      h3{
+        background:url(../images/newsletterTitle.svg) no-repeat;
+        background-position: 0px 0px;
+        height: 65px;
+        width: 835px;
+        margin: 0 auto;
+      }
+      .webform-client-form-470{
+        width: 840px;
+        margin: 0 auto;
+        padding-bottom: 5px;
+        border-bottom: 1px solid $orange;
+        div:first-child{
+          display: flex;
+          display: -webkit-flex;
+          display: -moz-flex;
+          justify-content: center;
+          flex-wrap: wrap;
+          -webkit-flex-wrap: wrap;
+          -moz-flex-wrap: wrap;
+        }
+        .form-item{
+          margin-top: 8px;
+          input{
+            background-color: #EAEAEA;
+            border: none;
+            height: 50px;
+            padding-left: 10px;
+            width: 390px;
+          }
+        }
+        .webform-component-email{
+          margin-left: 20px;
+        }
+        .form-actions{
+          margin: 0;
+          input{
+            background:url(../images/newsletterBtn.svg) no-repeat;
+            background-position: 0px -3px;
+            text-indent: -9999px;
+            height: 60px;
+            width: 165px;
+            border: none;
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+    .newsletter:before{
+      content: url("../images/newsletterIzq.svg");
+      position: absolute;
+      top: 18px;
+      left: -95px;
+    }
+    .newsletter:after{
+      content: url("../images/newsletterDer.svg");
+      position: absolute;
+      right: -95px;
+      top: 18px;
+    }
+    .personajes{
+      margin-top: 120px;
+      height: 100px;
     }
   }
 

@@ -92,7 +92,8 @@
         <aside class="flechaDer"></aside>
       </div>
       <div class="newsletter">
-        <h3>Hola formulario</h3>
+        <h3></h3>
+        <!--formulario--><?php $block = module_invoke('webform', 'block_view', 'newsletter-470');print render($block['content']); ?><!--FIN formulario-->
       </div>
       <div class="personajes">
         
