@@ -65,17 +65,39 @@ $(document).ready(function(){
         height: 'auto'
       }
       $('#home #noticias').css(style);
-      $('#home #noticias .views-row-7, #home #noticias .views-row-8, #home #noticias .views-row-9, #home #noticias .views-row-10, #home #noticias .views-row-11, #home #noticias .views-row-12').show();
+      $('#home #noticias .views-row-7, #home #noticias .views-row-8, #home #noticias .views-row-9, #home #noticias .views-row-10, #home #noticias .views-row-11, #home #noticias .views-row-12').slideDown("slow");
       $(this).data('activo', 1);
       $('#home #noticias .verMas h2').text('Ver menos');
     }else{
+      //934px
       var style = {
-        height: '934px'
+        height: 'auto'
       }
       $('#home #noticias').css(style);
-      $('#home #noticias .views-row-7, #home #noticias .views-row-8, #home #noticias .views-row-9, #home #noticias .views-row-10, #home #noticias .views-row-11, #home #noticias .views-row-12').hide();
+      $('#home #noticias .views-row-7, #home #noticias .views-row-8, #home #noticias .views-row-9, #home #noticias .views-row-10, #home #noticias .views-row-11, #home #noticias .views-row-12').slideUp("slow");
       $(this).data('activo', 0);
       $('#home #noticias .verMas h2').text('Ver más');
+    }
+  });
+
+  $('#home #modulo1 .personajes .verMas').click(function(){
+    var activo = $(this).data('activo')
+    if(activo == 0){
+      var style = {
+        height: 'auto'
+      }
+      $('#home #modulo1 .personajes').css(style);
+      $('#home #modulo1 .personajes .views-row-4, #home #modulo1 .personajes .views-row-5, #home #modulo1 .personajes .views-row-6').slideDown("slow");
+      $(this).data('activo', 1);
+      $('#home #modulo1 .personajes .verMas h2').text('Ver menos');
+    }else{
+      var style = {
+        height: 'auto'
+      }
+      $('#home #modulo1 .personajes').css(style);
+      $('#home #modulo1 .personajes .views-row-4, #home #modulo1 .personajes .views-row-5, #home #modulo1 .personajes .views-row-6').slideUp("slow");
+      $(this).data('activo', 0);
+      $('#home #modulo1 .personajes .verMas h2').text('Ver más');
     }
   });
 
@@ -88,12 +110,389 @@ $(document).ready(function(){
     }
     $('#home #modulo1 .notas .view-display-id-block_8 .view-content').css(style);
   });
+
   $('#home #modulo1 .notas .flechaIzq').click(function(){
     var style = {
       left: '0'
     }
     $('#home #modulo1 .notas .view-display-id-block_8 .view-content').css(style);
   });
+
+  //TENER EN CUENTA LA RUTA DE LAS IMAGENES CUANDO ESTE EN PRODUCCIÓN
+  function paisPersonaje(name){
+    var style = {
+      background: 'url("/deleitese/sites/default/themes/deleitese/images/banderas/'+name+'.svg") no-repeat'
+    }
+    return style;
+  }
+
+  $('#home #modulo1 .personajes .view-display-id-block_1 .view-content .views-row').each(function(){
+    var pais = $(this).find('.personaje #pais').html();
+
+    if(pais == 'Colombia'){
+      // background: url(../images/banderas/Colombia-05.svg) no-repeat;
+      var style = paisPersonaje('Colombia-05');
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }else if(pais == 'Alemania'){
+      var style = paisPersonaje('Alemania-05');
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }else if(pais == 'Arabia Saudita'){
+      var style = paisPersonaje('Arabia-Saudita');
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }else if(pais == 'Argentina'){
+      var style = paisPersonaje('Argentina-05');
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }else if(pais == 'Belgica'){
+      var style = paisPersonaje('Belgica-05');
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }else if(pais == 'Bolivia'){
+      var style = paisPersonaje('Bolivia-05');
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }else if(pais == 'Brasil'){
+      var style = paisPersonaje('Brasil-05');
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }else if(pais == 'Canada'){
+      var style = paisPersonaje('Canada-05');
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }else if(pais == 'Chile'){
+      var style = paisPersonaje('Chile-05');
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }else if(pais == 'China'){
+      var style = paisPersonaje('China-05');
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }else if(pais == 'Corea del Sur'){
+      var style = paisPersonaje('Corea-del-Sur-05');      
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }else if(pais == 'Costa Rica'){
+      var style = paisPersonaje('Costa-Rica-05');
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }else if(pais == 'Croacia'){
+      var style = paisPersonaje('Croacia-05');
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }else if(pais == 'Cuba'){
+      var style = paisPersonaje('Cuba-05');
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }else if(pais == 'Ecuador'){
+      var style = paisPersonaje('Ecuador-05');
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }else if(pais == 'Egipto'){
+      var style = paisPersonaje('Egipto-05');
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }else if(pais == 'España'){
+      var style = paisPersonaje('España-05');
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }else if(pais == 'Filipinas'){
+      var style = paisPersonaje('Filipinas-05');
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }else if(pais == 'Francia'){
+      var style = paisPersonaje('Francia-05');
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }else if(pais == 'Grecia'){
+      var style = paisPersonaje('Grecia-05');
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }else if(pais == 'Holanda'){
+      var style = paisPersonaje('Holanda-05');
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }else if(pais == 'India'){
+      var style = paisPersonaje('India-05');
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }else if(pais == 'Inglatera'){
+      var style = paisPersonaje('Inglatera-05');
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }else if(pais == 'Iran'){
+      var style = paisPersonaje('Iran-05');
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }else if(pais == 'Isarael'){
+      var style = paisPersonaje('Isarael-05');
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }else if(pais == 'Italy'){
+      var style = paisPersonaje('Italy-05');
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }else if(pais == 'Japon'){
+      var style = paisPersonaje('Japon-05');
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }else if(pais == 'Libano'){
+      var style = paisPersonaje('Libano-05');
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }else if(pais == 'Libia'){
+      var style = paisPersonaje('Libia-05');
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }else if(pais == 'Marruecos'){
+      var style = paisPersonaje('Marruecos-05');
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }else if(pais == 'Mexico'){
+      var style = paisPersonaje('Mexico-05');
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }else if(pais == 'Panama'){
+      var style = paisPersonaje('Panama-05');
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }else if(pais == 'Paraguay'){
+      var style = paisPersonaje('Paraguay-05');
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }else if(pais == 'Peru'){
+      var style = paisPersonaje('Peru-05');
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }else if(pais == 'Polonia'){
+      var style = paisPersonaje('Polonia-05');
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }else if(pais == 'Portugal'){
+      var style = paisPersonaje('Portugal-05');
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }else if(pais == 'Puerto Rico'){
+      var style = paisPersonaje('Puerto-Rico-05');
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }else if(pais == 'Republica Dominicana'){
+      var style = paisPersonaje('Republica-Dominicana-05');
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }else if(pais == 'Rusia'){
+      var style = paisPersonaje('Rusia-05');
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }else if(pais == 'Salvador'){
+      var style = paisPersonaje('Salvador-05');
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }else if(pais == 'Suiza'){
+      var style = paisPersonaje('Suiza-05');
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }else if(pais == 'Syria-05'){
+      var style = paisPersonaje('Syria-05');
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }else if(pais == 'Turquia'){
+      var style = paisPersonaje('Turquia-05');
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }else if(pais == 'Uruguay'){
+      var style = paisPersonaje('Uruguay-05');
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }else if(pais == 'Usa'){
+      var style = paisPersonaje('USA-05');
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }else if(pais == 'Venezuela'){
+      var style = paisPersonaje('Venezuela-05');
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }else if(pais == 'Vietnan'){
+      var style = paisPersonaje('Vietnan-05');
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }else if(pais == 'Eslovenia'){
+      var style = paisPersonaje('India-05');
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }
+  });
+
+
+  //MODULO DE VIDEOS
+  var contador = 0;
+  var valAutoPlay = 0;
+  var principal = 0;
+  var fila = ".view-display-id-block_4 .views-row-";
+  $(".view-display-id-block_4 .views-row").each(function(){
+    // var plataforma = $(this).find(".plataforma").html();
+    var plataforma = 'YouTube';
+    if(principal == 0){
+      if(plataforma == "YouTube"){ 
+        var idYoutube = $(this).find(".id").html();
+        var youtubeplayer = "<iframe class=iframeyoutube width=685 height=500px src=http://www.youtube.com/embed/" + idYoutube + "?showinfo=0&autohide=0&autoplay=" + valAutoPlay + " frameborder=0 allowfullscreen></iframe>";
+        $(".view-display-id-block_4 .view-header .frameVideo").html(youtubeplayer);
+        $(".view-display-id-block_4 .view-content .views-row-"+"1").find('.sombra').addClass('active');
+        principal++;
+      }else if(plataforma == "Facebook"){
+        var idfacebook = $(this).find(".id").html();
+        var facebookplayer = "<div class=fb-video data-href=https://www.facebook.com/" + idfacebook + "/ data-width=685 data-show-text=false><blockquote cite=https://www.facebook.com/" + idfacebook + "/ class=fb-xfbml-parse-ignore><a href=https://www.facebook.com/" + idfacebook + "/></a></blockquote></div>";
+        $(".view-display-id-block_4 .view-header .frameVideo").html(facebookplayer);
+        $(".view-display-id-block_4 .view-content .views-row-"+"1").find('.sombra').addClass('active');
+        principal++;
+      }else if(plataforma == "Vine"){
+        var idvine = $(this).find(".id").html();
+        var vineplayer = "<div class=vineplayer> <iframe class=iframevine src=https://vine.co/v/" + idvine + "/embed/simple width=1006 height=500 frameborder=0></iframe></div>";
+        $(".view-display-id-block_4 .view-header .frameVideo").html(vineplayer);
+        $(".view-display-id-block_4 .view-content .views-row-"+"1").find('.sombra').addClass('active');
+        principal++;
+      }else if(plataforma == "Instagram"){
+        var idinstagram = $(this).find(".id").html();
+        var instagramplayer = "<div class=instagramplayer><iframe class=instagram-media allowtransparency=true frameborder=0 height=710 scrolling=no src=//instagram.com/p/"+idinstagram+"/embed/ width=612></div>";        $(".view-display-id-block_4 .view-header .frameVideo").html(instagramplayer);
+        $(".view-display-id-block_4 .view-content .views-row-"+"1").find('.sombra').addClass('active');
+        principal++;
+      }else if(plataforma == "Twitter"){
+        var idtwitter = $(this).find(".id").html();
+        var twitterplayer = "<div class=twitterplayer> <iframe class=iframetwitter frameborder=0 width=680 height=450px src=https://twitter.com/i/cards/tfw/v1/" + idtwitter + "></iframe></div>";
+        $(".view-display-id-block_4 .view-header .frameVideo").html(twitterplayer);
+        $(".view-display-id-block_4 .view-content .views-row-"+"1").find('.sombra').addClass('active');
+        principal++;
+      }
+    }
+
+    if(plataforma == "YouTube"){ 
+      contador++;
+      var id = $(this).find(".id").html();
+      var youtubeplayer = "<div class=youtubeplayer> <iframe class=iframeyoutube width=685 height=500px src=http://www.youtube.com/embed/" + id + "?showinfo=0&autohide=0&autoplay=" + valAutoPlay + " frameborder=0 allowfullscreen></iframe></div>";
+      $(".view-display-id-block_4 .views-row-"+contador).append(youtubeplayer);
+    }else if(plataforma == "Facebook"){
+      contador++;
+      var id = $(this).find(".id").html();
+      var facebookplayer = "<div class=fbplayer> <div class=fb-video data-href=https://www.facebook.com/" + id + "/ data-width=685 data-show-text=false><blockquote cite=https://www.facebook.com/" + id + "/ class=fb-xfbml-parse-ignore><a href=https://www.facebook.com/" + id + "/></a></blockquote></div>";
+      $(".view-display-id-block_4 .views-row-"+contador).append(facebookplayer); 
+    }else if(plataforma == "Vine"){
+      contador++;
+      var idvine = $(this).find(".id").html();
+      var vineplayer = "<div class=vineplayer> <iframe class=iframevine src=https://vine.co/v/" + idvine + "/embed/simple width=1006 height=500 frameborder=0></iframe></div>";
+      $(".view-display-id-block_4 .views-row-"+contador).append(vineplayer);
+    }else if(plataforma == "Instagram"){
+      contador++;
+      var idinstagram = $(this).find(".id").html();
+      var instagramplayer = "<div class=instagramplayer><iframe class=instagram-media allowtransparency=true frameborder=0 height=710 scrolling=no src=//instagram.com/p/"+idinstagram+"/embed/ width=612></div>";
+      $(".view-display-id-block_4 .views-row-"+contador).append(instagramplayer);
+    }else if(plataforma == "Twitter"){
+      contador++;
+      var idtwitter = $(this).find(".id").html();
+      var twitterplayer = "<div class=twitterplayer> <iframe class=iframetwitter frameborder=0 margin-top: 20px margin-left: 15px  width=680 height=450px src=https://twitter.com/i/cards/tfw/v1/" + idtwitter + "></iframe></div>";
+      $(".view-display-id-block_4 .views-row-"+contador).append(twitterplayer);
+    }
+  });
+
+  function limpiarClass(){
+    $('.view-display-id-block_4 .view-content .views-row').each(function(){
+      var $selector = $(this).find('.sombra');
+      if($($selector).hasClass('active')){
+        $($selector).removeClass('active');
+      }
+    });
+  }
+
+  $(fila + "1").click(function(){
+    var youtubeplayer = $(this).find(".youtubeplayer").html();
+    var facebookplayer = $(this).find(".fbplayer").html(); 
+    var vineplayer = $(this).find(".vineplayer").html();
+    var instagramplayer = $(this).find(".instagramplayer").html();
+    var twitterplayer = $(this).find(".twitterplayer").html();
+    var text = $(this).find(".summary p").html();
+
+    $(".view-display-id-block_4 .view-header .summary p").html(text);
+    $(".view-display-id-block_4 .view-header .frameVideo").html(youtubeplayer);
+    $(".view-display-id-block_4 .view-header .frameVideo").html(facebookplayer);
+    $(".view-display-id-block_4 .view-header .frameVideo").html(vineplayer);
+    $(".view-display-id-block_4 .view-header .frameVideo").html(instagramplayer);
+    $(".view-display-id-block_4 .view-header .frameVideo").html(twitterplayer);
+
+    var $selector = $(this).find('.sombra');
+    limpiarClass();
+    $($selector).addClass('active');
+  });
+  $(fila + "2").click(function(){
+    var youtubeplayer = $(this).find(".youtubeplayer").html();
+    var facebookplayer = $(this).find(".fbplayer").html();
+    var vineplayer = $(this).find(".vineplayer").html();
+    var instagramplayer = $(this).find(".instagramplayer").html();
+    var twitterplayer = $(this).find(".twitterplayer").html();
+    var text = $(this).find(".summary p").html();
+    $(".view-display-id-block_4 .view-header .summary p").html(text);
+    $(".view-display-id-block_4 .view-header .frameVideo").html(youtubeplayer);
+    $(".view-display-id-block_4 .view-header .frameVideo").html(facebookplayer);
+    $(".view-display-id-block_4 .view-header .frameVideo").html(vineplayer);
+    $(".view-display-id-block_4 .view-header .frameVideo").html(instagramplayer);
+    $(".view-display-id-block_4 .view-header .frameVideo").html(twitterplayer);
+
+    var $selector = $(this).find('.sombra');
+    limpiarClass();
+    $($selector).addClass('active');
+  });
+  $(fila + "3").click(function(){
+    var youtubeplayer = $(this).find(".youtubeplayer").html();
+    var facebookplayer = $(this).find(".fbplayer").html();
+    var vineplayer = $(this).find(".vineplayer").html();
+    var instagramplayer = $(this).find(".instagramplayer").html();
+    var twitterplayer = $(this).find(".twitterplayer").html();
+    var text = $(this).find(".summary p").html();
+    $(".view-display-id-block_4 .view-header .summary p").html(text);
+    $(".view-display-id-block_4 .view-header .frameVideo").html(youtubeplayer);
+    $(".view-display-id-block_4 .view-header .frameVideo").html(facebookplayer);
+    $(".view-display-id-block_4 .view-header .frameVideo").html(vineplayer);
+    $(".view-display-id-block_4 .view-header .frameVideo").html(instagramplayer);
+    $(".view-display-id-block_4 .view-header .frameVideo").html(twitterplayer);
+  });
+  $(fila + "4").click(function(){
+    var youtubeplayer = $(this).find(".youtubeplayer").html();
+    var facebookplayer = $(this).find(".fbplayer").html();
+    var vineplayer = $(this).find(".vineplayer").html();
+    var instagramplayer = $(this).find(".instagramplayer").html();
+    var twitterplayer = $(this).find(".twitterplayer").html();
+    var text = $(this).find(".summary p").html();
+    $(".view-display-id-block_4 .view-header .summary p").html(text);
+    $(".view-display-id-block_4 .view-header .frameVideo").html(youtubeplayer);
+    $(".view-display-id-block_4 .view-header .frameVideo").html(facebookplayer);
+    $(".view-display-id-block_4 .view-header .frameVideo").html(vineplayer);
+    $(".view-display-id-block_4 .view-header .frameVideo").html(instagramplayer);
+    $(".view-display-id-block_4 .view-header .frameVideo").html(twitterplayer);
+
+    var $selector = $(this).find('.sombra');
+    limpiarClass();
+    $($selector).addClass('active');
+  });
+
+  $(fila + "5").click(function(){
+    var youtubeplayer = $(this).find(".youtubeplayer").html();
+    var facebookplayer = $(this).find(".fbplayer").html();
+    var vineplayer = $(this).find(".vineplayer").html();
+    var instagramplayer = $(this).find(".instagramplayer").html();
+    var twitterplayer = $(this).find(".twitterplayer").html();
+    var text = $(this).find(".summary p").html();
+    $(".view-display-id-block_4 .view-header .summary p").html(text);
+    $(".view-display-id-block_4 .view-header .frameVideo").html(youtubeplayer);
+    $(".view-display-id-block_4 .view-header .frameVideo").html(facebookplayer);
+    $(".view-display-id-block_4 .view-header .frameVideo").html(vineplayer);
+    $(".view-display-id-block_4 .view-header .frameVideo").html(instagramplayer);
+    $(".view-display-id-block_4 .view-header .frameVideo").html(twitterplayer);
+
+    var $selector = $(this).find('.sombra');
+    limpiarClass();
+    $($selector).addClass('active');
+  });
+  //FIN MODULO VIDEO
                     
    $(window).scroll(function() {
    var scrolled = $(window).scrollTop();           
