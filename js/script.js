@@ -101,6 +101,27 @@ $(document).ready(function(){
     }
   });
 
+  $('#home #modulo2 #videos .verMas').click(function(){
+    var activo = $(this).data('activo');
+    if(activo == 0){
+      var style = {
+        height: 'auto'
+      }
+      $('#home #modulo2 #videos').css(style);
+      $('#home #modulo2 #videos .views-row-7, #home #modulo2 #videos .views-row-8, #home #modulo2 #videos .views-row-9').slideDown("slow");
+      $(this).data('activo', 1);
+      $('#home #modulo2 #videos .verMas h2').text('Ver menos');
+    }else{
+      var style = {
+        height: 'auto'
+      }
+      $('#home #modulo2 #videos').css(style);
+      $('#home #modulo2 #videos .views-row-7, #home #modulo2 #videos .views-row-8, #home #modulo2 #videos .views-row-9').slideUp("slow");
+      $(this).data('activo', 0);
+      $('#home #modulo2 #videos .verMas h2').text('Ver más');
+    }
+  });
+
   $('#home #modulo1 .notas .flechaDer').click(function(){
     //left: -87%;
     // left: -1285px;
@@ -144,6 +165,10 @@ $(document).ready(function(){
 
     }else if(pais == 'Argentina'){
       var style = paisPersonaje('Argentina-05');
+      $(this).find('.personaje .info .titulo .icono').css(style);
+
+    }else if(pais == 'Eslovenia '){
+      var style = paisPersonaje('Slovenia-03');
       $(this).find('.personaje .info .titulo .icono').css(style);
 
     }else if(pais == 'Belgica'){
@@ -318,10 +343,6 @@ $(document).ready(function(){
       var style = paisPersonaje('Vietnan-05');
       $(this).find('.personaje .info .titulo .icono').css(style);
 
-    }else if(pais == 'Eslovenia'){
-      var style = paisPersonaje('India-05');
-      $(this).find('.personaje .info .titulo .icono').css(style);
-
     }
   });
 
@@ -454,6 +475,10 @@ $(document).ready(function(){
     $(".view-display-id-block_4 .view-header .frameVideo").html(vineplayer);
     $(".view-display-id-block_4 .view-header .frameVideo").html(instagramplayer);
     $(".view-display-id-block_4 .view-header .frameVideo").html(twitterplayer);
+
+    var $selector = $(this).find('.sombra');
+    limpiarClass();
+    $($selector).addClass('active');
   });
   $(fila + "4").click(function(){
     var youtubeplayer = $(this).find(".youtubeplayer").html();
@@ -475,6 +500,82 @@ $(document).ready(function(){
   });
 
   $(fila + "5").click(function(){
+    var youtubeplayer = $(this).find(".youtubeplayer").html();
+    var facebookplayer = $(this).find(".fbplayer").html();
+    var vineplayer = $(this).find(".vineplayer").html();
+    var instagramplayer = $(this).find(".instagramplayer").html();
+    var twitterplayer = $(this).find(".twitterplayer").html();
+    var text = $(this).find(".summary p").html();
+    $(".view-display-id-block_4 .view-header .summary p").html(text);
+    $(".view-display-id-block_4 .view-header .frameVideo").html(youtubeplayer);
+    $(".view-display-id-block_4 .view-header .frameVideo").html(facebookplayer);
+    $(".view-display-id-block_4 .view-header .frameVideo").html(vineplayer);
+    $(".view-display-id-block_4 .view-header .frameVideo").html(instagramplayer);
+    $(".view-display-id-block_4 .view-header .frameVideo").html(twitterplayer);
+
+    var $selector = $(this).find('.sombra');
+    limpiarClass();
+    $($selector).addClass('active');
+  });
+
+  $(fila + "6").click(function(){
+    var youtubeplayer = $(this).find(".youtubeplayer").html();
+    var facebookplayer = $(this).find(".fbplayer").html();
+    var vineplayer = $(this).find(".vineplayer").html();
+    var instagramplayer = $(this).find(".instagramplayer").html();
+    var twitterplayer = $(this).find(".twitterplayer").html();
+    var text = $(this).find(".summary p").html();
+    $(".view-display-id-block_4 .view-header .summary p").html(text);
+    $(".view-display-id-block_4 .view-header .frameVideo").html(youtubeplayer);
+    $(".view-display-id-block_4 .view-header .frameVideo").html(facebookplayer);
+    $(".view-display-id-block_4 .view-header .frameVideo").html(vineplayer);
+    $(".view-display-id-block_4 .view-header .frameVideo").html(instagramplayer);
+    $(".view-display-id-block_4 .view-header .frameVideo").html(twitterplayer);
+
+    var $selector = $(this).find('.sombra');
+    limpiarClass();
+    $($selector).addClass('active');
+  });
+
+  $(fila + "7").click(function(){
+    var youtubeplayer = $(this).find(".youtubeplayer").html();
+    var facebookplayer = $(this).find(".fbplayer").html();
+    var vineplayer = $(this).find(".vineplayer").html();
+    var instagramplayer = $(this).find(".instagramplayer").html();
+    var twitterplayer = $(this).find(".twitterplayer").html();
+    var text = $(this).find(".summary p").html();
+    $(".view-display-id-block_4 .view-header .summary p").html(text);
+    $(".view-display-id-block_4 .view-header .frameVideo").html(youtubeplayer);
+    $(".view-display-id-block_4 .view-header .frameVideo").html(facebookplayer);
+    $(".view-display-id-block_4 .view-header .frameVideo").html(vineplayer);
+    $(".view-display-id-block_4 .view-header .frameVideo").html(instagramplayer);
+    $(".view-display-id-block_4 .view-header .frameVideo").html(twitterplayer);
+
+    var $selector = $(this).find('.sombra');
+    limpiarClass();
+    $($selector).addClass('active');
+  });
+
+  $(fila + "8").click(function(){
+    var youtubeplayer = $(this).find(".youtubeplayer").html();
+    var facebookplayer = $(this).find(".fbplayer").html();
+    var vineplayer = $(this).find(".vineplayer").html();
+    var instagramplayer = $(this).find(".instagramplayer").html();
+    var twitterplayer = $(this).find(".twitterplayer").html();
+    var text = $(this).find(".summary p").html();
+    $(".view-display-id-block_4 .view-header .summary p").html(text);
+    $(".view-display-id-block_4 .view-header .frameVideo").html(youtubeplayer);
+    $(".view-display-id-block_4 .view-header .frameVideo").html(facebookplayer);
+    $(".view-display-id-block_4 .view-header .frameVideo").html(vineplayer);
+    $(".view-display-id-block_4 .view-header .frameVideo").html(instagramplayer);
+    $(".view-display-id-block_4 .view-header .frameVideo").html(twitterplayer);
+
+    var $selector = $(this).find('.sombra');
+    limpiarClass();
+    $($selector).addClass('active');
+  });
+
+  $(fila + "9").click(function(){
     var youtubeplayer = $(this).find(".youtubeplayer").html();
     var facebookplayer = $(this).find(".fbplayer").html();
     var vineplayer = $(this).find(".vineplayer").html();

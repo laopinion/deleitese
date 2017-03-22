@@ -880,7 +880,6 @@
     width: 100%;
     #videos{
       padding-bottom: 70px;
-      position: relative;
       .view-display-id-block_4{
         .view-header{
           padding: 100px 0 20px 0;
@@ -927,20 +926,6 @@
               position: relative;
               height: 199px;
               .id{display: none;}
-              .icono{
-                background: url(../images/btn_video.svg) no-repeat;
-                background-position: 0px 0px;
-                background-size: 80px;
-                display: block;
-                height: 80px;
-                width: 70px;
-                position: absolute;
-                top: 40px;
-                left: 0;
-                right: 0;
-                margin: 0 auto;
-                z-index: 5;
-              }
               .sombra{
                 position: absolute;
                 background-color: rgba(51, 51, 51, 0.6);
@@ -995,10 +980,9 @@
           font-weight: $regular;
           text-align: center;
           margin: 0;
-          color: #fff;
         }
         span{
-          background:url(../images/flecha2.svg) no-repeat;
+          background:url(../images/flecha.svg) no-repeat;
           background-position: 0px 5px;
           height: 50px;
           width: 77px;
@@ -1013,7 +997,7 @@
           height: 0;
           border-left: 50px solid transparent;
           border-right: 50px solid transparent;
-          border-top: 45px solid $negro;
+          border-top: 45px solid #fff;
           position: absolute;
           top: 39px;
         }

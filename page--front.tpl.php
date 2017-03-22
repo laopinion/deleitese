@@ -108,7 +108,16 @@
     <article id="modulo2">
       <div id="videos">
         <?php $view = views_get_view('home'); print $view->preview('block_4'); ?>
+        <div class="verMas" data-activo='0'>
+          <h2>Ver más</h2>
+          <span></span>
+          <div class="tri"></div>
+        </div>
       </div>
+    </article>
+
+    <article id="modulo3">
+      <h3>Hola mundo</h3>
     </article>
   </section>
 </body>
