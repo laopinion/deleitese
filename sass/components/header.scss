@@ -1,8 +1,8 @@
 #header{
-    height: 170px;
+    height: 140px;
     margin:0 auto;
     position: relative; 
-    padding: 20px;   
+    padding: 0px 20px 20px 20px;   
     width:1240px; 
     display: flex;
     display: -webkit-flex;
@@ -14,25 +14,16 @@
     -webkit-justify-content: center;
     -moz-justify-content: center;
   .center{
+    width: 100%;
     display: flex;
     display: -webkit-flex;
     display: -moz-flex;
     align-items: flex-end;
     -webkit-align-items: flex-end;
     -moz-align-items: flex-end;
-    #logo{
-      padding:0px; 
-      position: relative;
-      width: 220px;
-      height: 98px; 
-      top: 0px; 
-      opacity: 1;
-      h1{
-        background:url(../images/logo.svg) no-repeat; 
-        height: 98px;
-        background-position: -49px -30px;
-        background-size: 310px;display:block; text-indent:-9999px; margin: 0 auto;
-        a {display:block; height:70px; text-indent:-9999px;}
+    #logo{padding:0px; position: relative; width: 180px; height:70px; top: 0px; opacity: 1;
+      h1 {background:url(../images/logo.svg) -30px -22px/230px auto no-repeat; height:70px; width:auto; display:block; text-indent:-9999px; margin: 0 auto;
+      a {display:block; height:70px; text-indent:-9999px;}
       }
     }
     .menu{
@@ -79,16 +70,25 @@
       a{text-align: center;position: relative;font-size:18px;color:#000; font-weight:700; padding: 75px 12px 0 12px; text-decoration:none;height:20px;}
     }
     .search{display:none;}
-    .fb_iframe_widget{position: absolute;top: 45px;right: 180px;}
+    .fb_iframe_widget{position: absolute;top: 15px;right: 180px;}
     .btnSeguir{
+<<<<<<< HEAD
+          position: absolute;
+          top: 0;
+          right: 0px;
+          height: 40px;
+          width: 100%;
+          float: left;
+=======
       position: absolute;
       top: 0;
       right: 95px;
+>>>>>>> b401db6fcf94caea8be984e930ea79082fddefbf
       .icono{
         background:url(../images/btn_unete.png) no-repeat; background-position: 25px 28px;
         background-position: 0 0px;
         position: absolute;
-        top: 42px;
+        top: 10px;
         right: 68px;
         width: 100px;
         height: 25px;
