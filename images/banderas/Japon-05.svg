@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="34.417px" height="34.25px" viewBox="0 0 34.417 34.25" enable-background="new 0 0 34.417 34.25" xml:space="preserve">
+<g id="Soporte">
+</g>
+<g id="Publicidad">
+</g>
+<g id="Iconos">
+	<g>
+		<defs>
+			<circle id="SVGID_55_" cx="17.783" cy="17.028" r="15.917"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_55_"  overflow="visible"/>
+		</clipPath>
+		<g clip-path="url(#SVGID_2_)">
+			<path fill-rule="evenodd" clip-rule="evenodd" fill="#FEFEFE" d="M17.52,32.994c-8.123,0-16.246,0-24.369,0.003
+				c-0.142,0-0.178-0.028-0.178-0.175c0.004-10.797,0.004-21.594-0.001-32.391c0-0.165,0.045-0.181,0.191-0.181
+				C9.416,0.254,25.668,0.254,41.921,0.25c0.153,0,0.188,0.028,0.188,0.186c-0.005,10.79-0.005,21.58,0.001,32.371
+				c0,0.175-0.052,0.19-0.201,0.19C33.778,32.993,25.648,32.994,17.52,32.994z M17.528,26.44c5.437,0,9.837-4.39,9.837-9.815
+				c0.001-5.398-4.389-9.79-9.756-9.824c-5.384-0.035-9.896,4.327-9.895,9.82C7.715,22.042,12.11,26.439,17.528,26.44z"/>
+			<path fill-rule="evenodd" clip-rule="evenodd" fill="#BB002D" d="M17.528,26.44c-5.418,0-9.813-4.398-9.813-9.819
+				c-0.001-5.493,4.511-9.855,9.895-9.82c5.367,0.035,9.757,4.426,9.756,9.824C27.365,22.05,22.965,26.44,17.528,26.44z"/>
+		</g>
+	</g>
+	<g>
+		<defs>
+			<circle id="SVGID_57_" cx="54.1" cy="16.595" r="15.917"/>
+		</defs>
+		<clipPath id="SVGID_4_">
+			<use xlink:href="#SVGID_57_"  overflow="visible"/>
+		</clipPath>
+		<g clip-path="url(#SVGID_4_)">
+			<rect x="29.687" y="0.137" fill="#009246" width="16.276" height="32.551"/>
+		</g>
+	</g>
+	<g>
+		<defs>
+			<circle id="SVGID_99_" cx="-18.217" cy="16.595" r="15.917"/>
+		</defs>
+		<clipPath id="SVGID_6_">
+			<use xlink:href="#SVGID_99_"  overflow="visible"/>
+		</clipPath>
+		<g clip-path="url(#SVGID_6_)">
+			<path fill-rule="evenodd" clip-rule="evenodd" fill="#FBFBFB" d="M-18.357-3.523c10.016,0,20.033,0.001,30.05-0.002
+				c0.113,0,0.139,0.025,0.139,0.139c-0.004,13.322-0.004,26.643,0,39.965c0,0.114-0.025,0.139-0.139,0.139
+				c-20.034-0.004-40.066-0.004-60.098,0c-0.114,0-0.14-0.025-0.14-0.139c0.004-13.322,0.004-26.643,0-39.965
+				c0-0.114,0.025-0.139,0.14-0.139C-38.39-3.522-28.374-3.523-18.357-3.523z"/>
+		</g>
+	</g>
+</g>
+<g id="Imagenes">
+</g>
+<g id="Cintillos">
+</g>
+<g id="Botones">
+</g>
+<g id="TXT">
+</g>
+<g id="Logo">
+</g>
+<g id="Guia">
+</g>
+</svg>

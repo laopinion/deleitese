@@ -87,7 +87,7 @@
     <article id="modulo1">
       <div class="notas">
         <aside class="flechaIzq"></aside>
-        <!-- Tener en cuenta el tipo de contenido el campo direccion como field_dire -->
+        <!-- Tener en cuenta el tipo de contenido el campo direccion-->
         <?php $view = views_get_view('home'); print $view->preview('block_8'); ?>
         <aside class="flechaDer"></aside>
       </div>
@@ -96,9 +96,29 @@
         <!--formulario--><?php $block = module_invoke('webform', 'block_view', 'newsletter-470');print render($block['content']); ?><!--FIN formulario-->
       </div>
       <div class="personajes">
-        
+        <?php $view = views_get_view('home'); print $view->preview('block_1'); ?>
+        <div class="verMas" data-activo='0'>
+          <h2>Ver más</h2>
+          <span></span>
+          <div class="tri"></div>
+        </div>
       </div>
-    </article>    
+    </article>
+    
+    <article id="modulo2">
+      <div id="videos">
+        <?php $view = views_get_view('home'); print $view->preview('block_4'); ?>
+        <div class="verMas" data-activo='0'>
+          <h2>Ver más</h2>
+          <span></span>
+          <div class="tri"></div>
+        </div>
+      </div>
+    </article>
+
+    <article id="modulo3">
+      <h3>Hola mundo</h3>
+    </article>
   </section>
 </body>
 </html>
