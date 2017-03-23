@@ -47,6 +47,36 @@
 }
 //FIN NOTAS
 
+//RESTAURANTES
+#establecimiento{width:100%;float:left; position: relative;
+	.fotos{width:100%; height:450px; position: relative; float:left; margin-bottom:10px; overflow:hidden;
+		img{width:100%; height:auto;background-position: 50% 0px;}
+	}
+	.contenido{position: relative; margin:0 auto;width:1200px;padding:0px 20px;
+		.seccion{width:100%; padding:10px 0px; margin-bottom:20px;float:left;
+			a{font-size:18px;font-weight:400; color:#000; text-decoration:underline; height:50px; text-transform:uppercase;}
+			a:hover{text-decoration:underline;}
+		}
+		.etiquetas{width: 100%;position: relative;float:left;height: 40px;margin-bottom:20px;
+			a{color:#000; float:left; position: relative;font-size:16px;line-height:18px; font-weight:300; text-decoration:none; margin-right: 30px;padding: 10px 0px;font-style: italic;}
+			.even {
+				a{color:$orange;}
+			}
+		}
+		h1{font-size: 40px; line-height:42px; width: 100%;margin: 0 auto;padding: 0px 0px 20px 0px;text-align:left;float:left; height: auto;}
+		.texto{color:#333; font-weight:300;font-size:16px;line-height:18px;
+			a{color:#FF8801; text-decoration:none;}
+			a:hover{text-decoration:underline;}
+		}
+		.fecha{width:300px; padding:0px 10px;font-size:14px; font-weight:400; color:#FF8801; height: auto;width: 100%;margin: 10px 0px;float:left;}
+	}
+	.mas{width:100%;height:3px; background:$orange;float:left; position: relative;margin:50px 0px;
+		span{width: 60px; height:60px; position: relative; margin-left:50%;background: url(../images/icon_otras_notas.svg) 10px 10px/40px auto no-repeat $orange;float: left;border-radius: 40px;top: -30px;}
+	}
+}
+//FIN RESTAURANTES
+
+
 //VIDEO
 #video{width:1024px;padding:20px 0px;margin:0 auto; position: relative;margin-top:50px;
 	.contenido{position: relative; float:left;
