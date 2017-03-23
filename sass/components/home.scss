@@ -457,7 +457,7 @@
         border-right: 50px solid transparent;
         border-top: 45px solid #fff;
         position: absolute;
-        top: 39px;
+        top: 38px;
       }
     }//Fin ver mas
     .view-content{
@@ -757,7 +757,7 @@
           border-right: 50px solid transparent;
           border-top: 45px solid $orange;
           position: absolute;
-          top: 39px;
+          top: 38px;
         }
       }//Fin ver mas
       .view-display-id-block_1{
@@ -770,9 +770,9 @@
           flex-wrap: wrap;
           -webkit-flex-wrap: wrap;
           -moz-flex-wrap: wrap;
-          justify-content: center;
-          -webkit-justify-content: center;
-          -moz-justify-content: center;
+          justify-content: space-around;
+          -webkit-justify-content: space-around;
+          -moz-justify-content: space-around;
           .views-row{
             margin: 0 0 80px 0;
             width: 445px;
@@ -863,7 +863,7 @@
             }
           }
           .views-row-2, .views-row-5{
-            margin: 0 55px 50px 55px;
+            margin: 0 0 50px 0;
           }
           .views-row-4, .views-row-5, .views-row-6{
             display: none;
@@ -1015,7 +1015,7 @@
           border-right: 50px solid transparent;
           border-top: 45px solid $negro;
           position: absolute;
-          top: 39px;
+          top: 38px;
         }
       }//Fin ver mas
     }//Fin videos

@@ -205,8 +205,57 @@
           }
         }
       }
-    }
-  }
+    }//Fin buscador
+
+    #rutas{
+      height: auto;
+      margin: 50px 0;
+      .notas{
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        height: auto;
+        .leftOrange{
+          margin-bottom: 20px;
+        }
+      }
+    }//Fin rutas
+
+    #modulo1{
+      .newsletter{
+        width: 100%;
+        height: auto;
+        h3{
+          width: 100%;
+          background-size: 670px;
+        }
+        .webform-client-form-470{
+          width: 100%;
+          .webform-component-email{
+            margin: 0;
+          }
+          .form-actions{
+            width: 100%;
+            display: flex;
+            display: -webkit-flex;
+            display: -moz-flex;
+            margin-top: 10px;
+          }
+        }
+      }
+    }//Fin modulo1
+
+    #modulo2{
+      #videos{
+        .view-display-id-block_4{
+          .view-content{
+            width: 100%;
+          }
+        }
+      }
+    }//fin modulo2
+    
+  }//Fin home
 
   footer{
     #footer{
