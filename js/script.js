@@ -1,4 +1,11 @@
 $(document).ready(function(){
+
+  $("header #hamburger").click(function (){
+    $(this).toggleClass('open');
+    $(".menu").toggleClass("desplegar");
+    // $(".fondo").toggle();
+  });
+
   var ruta = window.location;
 
   function clearClass() {

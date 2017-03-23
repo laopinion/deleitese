@@ -92,7 +92,7 @@
     <?php // print $page_bottom; ?>
     
     <div class="footer_desktop"><?php include("footer.tpl.php"); ?></div>
-    <div class="footer_movil"><?php include("footer_movil.tpl.php"); ?></div>
+    <!-- <div class="footer_movil"><?php //include("footer_movil.tpl.php"); ?></div> -->
   </div>
   <!--END CONTENT GENERAL-->
 
