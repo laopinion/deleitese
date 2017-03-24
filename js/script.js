@@ -108,6 +108,27 @@ $(document).ready(function(){
     }
   });
 
+  $('#home #modulo1 .notas .verMas').click(function(){
+    var activo = $(this).data('activo')
+    if(activo == 0){
+      var style = {
+        height: 'auto'
+      }
+      $('#home #modulo1 .notas').css(style);
+      $('#home #modulo1 .notas .views-row-4, #home #modulo1 .notas .views-row-5, #home #modulo1 .notas .views-row-6').slideDown("slow");
+      $(this).data('activo', 1);
+      $('#home #modulo1 .notas .verMas h2').text('Ver menos');
+    }else{
+      var style = {
+        height: 'auto'
+      }
+      $('#home #modulo1 .notas').css(style);      
+      $('#home #modulo1 .notas .views-row-4, #home #modulo1 .notas .views-row-5, #home #modulo1 .notas .views-row-6').slideUp("slow");
+      $(this).data('activo', 0);
+      $('#home #modulo1 .notas .verMas h2').text('Ver más');
+    }
+  });
+
   $('#home #modulo2 #videos .verMas').click(function(){
     var activo = $(this).data('activo');
     if(activo == 0){

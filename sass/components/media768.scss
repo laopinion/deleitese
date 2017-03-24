@@ -114,6 +114,8 @@
         }
         .btnSeguir{
           flex: 2;
+          -webkit-flex: 2;
+          -moz-flex: 2;
           display: flex;
           display: -webkit-flex;
           display: -moz-flex;
@@ -222,6 +224,66 @@
     }//Fin rutas
 
     #modulo1{
+      .notas{
+        height: auto;
+        margin-bottom: 80px;
+        transition: .3s;
+        .movil{ display: block; }
+        .flechaIzq{display: none;}
+        .flechaDer{display: none;}
+        .verMas{
+          cursor: pointer;
+          height: 45px;
+          bottom: -60px;
+          left: 0;
+          right: 0;
+          margin: 0 auto;
+          position: absolute;
+          width: 100px;
+          z-index: 5;
+          h2{
+            color: #fff;
+            font-size: 20px;
+            font-weight: $regular;
+            text-align: center;
+            margin: 0;
+          }
+          span{
+            background:url(../images/flecha2.svg) no-repeat;
+            background-position: 2px 5px;
+            height: 40px;
+            width: 77px;
+            display: block;
+            position: absolute;
+            z-index: 5;
+            top: 8px;
+            left: 16px;
+          }
+          .tri{
+            display: none;
+          }
+        }//Fin ver mas
+        .view-display-id-block_8{
+          height: auto;
+          .view-content{
+            height: auto;
+            flex-wrap: wrap;
+            -webkit-flex-wrap: wrap;
+            -moz-flex-wrap: wrap;
+            justify-content: center;
+            -webkit-justify-content: center;
+            -moz-justify-content: center;
+            .views-row{
+              margin-right: 0;
+              margin-bottom: 20px;
+              width: 400px;
+            }
+            .views-row-4, .views-row-5, .views-row-6{
+              display: none;
+            }
+          }
+        }
+      }
       .newsletter{
         width: 100%;
         height: auto;
@@ -261,6 +323,8 @@
     #footer{
       width: 100%;
       flex-wrap: wrap;
+      -webkit-flex-wrap: wrap;
+      -moz-flex-wrap: wrap;
       .left{
         width: 100%;
         order: 1;

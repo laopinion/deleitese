@@ -1,0 +1,238 @@
+@media screen and (max-width: 480px){
+  header{
+    #movil{
+      .hamburLogo{
+        width: 100%;
+      }
+      #logo{
+        width: 100%;
+      }
+      .menu{
+        width: 70%;
+        .btnSeguir{
+          flex: 0;
+          -webkit-flex: 0;
+          -moz-flex: 0;
+          height: auto;
+          flex-wrap: wrap;
+          -webkit-flex-wrap: wrap;
+          -moz-flex-wrap: wrap;
+        }
+      }
+    }
+  }//Fin header
+
+  #home{
+    .buscador{
+      .buscar{
+        form{
+          width: 100%;
+          input{
+            width: 100%;
+            flex: initial;
+            -webkit-flex: initial;
+            -moz-flex: initial;
+            margin: 0 0 10px 0;
+          }
+          .select{
+            background-position-x: 370px;
+            flex: initial;
+            -webkit-flex: initial;
+            -moz-flex: initial;
+            width: 100%;
+            select{
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+
+    #rutas{
+      .notas{
+        .grafiLeft{ display: none; }
+        .grafiRight{ display: none; }
+
+        .leftOrange{
+          height: auto;
+          .left{
+            background-color: #F7931E;
+            flex-wrap: wrap;
+            -webkit-flex-wrap: wrap;
+            -moz-flex-wrap: wrap;
+            justify-content: center;
+            -webkit-justify-content: center;
+            -moz-justify-content: center;
+            height: auto;
+            .destacada{
+              width: 300px;
+            }
+            .lateral{
+              width: 100%;
+              height: auto;
+            }
+          }//Fin left
+        }
+
+        .rightNegro{
+          .right{
+            flex-wrap: wrap;
+            -webkit-flex-wrap: wrap;
+            -moz-flex-wrap: wrap;
+            justify-content: center;
+            -webkit-justify-content: center;
+            -moz-justify-content: center;
+            background-color: #F7931E;
+            .lateral{
+              width: 100%;
+              height: auto;
+              .view-rutas{
+                width: 100%;
+              }
+            }
+          }
+        }
+      }//fin notas
+    }//fin rutas
+    
+    #noticias{
+      .view-content{
+        .views-row{
+          width: 100%;
+          img{
+            width: 100%;
+            height: auto;
+          }
+        }
+      }
+    }
+
+    #modulo1{
+      .notas{
+        padding: 100px 5px 0 5px;
+        .view-display-id-block_8{
+          .view-content{
+            .views-row{
+              width: 100%;
+              .foto{
+                img{
+                  width: 100%;
+                  height: auto;
+                }
+              }
+            }
+          }
+        }
+      }
+      .newsletter{
+        h3{
+          background: url(../images/newsletterTitleMovil.png) no-repeat;
+          height: 165px;
+          background-position-x: 50%;
+        }
+        .webform-client-form-470{
+          .form-item{
+            input{
+              width: 98%;
+            }
+          }
+        }
+      }
+
+      .personajes{
+        padding-bottom: 40px;
+        .view-display-id-block_1{
+          padding: 0;
+          width: 100%;
+          .view-content{
+            .views-row{
+              width: 100%;
+              .personaje{
+                .marcoMovil{ 
+                  display: block;
+                  width: 100%;
+                  height: 523px;
+                  background: url(../images/marcoPersonajes.png) no-repeat;
+                  background-position: -2px 0;
+                  background-size: 100%;
+                  position: absolute;
+                  z-index: 2;
+                }
+                .foto{
+                  width: 100%;
+                  a{
+                    width: 92%;
+                    height: auto;
+                    margin: 0px auto;
+                    position: relative;
+                    top: 8px;
+                    padding: 4px 0;
+                    left: 8px;
+                    z-index: 2;
+                    img{
+                      width: 98%;
+                      height: auto;
+                      margin: 0 auto;
+                      display: block;
+                      position: relative;
+                      top: 0;
+                    }
+                  }
+                }
+                .foto:before{ content: initial; }
+                .info{
+                  top: 45px;
+                  .titulo{
+                    height: auto;
+                    position: static;
+                    a{
+                      line-height: 47px;
+                      width: 60%;
+                    }
+                  }
+                  .resumen{
+                    position: static;
+                  }
+                }
+              }//Fin personaje
+            }
+          }
+        }
+      }//fin personajes
+
+    }//Fin modulo 1
+    #modulo2{
+      #videos{
+        .view-display-id-block_4{
+          .view-header{
+            .video{
+              .summary{
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }//Fin home
+
+  footer{
+    #footer{
+      padding-left: 5px;
+      padding-right: 5px;
+      box-sizing: border-box;
+      .right{
+        .webform-client-form-469{
+          width: 100%;
+        }
+      }
+      .left{
+        padding: 20px 5px;
+        .redes{
+          width: 100%;
+        }
+      }
+    }
+  }
+
+}

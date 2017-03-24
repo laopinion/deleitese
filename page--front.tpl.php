@@ -89,6 +89,11 @@
         <aside class="flechaIzq"></aside>
         <!-- Tener en cuenta el tipo de contenido el campo direccion-->
         <?php $view = views_get_view('home'); print $view->preview('block_8'); ?>
+        <div class="verMas movil" data-activo='0'>
+          <h2>Ver más</h2>
+          <span></span>
+          <div class="tri"></div>
+        </div>
         <aside class="flechaDer"></aside>
       </div>
       <div class="newsletter">

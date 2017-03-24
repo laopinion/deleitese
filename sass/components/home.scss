@@ -561,6 +561,7 @@
       padding: 100px 50px 0 50px;
       position: relative;
       height: 438px;
+      .movil{ display: none; }
       .view-display-id-block_8{
         overflow: hidden;
         height: 438px;
@@ -575,6 +576,7 @@
           .views-row{
             margin-right: 28px;
             background-color: #fff;
+            width: 400px;
             a{
               text-decoration: none;
               color: $negro;
@@ -789,6 +791,7 @@
               img{
                 position: relative;
               }
+              .marcoMovil{ display: none; }
               .foto:before{
                 content: url("../images/marcoPersonajes.png");
                 position: absolute;
