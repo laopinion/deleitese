@@ -1,0 +1,69 @@
+@media screen and (max-width: 380px){
+
+  header{
+    #movil{
+      #logo{
+        h1{
+          background-size: 100%;
+          background-position-x: -12px;
+          height: auto;
+        }
+      }
+      .menu{
+        width: 90%;
+      }
+    }
+  }
+
+  #home{
+    #noticias{
+      .view-content{
+        .views-row{
+          .nota{
+            .text{
+              width: 100%;
+              padding: 8px;
+            }
+          }
+        }
+      }
+    }
+
+    #modulo1{
+      .personajes{
+        .view-display-id-block_1{
+          .view-content{
+            .views-row{
+              .personaje{
+                .foto{
+                  a{
+                    top: 6px;
+                    left: 6px;
+                  }
+                }
+                .info{
+                  .resumen{
+                    width: 100%;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  footer{
+    #footer{
+      .left{
+        .redes{
+          li:nth-child(2){
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+}

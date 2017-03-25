@@ -295,6 +295,13 @@
           width: 100%;
           .webform-component-email{
             margin: 0;
+            display: flex;
+            display: -webkit-flex;
+            display: -moz-flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            -webkit-flex-wrap: wrap;
+            -moz-flex-wrap: wrap;
           }
           .form-actions{
             width: 100%;

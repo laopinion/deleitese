@@ -35,7 +35,7 @@
             margin: 0 0 10px 0;
           }
           .select{
-            background-position-x: 370px;
+            background-position-x: 98%;
             flex: initial;
             -webkit-flex: initial;
             -moz-flex: initial;
@@ -125,11 +125,6 @@
         }
       }
       .newsletter{
-        h3{
-          background: url(../images/newsletterTitleMovil.png) no-repeat;
-          height: 165px;
-          background-position-x: 50%;
-        }
         .webform-client-form-470{
           .form-item{
             input{
@@ -214,6 +209,19 @@
         }
       }
     }
+
+    .slides{
+      .next{
+        background-size: 40px;
+        height: 35px;
+        width: 43px;
+      }
+      .prev{
+        background-size: 40px;
+        height: 35px;
+        width: 43px;
+      }
+    }
   }//Fin home
 
   footer{
@@ -229,7 +237,13 @@
       .left{
         padding: 20px 5px;
         .redes{
+          justify-content: center;
+          -webkit-justify-content: center;
+          -moz-justify-content: center;
           width: 100%;
+          li:nth-child(2){
+            margin: 0;
+          }
         }
       }
     }
