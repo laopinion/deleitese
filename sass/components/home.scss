@@ -1,86 +1,10 @@
+.container{
+  margin: 0 auto;
+  width: 1240px;
+}
 #home{
   width: 100%;
   overflow-x: hidden;
-  .container{
-    margin: 0 auto;
-    width: 1240px;
-  }
-
-  .buscador{
-    background-color: $orange;
-    height: 158px;
-    width: 100%;
-    display: flex;
-    display: -webkit-flex;
-    display: -moz-flex;
-    align-items: center;
-    -webkit-align-items: center;
-    -moz-align-items: center;
-    .buscar{
-      display: flex;
-      display: -webkit-flex;
-      display: -moz-flex;
-      justify-content: center;
-      -webkit-justify-content: center;
-      -moz-justify-content: center;
-      align-items: center;
-      -webkit-align-items: center;
-      -moz-align-items: center;
-      .icono{
-        background:url(../images/encuentraRestaurante.png) no-repeat;
-        background-position: 0px 0px;
-        display: block;
-        height: 58px;
-        width: 178px;
-      }
-      form{
-        display: flex;
-        display: -webkit-flex;
-        display: -moz-flex;
-        align-items: center;
-        -webkit-align-items: center;
-        -moz-align-items: center;
-        input{
-          background-color: #EAEAEA;
-          border: none;
-          color: #333;
-          font-size: 18px;
-          height: 51px;
-          padding-left: 10px;
-          margin: 0 10px;
-          width: 310px;
-        }
-
-        .select{
-          width: 310px;
-          overflow: hidden;
-          background: #EAEAEA url("../images/iconoSelect.svg") 255px 3px/50px auto no-repeat;
-          select{
-            border: none;
-            color: #333;
-            cursor: pointer;
-            font-size: 18px;
-            height: 51px;
-            padding-left: 10px;
-            width: 310px;
-            box-shadow: none;
-            background: transparent;
-            -webkit-appearance: none;
-            -moz-appearance: none;
-          }
-        }
-        #btnBuscar{
-          background:url(../images/buscar.png) no-repeat;
-          background-position: 0px 5px;
-          height: 50px;
-          width: 125px;
-          border: none;
-          padding: 0;
-          margin-left: 10px;
-        }
-      }
-    }
-  }
 
   .slides{
     position: relative;

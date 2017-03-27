@@ -3,7 +3,7 @@
   .head_movil{display: block;}
   header{
     width: 100%;
-    padding: 20px 0;
+    padding: 20px 0 0 0;
     background-color: $negro;
     position: relative;
     height: auto;
@@ -181,9 +181,7 @@
         }
       }
     }//Fin movil
-  }//Fin header
 
-  #home{
     .buscador{
       height: auto;
       padding: 20px 0;
@@ -208,6 +206,10 @@
         }
       }
     }//Fin buscador
+
+  }//Fin header
+
+  #home{
 
     #rutas{
       height: auto;

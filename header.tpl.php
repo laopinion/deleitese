@@ -31,5 +31,22 @@
       </div>
       -->
     </div>
+    
   </section>
+  <div class="buscador">
+    <div class="container buscar">
+      <i class="icono"></i>
+      <form action="">
+        <input type="text" placeholder="Escriba su busqueda">
+        <div class="select">
+          <select name="" id="">
+            <option value="">Option1</option>
+            <option value="">Option3</option>
+            <option value="">Option2</option>
+          </select>
+        </div>
+        <button id="btnBuscar"></button>
+      </form>
+    </div>
+  </div>
 </header>

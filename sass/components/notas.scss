@@ -1,0 +1,134 @@
+#seccionNotas{
+  height: auto;
+  margin: 50px 0;
+  position: relative;
+  width: 100%;
+  .verMas{
+    cursor: pointer;
+    height: 90px;
+    bottom: -51px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    position: absolute;
+    width: 100px;
+    z-index: 5;
+    h2{
+      font-size: 20px;
+      font-weight: $regular;
+      text-align: center;
+      margin: 0;
+    }
+    span{
+      background:url(../images/flecha.svg) no-repeat;
+      background-position: 0px 5px;
+      height: 50px;
+      width: 77px;
+      display: block;
+      position: absolute;
+      z-index: 5;
+      top: 12px;
+      left: 11px;
+    }
+    .tri{
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-top: 45px solid #fff;
+      position: absolute;
+      top: 38px;
+    }
+  }//Fin ver mas
+  .view-content{
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    justify-content: space-around;
+    -webkit-justify-content: space-around;
+    -moz-justify-content: space-around;
+    .views-row{
+      max-width: 499px;
+      position: relative;
+      margin-bottom: 140px;
+      a{
+        text-decoration: none;
+        color: $negro;
+        font-size: 20px;
+        line-height: 22px;
+        font-weight: $light;
+      }
+      .nota{
+        .foto{}
+        .text{
+          width: 400px;
+          height: 115px;
+          background-color: #F7931E;
+          padding: 10px 35px;
+          box-sizing: border-box;
+          position: absolute;
+          bottom: -69px;
+          left: 0;
+          right: 0;
+          margin: 0 auto;
+          .title{
+            margin: 10px 0 0 0;
+            position: relative;
+            z-index: 1;
+          }
+          span{
+            width: 180px;
+            border-bottom: 1px solid #fff;
+            padding-bottom: 5px;
+            margin: 0 auto;
+            display: block;
+          }
+        }
+        .text:before{
+          content: url("../images/marcoNoticias.png");
+          position: absolute;
+          top: -5px;
+          left: -12px;
+          z-index: 0;
+        }
+      }
+    }//Fin views
+    .views-row-7, .views-row-8, .views-row-9, .views-row-10, .views-row-11, .views-row-12{
+      display: none;
+    } 
+    .views-row:nth-child(1), .views-row:nth-child(3), .views-row:nth-child(4), .views-row:nth-child(6), .views-row:nth-child(7), .views-row:nth-child(9), .views-row:nth-child(10), .views-row:nth-child(12){
+      .nota{
+        span:after{
+          content: "Lo nuestro";
+          font-size: 30px;
+          font-weight: $black;
+          position: relative;
+          right: -8px;
+        }
+        span:before{
+          content: url("../images/corazon.svg");
+        }
+      }
+    }
+    .views-row:nth-child(2), .views-row:nth-child(5), .views-row:nth-child(8), .views-row:nth-child(11){
+      .nota{
+        span{
+          width: 202px;
+        }
+        span:after{
+          content: "Buena mesa";
+          font-size: 30px;
+          font-weight: $black;
+          position: relative;
+          right: -8px;
+        }
+        span:before{
+          content: url("../images/mesa.svg");
+        }
+      }
+    }
+  }//Fin view content
+}
