@@ -406,6 +406,7 @@
           font-weight: $light;
         }
         .nota{
+          .seccion{ display: none; }
           .foto{}
           .text{
             width: 400px;
@@ -423,13 +424,32 @@
               position: relative;
               z-index: 1;
             }
-            span{
-              width: 180px;
+            .iconSeccion{
+              display: flex;
+              display: -webkit-flex;
+              display: -moz-flex;
+              justify-content: center;
+              -webkit-justify-content: center;
+              -moz-justify-content: center;
               border-bottom: 1px solid #fff;
-              padding-bottom: 5px;
+              padding-bottom: 10px;
               margin: 0 auto;
-              display: block;
-            }
+              width: 215px;
+              .icono{
+                background-repeat: no-repeat;
+                display: block;
+                height: 27px;
+                width: 30px;
+              }
+              span{
+                font-size: 30px;
+                font-weight: $black;
+                position: relative;
+                right: -8px;
+                text-align: center;
+                display: block;
+              }
+            }//Fin iconoSeccion
           }
           .text:before{
             content: url("../images/marcoNoticias.png");
@@ -442,37 +462,6 @@
       }//Fin views
       .views-row-7, .views-row-8, .views-row-9, .views-row-10, .views-row-11, .views-row-12{
         display: none;
-      } 
-      .views-row:nth-child(1), .views-row:nth-child(3), .views-row:nth-child(4), .views-row:nth-child(6), .views-row:nth-child(7), .views-row:nth-child(9), .views-row:nth-child(10), .views-row:nth-child(12){
-        .nota{
-          span:after{
-            content: "Lo nuestro";
-            font-size: 30px;
-            font-weight: $black;
-            position: relative;
-            right: -8px;
-          }
-          span:before{
-            content: url("../images/corazon.svg");
-          }
-        }
-      }
-      .views-row:nth-child(2), .views-row:nth-child(5), .views-row:nth-child(8), .views-row:nth-child(11){
-        .nota{
-          span{
-            width: 202px;
-          }
-          span:after{
-            content: "Buena mesa";
-            font-size: 30px;
-            font-weight: $black;
-            position: relative;
-            right: -8px;
-          }
-          span:before{
-            content: url("../images/mesa.svg");
-          }
-        }
       }
     }//Fin view content
   }//Fin noticias

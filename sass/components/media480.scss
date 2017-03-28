@@ -224,6 +224,29 @@
       }
     }
   }//Fin home
+
+  #seccionNotas{
+    .view-content{
+      .views-row{
+        margin-bottom: 40px;
+        width: 100%;
+        img{
+          height: auto;
+          width: 100%;
+        }
+        .nota{
+          .text{
+            height: auto;
+            position: static;
+            width: 100%;
+          }
+          .text:before{
+            content: "";
+          }
+        }
+      }
+    }
+  }
   
   //Seccion Personajes
   #personajes{

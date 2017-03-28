@@ -573,10 +573,48 @@ $(document).ready(function(){
     }
   });
 
-  //SECCION PERSONAJES
-  // $('#personajes article .view-display-id-block_2 .view-content .views-row a').click(function(){
-  //   $().html()
-  // })
+  //Home noticias
+  $('#home #noticias .view-content .views-row').each(function(){
+    var seccion = $(this).find('.nota .seccion').html();
+    
+    if(seccion == 'Buena mesa'){
+      var style = {
+        background: 'url("/deleitese/sites/default/themes/deleitese/images/mesa.svg") no-repeat'
+      }
+      $(this).find('.nota .iconSeccion span').html('Buena mesa');
+      $(this).find('.nota .iconSeccion .icono').css(style);
+    }else if(seccion == 'Cocinas del mundo'){
+      $(this).find('.nota .iconSeccion span').html('Cocinas del mundo');
+    }else if(seccion == 'Lo nuestro'){
+      var style = {
+        background: 'url("/deleitese/sites/default/themes/deleitese/images/corazon.svg") no-repeat'
+      }
+      $(this).find('.nota .iconSeccion span').html('Lo nuestro');
+      $(this).find('.nota .iconSeccion .icono').css(style);
+    }
+  });
+
+  //SECCION NOTAS
+  $('#seccionNotas .view-content .views-row').each(function(){
+    var seccion = $(this).find('.nota .seccion').html();
+    
+    if(seccion == 'Buena mesa'){
+      var style = {
+        background: 'url("/deleitese/sites/default/themes/deleitese/images/mesa.svg") no-repeat'
+      }
+      $(this).find('.nota .iconSeccion span').html('Buena mesa');
+      $(this).find('.nota .iconSeccion .icono').css(style);
+    }else if(seccion == 'Cocinas del mundo'){
+      $(this).find('.nota .iconSeccion span').html('Cocinas del mundo');
+    }else if(seccion == 'Lo nuestro'){
+      var style = {
+        background: 'url("/deleitese/sites/default/themes/deleitese/images/corazon.svg") no-repeat'
+      }
+      $(this).find('.nota .iconSeccion span').html('Lo nuestro');
+      $(this).find('.nota .iconSeccion .icono').css(style);
+    }
+  });
+  
 
 
   //MODULO DE VIDEOS
