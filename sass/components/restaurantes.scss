@@ -1,4 +1,4 @@
-#seccionNotas{
+#restaurantes{
   height: auto;
   margin: 50px 0;
   position: relative;
@@ -21,9 +21,9 @@
         text-decoration: none;
         color: $negro;
         font-size: 20px;
+        line-height: 0;
         font-weight: $light;
         display: block;
-        line-height: 0;
       }
       .nota{
         .foto{}
@@ -40,39 +40,13 @@
           right: 0;
           margin: 0 auto;
           a{
+            font-size: 30px;
+            font-weight: $black;
             line-height: 22px;
           }
           .title{
             margin: 10px 0 0 0;
-            position: relative;
-            z-index: 1;
           }
-          .iconSeccion{
-            display: flex;
-            display: -webkit-flex;
-            display: -moz-flex;
-            justify-content: center;
-            -webkit-justify-content: center;
-            -moz-justify-content: center;
-            border-bottom: 1px solid #fff;
-            padding-bottom: 10px;
-            margin: 0 auto;
-            width: 215px;
-            .icono{
-              background-repeat: no-repeat;
-              display: block;
-              height: 27px;
-              width: 30px;
-            }
-            span{
-              font-size: 30px;
-              font-weight: $black;
-              position: relative;
-              right: -8px;
-              text-align: center;
-              display: block;
-            }
-          }//Fin iconoSeccion
         }
         .text:before{
           content: url("../images/marcoNoticias.png");

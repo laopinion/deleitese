@@ -100,9 +100,19 @@
       .view-content{
         .views-row{
           width: 100%;
+          margin-bottom: 45px;
           img{
             width: 100%;
             height: auto;
+          }
+          .nota{
+            .text:before{
+              content: "";
+            }
+            .text{
+              position: static;
+              width: 100%;
+            }
           }
         }
       }
@@ -315,6 +325,51 @@
       }
     }
   }//FIn personajes
+
+  #promociones{
+    padding: 0;
+    .view-display-id-block_6{
+      .view-content{
+        .views-row{
+          border-right: none;
+          border-left: none;
+          border-top: none;
+          margin-right: 0;
+          width: 100%;
+          img{
+            height: auto;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  #restaurantes{
+    .view-content{
+      .views-row{
+        width: 100%;
+        margin-bottom: 45px;
+        img{
+          width: 100%;
+          height: auto;
+        }
+        .nota{
+          .text:before{
+            content: "";
+          }
+          .text{
+            text-align: center;
+            position: static;
+            width: 100%;
+            a{
+              line-height: 28px;
+            }
+          }
+        }
+      }
+    }
+  }
 
   footer{
     #footer{

@@ -348,6 +348,26 @@
     }
   }
 
+  #promociones{
+    .item-list{
+      width: 100%;
+      .pager{
+        display: flex;
+        display: -webkit-flex;
+        display: -moz-flex;
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        justify-content: center;
+        -webkit-justify-content: center;
+        -moz-justify-content: center;
+        .pager-next, .pager-last, .pager-item{
+          margin-top: 10px;
+        }
+      }
+    }
+  }//Promociones
+
   footer{
     #footer{
       width: 100%;

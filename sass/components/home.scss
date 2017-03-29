@@ -402,8 +402,9 @@
           text-decoration: none;
           color: $negro;
           font-size: 20px;
-          line-height: 22px;
           font-weight: $light;
+          display: block;
+          line-height: 0;
         }
         .nota{
           .seccion{ display: none; }
@@ -419,6 +420,9 @@
             left: 0;
             right: 0;
             margin: 0 auto;
+            a{
+              line-height: 22px;
+            }
             .title{
               margin: 10px 0 0 0;
               position: relative;
@@ -559,7 +563,7 @@
         top: 97px;
         width: 56px;
       }
-    }
+    }//Fin notas
 
     .newsletter{
       background-color: #474747;
