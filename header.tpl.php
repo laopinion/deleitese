@@ -23,7 +23,7 @@
         <div class="item_menu restaurantes"><a href="<?php print base_path(); ?>restaurantes">Restaurantes</a></div>
         <div class="item_menu promociones"><a href="<?php print base_path(); ?>promociones">Promociones</a></div>
         <div class="item_menu foodies"><a href="<?php print base_path(); ?>foodies">Foodies</a></div>
-        <div class="item_menu contactos"><a href="<?php print base_path(); ?>contactos">Contacto</a></div>
+        <div class="item_menu contactos"><a href="<?php print base_path(); ?>contacto">Contacto</a></div>
       </div>  
       <!--        
       <div class="search">
