@@ -3,11 +3,12 @@
   <article id="info">
     <div class="direccion">
       <h3>Direción</h3>
+      <i class="icono"></i>
       <img src="<?php print base_path(); ?>sites/default/themes/deleitese/images/contactoMapa.png" alt="mapa">
       <p>Avenida 4 con calle 16 - 12 edificio La opinión, Cúcuta Colombia</p>
       <div class="telefono">
         <i class="iconTel"></i>
-        <p>(+57) (7) 5829999</p>
+        <p>(+57) (7) 5829999 - Fax (+57) (7) 5831502</p>
       </div>
     </div>
     <div id="redesContacto">

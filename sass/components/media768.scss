@@ -98,7 +98,8 @@
       }//Fin hamburgerOpen
 
       .menu{
-        display: none;
+        display: none;        
+        padding-bottom: 20px;
         width: 400px;
         margin: 0 auto;
         flex-wrap: wrap;
@@ -367,6 +368,21 @@
       }
     }
   }//Promociones
+
+  #contacto{
+    width: 96%;
+    padding: 0 2%;
+    #info{
+      width: 100%;
+      .direccion{
+        .telefono{
+          .iconTel{
+            width: 92px;
+          }
+        }
+      }
+    }
+  }
 
   footer{
     #footer{

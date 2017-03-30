@@ -10,9 +10,10 @@
       .menu{
         width: 70%;
         .btnSeguir{
-          flex: 0;
-          -webkit-flex: 0;
-          -moz-flex: 0;
+          margin-top: 20px;
+          flex: 1;
+          -webkit-flex: 1;
+          -moz-flex: 1;
           height: auto;
           flex-wrap: wrap;
           -webkit-flex-wrap: wrap;
@@ -367,6 +368,27 @@
             }
           }
         }
+      }
+    }
+  }
+
+  #contacto{
+    #info{
+      width: 100%;
+      .direccion{
+        .icono{display: none;}
+        p{
+          width: 100%;
+        }
+        img{
+          height: auto;
+          width: 100%;
+        }
+      }
+    }
+    #redesContacto{
+      .redes{
+        width: 100%;
       }
     }
   }

@@ -1112,6 +1112,13 @@ $(document).ready(function(){
     $($selector).addClass('active');
   });
   //FIN RECETAS VIDEOS
+
+  setTimeout(function (argument) {
+    var style = {
+      top: '210px'
+    }
+    $('#contacto #info .direccion .icono').css(style);
+  }, 1000);
                     
    $(window).scroll(function() {
    var scrolled = $(window).scrollTop();           

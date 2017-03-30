@@ -27,7 +27,7 @@
       <div class="item_menu recetas"><a href="<?php print base_path(); ?>lo-recetas">Recetas</a></div>
       <div class="item_menu restaurantes"><a href="<?php print base_path(); ?>restaurantes">Restaurantes</a></div>
       <div class="item_menu promociones"><a href="<?php print base_path(); ?>promociones">Promociones</a></div>
-      <div class="item_menu foodies"><a href="<?php print base_path(); ?>foodies">Foodies</a></div>
+      <!-- <div class="item_menu foodies"><a href="<?php //print base_path(); ?>foodies">Foodies</a></div> -->
       <div class="item_menu contactos"><a href="<?php print base_path(); ?>contactos">Contacto</a></div>
       <div class="btnSeguir">
         <div class="fb-like" data-href="https://www.facebook.com/deleitese.co" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
