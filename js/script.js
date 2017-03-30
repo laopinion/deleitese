@@ -16,6 +16,7 @@ $(document).ready(function(){
       }
     });
   }
+
   //Cambiar la ruta por la de producción
   if(ruta == 'http://localhost/deleitese/' || ruta == 'http://localhost/deleitese/lo-nuestro'){
     // var styles = {
@@ -27,7 +28,7 @@ $(document).ready(function(){
   }else if(ruta == 'http://localhost/deleitese/personajes'){
     clearClass();
     $('#header .menu .personajes').addClass('active-personajes');
-  }else if(ruta == 'http://localhost/deleitese/lo-recetas'){
+  }else if(ruta == 'http://localhost/deleitese/recetas'){
     clearClass();
     $('#header .menu .recetas').addClass('active-recetas');
   }else if(ruta == 'http://localhost/deleitese/restaurantes'){
@@ -39,7 +40,7 @@ $(document).ready(function(){
   }else if(ruta == 'http://localhost/deleitese/foodies'){
     clearClass();
     $('#header .menu .foodies').addClass('active-foodies');
-  }else if(ruta == 'http://localhost/deleitese/contactos'){
+  }else if(ruta == 'http://localhost/deleitese/contacto'){
     clearClass();
     $('#header .menu .contactos').addClass('active-contactos');
   }
@@ -178,7 +179,7 @@ $(document).ready(function(){
   $('#home #modulo1 .personajes .view-display-id-block_1 .view-content .views-row').each(function(){
     var pais = $(this).find('.personaje #pais').html();
 
-    if(pais == 'Colombia'){
+    if(pais == 'Colombia' || pais == 'Colombia '){
       // background: url(../images/banderas/Colombia-05.svg) no-repeat;
       var style = paisPersonaje('Colombia-05');
       $(this).find('.personaje .info .titulo .icono').css(style);
@@ -377,7 +378,7 @@ $(document).ready(function(){
   $('#personajes article .view-display-id-block_2 .view-content .views-row').each(function(){
     var pais = $(this).find('.personaje #pais').html();
 
-    if(pais == 'Colombia'){
+    if(pais == 'Colombia' || pais == 'Colombia '){
       // background: url(../images/banderas/Colombia-05.svg) no-repeat;
       var style = paisPersonaje('Colombia-05');
       $(this).find('.personaje .info .titulo .icono').css(style);
