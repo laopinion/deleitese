@@ -1,6 +1,22 @@
 $(document).ready(function(){
   var ruta = window.location;
 
+  //NOTAS SCROLL
+
+  //Cambiar la url cuando estamos en scroll infinito solo para la primera nota
+  var pathname = window.location.pathname;
+  $("#articulo").data("urlp", pathname);
+  // $("#nota .izq").attr("in-view", "changeUrl('"+pathname+"')");
+  // console.log(pathname);
+  $(window).scroll(function(){
+    var windowTop = $(document).scrollTop();
+    if(windowTop <= $(".url_original").offset().top){
+      var ruta = $("#articulo").data("urlp");
+      history.pushState(null, "", ruta);
+    }
+  });
+  //NOTAS SCROLL
+
   function clearClass() {
      $('#header .menu').each(function(){
       if($(this).hasClass('active-noticias') || $(this).hasClass('active-personajes') || $(this).hasClass('active-recetas') || $(this).hasClass('active-restaurantes') || $(this).hasClass('active-promociones') || $(this).hasClass('active-foodies') || $(this).hasClass('active-contactos')){
@@ -680,6 +696,22 @@ $(document).ready(function(){
     });
     */
     //FIN RECETAS
+
+    //ESTABLECIMIENTOS
+    $('#establecimiento .der .down .pago').each(function(){
+      var tipodepago = $(this).find('.field-item').html();
+
+      if(tipodepago == 'Todas las tarjetas'){
+        var style = todas('todos');
+        $(this).find('#establecimiento .der .down .pago').css(style);
+
+      }else if(tipodepago == 'Efectivo'){
+        var style = todas('efectivo');
+        $(this).find('#establecimiento .der .down .pago').css(style);
+      }
+    });
+    //FIN ESTABLECIMIENTOS
+
 
 
     //Scroll EFECTO PARALLAX

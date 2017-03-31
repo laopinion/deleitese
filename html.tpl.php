@@ -26,15 +26,24 @@
   <link rel="apple-touch-icon-precomposed" sizes="152x152" href="<?php print base_path(); ?>sites/default/themes/deleitese/images/icon/touch-icon-ipad-retina.png">
   <link rel="apple-touch-icon-precomposed" sizes="180x180" href="<?php print base_path(); ?>sites/default/themes/deleitese/images/icon/touch-icon-iphone-6-plus.png">
   <!--FIN Icono precomposed-->
+  <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>-->
   <script type="text/javascript" src="<?php print base_path(); ?>sites/default/themes/deleitese/js/jquery-1.10.min.js"></script>
   <script type="text/javascript" src="<?php print base_path(); ?>sites/default/themes/deleitese/js/script.js"></script>
   <script type="text/javascript" src="<?php print base_path(); ?>sites/default/themes/deleitese/js/slide.js"></script>
-  <script type="text/javascript" src="<?php print base_path(); ?>sites/default/themes/deleitese/js/functions.js"></script>
+  <!--<script type="text/javascript" src="<?php // print base_path(); ?>sites/default/themes/deleitese/js/functions.js"></script>-->
   <script type="text/javascript" src="<?php print base_path(); ?>sites/default/themes/deleitese/js/modernizr.js"></script>
   <script type="text/javascript" src="<?php print base_path(); ?>sites/default/themes/deleitese/js/instafeed.min.js"></script>
   <link rel="stylesheet" type="text/css" href="<?php print base_path(); ?>sites/default/themes/deleitese/css/style.css">
   <link rel="stylesheet" type="text/css" href="<?php print base_path(); ?>sites/default/themes/deleitese/css/normalize.css">
-  <link rel="stylesheet" type="text/css" href="<?php print base_path(); ?>sites/default/themes/deleitese/css/media.css">
+  <!--<link rel="stylesheet" type="text/css" href="<?php // print base_path(); ?>sites/default/themes/deleitese/css/media.css">-->
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-sanitize.js"></script>
+  <script type="text/javascript" src="<?php print base_path(); ?>sites/default/themes/deleitese/js/infinite-scroll.js"></script>
+  <script src="//unpkg.com/angular-ui-router/release/angular-ui-router.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-inview/2.2.0/angular-inview.min.js"></script>
+  <script src="<?php print base_path(); ?>sites/default/themes/deleitese/js/angular-adsense.js"></script>
+  <script type="text/javascript" src="<?php print base_path(); ?>sites/default/themes/deleitese/js/angular.js"></script>
+  <base href="/">
 
   <meta name="description" content="Tu portal de gastronomía"/>
   <meta name="keywords" content="Gastronomía, gastronómico, arquitectura, arquitectura gastronómica, marketing gastronómico, novedades, diseño, vanguardia, tendencias, argentina, buenos aires, latinoamerica, cocina, comida" />

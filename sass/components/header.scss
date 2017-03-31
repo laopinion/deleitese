@@ -80,12 +80,19 @@
     }
     .search{display:none;}
     .btnSeguir{
-          position: absolute;
-          top: 0;
-          right: 0px;
-          height: 40px;
-          width: 100%;
-          float: left;
+      position: absolute;
+      top: 50px;
+      right: 155px;
+      display: flex;
+      display: -webkit-flex;
+      display: -moz-flex;
+      align-items: center;
+      -webkit-align-items: center;
+      -moz-align-items: center;
+      justify-content: space-between;
+      -webkit-justify-content: space-between;
+      -moz-justify-content: space-between;
+      width: 240px;
       .icono{
         background:url(../images/btn_unete.png) no-repeat; background-position: 25px 28px;
         background-position: 0 0px;
