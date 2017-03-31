@@ -5,6 +5,7 @@
 #home{
   width: 100%;
   overflow-x: hidden;
+  overflow-y: hidden;
 
   .slides{
     position: relative;
@@ -659,7 +660,7 @@
           margin: 0;
         }
         span{
-          background:url(../images/flecha2.svg) no-repeat;
+          background: url(../images/flecha2.svg) no-repeat;
           background-position: 2px 5px;
           height: 50px;
           width: 77px;
@@ -939,6 +940,81 @@
         }
       }//Fin ver mas
     }//Fin videos
+  }
+
+  #modulo3{
+    padding-top: 100px;
+    .titleInta{
+      display: flex;      
+      display: -webkit-flex;
+      display: -moz-flex;
+      align-items: center;
+      -webkit-align-items: center;
+      -moz-align-items: center;
+      margin: 0 auto 10px auto;
+      width: 1000px;
+      i{
+        background: url(../images/instagramIcono.svg) no-repeat;
+        background-position: 2px 5px;
+        display: block;
+        height: 38px;
+        width: 40px;
+      }
+      span{
+        font-size: 18px;
+        font-weight: $bold;
+      }
+    }
+    #galeriaInstagram{
+      display: flex;
+      display: -webkit-flex;
+      display: -moz-flex;
+      flex-wrap: wrap;
+      -webkit-flex-wrap: wrap;
+      -moz-flex-wrap: wrap;
+      padding: 0;
+      margin: 0 auto;
+      width: 1000px;
+      li{
+        display: block;
+        margin-bottom: 100px;
+        position: relative;
+        height: 430px;
+        list-style: none;
+        width: 500px;
+        img{
+          width: 500px;
+          object-fit: cover;
+          height: 430px;
+        }        
+        a{
+          display: block;
+          position: absolute;
+          width: 100%;
+          height: 100%;
+        }
+        .data{
+          display: flex;
+          display: -webkit-flex;
+          display: -moz-flex;
+          align-items: center;
+          -webkit-align-items: center;
+          -moz-align-items: center;
+          .icono{
+            background: url(../images/instagramIconos.svg) no-repeat;
+            background-position: 0px 0px;
+            display: block;
+            height: 50px;
+            width: 170px;
+          }
+          .likes{
+            font-size: 22px;
+            font-weight: $bold;
+            margin-left: 20px;
+          }
+        }
+      }
+    }
   }
 
 }//Fin home

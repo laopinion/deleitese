@@ -3,13 +3,13 @@
 <head>
   <title>Deléitese</title>
     <script type="text/javascript">
-        var feed = new Instafeed({
-            get: 'tagged',
-            tagName: 'Deléitese',
-            clientId: '2bf85d7bc7294bda99da17e58dcc1b3a',
-            limit: '9'
-        });
-        feed.run();
+        // var feed = new Instafeed({
+        //     get: 'tagged',
+        //     tagName: 'Deléitese',
+        //     clientId: '2bf85d7bc7294bda99da17e58dcc1b3a',
+        //     limit: '9'
+        // });
+        // feed.run();
     </script>
     <?php include("js/pautas_home.js"); ?>
 </head>
@@ -105,7 +105,8 @@
     </article>
 
     <article id="modulo3">
-      <h3>Hola mundo</h3>
+      <div class="titleInta"><i></i> <span>@deleitese_co</span></div>
+      <ul id="galeriaInstagram"></ul>
     </article>
   </section>
 </body>

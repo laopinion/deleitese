@@ -1120,6 +1120,39 @@ $(document).ready(function(){
     }
     $('#contacto #info .direccion .icono').css(style);
   }, 1000);
+
+  //https://api.instagram.com/v1/users/search?q=jandrey15&access_token=639755700.68a3d18.199aad0141594dda94252767a6ae31d0
+  //username = 'deleitese_co'
+  var token = '2226104334.e8ca006.188ff5246bd9428babbaec16d50aa2a0',
+      username = 'deleitese_co',
+      num_photos = 8;
+
+  $.ajax({
+    url: 'https://api.instagram.com/v1/users/search',
+    data: {q: username, access_token: token},
+    dataType: 'jsonp',
+    success: function(data){
+      // console.log(data);
+      $.ajax({
+        url: 'https://api.instagram.com/v1/users/' + data.data[0].id + '/media/recent',
+        dataType: 'jsonp',
+        data: {access_token: token, count: num_photos},
+        success: function(data2){
+          // console.log(data2);
+          for(x in data2.data){
+            $('#galeriaInstagram').append('<li><a href="'+data2.data[x].link+'" target=_blank></a> <img src="'+data2.data[x].images.standard_resolution.url+'"> <div class=data> <i class=icono></i><aside class=likes>'+data2.data[x].likes.count+' me gusta</aside> </div> </li>');
+
+          }
+        },
+        error: function(data2){
+          console.log(data2);
+        }
+      });
+    },
+    error: function(data){
+      console.log(data);
+    }
+  });
                     
    $(window).scroll(function() {
    var scrolled = $(window).scrollTop();           
