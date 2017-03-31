@@ -1,0 +1,122 @@
+#personajes{
+  overflow: hidden;
+  article{
+    margin-top: 120px;
+    height: auto;
+    position: relative;
+    width: 100%;
+    .view-display-id-block_2{
+      padding: 0 50px;
+      box-sizing: border-box;
+      .view-content{
+        display: flex;
+        display: -webkit-flex;
+        display: -moz-flex;
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        justify-content: space-around;
+        -webkit-justify-content: space-around;
+        -moz-justify-content: space-around;
+        .views-row{
+          margin: 0 0 80px 0;
+          width: 445px;
+          a{
+            text-decoration: none;
+            color: $negro;
+            font-size: 45px;
+          }
+          .personaje{
+            position: relative;
+            #pais{
+              display: none;
+            }
+            img{
+              position: relative;
+            }
+            .marcoMovil{ display: none; }
+            .foto:before{
+              content: url("../images/marcoPersonajes2.svg");
+              position: absolute;
+              left: -10px;
+              top: -10px;
+            }
+            .foto{
+              a{ 
+                display: block;
+                background-color: $orange;
+                width: 426px;
+                height: 489px;
+                margin-left: 13px;
+                top: -5px;
+                position: relative;
+                &:hover{
+                  background-color: #E87500;
+                  &:before{
+                    content: url("../images/hoverPersonaje2.svg");
+                    position: absolute;
+                    top: -160px;
+                    left: -115px;
+                  }
+                }
+              }
+            }
+            .info{
+              height: 150px;
+              position: relative;
+              .titulo{
+                display: flex;
+                display: -webkit-flex;
+                display: -moz-flex;
+                align-items: center;
+                -webkit-align-items: center;
+                -moz-align-items: center;
+                justify-content: center;
+                -webkit-justify-content: center;
+                -moz-justify-content: center;
+                position: absolute;
+                top: 60px;
+                left: 0;
+                right: 0;
+                font-weight: 700;
+                margin: 0 auto;
+                text-align: center;
+                width: 100%;
+                .icono{
+                  // background: url(../images/banderas/Colombia-05.svg) no-repeat;
+                  background-position: 0px 0px;
+                  display: block;
+                  margin-right: 10px;
+                  height: 35px;
+                  width: 35px;
+                }
+              }
+              .resumen{
+                color: $negro;
+                position: absolute;
+                top: 90px;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+                text-align: center;
+                width: 350px;
+                p{
+                  font-size: 20px;
+                  font-weight: $regular;
+                  line-height: 23px;
+                  margin: 20px 0;
+
+                }
+              }//Fin resumen
+              .contenido{ display: none; }
+            }
+          }
+        }
+        .views-row-2, .views-row-5{
+          margin: 0 0 50px 0;
+        }
+      }//Fin view content
+    }
+  }
+
+}//Fin personajes

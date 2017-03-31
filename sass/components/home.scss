@@ -1,86 +1,11 @@
+.container{
+  margin: 0 auto;
+  width: 1240px;
+}
 #home{
   width: 100%;
   overflow-x: hidden;
-  .container{
-    margin: 0 auto;
-    width: 1240px;
-  }
-
-  .buscador{
-    background-color: $orange;
-    height: 158px;
-    width: 100%;
-    display: flex;
-    display: -webkit-flex;
-    display: -moz-flex;
-    align-items: center;
-    -webkit-align-items: center;
-    -moz-align-items: center;
-    .buscar{
-      display: flex;
-      display: -webkit-flex;
-      display: -moz-flex;
-      justify-content: center;
-      -webkit-justify-content: center;
-      -moz-justify-content: center;
-      align-items: center;
-      -webkit-align-items: center;
-      -moz-align-items: center;
-      .icono{
-        background:url(../images/encuentraRestaurante.png) no-repeat;
-        background-position: 0px 0px;
-        display: block;
-        height: 58px;
-        width: 178px;
-      }
-      form{
-        display: flex;
-        display: -webkit-flex;
-        display: -moz-flex;
-        align-items: center;
-        -webkit-align-items: center;
-        -moz-align-items: center;
-        input{
-          background-color: #EAEAEA;
-          border: none;
-          color: #333;
-          font-size: 18px;
-          height: 51px;
-          padding-left: 10px;
-          margin: 0 10px;
-          width: 310px;
-        }
-
-        .select{
-          width: 310px;
-          overflow: hidden;
-          background: #EAEAEA url("../images/iconoSelect.svg") 255px 3px/50px auto no-repeat;
-          select{
-            border: none;
-            color: #333;
-            cursor: pointer;
-            font-size: 18px;
-            height: 51px;
-            padding-left: 10px;
-            width: 310px;
-            box-shadow: none;
-            background: transparent;
-            -webkit-appearance: none;
-            -moz-appearance: none;
-          }
-        }
-        #btnBuscar{
-          background:url(../images/buscar.png) no-repeat;
-          background-position: 0px 5px;
-          height: 50px;
-          width: 125px;
-          border: none;
-          padding: 0;
-          margin-left: 10px;
-        }
-      }
-    }
-  }
+  overflow-y: hidden;
 
   .slides{
     position: relative;
@@ -457,7 +382,7 @@
         border-right: 50px solid transparent;
         border-top: 45px solid #fff;
         position: absolute;
-        top: 39px;
+        top: 38px;
       }
     }//Fin ver mas
     .view-content{
@@ -478,10 +403,12 @@
           text-decoration: none;
           color: $negro;
           font-size: 20px;
-          line-height: 22px;
           font-weight: $light;
+          display: block;
+          line-height: 0;
         }
         .nota{
+          .seccion{ display: none; }
           .foto{}
           .text{
             width: 400px;
@@ -494,18 +421,40 @@
             left: 0;
             right: 0;
             margin: 0 auto;
+            a{
+              line-height: 22px;
+            }
             .title{
               margin: 10px 0 0 0;
               position: relative;
               z-index: 1;
             }
-            span{
-              width: 180px;
+            .iconSeccion{
+              display: flex;
+              display: -webkit-flex;
+              display: -moz-flex;
+              justify-content: center;
+              -webkit-justify-content: center;
+              -moz-justify-content: center;
               border-bottom: 1px solid #fff;
-              padding-bottom: 5px;
+              padding-bottom: 10px;
               margin: 0 auto;
-              display: block;
-            }
+              width: 215px;
+              .icono{
+                background-repeat: no-repeat;
+                display: block;
+                height: 27px;
+                width: 30px;
+              }
+              span{
+                font-size: 30px;
+                font-weight: $black;
+                position: relative;
+                right: -8px;
+                text-align: center;
+                display: block;
+              }
+            }//Fin iconoSeccion
           }
           .text:before{
             content: url("../images/marcoNoticias.png");
@@ -518,37 +467,6 @@
       }//Fin views
       .views-row-7, .views-row-8, .views-row-9, .views-row-10, .views-row-11, .views-row-12{
         display: none;
-      } 
-      .views-row:nth-child(1), .views-row:nth-child(3), .views-row:nth-child(4), .views-row:nth-child(6), .views-row:nth-child(7), .views-row:nth-child(9), .views-row:nth-child(10), .views-row:nth-child(12){
-        .nota{
-          span:after{
-            content: "Lo nuestro";
-            font-size: 30px;
-            font-weight: $black;
-            position: relative;
-            right: -8px;
-          }
-          span:before{
-            content: url("../images/corazon.svg");
-          }
-        }
-      }
-      .views-row:nth-child(2), .views-row:nth-child(5), .views-row:nth-child(8), .views-row:nth-child(11){
-        .nota{
-          span{
-            width: 202px;
-          }
-          span:after{
-            content: "Buena mesa";
-            font-size: 30px;
-            font-weight: $black;
-            position: relative;
-            right: -8px;
-          }
-          span:before{
-            content: url("../images/mesa.svg");
-          }
-        }
       }
     }//Fin view content
   }//Fin noticias
@@ -561,6 +479,7 @@
       padding: 100px 50px 0 50px;
       position: relative;
       height: 438px;
+      .movil{ display: none; }
       .view-display-id-block_8{
         overflow: hidden;
         height: 438px;
@@ -575,6 +494,7 @@
           .views-row{
             margin-right: 28px;
             background-color: #fff;
+            width: 400px;
             a{
               text-decoration: none;
               color: $negro;
@@ -644,7 +564,7 @@
         top: 97px;
         width: 56px;
       }
-    }
+    }//Fin notas
 
     .newsletter{
       background-color: #474747;
@@ -740,7 +660,7 @@
           margin: 0;
         }
         span{
-          background:url(../images/flecha2.svg) no-repeat;
+          background: url(../images/flecha2.svg) no-repeat;
           background-position: 2px 5px;
           height: 50px;
           width: 77px;
@@ -757,7 +677,7 @@
           border-right: 50px solid transparent;
           border-top: 45px solid $orange;
           position: absolute;
-          top: 39px;
+          top: 38px;
         }
       }//Fin ver mas
       .view-display-id-block_1{
@@ -770,9 +690,9 @@
           flex-wrap: wrap;
           -webkit-flex-wrap: wrap;
           -moz-flex-wrap: wrap;
-          justify-content: center;
-          -webkit-justify-content: center;
-          -moz-justify-content: center;
+          justify-content: space-around;
+          -webkit-justify-content: space-around;
+          -moz-justify-content: space-around;
           .views-row{
             margin: 0 0 80px 0;
             width: 445px;
@@ -789,6 +709,7 @@
               img{
                 position: relative;
               }
+              .marcoMovil{ display: none; }
               .foto:before{
                 content: url("../images/marcoPersonajes.png");
                 position: absolute;
@@ -863,7 +784,7 @@
             }
           }
           .views-row-2, .views-row-5{
-            margin: 0 55px 50px 55px;
+            margin: 0 0 50px 0;
           }
           .views-row-4, .views-row-5, .views-row-6{
             display: none;
@@ -1015,10 +936,85 @@
           border-right: 50px solid transparent;
           border-top: 45px solid $negro;
           position: absolute;
-          top: 39px;
+          top: 38px;
         }
       }//Fin ver mas
     }//Fin videos
+  }
+
+  #modulo3{
+    padding-top: 100px;
+    .titleInta{
+      display: flex;      
+      display: -webkit-flex;
+      display: -moz-flex;
+      align-items: center;
+      -webkit-align-items: center;
+      -moz-align-items: center;
+      margin: 0 auto 10px auto;
+      width: 1000px;
+      i{
+        background: url(../images/instagramIcono.svg) no-repeat;
+        background-position: 2px 5px;
+        display: block;
+        height: 38px;
+        width: 40px;
+      }
+      span{
+        font-size: 18px;
+        font-weight: $bold;
+      }
+    }
+    #galeriaInstagram{
+      display: flex;
+      display: -webkit-flex;
+      display: -moz-flex;
+      flex-wrap: wrap;
+      -webkit-flex-wrap: wrap;
+      -moz-flex-wrap: wrap;
+      padding: 0;
+      margin: 0 auto;
+      width: 1000px;
+      li{
+        display: block;
+        margin-bottom: 100px;
+        position: relative;
+        height: 430px;
+        list-style: none;
+        width: 500px;
+        img{
+          width: 500px;
+          object-fit: cover;
+          height: 430px;
+        }        
+        a{
+          display: block;
+          position: absolute;
+          width: 100%;
+          height: 100%;
+        }
+        .data{
+          display: flex;
+          display: -webkit-flex;
+          display: -moz-flex;
+          align-items: center;
+          -webkit-align-items: center;
+          -moz-align-items: center;
+          .icono{
+            background: url(../images/instagramIconos.svg) no-repeat;
+            background-position: 0px 0px;
+            display: block;
+            height: 50px;
+            width: 170px;
+          }
+          .likes{
+            font-size: 22px;
+            font-weight: $bold;
+            margin-left: 20px;
+          }
+        }
+      }
+    }
   }
 
 }//Fin home

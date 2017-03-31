@@ -1,0 +1,63 @@
+@media screen and (max-width: 600px){
+  header{
+    .buscador{
+       .buscar{
+          padding: 0 5px;
+          form{
+            input{
+              flex: 1;
+              -webkit-flex: 1;
+              -moz-flex: 1;
+              margin-left: 0;
+            }
+            .select{
+              flex: 1;
+              -webkit-flex: 1;
+              -moz-flex: 1;
+              background-position-x: 200px;
+              select{
+                width: 260px;
+              }
+            }
+            #btnBuscar{
+              background-position-x: 50%;
+              width: 100%;
+            }
+          }//Fin form
+       }
+    }//Fin buscador
+  }
+  
+  #home{
+    #modulo1{
+      .newsletter{
+        h3{
+          background: url(../images/newsletterTitleMovil.png) no-repeat;
+          height: 165px;
+          background-position-x: 50%;
+        }
+      }
+    }
+
+    #modulo2{
+      #videos{
+        .view-display-id-block_4{
+          .view-header .video{
+            .summary{
+              height: 60px;
+              padding: 8px;
+            }
+          }
+        }
+      }
+    }//Fin modulo2
+  }//Fin home
+
+  #restaurantes{
+    .view-content{
+      .views-row{
+        width: 100%;
+      }
+    }
+  }//Fin restaurantes
+}

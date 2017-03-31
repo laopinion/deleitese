@@ -1,0 +1,74 @@
+#restaurantes{
+  height: auto;
+  margin: 50px 0;
+  position: relative;
+  width: 100%;
+  .view-content{
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    justify-content: space-around;
+    -webkit-justify-content: space-around;
+    -moz-justify-content: space-around;
+    .views-row{
+      max-width: 499px;
+      position: relative;
+      margin-bottom: 140px;
+      a{
+        text-decoration: none;
+        color: $negro;
+        font-size: 20px;
+        line-height: 0;
+        font-weight: $light;
+        display: block;
+      }
+      .nota{
+        .foto{}
+        .seccion{ display: none; }
+        .text{
+          width: 400px;
+          height: 115px;
+          background-color: #F7931E;
+          padding: 10px 35px;
+          box-sizing: border-box;
+          position: absolute;
+          bottom: -69px;
+          left: 0;
+          right: 0;
+          margin: 0 auto;
+          a{
+            font-size: 30px;
+            font-weight: $black;
+            line-height: 22px;
+          }
+          .title{
+            margin: 10px 0 0 0;
+          }
+        }
+        .text:before{
+          content: url("../images/marcoNoticias.png");
+          position: absolute;
+          top: -5px;
+          left: -12px;
+          z-index: 0;
+        }
+      }
+    }//Fin views
+  }//Fin view content
+  .item-list{
+    .pager{
+      .pager-item, .pager-next, .pager-last, .pager-previous, .pager-first{
+        background-color: $orange;
+        padding: 10px;
+        border-radius: 2px;
+        a{
+          text-decoration: none;
+          color: #fff;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,408 @@
+@media screen and (max-width: 768px){
+  .head_desktop{display: none;}
+  .head_movil{display: block;}
+  header{
+    width: 100%;
+    padding: 20px 0 0 0;
+    background-color: $negro;
+    position: relative;
+    height: auto;
+    #movil{
+      .hamburLogo{
+        display: flex;
+        display: -webkit-flex;
+        display: -moz-flex;
+        width: 480px;
+        margin: 0 auto;
+      }
+      #hamburger{
+        width: 50px;
+        height: 32px;
+        position: relative;
+        top: 25px;
+        left: 20px;
+        transition: .5s ease-in-out;
+        cursor: pointer;
+        span{
+          display: block;
+          position: absolute;
+          height: 5px;
+          width: 50%;
+          background: #fff;
+          opacity: 1;
+          -webkit-transform: rotate(0deg);
+          -moz-transform: rotate(0deg);
+          -o-transform: rotate(0deg);
+          transform: rotate(0deg);
+          -webkit-transition: .25s ease-in-out;
+          -moz-transition: .25s ease-in-out;
+          -o-transition: .25s ease-in-out;
+          transition: .25s ease-in-out;
+        }
+        span:nth-child(even){
+          left: 50%;
+          border-radius: 0;
+        }                 
+        span:nth-child(odd){
+          left: 0px;
+          border-radius: 0;
+        }
+        span:nth-child(1), span:nth-child(2){
+          top: 0px;
+        }
+        span:nth-child(3), span:nth-child(4){
+          top: 10px;
+          background-color: #fff;
+        }
+        span:nth-child(5), span:nth-child(6){
+          top: 20px;
+        }
+      }//Fin hamburger
+      #hamburger.open{          
+        span:nth-child(1), span:nth-child(6){
+          -webkit-transform: rotate(45deg);
+          -moz-transform: rotate(45deg);
+          -o-transform: rotate(45deg);
+          transform: rotate(45deg);
+        }
+        span:nth-child(2),span:nth-child(5){
+          -webkit-transform: rotate(-45deg);
+          -moz-transform: rotate(-45deg);
+          -o-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+        }
+        span:nth-child(1){
+          left: 6px;
+          top: 4px;
+        }
+        span:nth-child(2){
+          left: calc(50% - 2px);
+          top: 4px;
+        }
+        span:nth-child(3){
+          left: -50%;
+          opacity: 0;
+        }
+        span:nth-child(4){
+          left: 100%;
+          opacity: 0;
+        }
+        span:nth-child(5){
+          left: 5px;
+          top: 22px;
+        }
+        span:nth-child(6){
+          left: calc(50% - 2px);
+          top: 22px;
+        }
+      }//Fin hamburgerOpen
+
+      .menu{
+        display: none;        
+        padding-bottom: 20px;
+        width: 400px;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        justify-content: space-between;
+        -webkit-justify-content: space-between;
+        -moz-justify-content: space-between;
+        a{
+          text-decoration: none;
+          color: #fff;
+          padding: 65px 20px 0 20px;
+        }
+        .btnSeguir{
+          flex: 2;
+          -webkit-flex: 2;
+          -moz-flex: 2;
+          display: flex;
+          display: -webkit-flex;
+          display: -moz-flex;
+          align-items: center;
+          -webkit-align-items: center;
+          -moz-align-items: center;
+          justify-content: space-around;
+          -webkit-justify-content: space-around;
+          -moz-justify-content: space-around;
+          .icono{
+            background:url(../images/btn_unete_white.png) no-repeat; background-position: 25px 28px;
+            background-position: 0 0px;
+            display: block;
+            width: 100px;
+            height: 25px;
+          }
+        }
+        .item_menu{
+          height: 90px;
+          margin-bottom: 15px;
+          width: 105px;
+          display: flex;    
+          display: -webkit-flex;
+          display: -moz-flex;
+          justify-content: center;
+          -webkit-justify-content: center;
+          -moz-justify-content: center;
+          align-items: flex-end;
+          -webkit-align-items: flex-end;
+          -moz-align-items: flex-end;          
+        }
+        .noticias{background:url(../images/btn_noticias.svg) no-repeat;  background-position: 35px 0px; }
+        .personajes{background:url(../images/btn_personajes.svg) no-repeat;  background-position: 25px 0px; }
+        .recetas{background:url(../images/btn_recetas.svg) no-repeat;  background-position: 20px 0px;}
+        .restaurantes{background:url(../images/btn_restaurantes.svg) no-repeat; background-position: 28px -3px;background-size: 50px;}
+        .promociones{background:url(../images/btn_promociones.svg) no-repeat;  background-position: 25px 0px; }
+        .foodies{background:url(../images/btn_footies.svg) no-repeat;  background-position: 26px 0px; }
+        .contactos{background:url(../images/btn_contacto.svg) no-repeat;  background-position: 21px 0px; }
+      }
+
+      .desplegar{
+        display: flex;               
+        display: -webkit-flex;
+        display: -moz-flex;
+      }
+
+      #logo{
+        padding:0px;
+        width: 300px;
+        margin: 0 auto;
+        h1{
+          background:url(../images/logo_blanco.svg) no-repeat;
+          background-position: 0px 0px;
+          background-size: 300px;
+          display: block;
+          margin: 0;
+          height: 155px;
+          a{
+            display:block;
+            text-indent:-9999px;
+            height: 155px;
+          }
+        }
+      }
+    }//Fin movil
+
+    .buscador{
+      height: auto;
+      padding: 20px 0;
+      .buscar{
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        width: 100%;
+        .icono{
+          margin-bottom: 10px;
+        }
+        form{
+          flex-wrap: wrap;
+          -webkit-flex-wrap: wrap;
+          -moz-flex-wrap: wrap;
+          justify-content: center;
+          -webkit-justify-content: center;
+          -moz-justify-content: center;
+          #btnBuscar{
+            margin: 15px 0 0 0;
+          }
+        }
+      }
+    }//Fin buscador
+
+  }//Fin header
+
+  #home{
+
+    #rutas{
+      height: auto;
+      margin: 50px 0;
+      .notas{
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        height: auto;
+        .leftOrange{
+          margin-bottom: 20px;
+        }
+      }
+    }//Fin rutas
+
+    #modulo1{
+      .notas{
+        height: auto;
+        margin-bottom: 80px;
+        transition: .3s;
+        .movil{ display: block; }
+        .flechaIzq{display: none;}
+        .flechaDer{display: none;}
+        .verMas{
+          cursor: pointer;
+          height: 45px;
+          bottom: -60px;
+          left: 0;
+          right: 0;
+          margin: 0 auto;
+          position: absolute;
+          width: 100px;
+          z-index: 5;
+          h2{
+            color: #fff;
+            font-size: 20px;
+            font-weight: $regular;
+            text-align: center;
+            margin: 0;
+          }
+          span{
+            background:url(../images/flecha2.svg) no-repeat;
+            background-position: 2px 5px;
+            height: 40px;
+            width: 77px;
+            display: block;
+            position: absolute;
+            z-index: 5;
+            top: 8px;
+            left: 16px;
+          }
+          .tri{
+            display: none;
+          }
+        }//Fin ver mas
+        .view-display-id-block_8{
+          height: auto;
+          .view-content{
+            height: auto;
+            flex-wrap: wrap;
+            -webkit-flex-wrap: wrap;
+            -moz-flex-wrap: wrap;
+            justify-content: center;
+            -webkit-justify-content: center;
+            -moz-justify-content: center;
+            .views-row{
+              margin-right: 0;
+              margin-bottom: 20px;
+              width: 400px;
+            }
+            .views-row-4, .views-row-5, .views-row-6{
+              display: none;
+            }
+          }
+        }
+      }
+      .newsletter{
+        width: 100%;
+        height: auto;
+        h3{
+          width: 100%;
+          background-size: 670px;
+        }
+        .webform-client-form-470{
+          width: 100%;
+          .webform-component-email{
+            margin: 0;
+            display: flex;
+            display: -webkit-flex;
+            display: -moz-flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            -webkit-flex-wrap: wrap;
+            -moz-flex-wrap: wrap;
+          }
+          .form-actions{
+            width: 100%;
+            display: flex;
+            display: -webkit-flex;
+            display: -moz-flex;
+            margin-top: 10px;
+          }
+        }
+      }
+    }//Fin modulo1
+
+    #modulo2{
+      #videos{
+        .view-display-id-block_4{
+          .view-content{
+            width: 100%;
+          }
+        }
+      }
+    }//fin modulo2
+    
+  }//Fin home
+
+  #seccionNotas{
+    .item-list{
+      width: 100%;
+      .pager{
+        display: flex;
+        display: -webkit-flex;
+        display: -moz-flex;
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        justify-content: center;
+        -webkit-justify-content: center;
+        -moz-justify-content: center;
+        .pager-next, .pager-last, .pager-item{
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+
+  #promociones{
+    .item-list{
+      width: 100%;
+      .pager{
+        display: flex;
+        display: -webkit-flex;
+        display: -moz-flex;
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        justify-content: center;
+        -webkit-justify-content: center;
+        -moz-justify-content: center;
+        .pager-next, .pager-last, .pager-item{
+          margin-top: 10px;
+        }
+      }
+    }
+  }//Promociones
+
+  #contacto{
+    width: 96%;
+    padding: 0 2%;
+    #info{
+      width: 100%;
+      .direccion{
+        .telefono{
+          .iconTel{
+            width: 92px;
+          }
+        }
+      }
+    }
+  }
+
+  footer{
+    #footer{
+      width: 100%;
+      flex-wrap: wrap;
+      -webkit-flex-wrap: wrap;
+      -moz-flex-wrap: wrap;
+      .left{
+        width: 100%;
+        order: 1;
+        padding: 56px;
+        box-sizing: border-box;
+        .logo{
+          width: 250px;
+          margin: 0 auto 58px auto;
+        }
+      }
+      .right{
+        width: 100%;
+      }
+    }
+  }//fin footer
+}

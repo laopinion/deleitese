@@ -3,35 +3,18 @@
 <head>
   <title>Deléitese</title>
     <script type="text/javascript">
-        var feed = new Instafeed({
-            get: 'tagged',
-            tagName: 'Deléitese',
-            clientId: '2bf85d7bc7294bda99da17e58dcc1b3a',
-            limit: '9'
-        });
-        feed.run();
+        // var feed = new Instafeed({
+        //     get: 'tagged',
+        //     tagName: 'Deléitese',
+        //     clientId: '2bf85d7bc7294bda99da17e58dcc1b3a',
+        //     limit: '9'
+        // });
+        // feed.run();
     </script>
     <?php include("js/pautas_home.js"); ?>
 </head>
 <body>
   <section id="home">
-    <div class="buscador">
-      <div class="container buscar">
-        <i class="icono"></i>
-        <form action="">
-          <input type="text" placeholder="Escriba su busqueda">
-          <div class="select">
-            <select name="" id="">
-              <option value="">Option1</option>
-              <option value="">Option3</option>
-              <option value="">Option2</option>
-            </select>
-          </div>
-          <button id="btnBuscar"></button>
-        </form>
-      </div>
-    </div>
-
     <div class="slides">
       <ul class="rslides">
         <li><img src="<?php print base_path(); ?>sites/default/themes/deleitese/images/slide/queremosComer.jpg" alt="queremosComer"></li>
@@ -89,6 +72,11 @@
         <aside class="flechaIzq"></aside>
         <!-- Tener en cuenta el tipo de contenido el campo direccion-->
         <?php $view = views_get_view('home'); print $view->preview('block_8'); ?>
+        <div class="verMas movil" data-activo='0'>
+          <h2>Ver más</h2>
+          <span></span>
+          <div class="tri"></div>
+        </div>
         <aside class="flechaDer"></aside>
       </div>
       <div class="newsletter">
@@ -117,7 +105,8 @@
     </article>
 
     <article id="modulo3">
-      <h3>Hola mundo</h3>
+      <div class="titleInta"><i></i> <span>@deleitese_co</span></div>
+      <ul id="galeriaInstagram"></ul>
     </article>
   </section>
 </body>
