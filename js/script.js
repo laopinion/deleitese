@@ -1140,7 +1140,7 @@ $(document).ready(function(){
         success: function(data2){
           // console.log(data2);
           for(x in data2.data){
-            $('#galeriaInstagram').append('<li><a href="'+data2.data[x].link+'" target=_blank></a> <img src="'+data2.data[x].images.standard_resolution.url+'"> <div class=data> <i class=icono></i><aside class=likes>'+data2.data[x].likes.count+' me gusta</aside> </div> </li>');
+            $('#galeriaInstagram').append('<li class="row'+x+'"><a href="'+data2.data[x].link+'" target=_blank></a> <img src="'+data2.data[x].images.standard_resolution.url+'"> <div class=data> <i class=icono></i><aside class=likes>'+data2.data[x].likes.count+' me gusta</aside> </div> </li>');
 
           }
         },
@@ -1151,6 +1151,25 @@ $(document).ready(function(){
     },
     error: function(data){
       console.log(data);
+    }
+  });
+
+  $('#home #modulo3 .verMas').click(function(){
+    var activo = $(this).data('activo');
+    if(activo == 0){
+      var style = {
+        height: 'auto'
+      }
+      $('#home #modulo3 #galeriaInstagram .row4, #home #modulo3 #galeriaInstagram .row5, #home #modulo3 #galeriaInstagram .row6, #home #modulo3 #galeriaInstagram .row7').slideDown("slow");
+      $(this).data('activo', 1);
+      $('#home #modulo3 .verMas h2').text('Ver menos');
+    }else{
+      var style = {
+        height: 'auto'
+      }
+      $('#home #modulo3 #galeriaInstagram .row4, #home #modulo3 #galeriaInstagram .row5, #home #modulo3 #galeriaInstagram .row6, #home #modulo3 #galeriaInstagram .row7').slideUp("slow");
+      $(this).data('activo', 0);
+      $('#home #modulo3 .verMas h2').text('Ver más');
     }
   });
                     

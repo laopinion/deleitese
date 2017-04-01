@@ -327,7 +327,22 @@
       }
     }//fin modulo2
     
+    #modulo3{
+      .titleInta{
+        justify-content: center;
+        -webkit-justify-content: center;
+        -moz-justify-content: center;
+        width: 100%;
+      }
+      #galeriaInstagram{
+        justify-content: center;
+        -webkit-justify-content: center;
+        -moz-justify-content: center;
+        width: 100%;
+      }
+    }
   }//Fin home
+
 
   #seccionNotas{
     .item-list{

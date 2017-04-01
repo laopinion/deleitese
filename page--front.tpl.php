@@ -107,6 +107,12 @@
     <article id="modulo3">
       <div class="titleInta"><i></i> <span>@deleitese_co</span></div>
       <ul id="galeriaInstagram"></ul>
+      <div class="verMas" data-activo='0'>
+        <h2>Ver más</h2>
+        <span></span>
+        <div class="tri"></div>
+      </div>
+      <div class="cuadro"></div>
     </article>
   </section>
 </body>

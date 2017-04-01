@@ -944,6 +944,7 @@
 
   #modulo3{
     padding-top: 100px;
+    position: relative;
     .titleInta{
       display: flex;      
       display: -webkit-flex;
@@ -973,7 +974,7 @@
       -webkit-flex-wrap: wrap;
       -moz-flex-wrap: wrap;
       padding: 0;
-      margin: 0 auto;
+      margin: 0 auto 30px auto;
       width: 1000px;
       li{
         display: block;
@@ -1000,6 +1001,7 @@
           align-items: center;
           -webkit-align-items: center;
           -moz-align-items: center;
+          margin-top: 10px;
           .icono{
             background: url(../images/instagramIconos.svg) no-repeat;
             background-position: 0px 0px;
@@ -1014,6 +1016,54 @@
           }
         }
       }
+      .row4, .row5, .row6, .row7{
+        display: none;
+      }
+    }
+
+    .verMas{
+      cursor: pointer;
+      height: 90px;
+      bottom: -2px;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      position: absolute;
+      width: 100px;
+      z-index: 5;
+      h2{
+        font-size: 20px;
+        font-weight: $regular;
+        text-align: center;
+        margin: 0;
+        color: $orange;
+      }
+      span{
+        background:url(../images/flecha.svg) no-repeat;
+        background-position: 0px 5px;
+        height: 50px;
+        width: 77px;
+        display: block;
+        position: absolute;
+        z-index: 5;
+        top: 12px;
+        left: 11px;
+      }
+      .tri{
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-top: 45px solid #fff;
+        position: absolute;
+        top: 38px;
+      }
+    }//Fin ver mas
+
+    .cuadro{
+      background-color: $orange;
+      height: 50px;
+      width: 100%;
     }
   }
 

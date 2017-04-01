@@ -208,6 +208,7 @@
       }//fin personajes
 
     }//Fin modulo 1
+
     #modulo2{
       #videos{
         .view-display-id-block_4{
@@ -217,6 +218,27 @@
                 display: none;
               }
             }
+          }
+        }
+      }
+    }
+
+    #modulo3{
+      #galeriaInstagram{
+        li{
+          height: auto;
+          margin-bottom: 20px;
+          width: 100%;
+          img{
+            display: block;
+            margin: 0 auto;
+            height: 320px;
+            width: 320px;
+          }
+          .data{
+            justify-content: center;
+            -webkit-justify-content: center;
+            -moz-justify-content: center;
           }
         }
       }
