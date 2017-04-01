@@ -6,24 +6,27 @@ $(document).ready(function(){
     // $(".fondo").toggle();
   });
 
-  var ruta = window.location;
 
   //NOTAS SCROLL
-
   //Cambiar la url cuando estamos en scroll infinito solo para la primera nota
   var pathname = window.location.pathname;
   $("#articulo").data("urlp", pathname);
   // $("#nota .izq").attr("in-view", "changeUrl('"+pathname+"')");
   // console.log(pathname);
-  $(window).scroll(function(){
-    var windowTop = $(document).scrollTop();
-    if(windowTop <= $(".url_original").offset().top){
-      var ruta = $("#articulo").data("urlp");
-      history.pushState(null, "", ruta);
-    }
-  });
-  //NOTAS SCROLL
+  var elementoArticle = $("#articulo .url_original");
 
+  if(elementoArticle.length){
+    $(window).scroll(function(){
+      var windowTop = $(document).scrollTop();
+      if(windowTop <= elementoArticle.offset().top){
+        var ruta = $("#articulo").data("urlp");
+        history.pushState(null, "", ruta);
+      }
+    });
+  }
+
+  //Location menu options;
+  var ruta = window.location;
   function clearClass() {
      $('#header .menu').each(function(){
       if($(this).hasClass('active-noticias') || $(this).hasClass('active-personajes') || $(this).hasClass('active-recetas') || $(this).hasClass('active-restaurantes') || $(this).hasClass('active-promociones') || $(this).hasClass('active-foodies') || $(this).hasClass('active-contactos')){
@@ -32,7 +35,6 @@ $(document).ready(function(){
       }
     });
   }
-
   //Cambiar la ruta por la de producción
   if(ruta == 'http://localhost/deleitese/' || ruta == 'http://localhost/deleitese/lo-nuestro'){
     // var styles = {
@@ -703,8 +705,8 @@ $(document).ready(function(){
     }
   });
 
-  function limpiarClass(){
-    $('.view-display-id-block_4 .view-content .views-row').each(function(){
+  function limpiarClassHome(){
+    $('#home .view-display-id-block_4 .view-content .views-row').each(function(){
       var $selector = $(this).find('.sombra');
       if($($selector).hasClass('active')){
         $($selector).removeClass('active');
@@ -728,7 +730,7 @@ $(document).ready(function(){
     $(".view-display-id-block_4 .view-header .frameVideo").html(twitterplayer);
 
     var $selector = $(this).find('.sombra');
-    limpiarClass();
+    limpiarClassHome();
     $($selector).addClass('active');
   });
   $(fila + "2").click(function(){
@@ -746,7 +748,7 @@ $(document).ready(function(){
     $(".view-display-id-block_4 .view-header .frameVideo").html(twitterplayer);
 
     var $selector = $(this).find('.sombra');
-    limpiarClass();
+    limpiarClassHome();
     $($selector).addClass('active');
   });
   $(fila + "3").click(function(){
@@ -764,7 +766,7 @@ $(document).ready(function(){
     $(".view-display-id-block_4 .view-header .frameVideo").html(twitterplayer);
 
     var $selector = $(this).find('.sombra');
-    limpiarClass();
+    limpiarClassHome();
     $($selector).addClass('active');
   });
   $(fila + "4").click(function(){
@@ -782,7 +784,7 @@ $(document).ready(function(){
     $(".view-display-id-block_4 .view-header .frameVideo").html(twitterplayer);
 
     var $selector = $(this).find('.sombra');
-    limpiarClass();
+    limpiarClassHome();
     $($selector).addClass('active');
   });
 
@@ -801,7 +803,7 @@ $(document).ready(function(){
     $(".view-display-id-block_4 .view-header .frameVideo").html(twitterplayer);
 
     var $selector = $(this).find('.sombra');
-    limpiarClass();
+    limpiarClassHome();
     $($selector).addClass('active');
   });
 
@@ -820,7 +822,7 @@ $(document).ready(function(){
     $(".view-display-id-block_4 .view-header .frameVideo").html(twitterplayer);
 
     var $selector = $(this).find('.sombra');
-    limpiarClass();
+    limpiarClassHome();
     $($selector).addClass('active');
   });
 
@@ -839,7 +841,7 @@ $(document).ready(function(){
     $(".view-display-id-block_4 .view-header .frameVideo").html(twitterplayer);
 
     var $selector = $(this).find('.sombra');
-    limpiarClass();
+    limpiarClassHome();
     $($selector).addClass('active');
   });
 
@@ -858,7 +860,7 @@ $(document).ready(function(){
     $(".view-display-id-block_4 .view-header .frameVideo").html(twitterplayer);
 
     var $selector = $(this).find('.sombra');
-    limpiarClass();
+    limpiarClassHome();
     $($selector).addClass('active');
   });
 
@@ -877,7 +879,7 @@ $(document).ready(function(){
     $(".view-display-id-block_4 .view-header .frameVideo").html(twitterplayer);
 
     var $selector = $(this).find('.sombra');
-    limpiarClass();
+    limpiarClassHome();
     $($selector).addClass('active');
   });
   //FIN MODULO VIDEO
@@ -886,7 +888,7 @@ $(document).ready(function(){
   var contador = 0;
   var valAutoPlay = 0;
   var principal = 0;
-  var fila = "#recetas #videos .view-display-id-block_1 .views-row-";
+  var filaRecetas = "#recetas #videos .view-display-id-block_1 .views-row-";
   $("#recetas #videos .view-display-id-block_1 .views-row").each(function(){
     // var plataforma = $(this).find(".plataforma").html();
     var plataforma = 'YouTube';
@@ -951,8 +953,8 @@ $(document).ready(function(){
     }
   });
 
-  function limpiarClass(){
-    $('.view-display-id-block_1 .view-content .views-row').each(function(){
+  function limpiarClassRcetas(){
+    $('#recetas #videos .view-display-id-block_1 .view-content .views-row').each(function(){
       var $selector = $(this).find('.sombra');
       if($($selector).hasClass('active')){
         $($selector).removeClass('active');
@@ -960,7 +962,7 @@ $(document).ready(function(){
     });
   }
 
-  $(fila + "1").click(function(){
+  $(filaRecetas + "1").click(function(){
     var youtubeplayer = $(this).find(".youtubeplayer").html();
     var facebookplayer = $(this).find(".fbplayer").html(); 
     var vineplayer = $(this).find(".vineplayer").html();
@@ -976,10 +978,10 @@ $(document).ready(function(){
     $(".view-display-id-block_1 .view-header .frameVideo").html(twitterplayer);
 
     var $selector = $(this).find('.sombra');
-    limpiarClass();
+    limpiarClassRcetas();
     $($selector).addClass('active');
   });
-  $(fila + "2").click(function(){
+  $(filaRecetas + "2").click(function(){
     var youtubeplayer = $(this).find(".youtubeplayer").html();
     var facebookplayer = $(this).find(".fbplayer").html();
     var vineplayer = $(this).find(".vineplayer").html();
@@ -994,10 +996,10 @@ $(document).ready(function(){
     $(".view-display-id-block_1 .view-header .frameVideo").html(twitterplayer);
 
     var $selector = $(this).find('.sombra');
-    limpiarClass();
+    limpiarClassRcetas();
     $($selector).addClass('active');
   });
-  $(fila + "3").click(function(){
+  $(filaRecetas + "3").click(function(){
     var youtubeplayer = $(this).find(".youtubeplayer").html();
     var facebookplayer = $(this).find(".fbplayer").html();
     var vineplayer = $(this).find(".vineplayer").html();
@@ -1012,10 +1014,10 @@ $(document).ready(function(){
     $(".view-display-id-block_1 .view-header .frameVideo").html(twitterplayer);
 
     var $selector = $(this).find('.sombra');
-    limpiarClass();
+    limpiarClassRcetas();
     $($selector).addClass('active');
   });
-  $(fila + "4").click(function(){
+  $(filaRecetas + "4").click(function(){
     var youtubeplayer = $(this).find(".youtubeplayer").html();
     var facebookplayer = $(this).find(".fbplayer").html();
     var vineplayer = $(this).find(".vineplayer").html();
@@ -1030,11 +1032,11 @@ $(document).ready(function(){
     $(".view-display-id-block_1 .view-header .frameVideo").html(twitterplayer);
 
     var $selector = $(this).find('.sombra');
-    limpiarClass();
+    limpiarClassRcetas();
     $($selector).addClass('active');
   });
 
-  $(fila + "5").click(function(){
+  $(filaRecetas + "5").click(function(){
     var youtubeplayer = $(this).find(".youtubeplayer").html();
     var facebookplayer = $(this).find(".fbplayer").html();
     var vineplayer = $(this).find(".vineplayer").html();
@@ -1049,11 +1051,11 @@ $(document).ready(function(){
     $(".view-display-id-block_1 .view-header .frameVideo").html(twitterplayer);
 
     var $selector = $(this).find('.sombra');
-    limpiarClass();
+    limpiarClassRcetas();
     $($selector).addClass('active');
   });
 
-  $(fila + "6").click(function(){
+  $(filaRecetas + "6").click(function(){
     var youtubeplayer = $(this).find(".youtubeplayer").html();
     var facebookplayer = $(this).find(".fbplayer").html();
     var vineplayer = $(this).find(".vineplayer").html();
@@ -1068,11 +1070,11 @@ $(document).ready(function(){
     $(".view-display-id-block_1 .view-header .frameVideo").html(twitterplayer);
 
     var $selector = $(this).find('.sombra');
-    limpiarClass();
+    limpiarClassRcetas();
     $($selector).addClass('active');
   });
 
-  $(fila + "7").click(function(){
+  $(filaRecetas + "7").click(function(){
     var youtubeplayer = $(this).find(".youtubeplayer").html();
     var facebookplayer = $(this).find(".fbplayer").html();
     var vineplayer = $(this).find(".vineplayer").html();
@@ -1087,11 +1089,11 @@ $(document).ready(function(){
     $(".view-display-id-block_1 .view-header .frameVideo").html(twitterplayer);
 
     var $selector = $(this).find('.sombra');
-    limpiarClass();
+    limpiarClassRcetas();
     $($selector).addClass('active');
   });
 
-  $(fila + "8").click(function(){
+  $(filaRecetas + "8").click(function(){
     var youtubeplayer = $(this).find(".youtubeplayer").html();
     var facebookplayer = $(this).find(".fbplayer").html();
     var vineplayer = $(this).find(".vineplayer").html();
@@ -1106,11 +1108,11 @@ $(document).ready(function(){
     $(".view-display-id-block_1 .view-header .frameVideo").html(twitterplayer);
 
     var $selector = $(this).find('.sombra');
-    limpiarClass();
+    limpiarClassRcetas();
     $($selector).addClass('active');
   });
 
-  $(fila + "9").click(function(){
+  $(filaRecetas + "9").click(function(){
     var youtubeplayer = $(this).find(".youtubeplayer").html();
     var facebookplayer = $(this).find(".fbplayer").html();
     var vineplayer = $(this).find(".vineplayer").html();
@@ -1125,7 +1127,7 @@ $(document).ready(function(){
     $(".view-display-id-block_1 .view-header .frameVideo").html(twitterplayer);
 
     var $selector = $(this).find('.sombra');
-    limpiarClass();
+    limpiarClassRcetas();
     $($selector).addClass('active');
   });
   //FIN RECETAS VIDEOS
