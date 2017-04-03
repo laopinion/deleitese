@@ -63,7 +63,12 @@ $(document).ready(function(){
     $('#header .menu .contactos').addClass('active-contactos');
   }
 
-  $(function() {
+  $.get("http://localhost/deleitese/api/v2/views/home?display_id=services_2", function( data ) {
+    // console.log(data);
+    for(x in data){
+      $('#home .slides .rslides').append('<li>'+data[x].imagen+'</li>');      
+    }
+
     $("#home .slides .rslides").responsiveSlides({
       auto: true, // Boolean: Animate automatically, true or false
       speed: 500, // Integer: Speed of the        transition, in milliseconds
@@ -82,6 +87,7 @@ $(document).ready(function(){
       before: function(){}, // Function: Before callback
       after: function(){} // Function: After callback
     });
+    
   });
 
   $('#home #noticias .verMas').click(function(){

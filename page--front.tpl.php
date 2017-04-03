@@ -17,9 +17,7 @@
   <section id="home">
     <div class="slides">
       <ul class="rslides">
-        <li><img src="<?php print base_path(); ?>sites/default/themes/deleitese/images/slide/queremosComer.jpg" alt="queremosComer"></li>
-        <li><img src="<?php print base_path(); ?>sites/default/themes/deleitese/images/slide/queremosComer.jpg" alt="queremosComer"></li>
-        <li><img src="<?php print base_path(); ?>sites/default/themes/deleitese/images/slide/queremosComer.jpg" alt="queremosComer"></li>
+        <!-- Carga de imagenes con el api/services -->
       </ul>
     </div>
 
