@@ -63,7 +63,7 @@ $(document).ready(function(){
     $('#header .menu .contactos').addClass('active-contactos');
   }
 
-  $.get("http://localhost/deleitese/api/v2/views/home?display_id=services_2", function( data ) {
+  $.get("http://localhost/deleitese/api/v1/views/home?display_id=services_2", function( data ) {
     // console.log(data);
     for(x in data){
       $('#home .slides .rslides').append('<li>'+data[x].imagen+'</li>');      
