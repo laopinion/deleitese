@@ -139,7 +139,7 @@ jQuery (function($){
             $foto = substr($content['field_fachada'][$i]['#item']['uri'],8);
             print "<div>";
             print "
-                <img u=image src='".base_path()."sites/default/files".$foto."' alt='".render($content['field_imagenes'][$i]['#item']['alt'])."' width='100%; height='auto'/>
+                <img u=image src='".base_path()."sites/default/files".$foto."' alt='".render($content['field_fachada'][$i]['#item']['alt'])."' width='100%; height='auto'/>
               </div>";
                 $i++;
                 }   
