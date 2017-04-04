@@ -598,6 +598,207 @@ $(document).ready(function(){
     }
   });
 
+  function notaPersonaje(){
+    var pais = $('#personaje .left .text .pais .field').find('.even').html();
+    var $this = $('#personaje .left .text .pais');
+    if(pais == 'Colombia' || pais == 'Colombia '){
+      // background: url(../images/banderas/Colombia-05.svg) no-repeat;
+      var style = paisPersonaje('Colombia-05');
+      $($this).find('.icono').css(style);
+
+    }else if(pais == 'Alemania'){
+      var style = paisPersonaje('Alemania-05');
+      $($this).find('.icono').css(style);
+
+    }else if(pais == 'Arabia Saudita'){
+      var style = paisPersonaje('Arabia-Saudita');
+      $($this).find('.icono').css(style);
+
+    }else if(pais == 'Argentina'){
+      var style = paisPersonaje('Argentina-05');
+      $($this).find('.icono').css(style);
+
+    }else if(pais == 'Eslovenia '){
+      var style = paisPersonaje('Slovenia-03');
+      $($this).find('.icono').css(style);
+
+    }else if(pais == 'Belgica'){
+      var style = paisPersonaje('Belgica-05');
+      $($this).find('.icono').css(style);
+
+    }else if(pais == 'Bolivia'){
+      var style = paisPersonaje('Bolivia-05');
+      $($this).find('.icono').css(style);
+
+    }else if(pais == 'Brasil'){
+      var style = paisPersonaje('Brasil-05');
+      $($this).find('.icono').css(style);
+
+    }else if(pais == 'Canada'){
+      var style = paisPersonaje('Canada-05');
+      $($this).find('.icono').css(style);
+
+    }else if(pais == 'Chile'){
+      var style = paisPersonaje('Chile-05');
+      $($this).find('.icono').css(style);
+
+    }else if(pais == 'China'){
+      var style = paisPersonaje('China-05');
+      $($this).find('.icono').css(style);
+
+    }else if(pais == 'Corea del Sur'){
+      var style = paisPersonaje('Corea-del-Sur-05');      
+      $($this).find('.icono').css(style);
+
+    }else if(pais == 'Costa Rica'){
+      var style = paisPersonaje('Costa-Rica-05');
+      $($this).find('.icono').css(style);
+
+    }else if(pais == 'Croacia'){
+      var style = paisPersonaje('Croacia-05');
+      $($this).find('.icono').css(style);
+
+    }else if(pais == 'Cuba'){
+      var style = paisPersonaje('Cuba-05');
+      $($this).find('.icono').css(style);
+
+    }else if(pais == 'Ecuador'){
+      var style = paisPersonaje('Ecuador-05');
+      $($this).find('.icono').css(style);
+
+    }else if(pais == 'Egipto'){
+      var style = paisPersonaje('Egipto-05');
+      $($this).find('.icono').css(style);
+
+    }else if(pais == 'España'){
+      var style = paisPersonaje('España-05');
+      $($this).find('.icono').css(style);
+
+    }else if(pais == 'Filipinas'){
+      var style = paisPersonaje('Filipinas-05');
+      $($this).find('.icono').css(style);
+
+    }else if(pais == 'Francia'){
+      var style = paisPersonaje('Francia-05');
+      $($this).find('.icono').css(style);
+
+    }else if(pais == 'Grecia'){
+      var style = paisPersonaje('Grecia-05');
+      $($this).find('.icono').css(style);
+
+    }else if(pais == 'Holanda'){
+      var style = paisPersonaje('Holanda-05');
+      $($this).find('.icono').css(style);
+
+    }else if(pais == 'India'){
+      var style = paisPersonaje('India-05');
+      $($this).find('.icono').css(style);
+
+    }else if(pais == 'Inglatera'){
+      var style = paisPersonaje('Inglatera-05');
+      $($this).find('.icono').css(style);
+
+    }else if(pais == 'Iran'){
+      var style = paisPersonaje('Iran-05');
+      $($this).find('.icono').css(style);
+
+    }else if(pais == 'Isarael'){
+      var style = paisPersonaje('Isarael-05');
+      $($this).find('.icono').css(style);
+
+    }else if(pais == 'Italy'){
+      var style = paisPersonaje('Italy-05');
+      $($this).find('.icono').css(style);
+
+    }else if(pais == 'Japon'){
+      var style = paisPersonaje('Japon-05');
+      $($this).find('.icono').css(style);
+
+    }else if(pais == 'Libano'){
+      var style = paisPersonaje('Libano-05');
+      $($this).find('.icono').css(style);
+
+    }else if(pais == 'Libia'){
+      var style = paisPersonaje('Libia-05');
+      $($this).find('.icono').css(style);
+
+    }else if(pais == 'Marruecos'){
+      var style = paisPersonaje('Marruecos-05');
+      $($this).find('.icono').css(style);
+
+    }else if(pais == 'Mexico'){
+      var style = paisPersonaje('Mexico-05');
+      $($this).find('.icono').css(style);
+
+    }else if(pais == 'Panama'){
+      var style = paisPersonaje('Panama-05');
+      $($this).find('.icono').css(style);
+
+    }else if(pais == 'Paraguay'){
+      var style = paisPersonaje('Paraguay-05');
+      $($this).find('.icono').css(style);
+
+    }else if(pais == 'Peru'){
+      var style = paisPersonaje('Peru-05');
+      $($this).find('.icono').css(style);
+
+    }else if(pais == 'Polonia'){
+      var style = paisPersonaje('Polonia-05');
+      $($this).find('.icono').css(style);
+
+    }else if(pais == 'Portugal'){
+      var style = paisPersonaje('Portugal-05');
+      $($this).find('.icono').css(style);
+
+    }else if(pais == 'Puerto Rico'){
+      var style = paisPersonaje('Puerto-Rico-05');
+      $($this).find('.icono').css(style);
+
+    }else if(pais == 'Republica Dominicana'){
+      var style = paisPersonaje('Republica-Dominicana-05');
+      $($this).find('.icono').css(style);
+
+    }else if(pais == 'Rusia'){
+      var style = paisPersonaje('Rusia-05');
+      $($this).find('.icono').css(style);
+
+    }else if(pais == 'Salvador'){
+      var style = paisPersonaje('Salvador-05');
+      $($this).find('.icono').css(style);
+
+    }else if(pais == 'Suiza'){
+      var style = paisPersonaje('Suiza-05');
+      $($this).find('.icono').css(style);
+
+    }else if(pais == 'Syria-05'){
+      var style = paisPersonaje('Syria-05');
+      $($this).find('.icono').css(style);
+
+    }else if(pais == 'Turquia'){
+      var style = paisPersonaje('Turquia-05');
+      $($this).find('.icono').css(style);
+
+    }else if(pais == 'Uruguay'){
+      var style = paisPersonaje('Uruguay-05');
+      $($this).find('.icono').css(style);
+
+    }else if(pais == 'Usa'){
+      var style = paisPersonaje('USA-05');
+      $($this).find('.icono').css(style);
+
+    }else if(pais == 'Venezuela'){
+      var style = paisPersonaje('Venezuela-05');
+      $($this).find('.icono').css(style);
+
+    }else if(pais == 'Vietnan'){
+      var style = paisPersonaje('Vietnan-05');
+      $($this).find('.icono').css(style);
+
+    }
+  }//Fin nota personaje
+
+  notaPersonaje();
+
   //Home noticias
   $('#home #noticias .view-content .views-row').each(function(){
     var seccion = $(this).find('.nota .seccion').html();
