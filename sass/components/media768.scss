@@ -383,6 +383,157 @@
       }
     }
   }//Promociones
+  
+  //seccion personajes
+  #personajes{
+    .item-list{
+      width: 100%;
+      .pager{
+        display: flex;
+        display: -webkit-flex;
+        display: -moz-flex;
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        justify-content: center;
+        -webkit-justify-content: center;
+        -moz-justify-content: center;
+        .pager-next, .pager-last, .pager-item{
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+  //Notas personaje
+  #personaje{
+    margin-top: 50px;
+    width: 100%;
+    .left{
+      width: 100%;
+      .nombre{
+        width: 100%;
+        .title{
+          padding-left: 38px;
+        }
+        .titulo{
+          padding-left: 32px;
+        }
+        .subtitulo{
+          padding-left: 105px;
+        }
+      }
+      .text{
+        margin-left: 30px;
+        width: 60%;
+      }
+      .movil{ 
+        display: block;
+        .foto{
+          background-color: $orange;
+          border-bottom: 1px solid $negro;
+          height: auto;
+          overflow: hidden;
+          img{
+            display: block;
+            height: auto;
+            margin: 0 auto;
+            width: 400px;
+          }
+        }
+        .personajes{
+          background-color: $orange;
+          padding-top: 50px;
+          h2{
+            color: #935415;
+            font-size: 30px;
+            margin: 0 auto 40px auto;
+            text-align: center;
+            width: 180px;
+          }
+          .view-content{
+            display: flex;
+            display: -webkit-flex;
+            display: -moz-flex;
+            flex-wrap: wrap;        
+            -webkit-flex-wrap: wrap;        
+            -moz-flex-wrap: wrap;
+            justify-content: center;        
+            -webkit-justify-content: center;        
+            -moz-justify-content: center;    
+            .views-row{
+              background-color: #935415;
+              border: 1px solid #935415;
+              border-bottom: none;
+              height: 130px;
+              overflow: hidden;
+              width: 115px;
+              img{
+                display: block;
+                margin: 0 auto;
+              }
+            }
+            .views-row:hover{
+              background-color: $orange;
+            }
+          }
+        }
+      }
+      .texto{
+        margin: 30px 2% 0 2%;
+        width: 96%;
+        img{
+          width: 100%;
+        }
+      }
+    }
+    .comentarios{
+      margin: 20px 2% 30px 2%;
+      width: 96%;
+    }
+    .right{
+      display: none;
+    }
+  }
+
+  #video{
+    .contenido{
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      .izq{
+        margin: 0;
+        .etiquetas, .titulo{
+          height: auto;
+          margin: 10px 2% 0 2%;
+          width: 96%;
+          .field-items{
+            .field-item{
+              margin-bottom: 20px;
+            }
+          }
+        }
+        .movil{
+          display: block;
+          .up{
+            background-color: $orange;
+            padding: 5px 20px 0 20px;
+            box-sizing: border-box;
+            .ingredientes{
+              margin: 0 auto;
+              width: 200px;
+            }
+          }
+        }
+        .texto, .comentarios{
+          margin: 0 2% 50px 2%;
+          width: 96%;
+        }
+      }
+      .der{
+        display: none;
+      }
+    }
+  }
 
   #contacto{
     width: 96%;

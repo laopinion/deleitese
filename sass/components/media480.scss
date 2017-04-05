@@ -394,6 +394,34 @@
     }
   }
 
+  //Nota personaje
+  #personaje{
+    .left{
+      .nombre{
+        .titulo{
+          width: 75%;
+          padding: 0 0 0 7%;
+        }
+        .subtitulo{
+          box-sizing: initial;
+          padding: 0 0 0 6%;
+          width: 94%;
+          left: 0;
+        }
+      }
+      .movil{
+        .foto{
+          img{
+            width: 100%;
+          }
+        }
+      }
+      .text{
+        width: 90%;
+      }
+    }
+  }
+
   #contacto{
     #info{
       width: 100%;

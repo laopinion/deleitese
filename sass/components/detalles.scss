@@ -127,45 +127,86 @@
 
 
 //VIDEOS
-#video{width:100%;float:left; position: relative;
+#video{width:100%;position: relative;
     .video{display:none;}
-    .video-player{position: relative; border: none;
-        iframe{width:100%; height:550px;position: relative; float:left;}
+    .video-player{
+      position: relative;
+      padding-top: 56.25%;
+      iframe{
+        border: none;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+      }
     }
-    .contenido{position: relative; margin:0 auto;width:1200px !important;padding:0px 20px;
-        .izq{width:780px !important;height:auto; float:left;position: relative; margin-right:20px; border-right:none !important; 
-            .etiquetas{width: 100%;position: relative;float:left;height: 40px;margin:20px 0px;
-                a{color:$orange; float:left; position: relative;font-size:16px;line-height:18px; font-weight:300; text-decoration:none; margin-right: 30px;padding: 10px 0px;font-style: italic;}
-                .even {
-                    a{color:#000;}
-                }
-            }
-            h1{font-size: 40px; line-height:42px; width: 100%;margin: 0 auto;padding: 0px 0px 20px 0px;text-align:left;float:left; height: auto;}
-            .texto{color:#333; font-weight:300;font-size:16px;line-height:18px; width:100%;
-                a{color:#FF8801; text-decoration:none;}
-                a:hover{text-decoration:underline;}
-            }
+    .contenido{
+      display: flex;
+      display: -webkit-flex;
+      display: -moz-flex;
+      margin: 0 auto 50px auto;
+      padding:0px 20px;
+      position: relative;
+      width:1240px;
+      .izq{width:780px;height:auto;position: relative; margin-right:20px;; 
+        .etiquetas{
+          height: 20px;
+          margin:20px 0px;
+          position: relative;
+          width: 100%;
+          .field-items{
+            display: flex;
+            display: -webkit-flex;
+            display: -moz-flex;
+            flex-wrap: wrap;
+            -webkit-flex-wrap: wrap;
+            -moz-flex-wrap: wrap;
+          }
+          a{
+            color: $orange;
+            position: relative;
+            font-size: 16px;
+            line-height: 18px;
+            font-weight: 300;
+            text-decoration: none;
+            margin-right: 30px;
+            padding: 10px 0px;
+            font-style: italic;
+          }
+          .even {
+              a{color:#000;}
+          }
         }
-        .der{width:400px !important;height:auto; float:left; position: relative; padding:0px !important;
-            .up{background:$orange;width:100%; height:auto;float:left;padding:20px 0px;
-                .ingredientes{padding:0px 10px;font-weight:300;font-size:18px;width: 90%;margin: 0px 20px;
-                    h2{font-weight:600;font-size:20px;width:280px;color:#000;text-align:center; width:100%;}
-                    p{margin: 5px 0px;}
-                }
-                .tiempo{padding:10px 0px;font-weight:300;font-size:20px;width: 90%;margin: 0px 20px;height:60px;
-                    .icono{background: url(../images/iconoReloj.svg) 5px 5px/50px auto no-repeat;height: 60px;width: 60px;float:left;position: relative;}       
-                    span{width: 80%;float:left;position: relative;height: 50px;
-                        .field p{margin:24px 0px 0px 10px;}
-                    }
-                }
-                .chef{padding:10px 0px;font-weight:300;font-size:20px;width: 90%;margin: 0px 20px;height:60px;
-                    .icono{background: url(../images/iconoChef.svg) 5px 5px/50px auto no-repeat;height: 60px;width: 60px;float:left;position: relative;}        
-                    span{width: 80%;float:left;position: relative;height: 50px;
-                        .field p{margin:24px 0px 0px 10px;}
-                    }
-                }
-            }
+        h1{font-size: 40px; line-height:42px; width: 100%;margin: 0 auto;padding: 0px 0px 20px 0px;text-align:left;}
+        .texto{color:#333; font-weight:300;font-size:16px;line-height:18px; width:100%;
+            a{color:#FF8801; text-decoration:none;}
+            a:hover{text-decoration:underline;}
         }
+        .movil{ display: none; }
+      }
+      .der{width:400px; height:auto;position: relative; padding:0px !important;
+          .up{background:$orange;width:100%; height:auto;float:left;padding:20px 0px;
+              .ingredientes{padding:0px 10px;font-weight:300;font-size:18px;width: 90%;margin: 0px 20px;
+                  h2{font-weight:600;font-size:20px;width:280px;color:#000;text-align:center; width:100%;}
+                  p{margin: 5px 0px;}
+              }
+              .tiempo{padding:10px 0px;font-weight:300;font-size:20px;width: 90%;margin: 0px 20px;height:60px;
+                  .icono{background: url(../images/iconoReloj.svg) 5px 5px/50px auto no-repeat;height: 60px;width: 60px;float:left;position: relative;}       
+                  span{width: 80%;float:left;position: relative;height: 50px;
+                      .field p{margin:24px 0px 0px 10px;}
+                  }
+              }
+              .chef{padding:10px 0px;font-weight:300;font-size:20px;width: 90%;margin: 0px 20px;height:60px;
+                  .icono{background: url(../images/iconoChef.svg) 5px 5px/50px auto no-repeat;height: 60px;width: 60px;float:left;position: relative;}        
+                  span{width: 80%;float:left;position: relative;height: 50px;
+                      .field p{margin:24px 0px 0px 10px;}
+                  }
+              }
+          }
+      }
     }
     .mas{width:100%;height:3px; background:$orange;float:left; position: relative;margin:50px 0px;
         span{width: 60px; height:60px; position: relative; margin-left:50%;background: url(../images/icon_otras_notas.svg) 10px 10px/40px auto no-repeat $orange;float: left;border-radius: 40px;top: -30px;}
@@ -297,6 +338,7 @@
         color: #935415;
       }
     }
+    .movil{ display: none; }
     .texto{
       margin-top: 50px;
       a{
@@ -320,12 +362,51 @@
     width: 600px;
     .foto{
       background-color: $orange;
-      height: 1006px;
+      border-bottom: 1px solid $negro;
+      height: auto;
+      overflow: hidden;
       img{
         display: block;
         height: auto;
         margin: 0 auto;
         width: 400px;
+      }
+    }
+    .personajes{
+      background-color: $orange;
+      padding-top: 50px;
+      h2{
+        color: #935415;
+        font-size: 30px;
+        margin: 0 auto 40px auto;
+        text-align: center;
+        width: 180px;
+      }
+      .view-content{
+        display: flex;
+        display: -webkit-flex;
+        display: -moz-flex;
+        flex-wrap: wrap;        
+        -webkit-flex-wrap: wrap;        
+        -moz-flex-wrap: wrap;
+        justify-content: center;        
+        -webkit-justify-content: center;        
+        -moz-justify-content: center;    
+        .views-row{
+          background-color: #935415;
+          border: 1px solid #935415;
+          border-bottom: none;
+          height: 130px;
+          overflow: hidden;
+          width: 115px;
+          img{
+            display: block;
+            margin: 0 auto;
+          }
+        }
+        .views-row:hover{
+          background-color: $orange;
+        }
       }
     }
   }

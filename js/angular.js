@@ -44,7 +44,8 @@ app.factory('Article', function ($http){
     // console.log(seccion);
 
     // var url = 'http://localhost/OPNEWSITE/api/v1/views/articlesrest?display_id=services_1&page='+this.page;
-    var url = 'http://localhost:8888/deleitese/api/v1/views/articlesrest?display_id=services_1&field_seccion_tid='+seccion+'&page='+this.page;
+    // var url = 'http://localhost:8888/deleitese/api/v1/views/articlesrest?display_id=services_1&field_seccion_tid='+seccion+'&page='+this.page;
+    var url = 'http://localhost/deleitese/api/v1/views/articlesrest?display_id=services_1&field_seccion_tid='+seccion+'&page='+this.page;
     $http.get(url).success(function(data){
       //console.log(data);
       // rutas.push(data.field_ruta);
@@ -67,12 +68,12 @@ app.controller('contrUrl', function ($scope, $rootScope, $location){
   $scope.currentIndex = 0;
   var c = 0;
   $scope.changeUrl = function (url, $index, $inview){
-    console.log('Ruta -->'+url);
+    // console.log('Ruta -->'+url);
     // console.log('Index -->'+$index);
     // console.log('inview -->'+$inview);
     // $scope.currentIndex = $index;
     var rutaPrincipal = $("#articulo").data("urlp");//Esta es la ruta de la primera nota
-
+    // console.log(rutaPrincipal)
     if($inview){
       $location.path(url).replace();//Cambio de la url 
       var titulo = $(this).find('.contenido .h1').html();
@@ -85,7 +86,7 @@ app.controller('contrUrl', function ($scope, $rootScope, $location){
       $('meta[property="og:image"]').attr('content',"$foto" );     
       // console.log("Ruta principal "+rutaPrincipal);
       // console.log("Url ->"+url);
-      $('#articulo #scroll-infinito .li').each(function(){
+      $('#scroll-infinito .li').each(function(){
         var des = $(this).find('.contenido .foto .descripcion').html();
         if(des == ''){
           var descripcion = $(this).find('.contenido .foto img').attr('title');
@@ -99,7 +100,7 @@ app.controller('contrUrl', function ($scope, $rootScope, $location){
         //Tener cuidado con este if <--|
         if(rutaPrincipal == $(this).find('.contenido meta').attr('content') && c == 0){//toca tener en cuenta este metodo si funciona correctamente
           $(this).css("display", "none");//escondemos la nota si es la misma que la primera
-          console.log('Se disparo');
+          // console.log('Se disparo');
           c++;
         }
       });

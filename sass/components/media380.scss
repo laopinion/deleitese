@@ -80,6 +80,33 @@
     }
   }
 
+  //Notas personaje
+  #personaje{
+    .left{
+      .nombre{
+        .title{
+          padding: 0 0 0 2%;
+          width: 96%;
+        }
+        .titulo{
+          font-size: 55px;
+          padding: 0 0 0 2%;
+          width: 96%;
+        }
+        .subtitulo{          
+          font-size: 55px;
+          padding: 0 0 0 2%;
+          width: 98%;
+        }
+      }
+      .text{
+        margin: 0;
+        padding: 0 0 0 2%;
+        width: 96%;
+      }
+    }
+  }
+
   footer{
     #footer{
       .left{

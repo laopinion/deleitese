@@ -2,6 +2,7 @@
   overflow: hidden;
   article{
     margin-top: 120px;
+    margin-bottom: 50px;
     height: auto;
     position: relative;
     width: 100%;
@@ -33,6 +34,9 @@
             }
             img{
               position: relative;
+              display: block;
+              margin: 0 auto;
+              top: 8px;
             }
             .marcoMovil{ display: none; }
             .foto:before{
@@ -116,6 +120,21 @@
           margin: 0 0 50px 0;
         }
       }//Fin view content
+
+      .item-list{
+        margin-top: 50px;
+        .pager{
+          .pager-item, .pager-next, .pager-last, .pager-previous, .pager-first{
+            background-color: $orange;
+            padding: 10px;
+            border-radius: 2px;
+            a{
+              text-decoration: none;
+              color: #fff;
+            }
+          }
+        }
+      }//Fin item-list
     }
   }
 

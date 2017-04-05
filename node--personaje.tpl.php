@@ -8,12 +8,23 @@
 
     <div class="text">
       <div class="pais"><i class="icono"></i><?php print render($content['field_pais']);?></div>
-      <div class="slogan"> <?php $view = views_get_view('detalle'); print $view->preview('block_5'); ?><!--FIN Resumen--></div>
-    </div>     
+      <div class="slogan"> <?php $view = views_get_view('detalle'); print $view->preview('block_5'); ?></div>
+    </div> 
+    <div class="movil">
+      <div class="foto"><?php print render($content['field_image']);?></div>
+      <div class="personajes">
+        <h2>Personajes</h2>
+        <?php $view = views_get_view('detalle'); print $view->preview('block_6'); ?>
+      </div>
+    </div>    
     <div class="texto"><?php print render($content['body']);?></div>
   </div>
   <div class="right">
     <div class="foto"><?php print render($content['field_image']);?></div>
+    <div class="personajes">
+      <h2>Personajes</h2>
+      <?php $view = views_get_view('detalle'); print $view->preview('block_6'); ?>
+    </div>
   </div>
   
   <div class="comentarios">
