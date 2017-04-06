@@ -29,20 +29,21 @@
         .foto{}
         .seccion{ display: none; }
         .text{
-          width: 400px;
-          height: 115px;
           background-color: #F7931E;
-          padding: 10px 35px;
           box-sizing: border-box;
-          position: absolute;
           bottom: -69px;
+          height: 115px;
           left: 0;
           right: 0;
+          text-align: center;
+          padding: 10px 35px;
           margin: 0 auto;
+          position: absolute;
+          width: 400px;
           a{
             font-size: 30px;
             font-weight: $black;
-            line-height: 22px;
+            line-height: 32px;
           }
           .title{
             margin: 10px 0 0 0;

@@ -358,7 +358,7 @@
         justify-content: center;
         -webkit-justify-content: center;
         -moz-justify-content: center;
-        .pager-next, .pager-last, .pager-item{
+        .pager-next, .pager-last, .pager-item, .pager-current{
           margin-top: 10px;
         }
       }
@@ -378,7 +378,7 @@
         justify-content: center;
         -webkit-justify-content: center;
         -moz-justify-content: center;
-        .pager-next, .pager-last, .pager-item{
+        .pager-next, .pager-last, .pager-item, .pager-current{
           margin-top: 10px;
         }
       }
@@ -399,7 +399,7 @@
         justify-content: center;
         -webkit-justify-content: center;
         -moz-justify-content: center;
-        .pager-next, .pager-last, .pager-item{
+        .pager-next, .pager-last, .pager-item, .pager-current{
           margin-top: 10px;
         }
       }
@@ -578,6 +578,66 @@
       }
     }
   }
+
+  #secciones{
+    .item-list{
+      width: 100%;
+      .pager{
+        display: flex;
+        display: -webkit-flex;
+        display: -moz-flex;
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        justify-content: center;
+        -webkit-justify-content: center;
+        -moz-justify-content: center;
+        .pager-next, .pager-last, .pager-item, .pager-current{
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+
+
+  #recetas{
+    #videos{
+      .view-display-id-block_1{
+        .view-header{
+          .video{
+            .summary{
+              display: none;
+            }
+          }
+        }
+        .view-content{
+          flex-wrap: wrap;
+          -webkit-flex-wrap: wrap;
+          -moz-flex-wrap: wrap;
+          width: 100%;
+        }
+      }
+      .item-list{
+        width: 100%;
+        .pager{
+          display: flex;
+          display: -webkit-flex;
+          display: -moz-flex;
+          flex-wrap: wrap;
+          -webkit-flex-wrap: wrap;
+          -moz-flex-wrap: wrap;
+          justify-content: center;
+          -webkit-justify-content: center;
+          -moz-justify-content: center;
+          .pager-next, .pager-last, .pager-item, .pager-current{
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+  }
+
+
 
   footer{
     #footer{
