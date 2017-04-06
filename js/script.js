@@ -11,14 +11,15 @@ $(document).ready(function(){
   //Cambiar la url cuando estamos en scroll infinito solo para la primera nota
   var pathname = window.location.pathname;
   $("#articulo").data("urlp", pathname);
-  // $("#nota .izq").attr("in-view", "changeUrl('"+pathname+"')");
   // console.log(pathname);
-  var elementoArticle = $("#articulo .url_original");
-
+  // var elementoArticle = $(".url-principal");
+  // var elementoArticle = $("#articulo .titulo");
+  var elementoArticle = $(".url-principal .url_original");
+  // console.log(elementoArticle.offset().top / 2)
   if(elementoArticle.length){
     $(window).scroll(function(){
       var windowTop = $(document).scrollTop();
-      if(windowTop <= elementoArticle.offset().top){
+      if(windowTop <= elementoArticle.offset().top / 2){
         var ruta = $("#articulo").data("urlp");
         history.pushState(null, "", ruta);
       }

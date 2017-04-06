@@ -83,20 +83,21 @@ app.controller('contrUrl', function ($scope, $rootScope, $location){
       $('meta[property="og:title"]').attr('content',"$titulo" );
       $('meta[property="og:url"]').attr('content',"$url" );
       $('meta[property="og:description"]').attr('content',"$resumen" );  
-      $('meta[property="og:image"]').attr('content',"$foto" );     
+      $('meta[property="og:image"]').attr('content',"$foto" );
+          
       // console.log("Ruta principal "+rutaPrincipal);
-      // console.log("Url ->"+url);
-      $('#scroll-infinito .li').each(function(){
-        var des = $(this).find('.contenido .foto .descripcion').html();
-        if(des == ''){
-          var descripcion = $(this).find('.contenido .foto img').attr('title');
-          var alt = $(this).find('.contenido .foto img').attr('alt');
-          $(this).find('.contenido .foto .descripcion').html(descripcion);
-          $(this).find('.contenido .foto .credito').append(alt);
 
-          $(this).find('.contenido .barra.desktop .etiquetas aside a').attr('target', '_blank');
-          $(this).find('.contenido .barra.table .etiquetas aside a').attr('target', '_blank');
-        }
+      $('#scroll-infinito .li').each(function(){
+        // var des = $(this).find('.contenido .foto .descripcion').html();
+        // if(des == ''){
+        //   var descripcion = $(this).find('.contenido .foto img').attr('title');
+        //   var alt = $(this).find('.contenido .foto img').attr('alt');
+        //   $(this).find('.contenido .foto .descripcion').html(descripcion);
+        //   $(this).find('.contenido .foto .credito').append(alt);
+
+        //   $(this).find('.contenido .barra.desktop .etiquetas aside a').attr('target', '_blank');
+        //   $(this).find('.contenido .barra.table .etiquetas aside a').attr('target', '_blank');
+        // }
         //Tener cuidado con este if <--|
         if(rutaPrincipal == $(this).find('.contenido meta').attr('content') && c == 0){//toca tener en cuenta este metodo si funciona correctamente
           $(this).css("display", "none");//escondemos la nota si es la misma que la primera
@@ -104,6 +105,7 @@ app.controller('contrUrl', function ($scope, $rootScope, $location){
           c++;
         }
       });
+
     }
   }
 });

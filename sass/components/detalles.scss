@@ -32,31 +32,95 @@
     }
 }
 
-#articulo{width:100%;float:left; position: relative;
-    .foto{width:100%; height:550px; position: relative; float:left; margin-bottom:10px; overflow:hidden; z-index:2;
-        img{width:100%; height:auto;background-position: 50% 0px;}
+#articulo{
+  width:100%;
+  position: relative;
+  .foto{
+    width:100%; 
+    height:550px; 
+    position: relative;  
+    margin-bottom:10px; 
+    overflow: hidden; 
+    z-index:2;
+    img{
+      width:100%; 
+      height:auto;
+      background-position: 50% 0px;
     }
-    .contenido{position: relative; margin:0 auto;width:1200px;padding:0px 20px;
-        .seccion{width:75%; padding:10px 0px; margin-bottom:20px;float:left;
-            a{font-size:18px;font-weight:400; color:#000; text-decoration:underline; height:50px; text-transform:uppercase;}
-            a:hover{text-decoration:underline;}
-        }
-        .etiquetas{width: 75%;position: relative;float:left;height: 40px;margin-bottom:20px;
-            a{color:$orange; float:left; position: relative;font-size:16px;line-height:18px; font-weight:300; text-decoration:none; margin-right: 30px;padding: 10px 0px;font-style: italic;}
-            .even {
-                a{color:#000;}
-            }
-        }
-        h1{font-size: 40px; line-height:42px; width: 75%;margin: 0 auto;padding: 0px 0px 20px 0px;text-align:left;float:left; height: auto;}
-        .texto{color:#333; font-weight:300;font-size:16px;line-height:18px;width: 75%;position: relative;float:left;
-            a{color:#FF8801; text-decoration:none;}
-            a:hover{text-decoration:underline;}
-        }
-        .fecha{padding:0px 10px;font-size:14px; font-weight:400; color:#FF8801; height: auto;width: 75%;margin: 10px 0px;float:left;}
+  }
+  .contenido{
+    position: relative; 
+    margin:0 auto;
+    width: 1240px;
+    padding:0px 20px;
+    .seccion{
+      width:75%; 
+      padding: 10px 0px; 
+      margin-bottom: 20px;
+      a{font-size:18px;font-weight:400; color:#000; text-decoration:underline; height:50px; text-transform:uppercase;}
+      a:hover{text-decoration:underline;}
     }
-    .mas{width:100%;height:3px; background:$orange;float:left; position: relative;margin:100px 0px;z-index:0;
-        span{width: 60px; height:60px; position: relative; margin-left:45%;background: url(../images/icon_otras_notas.svg) 10px 10px/40px auto no-repeat $orange;float: left;border-radius: 40px;top: -30px;}
+    .etiquetas{
+      width: 75%;
+      position: relative;
+      height: 40px;
+      margin-bottom:20px;
+      .field-items{
+        display: flex;
+        display: -webkit-flex;
+        display: -moz-flex;
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        a{color:$orange; position: relative;font-size:16px;line-height:18px; font-weight:300; text-decoration:none; margin-right: 30px;padding: 10px 0px;font-style: italic;}
+      }
+      .field-items .field-item:nth-child(2n+1){
+        a{
+          color: #000;
+        }
+      }
+      // .even {
+      //     a{color:#000;}
+      // }
+
     }
+    .etiquetasScroll{
+      width: 75%;
+      position: relative;
+      height: 40px;
+      margin-bottom:20px;
+      a{color:$orange; position: relative;font-size:16px;line-height:18px; font-weight:300; text-decoration:none; margin-right: 30px;padding: 10px 0px;font-style: italic;}
+    }
+    .etiquetasScroll a:nth-child(2n+1){
+      color: #000;
+    }
+    h1{
+      font-size: 40px; 
+      line-height:42px; 
+      width: 75%;
+      margin: 0;
+      padding: 0px 0px 20px 0px;
+      text-align: left; 
+      height: auto;
+    }
+    .texto{color:#333; font-weight:300;font-size:16px;line-height:18px;width: 75%;position: relative;
+        a{color:#FF8801; text-decoration:none;}
+        a:hover{text-decoration:underline;}
+    }
+    .fecha{padding:0px 10px;font-size:14px; font-weight:400; color:#FF8801; height: auto;width: 75%;margin: 10px 0px;}
+  }
+  .mas{width:100%;height:3px; background:$orange;position: relative;margin:100px 0px;z-index:0;
+    span{
+      background: url(../images/icon_otras_notas.svg) 10px 10px/40px auto no-repeat $orange;
+      border-radius: 40px;
+      display: block;
+      height:60px; 
+      margin: 0 auto;
+      top: -30px;
+      position: relative; 
+      width: 60px; 
+    }
+  }
 }
 //FIN NOTAS
 

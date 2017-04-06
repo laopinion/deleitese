@@ -26,35 +26,32 @@
       <div class="fecha"><?php print render($content['field_fecha']);?></div>
       <div class="pauta p300x250"><h2 class="anuncio_txt">Publicidad</h2><div class="info"></div></div>
       <meta content="{{dato.ruta}}">
+      <div class="url_original"></div>
     </div>
-    <div class="url_original"></div>
   <div class="mas"><span></span></div>
-</div>
-
-
-<section ng-app="app" id="scroll-infinito">
+  
+  <section ng-app="app" id="scroll-infinito">
     <div ng-controller="controlador">
-    
       <div infinite-scroll='article.nextPage()' infinite-scroll-disabled='article.busy' infinite-scroll-distance='1'>
-    
-      <article  ng-controller="contrUrl" class="angular-article">
-
-        <div ng-repeat='dato in article.items' class="li">
-          <div id="articulo" in-view="changeUrl(dato.ruta, $index, $inview)">
-            <div class="foto" ng-bind-html="dato.field_foto"></div>
-            <div class="contenido" in-view="changeUrl(dato.ruta, $index, $inview)">
-              <div class="seccion" ng-bind-html="dato.seccion" class="seccion"></div>
-              <div class="etiquetas" ng-bind-html="dato.temas"></div>
-              <h1 class="titulo" ng-bind-html="dato.title" class="titulo"></h1>  
-              <div ng-bind-html="dato.field_body" class="texto">
-              <class="fecha" ng-bind-html="dato.fecha" class="fecha"></div>
-              <meta content="{{dato.ruta}}">
+        <article  ng-controller="contrUrl" class="angular-article">
+          <div ng-repeat='dato in article.items' class="li">
+            <div id="articulo" in-view="changeUrl(dato.ruta, $index, $inview)">
+              <div class="foto" ng-bind-html="dato.field_foto"></div>
+              <div class="contenido" in-view="changeUrl(dato.ruta, $index, $inview)">
+                <div class="seccion" ng-bind-html="dato.seccion" class="seccion"></div>
+                <div class="etiquetasScroll" ng-bind-html="dato.temas"></div>
+                <h1 class="titulo" ng-bind-html="dato.title" class="titulo"></h1>  
+                <div ng-bind-html="dato.field_body" class="texto"></div>
+                <div class="fecha" ng-bind-html="dato.fecha" class="fecha"></div>
+                <meta content="{{dato.ruta}}">
+              </div>
+              <div class="mas"><span></span></div>
             </div>
-            <div class="mas"><span></span></div>
           </div>
-        </div>
-      </article>
-      <div ng-show='article.busy' style="float: left;">Cargando nota...</div>
+        </article>
+        <div ng-show='article.busy'>Cargando nota...</div>
       </div>
     </div>
-</section>
+  </section>
+</div>
+
