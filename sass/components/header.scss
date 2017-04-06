@@ -133,24 +133,24 @@ header{
         height: 58px;
         width: 178px;
       }
-      form{
+      form#search-block-form{
         display: flex;
         display: -webkit-flex;
         display: -moz-flex;
         align-items: center;
         -webkit-align-items: center;
         -moz-align-items: center;
-        input{
-          background-color: #EAEAEA;
-          border: none;
-          color: #333;
-          font-size: 18px;
-          height: 51px;
-          padding-left: 10px;
-          margin: 0 10px;
-          width: 310px;
+        .form-item-search-block-form input{
+          background-color: #EAEAEA !important;
+          border: none !important;
+          color: #333 !important;
+          font-size: 18px !important;
+          height: 51px !important;
+          padding-left: 10px !important;
+          margin: 0 10px !important;
+          width: 600px !important;
         }
-
+/*
         .select{
           width: 310px;
           overflow: hidden;
@@ -169,7 +169,8 @@ header{
             -moz-appearance: none;
           }
         }
-        #btnBuscar{
+        */
+        #edit-submit, #edit-submit--1, #edit-submit--2, #edit-submit--3{
           background:url(../images/buscar.png) no-repeat;
           background-position: 0px 5px;
           height: 50px;
@@ -177,6 +178,7 @@ header{
           border: none;
           padding: 0;
           margin-left: 10px;
+          text-indent: -9999px;
         }
       }
     }
