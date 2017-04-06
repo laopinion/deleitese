@@ -21,7 +21,7 @@
       </ul>
     </div>
     <div class="right">
-      <h2>Formulario</h2>
+      <h2>Forma parte de nuestra comunidad</h2>
      <!--formulario--><?php $block = module_invoke('webform', 'block_view', 'unete-469');print render($block['content']); ?><!--FIN formulario-->
     </div>
   </section>

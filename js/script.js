@@ -7,7 +7,7 @@ $(document).ready(function(){
   });
   
   $(".search-form").remove();
-  $("header .buscador .buscar form#search-block-form .form-item-search-block-form input").attr("placeholder", "¿Donde comer en Cúcuta?...");
+  $("header .buscador .buscar form#search-block-form .form-item-search-block-form input").attr("placeholder", "¿Qué te gustaría comer hoy?");
 
   //NOTAS SCROLL
   //Cambiar la url cuando estamos en scroll infinito solo para la primera nota
