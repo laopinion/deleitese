@@ -53,11 +53,66 @@
     }//Fin modulo2
   }//Fin home
 
+  #seccionNotas{
+    .view-content{
+      .views-row{
+        margin-bottom: 40px;
+        width: 100%;
+        img{
+          height: auto;
+          width: 100%;
+        }
+        .nota{
+          .text{
+            height: auto;
+            position: static;
+            width: 100%;
+          }
+          .text:before{
+            content: "";
+          }
+        }
+      }
+    }
+  }//Seccion notas
+
   #restaurantes{
     .view-content{
       .views-row{
         width: 100%;
+        margin-bottom: 45px;
+        img{
+          width: 100%;
+          height: auto;
+        }
+        .nota{
+          .text:before{
+            content: "";
+          }
+          .text{
+            text-align: center;
+            position: static;
+            width: 100%;
+          }
+        }
       }
     }
   }//Fin restaurantes
+
+  #secciones{
+    .view-content{
+      .views-row{
+        width: 100%;
+        img{
+          height: auto;
+          width: 100%;
+        }
+        .nota{
+          .text{
+            width: 100%;
+          }
+        }
+      }
+    }
+  }//Fin secciones 
 }

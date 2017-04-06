@@ -24,7 +24,7 @@
     <div class="menu">
       <div class="item_menu noticias"><a href="<?php print base_path(); ?>lo-nuestro">Noticias</a></div>
       <div class="item_menu personajes"><a href="<?php print base_path(); ?>personajes">Personajes</a></div>
-      <div class="item_menu recetas"><a href="<?php print base_path(); ?>lo-recetas">Recetas</a></div>
+      <div class="item_menu recetas"><a href="<?php print base_path(); ?>recetas">Recetas</a></div>
       <div class="item_menu restaurantes"><a href="<?php print base_path(); ?>restaurantes">Restaurantes</a></div>
       <div class="item_menu promociones"><a href="<?php print base_path(); ?>promociones">Promociones</a></div>
       <!-- <div class="item_menu foodies"><a href="<?php //print base_path(); ?>foodies">Foodies</a></div> -->

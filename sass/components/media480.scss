@@ -257,29 +257,6 @@
       }
     }
   }//Fin home
-
-  #seccionNotas{
-    .view-content{
-      .views-row{
-        margin-bottom: 40px;
-        width: 100%;
-        img{
-          height: auto;
-          width: 100%;
-        }
-        .nota{
-          .text{
-            height: auto;
-            position: static;
-            width: 100%;
-          }
-          .text:before{
-            content: "";
-          }
-        }
-      }
-    }
-  }
   
   //Seccion Personajes
   #personajes{
@@ -368,28 +345,30 @@
     }
   }
 
-  #restaurantes{
-    .view-content{
-      .views-row{
-        width: 100%;
-        margin-bottom: 45px;
-        img{
-          width: 100%;
-          height: auto;
+  //Nota personaje
+  #personaje{
+    .left{
+      .nombre{
+        .titulo{
+          width: 75%;
+          padding: 0 0 0 7%;
         }
-        .nota{
-          .text:before{
-            content: "";
-          }
-          .text{
-            text-align: center;
-            position: static;
+        .subtitulo{
+          box-sizing: initial;
+          padding: 0 0 0 6%;
+          width: 94%;
+          left: 0;
+        }
+      }
+      .movil{
+        .foto{
+          img{
             width: 100%;
-            a{
-              line-height: 28px;
-            }
           }
         }
+      }
+      .text{
+        width: 90%;
       }
     }
   }

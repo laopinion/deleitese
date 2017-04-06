@@ -17,6 +17,13 @@ jQuery (function($){
     <div class="izq">
       <?php if (!empty($content['field_tags'])){ print "<div class=etiquetas>".render($content['field_tags'])."</div>";}?>  
       <h1 class="titulo"><?php print $title;?></h1>
+      <div class="movil">
+        <div class="up">
+          <!--Ingredientes--><?php if (!empty($content['field_ingredientes'])){ print "<div class=ingredientes><h2>Ingredientes</h2>".render($content['field_ingredientes'])."</div>";}?>
+          <!--Tiempo--><?php if (!empty($content['field_tiempo'])){ print "<div class=tiempo><div class=icono></div><span>".render($content['field_tiempo'])."</span></div>";}?>  
+          <!--Chef--><?php if (!empty($content['field_chef'])){ print "<div class=chef><div class=icono></div><span>".render($content['field_chef'])."</span></div>";}?>  
+        </div>
+      </div>
       <div class="texto"><?php print render($content['body']);?></div> 
       <div class="comentarios">
         <div class="bloque"><?php include("disqus.tpl.php"); ?></div>
