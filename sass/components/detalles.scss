@@ -63,8 +63,7 @@
     .etiquetas{
       width: 75%;
       position: relative;
-      height: 40px;
-      margin-bottom:20px;
+      margin-bottom: 30px;
       .field-items{
         display: flex;
         display: -webkit-flex;
@@ -85,10 +84,13 @@
 
     }
     .etiquetasScroll{
-      width: 75%;
-      position: relative;
-      height: 40px;
-      margin-bottom:20px;
+      display: flex;
+      display: -webkit-flex;
+      display: -moz-flex;
+      flex-wrap: wrap;
+      -webkit-flex-wrap: wrap;
+      -moz-flex-wrap: wrap;
+      margin-bottom: 30px;
       a{color:$orange; position: relative;font-size:16px;line-height:18px; font-weight:300; text-decoration:none; margin-right: 30px;padding: 10px 0px;font-style: italic;}
     }
     .etiquetasScroll a:nth-child(2n+1){
@@ -120,6 +122,10 @@
       position: relative; 
       width: 60px; 
     }
+  }
+  .load{
+    margin: 0 auto;
+    width: 300px;
   }
 }
 //FIN NOTAS

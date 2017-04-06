@@ -1,6 +1,7 @@
 @media screen and (max-width: 768px){
   .head_desktop{display: none;}
   .head_movil{display: block;}
+  .emergentes{display: none;}
   header{
     width: 100%;
     padding: 20px 0 0 0;
@@ -545,6 +546,34 @@
           .iconTel{
             width: 92px;
           }
+        }
+      }
+    }
+  }
+
+  #articulo{
+    .foto{
+      height: auto;
+      width: 100%;
+    }
+    .contenido{
+      padding: 0;
+      margin: 0 2%;
+      width: 96%;
+      .etiquetas{
+        .field-items{
+          .field-item{ margin-bottom: 10px;}
+        }
+      }
+      .etiquetasScroll{
+        width: 100%;
+      }
+      h1{ width: 100%; }
+      .texto{ 
+        width: 100%;
+        img{
+          height: auto;
+          width: 100%;
         }
       }
     }

@@ -49,7 +49,7 @@
             </div>
           </div>
         </article>
-        <div ng-show='article.busy'>Cargando nota...</div>
+        <div ng-show='article.busy' class="load">Cargando nota...</div>
       </div>
     </div>
   </section>
