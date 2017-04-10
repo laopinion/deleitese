@@ -36,6 +36,8 @@
   <div class="buscador">
     <div class="container buscar">
       <i class="icono"></i>
+      <?php $buscar_bloque = module_invoke('search', 'block_view', 'search'); print render($buscar_bloque); ?>
+      <!--
       <form action="">
         <input type="text" placeholder="Escriba su busqueda">
         <div class="select">
@@ -47,6 +49,7 @@
         </div>
         <button id="btnBuscar"></button>
       </form>
+      -->
     </div>
   </div>
 </header>

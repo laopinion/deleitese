@@ -3,57 +3,50 @@
 <!--[if IE 7]>    <html class="ie7 ie" lang="<?php print $language->language; ?>" dir="<?php print $language->dir; ?>"> <![endif]-->
 <!--[if IE 8]>    <html class="ie8 ie" lang="<?php print $language->language; ?>" dir="<?php print $language->dir; ?>"> <![endif]-->
 <!--[if gt IE 8]> <!--> <html class="" lang="<?php print $language->language; ?>" dir="<?php print $language->dir; ?>"> <!--<![endif]-->
+
 <head>
   <?php print $head; ?>
   <!-- Set the viewport width to device width for mobile -->
-  <meta name="viewport" content="width=device-width" />
+  <meta name="viewport" content="width=device-width, height=device-height" >
+  <meta name="robots" content="index, follow">
+  <meta itemprop="genre" content="Food" />
+  <meta itemprop="inLanguage" content="es-ES" />
+  <meta property="og:locale:alternate" content="es_CO" />
+  <meta property="og:locale" content="es_CO" />
+  <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title><?php print $head_title; ?></title>
-  <?php print $styles; ?>
-  <?php print $scripts; ?>
-  <!-- IE Fix for HTML5 Tags -->
-  <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
+
+  <!--Icono precomposed-->
+  <link rel="apple-touch-icon-precomposed" href="<?php print base_path(); ?>sites/default/themes/deleitese/images/icon/touch-icon-iphone.png">
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="<?php print base_path(); ?>sites/default/themes/deleitese/images/icon/touch-icon-ipad.png">
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="<?php print base_path(); ?>sites/default/themes/deleitese/images/icon/touch-icon-iphone-retina.png">
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="<?php print base_path(); ?>sites/default/themes/deleitese/images/icon/touch-icon-ipad-retina.png">
+  <link rel="apple-touch-icon-precomposed" sizes="180x180" href="<?php print base_path(); ?>sites/default/themes/deleitese/images/icon/touch-icon-iphone-6-plus.png">
+  <!--FIN Icono precomposed-->
+
+  <link rel="stylesheet" type="text/css" href="<?php print base_path(); ?>sites/default/themes/deleitese/css/style.css">
+  <link rel="stylesheet" type="text/css" href="<?php print base_path(); ?>sites/default/themes/deleitese/css/normalize.css">
 </head>
-
-<body class="<?php print $classes; ?>" <?php print $attributes;?>>
-
-<div id="container" class="clearfix">
-
-  <div id="skip-link">
-    <a href="#main-content" class="element-invisible element-focusable"><?php print t('Skip to main content'); ?></a>
-  </div>
-
-  <header id="header" role="banner" class="clearfix">
-	<?php if ($logo): ?>
-      <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" id="logo">
-        <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
-      </a>
-    <?php endif; ?>
-    <?php if ($site_name || $site_slogan): ?>
-      <hgroup id="site-name-slogan">
-        <?php if ($site_name): ?>
-          <h1 id="site-name">
-            <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><span><?php print $site_name; ?></span></a>
-          </h1>
-        <?php endif; ?>
-        <?php if ($site_slogan): ?>
-          <h2 id="site-slogan"><?php print $site_slogan; ?></h2>
-        <?php endif; ?>
-      </hgroup>
-    <?php endif; ?>
-
-    <?php print render($page['header']); ?>
-  </header> <!-- /#header -->
-
-  <section id="main" role="main" class="clearfix">
-    <?php print $messages; ?>
-    <a id="main-content"></a>
-    <?php if ($title): ?><h1 class="title" id="page-title"><?php print $title; ?></h1><?php endif; ?>
-    <?php print $content; ?>
-  </section> <!-- /#main -->
-  
-</div> <!-- /#wrapper -->
+<body style="background:#F7931E;">
+	<section id="maintenace">
+	  <div class="head">
+	  	<div class="content">
+		  	<div id="logo">
+		    	<h1></h1>
+		    </div>
+		</div>    
+	  </div>
+	  <div class="info">
+		  <div class="content">
+		  	<div class="olla"><img src="<?php print base_path(); ?>sites/default/themes/deleitese/images/olla.gif"></div>
+		  	<div class="cinta"><img src="<?php print base_path(); ?>sites/default/themes/deleitese/images/mantenimiento.png"></div>
+		  </div>
+	  </div>  
+	</section>
 
 </body>
 </html>
