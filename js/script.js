@@ -1423,6 +1423,17 @@ $(document).ready(function(){
     }
    }); // window scroll Ends
 
+  $('header #header .center .btnSeguir .icono a').on('click',function (e) {
+    e.preventDefault();
+
+    var target = this.hash,
+    $target = $(target);
+
+    $('html, body').stop().animate({
+        'scrollTop': $target.offset().top - 120
+    }, 1000, 'swing');
+  });
+
     //MENU MOVIL
     swmenu = 0;
     $(".icon_menu").click(function(){
