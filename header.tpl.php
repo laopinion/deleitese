@@ -14,7 +14,7 @@
       </div>
       <div class="btnSeguir">
         <div class="fb-like" data-href="https://www.facebook.com/deleitese.co" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
-        <i class="icono"></i>
+        <i class="icono"><a href="#formUnete"></a></i>
       </div>
       <div class="menu">
         <div class="item_menu noticias"><a href="<?php print base_path(); ?>lo-nuestro">Noticias</a></div>

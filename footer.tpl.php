@@ -20,7 +20,7 @@
         <div class="triRight"></div>
       </ul>
     </div>
-    <div class="right">
+    <div id="formUnete" class="right">
       <h2>Forma parte de nuestra comunidad</h2>
      <!--formulario--><?php $block = module_invoke('webform', 'block_view', 'unete-551');print render($block['content']); ?><!--FIN formulario-->
     </div>
