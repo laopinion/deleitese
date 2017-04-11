@@ -39,34 +39,34 @@ $(document).ready(function(){
     });
   }
   //Cambiar la ruta por la de producción
-  if(ruta == 'http://localhost/deleitese/' || ruta == 'http://localhost/deleitese/lo-nuestro'){
+  if(ruta == 'http:www.deleitese.co/' || ruta == 'http:www.deleitese.co/lo-nuestro'){
     // var styles = {
     //   background : "url(../images/btn_noticias.svg) no-repeat",
     //   backgroundPosition: "25px 28px"
     // };
     clearClass();   
     $('#header .menu .noticias').addClass('active-noticias');
-  }else if(ruta == 'http://localhost/deleitese/personajes'){
+  }else if(ruta == 'http://www.deleitese.co/personajes'){
     clearClass();
     $('#header .menu .personajes').addClass('active-personajes');
-  }else if(ruta == 'http://localhost/deleitese/recetas'){
+  }else if(ruta == 'http://www.deleitese.co/recetas'){
     clearClass();
     $('#header .menu .recetas').addClass('active-recetas');
-  }else if(ruta == 'http://localhost/deleitese/restaurantes'){
+  }else if(ruta == 'http://www.deleitese.co/restaurantes'){
     clearClass();
     $('#header .menu .restaurantes').addClass('active-restaurantes');
-  }else if(ruta == 'http://localhost/deleitese/promociones'){
+  }else if(ruta == 'http://www.deleitese.co/promociones'){
     clearClass();
     $('#header .menu .promociones').addClass('active-promociones');
-  }else if(ruta == 'http://localhost/deleitese/foodies'){
+  }else if(ruta == 'http://www.deleitese.co/foodies'){
     clearClass();
     $('#header .menu .foodies').addClass('active-foodies');
-  }else if(ruta == 'http://localhost/deleitese/contacto'){
+  }else if(ruta == 'http://www.deleitese.co/contacto'){
     clearClass();
     $('#header .menu .contactos').addClass('active-contactos');
   }
 
-  $.get("http://localhost/deleitese/api/v1/views/home?display_id=services_2", function( data ) {
+  $.get("http://www.deleitese.co/api/v1/views/home?display_id=services_2", function( data ) {
     // console.log(data);
     for(x in data){
       $('#home .slides .rslides').append('<li>'+data[x].imagen+'</li>');      
@@ -198,7 +198,7 @@ $(document).ready(function(){
   //TENER EN CUENTA LA RUTA DE LAS IMAGENES CUANDO ESTE EN PRODUCCIÓN
   function paisPersonaje(name){
     var style = {
-      background: 'url("/deleitese/sites/default/themes/deleitese/images/banderas/'+name+'.svg") no-repeat'
+      background: 'url("http://www.deleitese.co/sites/default/themes/deleitese/images/banderas/'+name+'.svg") no-repeat'
     }
     return style;
   }
@@ -276,7 +276,7 @@ $(document).ready(function(){
       $(this).find('.personaje .info .titulo .icono').css(style);
 
     }else if(pais == 'España'){
-      var style = paisPersonaje('España-05');
+      var style = paisPersonaje('Espanna-05');
       $(this).find('.personaje .info .titulo .icono').css(style);
 
     }else if(pais == 'Filipinas'){
@@ -475,7 +475,7 @@ $(document).ready(function(){
       $(this).find('.personaje .info .titulo .icono').css(style);
 
     }else if(pais == 'España'){
-      var style = paisPersonaje('España-05');
+      var style = paisPersonaje('Espanna-05');
       $(this).find('.personaje .info .titulo .icono').css(style);
 
     }else if(pais == 'Filipinas'){
@@ -674,7 +674,7 @@ $(document).ready(function(){
       $($this).find('.icono').css(style);
 
     }else if(pais == 'España'){
-      var style = paisPersonaje('España-05');
+      var style = paisPersonaje('Espanna-05');
       $($this).find('.icono').css(style);
 
     }else if(pais == 'Filipinas'){
@@ -808,7 +808,7 @@ $(document).ready(function(){
     
     if(seccion == 'Buena mesa'){
       var style = {
-        background: 'url("/deleitese/sites/default/themes/deleitese/images/mesa.svg") no-repeat'
+        background: 'url("http://www.deleitese.co/sites/default/themes/deleitese/images/mesa.svg") no-repeat'
       }
       $(this).find('.nota .iconSeccion span').html('Buena mesa');
       $(this).find('.nota .iconSeccion .icono').css(style);
@@ -816,7 +816,7 @@ $(document).ready(function(){
       $(this).find('.nota .iconSeccion span').html('Cocinas del mundo');
     }else if(seccion == 'Lo nuestro'){
       var style = {
-        background: 'url("/deleitese/sites/default/themes/deleitese/images/corazon.svg") no-repeat'
+        background: 'url("http://www.deleitese.co/sites/default/themes/deleitese/images/corazon.svg") no-repeat'
       }
       $(this).find('.nota .iconSeccion span').html('Lo nuestro');
       $(this).find('.nota .iconSeccion .icono').css(style);
@@ -829,7 +829,7 @@ $(document).ready(function(){
     
     if(seccion == 'Buena mesa'){
       var style = {
-        background: 'url("/deleitese/sites/default/themes/deleitese/images/mesa.svg") no-repeat'
+        background: 'url("http://www.deleitese.co/sites/default/themes/deleitese/images/mesa.svg") no-repeat'
       }
       $(this).find('.nota .iconSeccion span').html('Buena mesa');
       $(this).find('.nota .iconSeccion .icono').css(style);
@@ -837,7 +837,7 @@ $(document).ready(function(){
       $(this).find('.nota .iconSeccion span').html('Cocinas del mundo');
     }else if(seccion == 'Lo nuestro'){
       var style = {
-        background: 'url("/deleitese/sites/default/themes/deleitese/images/corazon.svg") no-repeat'
+        background: 'url("http://www.deleitese.co/sites/default/themes/deleitese/images/corazon.svg") no-repeat'
       }
       $(this).find('.nota .iconSeccion span').html('Lo nuestro');
       $(this).find('.nota .iconSeccion .icono').css(style);

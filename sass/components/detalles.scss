@@ -25,7 +25,7 @@
             .foto{position:relative; float:left; width:300px; height: auto;
                 img{width:100%; height:auto;}
             }
-            .titulo{position: relative; float:left; 
+            .titulo{position: relative; float:left; height:35px;
                 a{color:#fff; font-size:16px; font-weight:500; line-height:18px;text-decoration:none;}
             }
         }
@@ -703,6 +703,8 @@
     }
 }
 //FIN COLUMNA
+
+//MANTENIMIENTO
 #maintenace{background:#FF991E; position: relative; float:left; height:100%; width:100%;
   .head{background:#fff; position:relative; float:left; height:100px; width:100%;margin-top:70px;
     .content{margin:0 auto;position:relative; width:100%; padding:0px;
@@ -716,7 +718,7 @@
       .olla{width:350px; height:450px; margin: 0 auto; position: relative;padding-bottom:40px;
         img{width:100%; height:auto;}
       }
-      .cinta{width:700px; height:300px; position: relative;margin: 0 auto;
+      .cinta{width:700px; height:150px; position: relative;margin: 0 auto;
         img{width:100%; height:auto;}
       }
     }

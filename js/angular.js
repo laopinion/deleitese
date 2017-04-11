@@ -44,8 +44,8 @@ app.factory('Article', function ($http){
     // console.log(seccion);
 
     // var url = 'http://localhost/OPNEWSITE/api/v1/views/articlesrest?display_id=services_1&page='+this.page;
-    // var url = 'http://localhost:8888/deleitese/api/v1/views/articlesrest?display_id=services_1&field_seccion_tid='+seccion+'&page='+this.page;
-    var url = 'http://localhost/deleitese/api/v1/views/articlesrest?display_id=services_1&field_seccion_tid='+seccion+'&page='+this.page;
+    var url = 'http://www.deleitese.co/api/v1/views/articlesrest?display_id=services_1&field_seccion_tid='+seccion+'&page='+this.page;
+    //var url = 'http://localhost/deleitese/api/v1/views/articlesrest?display_id=services_1&field_seccion_tid='+seccion+'&page='+this.page;
     $http.get(url).success(function(data){
       //console.log(data);
       // rutas.push(data.field_ruta);
