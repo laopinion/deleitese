@@ -3,23 +3,14 @@
     .buscador{
        .buscar{
           padding: 0 5px;
-          form{
+          #edit-submit, #edit-submit--1, #edit-submit--2, #edit-submit--3{
             input{
               flex: 1;
               -webkit-flex: 1;
               -moz-flex: 1;
               margin-left: 0;
             }
-            .select{
-              flex: 1;
-              -webkit-flex: 1;
-              -moz-flex: 1;
-              background-position-x: 200px;
-              select{
-                width: 260px;
-              }
-            }
-            #btnBuscar{
+            #edit-submit, #edit-submit--1, #edit-submit--2, #edit-submit--3{
               background-position-x: 50%;
               width: 100%;
             }
