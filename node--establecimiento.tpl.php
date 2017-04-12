@@ -1,37 +1,3 @@
-<!-- Script numero -->
-<script>
-jQuery (function($){
-  $(document).ready(function(){
-    //Tipo de pago
-    var pago = $("#establecimiento .contenido .der .down .pago .field-items .field-item").html();
-        if (pago === 'Todas las tarjetas'){
-            $('#establecimiento .contenido .der .down .pago').css({'background' : 'url(deleitese/sites/default/themes/deleitese/images/restaurantes/icon_tarjetas.svg) 0px 0px/230px auto no-repeat'});
-        }else if (pago === 'Solo efectivo'){
-            $('#establecimiento .contenido .der .down .pago').css({'background' : 'url(deleitese/sites/default/themes/deleitese/images/restaurantes/icon_efectivo.svg) 0px 0px/60px auto no-repeat'});            
-        };
-    //TELEFONO
-    var tel = $("#establecimiento .contenido .der .down .telefono .field-items .field-item").html();
-    var urlTel = "<a href=tel:" + tel + "onClick=if((navigator.userAgent.match(/Android|iPhone|iPad|iPod|Mobile/i))!=null){return true}else{window.location.assign('http://www.google.com');}>" + tel + "</a>";
-    $("#establecimiento .contenido .der .down .telefono .field-items").append(urlTel);
-    
-    //WEB
-    var web = $("#establecimiento .contenido .der .down .web .field-items .field-item").html();
-    var urlWeb = "<a href=http://" + web + " target=_blank>" + web + "</a>";
-    $("#establecimiento .contenido .der .down .web .field-items").append(urlWeb);
-
-    //Facebook
-    var face = $("#establecimiento .contenido .der .down .facebook .field-items .field-item").html();
-    var urlFace = "<a href=https://www.facebook.com/" + face + " target=_blank>" + face + "</a>";
-    $("#establecimiento .contenido .der .down .facebook .field-items").append(urlFace);
-
-    //Instagram
-    var insta = $("#establecimiento .contenido .der .down .instagram .field-items .field-item").html();
-    var urlInsta = "<a href=https://www.instagram.com/" + insta + " target=_blank>" + insta + "</a>";
-    $("#establecimiento .contenido .der .down .instagram .field-items").append(urlInsta);
-    
-  });
-});
-</script>
 <!--SLIDE FOTOS-->
     <script type="text/javascript" src="<?php print base_path(); ?>sites/default/themes/deleitese/js/jssor.js"></script>
     <script type="text/javascript" src="<?php print base_path(); ?>sites/default/themes/deleitese/js/jssor.slider.js"></script>
@@ -117,8 +83,8 @@ jQuery (function($){
     </script>
 <style>
     .jssora21l, .jssora21r {display: block;position: absolute;width: 55px;height: 55px;cursor: pointer;overflow: hidden;}
-    .jssora21l {top: 10px; left: -1px; background: url(deleitese/sites/default/themes/deleitese/images/btn_slide_izq.svg) 0px 0px/60px auto no-repeat; }
-    .jssora21r {top: 10px; right: 2px; background: url(deleitese/sites/default/themes/deleitese/images/btn_slide_der.svg) 0px 0px/60px auto no-repeat; }
+    .jssora21l {top: 10px; left: -1px; background: url(http://www.deleitese.co/sites/default/themes/deleitese/images/btn_slide_izq.svg) 0px 0px/60px auto no-repeat; }
+    .jssora21r {top: 10px; right: 2px; background: url(http://www.deleitese.co/sites/default/themes/deleitese/images/btn_slide_der.svg) 0px 0px/60px auto no-repeat; }
     .jssora21l:hover { opacity: 0.8; }
     .jssora21r:hover {  opacity: 0.8;}
     .jssora21l.jssora21ldn { background-position: -243px -33px; }
@@ -128,10 +94,14 @@ jQuery (function($){
 <!-- FIN Script numero -->
 
 <div id="establecimiento">
-  
-    <div id="slider1_container" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
-      <!-- Slides Container -->
+    <div id="slider1_container" style="position: relative; margin: 0 auto;top: 0px; left: 0px; width: 1400px; height: 500px; overflow: hidden;">
+        <!-- Slides -->
+        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1400px; height: 500px; overflow: hidden;">
+    <!--
+    <div id="slider1_container" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 100%; height: 500px; overflow: hidden;">
+
       <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1300px; height: 500px; overflow: hidden;">
+      -->
         <?php 
         if (!empty($node->field_fachada)) {   
           $i=0;
@@ -149,7 +119,9 @@ jQuery (function($){
       <span u="arrowleft" class="jssora21l"></span>
       <span u="arrowright" class="jssora21r"></span>
     </div>
+    
     <div class="contenido">
+        
         <div class="izq">
           <h1 class="titulo"><?php print $title;?></h1>
           <?php
@@ -162,18 +134,21 @@ jQuery (function($){
         <div class="der">
             <div class="up">
                 <div class="logo"><?php print render($content['field_logo']);?></div>
+                
                 <div class="valoracion">
                   <div class="estrellas"></div>
                   <div class="fivestar-basic"><?php print render($content['field_valoracion']); ?></div>
                   <span>Calificación</span>
                 </div>
+                
             </div>
             <div class="down">
                 <div class="direccion"><?php print render($content['field_direccion']);?></div>
                 <div class="telefono"><?php print render($content['field_llamar']);?></div>
                 <div class="horarios"><?php print render($content['field_horarios']);?></div>
                 <div class="web"><?php print render($content['field_web']);?></div>
-                <div class="facebook"><?php print render($content['field_facebook']);?></div>
+                <!--<div class="facebook"><?php // print render($content['field_facebook']);?></div>-->
+                <div class="facebook"><?php print render($content['field_facebook_']);?></div>
                 <div class="instagram"><?php print render($content['field_instagram']);?></div>
                 <div class="pago"><?php print render($content['field_medios_de_pago']);?></div>
             </div>

@@ -1,5 +1,34 @@
 $(document).ready(function(){
 
+  //Tipo de pago
+  var pago = $("#establecimiento .contenido .der .down .pago .field-items .field-item").html();
+      if (pago === 'Todas las tarjetas'){
+          $('#establecimiento .contenido .der .down .pago').css({'background' : 'url(http://www.deleitese.co/sites/default/themes/deleitese/images/restaurantes/icon_tarjetas.svg) 0px 0px/230px auto no-repeat'});
+      }else if (pago === 'Solo efectivo'){
+          $('#establecimiento .contenido .der .down .pago').css({'background' : 'url(http://www.deleitese.co/sites/default/themes/deleitese/images/restaurantes/icon_efectivo.svg) 0px 0px/60px auto no-repeat'});            
+      };
+  //TELEFONO
+  var tel = $("#establecimiento .contenido .der .down .telefono .field-items .field-item").html();
+  var urlTel = "<a href=tel:" + tel + "onClick=if((navigator.userAgent.match(/Android|iPhone|iPad|iPod|Mobile/i))!=null){return true}else{window.location.assign('http://www.google.com');}>" + tel + "</a>";
+  $("#establecimiento .contenido .der .down .telefono .field-items").append(urlTel);
+     
+  //WEB
+  var web = $("#establecimiento .contenido .der .down .web .field-items .field-item").html();
+  var urlWeb = "<a href=http://" + web + " target=_blank>" + web + "</a>";
+  $("#establecimiento .contenido .der .down .web .field-items").append(urlWeb);
+
+  //Facebook
+  /*
+  var face = $("#establecimiento .contenido .der .down .facebook .field-items .field-item").html();
+  var urlFace = "<a href=https://www.facebook.com/" + face + " target=_blank>" + face + "</a>";
+  $("#establecimiento .contenido .der .down .facebook .field-items").append(urlFace);
+  */
+  //Instagram
+  var insta = $("#establecimiento .contenido .der .down .instagram .field-items .field-item").html();
+  var urlInsta = "<a href=https://www.instagram.com/" + insta + " target=_blank>" + insta + "</a>";
+  $("#establecimiento .contenido .der .down .instagram .field-items").append(urlInsta);
+
+
   $("header #hamburger").click(function (){
     $(this).toggleClass('open');
     $(".menu").toggleClass("desplegar");
@@ -1492,37 +1521,6 @@ $(document).ready(function(){
     $(varContentR).mouseleave(function(){
         $(this).find(".info").css({display:"none", opacity:"0", left:"0px"}); 
     });
-
-
-
-    /*
-    $("#home .establecimientos .view-id-home.view-display-id-block_5 .logo").each(function(){
-      var ContentTypeL = $(this).find(".tipo").html();
-    */
-    /*
-    $(".recetas .view-id-home.view-display-id-block_4 .views-row").mouseover(function(){
-        $(this).find(".info").css({opacity:"1", top:"0px", left:"0px"});
-    });
-    $(".recetas .view-id-home.view-display-id-block_4").mouseleave(function(){
-        $(this).find(".info").css({opacity:"0", top:"0px", left:"0px"}); 
-    });
-    */
-    //FIN RECETAS
-
-    //ESTABLECIMIENTOS
-    $('#establecimiento .der .down .pago').each(function(){
-      var tipodepago = $(this).find('.field-item').html();
-
-      if(tipodepago == 'Todas las tarjetas'){
-        var style = todas('todos');
-        $(this).find('#establecimiento .der .down .pago').css(style);
-
-      }else if(tipodepago == 'Efectivo'){
-        var style = todas('efectivo');
-        $(this).find('#establecimiento .der .down .pago').css(style);
-      }
-    });
-    //FIN ESTABLECIMIENTOS
 
 
 
