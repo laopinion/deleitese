@@ -3,9 +3,9 @@ $(document).ready(function(){
   //Tipo de pago
   var pago = $("#establecimiento .contenido .der .down .pago .field-items .field-item").html();
       if (pago === 'Todas las tarjetas'){
-          $('#establecimiento .contenido .der .down .pago').css({'background' : 'url(http://www.deleitese.co/sites/default/themes/deleitese/images/restaurantes/icon_tarjetas.svg) 0px 0px/230px auto no-repeat'});
+          $('#establecimiento .contenido .der .down .pago').css({'background' : 'url(http://www.deleitese.co/sites/default/themes/deleitese/images/restaurantes/icon_tarjetas.svg) 0px 20px/230px auto no-repeat'});
       }else if (pago === 'Solo efectivo'){
-          $('#establecimiento .contenido .der .down .pago').css({'background' : 'url(http://www.deleitese.co/sites/default/themes/deleitese/images/restaurantes/icon_efectivo.svg) 0px 0px/60px auto no-repeat'});            
+          $('#establecimiento .contenido .der .down .pago').css({'background' : 'url(http://www.deleitese.co/sites/default/themes/deleitese/images/restaurantes/icon_efectivo.svg) 0px 20px/60px auto no-repeat'});            
       };
   //TELEFONO
   var tel = $("#establecimiento .contenido .der .down .telefono .field-items .field-item").html();
