@@ -24,7 +24,7 @@
 
     .buscador{
       .buscar{
-        form{
+        form#search-block-form, form#search-block-form--2{
           width: 100%;
           input{
             width: 100%;
@@ -32,16 +32,6 @@
             -webkit-flex: initial;
             -moz-flex: initial;
             margin: 0 0 10px 0;
-          }
-          .select{
-            background-position-x: 98%;
-            flex: initial;
-            -webkit-flex: initial;
-            -moz-flex: initial;
-            width: 100%;
-            select{
-              width: 100%;
-            }
           }
         }
       }
