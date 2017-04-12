@@ -394,6 +394,18 @@
     }
   }
 
+  #establecimiento{
+    .contenido{
+      .der{
+        width: 100%;
+        .down{
+          box-sizing: border-box;
+          width: 100%;
+        }
+      }
+    }
+  }
+
   footer{
     #footer{
       padding-left: 5px;

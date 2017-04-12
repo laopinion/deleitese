@@ -195,14 +195,14 @@
         .icono{
           margin-bottom: 10px;
         }
-        form{
+        form#search-block-form, form#search-block-form--2{
           flex-wrap: wrap;
           -webkit-flex-wrap: wrap;
           -moz-flex-wrap: wrap;
           justify-content: center;
           -webkit-justify-content: center;
           -moz-justify-content: center;
-          #btnBuscar{
+          #edit-submit, #edit-submit--1, #edit-submit--2, #edit-submit--3{
             margin: 15px 0 0 0;
           }
         }
@@ -633,6 +633,25 @@
             margin-top: 10px;
           }
         }
+      }
+    }
+  }
+
+
+  #establecimiento{
+    #slider1_container{
+      width: 100%!important;
+      .slideImg{
+        width: 100%!important;
+      }
+    }
+    .contenido{
+      margin: 0 2%;
+      padding: 0;
+      width: 96%;
+      .izq{
+        margin: 0;
+        width: 100%;
       }
     }
   }

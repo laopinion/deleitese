@@ -96,12 +96,7 @@
 <div id="establecimiento">
     <div id="slider1_container" style="position: relative; margin: 0 auto;top: 0px; left: 0px; width: 1400px; height: 500px; overflow: hidden;">
         <!-- Slides -->
-        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1400px; height: 500px; overflow: hidden;">
-    <!--
-    <div id="slider1_container" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 100%; height: 500px; overflow: hidden;">
-
-      <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1300px; height: 500px; overflow: hidden;">
-      -->
+        <div u="slides" class="slideImg"  style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1400px; height: 500px; overflow: hidden;">
         <?php 
         if (!empty($node->field_fachada)) {   
           $i=0;
@@ -150,7 +145,7 @@
                 <!--<div class="facebook"><?php // print render($content['field_facebook']);?></div>-->
                 <div class="facebook"><?php print render($content['field_facebook_']);?></div>
                 <div class="instagram"><?php print render($content['field_instagram']);?></div>
-                <div class="pago"><?php print render($content['field_medios_de_pago']);?></div>
+                <div class="pago"><span>Medios de pago:</span> <?php print render($content['field_medios_de_pago']);?></div>
             </div>
             <!--Mapa--><div class="mapa"><?php print render($content['field_mapa']);?></div><!--FIN Mapa-->
         </div>
