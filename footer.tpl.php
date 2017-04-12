@@ -6,7 +6,7 @@
       </div>
 
       <div class="copy">
-        <div class="txt">Copyright © 2001 - 2015 La Opinión S.A. - Todos los Derechos ReservadosReservados todos los derechos; queda prohibida la reproducción, distribución, comunicación pública y utilización total o parcial de los contenidos de esta web, en cualquier forma o modalidad sin previa, expresa y escrita autorización. Incluida en particular su mera reproducción y/o puesta a disposición como resúmenes, reseñas o revistas de prensa con ﬁnes comerciales directa e indirectamente lucrativos, a lo que se maniﬁesta oposición rotunda.</div>
+        <div class="txt">Copyright © 2001 - 2017 La Opinión S.A. - Todos los derechos reservados; queda prohibida la reproducción, distribución, comunicación pública y utilización total o parcial de los contenidos de esta web, en cualquier forma o modalidad sin previa, expresa y escrita autorización. Incluida en particular su mera reproducción y/o puesta a disposición como resúmenes, reseñas o revistas de prensa con ﬁnes comerciales directa e indirectamente lucrativos, a lo que se maniﬁesta oposición rotunda.</div>
         <div class="red">Red de portales <span>La Opinión</span></div>
       </div>
 
