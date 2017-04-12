@@ -841,8 +841,12 @@ $(document).ready(function(){
       }
       $(this).find('.nota .iconSeccion span').html('Buena mesa');
       $(this).find('.nota .iconSeccion .icono').css(style);
-    }else if(seccion == 'Cocinas del mundo'){
-      $(this).find('.nota .iconSeccion span').html('Cocinas del mundo');
+    }else if(seccion == 'Cocina mundial'){
+      var style = {
+        background: 'url("http://www.deleitese.co/sites/default/themes/deleitese/images/mapaNota.svg") no-repeat'
+      }
+      $(this).find('.nota .iconSeccion span').html('Cocina mundial');
+      $(this).find('.nota .iconSeccion .icono').css(style);
     }else if(seccion == 'Lo nuestro'){
       var style = {
         background: 'url("http://www.deleitese.co/sites/default/themes/deleitese/images/corazon.svg") no-repeat'
@@ -862,8 +866,12 @@ $(document).ready(function(){
       }
       $(this).find('.nota .iconSeccion span').html('Buena mesa');
       $(this).find('.nota .iconSeccion .icono').css(style);
-    }else if(seccion == 'Cocinas del mundo'){
-      $(this).find('.nota .iconSeccion span').html('Cocinas del mundo');
+    }else if(seccion == 'Cocina mundial'){
+       var style = {
+        background: 'url("http://www.deleitese.co/sites/default/themes/deleitese/images/mapaNota.svg") no-repeat'
+      }
+      $(this).find('.nota .iconSeccion span').html('Cocina mundial');
+      $(this).find('.nota .iconSeccion .icono').css(style);
     }else if(seccion == 'Lo nuestro'){
       var style = {
         background: 'url("http://www.deleitese.co/sites/default/themes/deleitese/images/corazon.svg") no-repeat'
