@@ -638,6 +638,25 @@
   }
 
 
+  #establecimiento{
+    #slider1_container{
+      width: 100%!important;
+      .slideImg{
+        width: 100%!important;
+      }
+    }
+    .contenido{
+      margin: 0 2%;
+      padding: 0;
+      width: 96%;
+      .izq{
+        margin: 0;
+        width: 100%;
+      }
+    }
+  }
+
+
 
   footer{
     #footer{

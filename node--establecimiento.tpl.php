@@ -131,7 +131,7 @@ jQuery (function($){
   
     <div id="slider1_container" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
       <!-- Slides Container -->
-      <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1300px; height: 500px; overflow: hidden;">
+      <div u="slides" class="slideImg" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1300px; height: 500px; overflow: hidden;">
         <?php 
         if (!empty($node->field_fachada)) {   
           $i=0;
