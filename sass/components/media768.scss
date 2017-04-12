@@ -188,22 +188,26 @@
       height: auto;
       padding: 20px 0;
       .buscar{
-        flex-wrap: wrap;
-        -webkit-flex-wrap: wrap;
-        -moz-flex-wrap: wrap;
-        width: 100%;
+        padding: 0 5px;
+        display: block;
         .icono{
-          margin-bottom: 10px;
+          margin: 0 auto 10px auto;
         }
-        form#search-block-form, form#search-block-form--2{
-          flex-wrap: wrap;
-          -webkit-flex-wrap: wrap;
-          -moz-flex-wrap: wrap;
-          justify-content: center;
-          -webkit-justify-content: center;
-          -moz-justify-content: center;
-          #edit-submit, #edit-submit--1, #edit-submit--2, #edit-submit--3{
-            margin: 15px 0 0 0;
+        form#search-block-form--2, form#search-block-form--2{
+          width: 100%;
+          div{
+            width: 100%;
+            .form-item-search-block-form{
+              input{
+                box-sizing: border-box;
+                margin: 0;
+                width: 100%;
+              }
+            }
+            #edit-submit--3{
+              margin: 15px auto 0 auto;
+              display: block;
+            }
           }
         }
       }
