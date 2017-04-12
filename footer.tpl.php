@@ -12,7 +12,7 @@
 
       <ul class="redes">
         <div class="triLeft"></div>
-        <li>Siganos</li>
+        <li>Síguenos</li>
         <li class="facebook"><a href="https://www.facebook.com/deleitese.co" target="_blank" style="border:0px;"></a></li>
         <li class="twitter"><a href="https://www.twitter.com/deleitese_co" target="_blank" style="border:0px;"></a></li>
         <li class="instagram"><a href="https://www.instagram.com/deleitese_co" target="_blank" style="border:0px;"></a></li>
