@@ -428,6 +428,8 @@
             margin: 0 auto;
             a{
               line-height: 24px;
+              text-align: center;
+              font-weight: 600;
             }
             .title{
               margin: 10px 0 0 0;
@@ -452,8 +454,8 @@
                 width: 30px;
               }
               span{
-                font-size: 22px;
-                font-weight: $black;
+                font-size: 18px;
+                font-weight: 200;
                 position: relative;
                 right: -8px;
                 top:5px;
