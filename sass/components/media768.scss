@@ -204,7 +204,7 @@
                 width: 100%;
               }
             }
-            #edit-submit--3{
+            #edit-submit--3, #edit-submit--2, #edit-submit--1{
               margin: 15px auto 0 auto;
               display: block;
             }
@@ -388,6 +388,36 @@
       }
     }
   }//Promociones
+
+  #promocion{
+    .contenido{
+      margin: 0 2%;
+      padding: 0;
+      display: -webkit-flex;
+      display: -moz-flex;
+      flex-wrap: wrap;
+      -webkit-flex-wrap: wrap;
+      -moz-flex-wrap: wrap;
+      justify-content: center;
+      -webkit-justify-content: center;
+      -moz-justify-content: center;
+      width: 96%;
+      .der{
+        order: 1;
+        margin: 10px 0;
+      }
+      .izq{
+        order: 2;
+        margin: 0;
+        .foto{
+          height: auto;
+        }
+        .comentarios{
+          margin: 50px 0;
+        }
+      }
+    }
+  }
   
   //seccion personajes
   #personajes{

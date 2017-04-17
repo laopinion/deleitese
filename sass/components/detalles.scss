@@ -288,8 +288,8 @@
 
 //PROMOCION
 #promocion{width:100%;float:left; position: relative;
-    .contenido{position: relative; margin:0 auto;width:1200px !important;padding:0px 20px;
-        .izq{width:780px !important;height:auto; float:left;position: relative; margin-right:20px; border-right:none !important; 
+    .contenido{position: relative; margin:0 auto;width: 1240px;padding:0px 20px;
+        .izq{width:780px;height:auto; float:left;position: relative; margin-right:20px; border-right:none; 
             .foto{width:100%; height:550px; position: relative; float:left; margin-bottom:10px; overflow:hidden;
                 img{width:100%; height:auto;background-position: 50% 0px;}
             }
@@ -305,7 +305,7 @@
                 a:hover{text-decoration:underline;}
             }
         }
-        .der{width:400px !important;height:auto; float:left; position: relative; padding:0px !important;
+        .der{width:400px;height:auto; float:left; position: relative; padding:0px;
             .up{background:$orange;width:100%; height:auto;float:left;padding:20px 0px;
 
             }
