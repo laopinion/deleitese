@@ -133,7 +133,7 @@
 //RESTAURANTES
 #establecimiento{width:100%;float:left; position: relative;
     .contenido{position: relative; margin:0 auto; width: 1240px;padding:0px 20px;
-        .izq{width:780px;height:auto; float:left;position: relative; margin-right:20px; border-right: none !important; 
+        .izq{width:780px;height:auto; float:left;position: relative; margin-right:20px; border-right: none !important; margin-top:20px;
             h1{font-size: 40px; line-height:42px; width: 100%;margin: 0 auto;padding: 0px 0px 20px 0px;text-align:left;float:left; height: auto;}
             .especialidad{width: 100%;position: relative;float: left;margin: 0px;height: 30px;font-size:18px; font-weight:600; font-style:italic; color:$orange !important; background:none !important; margin-left:0px !important;
                 .triangulo{width: 0;height: 0;border-top: 35px solid transparent;border-left: 14px solid #000;border-bottom: 35px solid transparent; position: absolute;left: 10px;top: -15px;}
