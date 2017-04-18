@@ -23,6 +23,10 @@
             background-color: rgba(247, 147, 30, 0.8);
             font-size: 20px;
             font-weight: $regular;
+            a{
+              text-decoration: none;
+              color: $negro;
+            }
             p{margin: 0;}
           }
           .frameVideo{
@@ -91,6 +95,10 @@
               font-weight: $regular;
               line-height: 22px;
               overflow: hidden;
+              a{
+                text-decoration: none;
+                color: $negro;
+              }
               p{margin: 0;}
             }
           }
