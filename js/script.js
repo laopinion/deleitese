@@ -57,6 +57,15 @@ $(document).ready(function(){
     });
   }
 
+  var typeVideo = $('#video #typeVideo .field-item').text();
+  if(typeVideo != 'Receta'){
+    $('#video .contenido .der .up').hide();
+    $('#video .contenido .izq .movil .up').hide();
+  }else{
+    $('#video .contenido .der .masVideos').hide();
+    $('#video .contenido .izq .movil .masVideos').hide();
+  }
+
   //Location menu options;
   var ruta = window.location;
   function clearClass() {

@@ -278,6 +278,72 @@
                   }
               }
           }
+        .masVideos{
+          background-color: $orange;
+          h3{
+            text-align: center;
+            margin: 0;
+            padding: 15px 0;
+          }
+          .view-display-id-block_1{
+            .view-content{
+              display: flex;
+              display: -webkit-flex;
+              display: -moz-flex;
+              flex-wrap: wrap;
+              -webkit-flex-wrap: wrap;
+              -moz-flex-wrap: wrap;
+              justify-content: center;
+              -webkit-justify-content: center;
+              -moz-justify-content: center;
+              margin: 0 auto;
+              width: 100%;
+              .views-row{
+                margin-bottom: 10px;
+                .nota{
+                  position: relative;
+                  .id{display: none;}
+                  .icono{
+                    background: url(../images/btn_video.svg) no-repeat;
+                    background-position: 0px 0px;
+                    background-size: 80px;
+                    display: block;
+                    height: 80px;
+                    width: 70px;
+                    position: absolute;
+                    top: 40px;
+                    left: 0;
+                    right: 0;
+                    margin: 0 auto;
+                    z-index: 5;
+                  }
+                  
+                  .summary{
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    margin: 0 auto;
+                    background-color: rgba(247, 147, 30, 0.8);
+                    height: 63px;
+                    width: 274px;
+                    padding: 10px;
+                    box-sizing: border-box;
+                    font-size: 20px;
+                    font-weight: $regular;
+                    line-height: 22px;
+                    overflow: hidden;
+                    a{
+                      text-decoration: none;
+                      color: $negro;
+                    }
+                    p{margin: 0;}
+                  }
+                }
+              }//Fin views-row
+            }
+          }
+        }
       }
     }
     .mas{width:100%;height:3px; background:$orange;float:left; position: relative;margin:50px 0px;
