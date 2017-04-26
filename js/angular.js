@@ -31,7 +31,7 @@ app.factory('Article', function ($http){
     if(this.busy) return;
     this.busy = true;
 
-    var seccion = $('#articulo .contenido .seccion').html().toLowerCase();
+    var seccion = $('#articulo .contenido .seccion .field-item a').html().toLowerCase();
     // function omitirAcentos(text) {
     //   var acentos = "ÃÀÁÄÂÈÉËÊÌÍÏÎÒÓÖÔÙÚÜÛãàáäâèéëêìíïîòóöôùúüûÑñÇç";
     //   var original = "AAAAAEEEEIIIIOOOOUUUUaaaaaeeeeiiiioooouuuunncc";
@@ -44,20 +44,21 @@ app.factory('Article', function ($http){
     // console.log(seccion);
 
     // var url = 'http://localhost/OPNEWSITE/api/v1/views/articlesrest?display_id=services_1&page='+this.page;
-    var url = 'http://www.deleitese.co/api/v1/views/articlesrest?display_id=services_1&field_seccion_tid='+seccion+'&page='+this.page;
-    //var url = 'http://localhost/deleitese/api/v1/views/articlesrest?display_id=services_1&field_seccion_tid='+seccion+'&page='+this.page;
-    $http.get(url).success(function(data){
-      //console.log(data);
-      // rutas.push(data.field_ruta);
-      // console.log('Rutas ->'+rutas);
-      for (var i = 0; i < data.length; i++){
-        this.items.push(data[i]);
-      }
+    var url = 'http://www.deleitese.co/api/v1/views/articlesrest?callback=JSON_CALLBACK&display_id=services_1&field_seccion_tid='+seccion+'&page='+this.page;
+    // var url = 'http://localhost/deleitese/api/v1/views/articlesrest?callback=JSON_CALLBACK&display_id=services_1&field_seccion_tid='+seccion+'&page='+this.page;
+    $http.jsonp(url)
+      .success(function(data){
+        console.log('ok'+data);
+        // rutas.push(data.field_ruta);
+        // console.log('Rutas ->'+rutas);
+        for (var i = 0; i < data.length; i++){
+          this.items.push(data[i]);
+        }
 
-      this.page++;
-      this.busy = false;
+        this.page++;
+        this.busy = false;
 
-    }.bind(this));
+      }.bind(this));
   };
 
   return Article;

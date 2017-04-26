@@ -254,7 +254,7 @@
               h2{
                 margin: 0;
                 text-align: left;
-                font-size: 30px;
+                font-size: 25px;
                 font-weight: 900;
               }
             }
@@ -834,6 +834,10 @@
               font-size: 20px;
               font-weight: $regular;
               p{margin: 0;}
+              a{
+                text-decoration: none;
+                color: $negro;
+              }
             }
             .frameVideo{
               position: relative;

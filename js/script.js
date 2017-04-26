@@ -129,7 +129,7 @@ $(document).ready(function(){
       after: function(){} // Function: After callback
     });
     
-  });
+  }, "jsonp");
 
   $('#home #noticias .verMas').click(function(){
     var activo = $(this).data('activo')
