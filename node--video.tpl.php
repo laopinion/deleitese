@@ -11,10 +11,12 @@ jQuery (function($){
 <!-- FIN Script player -->
 
 <div id="video">
+  
   <div class="video"> <?php print render($content['field_video']); ?></div>
   <div class="video-player"></div>
   <div class="contenido">
     <div class="izq">
+      <div class="tipo"><?php print render($content['field_tipo_de_video']); ?></div>
       <?php if (!empty($content['field_tags'])){ print "<div class=etiquetas>".render($content['field_tags'])."</div>";}?>  
       <h1 class="titulo"><?php print $title;?></h1>
       <div class="movil">

@@ -16,7 +16,7 @@
         <li class="facebook"><a href="https://www.facebook.com/deleitese.co" target="_blank" style="border:0px;"></a></li>
         <li class="twitter"><a href="https://www.twitter.com/deleitese_co" target="_blank" style="border:0px;"></a></li>
         <li class="instagram"><a href="https://www.instagram.com/deleitese_co" target="_blank" style="border:0px;"></a></li>
-        <li class="youtube"><a href="https://www.youtube.com/user/deleitese_co" target="_blank" style="border:0px;"></a></li>
+        <li class="youtube"><a href="https://www.youtube.com/channel/UCYei2N2nDhHaCgDsnJFR9HQ" target="_blank" style="border:0px;"></a></li>
         <div class="triRight"></div>
       </ul>
     </div>

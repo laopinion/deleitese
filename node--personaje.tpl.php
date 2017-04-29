@@ -25,6 +25,20 @@
       <h2>Personajes</h2>
       <?php $view = views_get_view('detalle'); print $view->preview('block_6'); ?>
     </div>
+    <!--PAUTA 300x660-->
+    <div class="pauta p300x600">
+      <h2 class="anuncio_txt">Publicidad</h2>
+      <div class="info">
+        <div class="ad">
+          <script async type='text/javascript' src='//s.clickiocdn.com/t/common_258.js'></script>
+          <div class='__lxGc__'></div>
+          <script type='text/javascript'>
+          ((__lxGc__=window.__lxGc__||{'s':{},'b':0})['s']['_200905']=__lxGc__['s']['_200905']||{'b':{}})['b']['_583728']={'i':__lxGc__.b++};
+          </script>
+        </div>
+      </div>
+    </div>
+    <!--FIN PAUTA 300x660-->
   </div>
   
   <div class="comentarios">

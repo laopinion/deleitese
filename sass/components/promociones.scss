@@ -42,7 +42,18 @@
                 border-bottom: 1px solid $orange;
               }
             }
-            .address, .promo{
+            .address{
+              margin: 0 0 10px 0;
+              display: flex;
+              display: -webkit-flex;
+              display: -moz-flex;
+              align-items: center;
+              -webkit-align-items: center;
+              -moz-align-items: center;
+              font-size: 16px;
+              font-weight: $regular;
+            }
+            .promo{
               margin: 0 0 10px 0;
               display: flex;
               display: -webkit-flex;

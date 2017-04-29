@@ -37,6 +37,10 @@ $(document).ready(function(){
   
   $(".search-form").remove();
   $("header .buscador .buscar form#search-block-form .form-item-search-block-form input").attr("placeholder", "¿Qué te gustaría comer hoy?");
+  $("header .buscador .buscar form#edit-search-block-form--1 .form-item-search-block-form input").attr("placeholder", "¿Qué te gustaría comer hoy?");
+  $("header .buscador .buscar form#edit-search-block-form--2 .form-item-search-block-form input").attr("placeholder", "¿Qué te gustaría comer hoy?");
+  $("header .buscador .buscar form#edit-search-block-form--3 .form-item-search-block-form input").attr("placeholder", "¿Qué te gustaría comer hoy?");
+  $("header .buscador .buscar form#edit-search-block-form--4 .form-item-search-block-form input").attr("placeholder", "¿Qué te gustaría comer hoy?");
 
   //NOTAS SCROLL
   //Cambiar la url cuando estamos en scroll infinito solo para la primera nota

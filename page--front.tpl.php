@@ -31,10 +31,12 @@
                 <i class="icono"></i>
                 <h2>Rutas culinarias</h2>
               </div>
-              <?php $view = views_get_view('rutas'); print $view->preview('block'); ?>
+              <?php // $view = views_get_view('rutas'); print $view->preview('block'); ?>
+              <?php $view = views_get_view('Rutas'); print $view->preview('block'); ?>
             </div>
             <div class="lateral">
-              <?php $view = views_get_view('rutas'); print $view->preview('block_1'); ?>
+              <?php // $view = views_get_view('rutas'); print $view->preview('block_1'); ?>
+              <?php $view = views_get_view('Rutas'); print $view->preview('block_1'); ?>
             </div>
           </div>
         </div>
@@ -42,13 +44,15 @@
           <div class="right">
             <div class="destacada">
               <div class="title">
-                <h2>El mejor plato de</h2>
+                <h2>Razones para comer</h2>
                 <i class="icono"></i>
               </div>
-              <?php $view = views_get_view('rutas'); print $view->preview('block_2'); ?>
+              <?php // $view = views_get_view('rutas'); print $view->preview('block_2'); ?>
+              <?php $view = views_get_view('Rutas'); print $view->preview('block_2'); ?>
             </div>
             <div class="lateral">
-              <?php $view = views_get_view('rutas'); print $view->preview('block_3'); ?>
+              <?php // $view = views_get_view('rutas'); print $view->preview('block_3'); ?>
+              <?php $view = views_get_view('Rutas'); print $view->preview('block_3'); ?>
             </div>
           </div>
           <div class="grafiRight"></div>
@@ -79,7 +83,7 @@
       </div>
       <div class="newsletter">
         <h3></h3>
-        <!--formulario--><?php $block = module_invoke('webform', 'block_view', 'newsletter-470');print render($block['content']); ?><!--FIN formulario-->
+        <!--formulario--><?php $block = module_invoke('webform', 'block_view', 'newsletter-552');print render($block['content']); ?><!--FIN formulario-->
       </div>
       <div class="personajes">
         <?php $view = views_get_view('home'); print $view->preview('block_1'); ?>

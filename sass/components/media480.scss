@@ -78,7 +78,7 @@
             .lateral{
               width: 100%;
               height: auto;
-              .view-rutas{
+              .view-rutas, .view-Rutas{
                 width: 100%;
               }
             }
@@ -402,12 +402,21 @@
 
   #establecimiento{
     .contenido{
+      .izq{
+          h1{margin-top: 20px;}
+      }
       .der{
         width: 100%;
+        .up{height:360px;
+          .logo{max-width: 88%;}
+          .valoracion{margin: 5% 35%;}
+        }
         .down{
           box-sizing: border-box;
           width: 100%;
+          .facebook, .instagram{width:100%;}
         }
+        .mapa{width:100%;}
       }
     }
   }

@@ -135,10 +135,11 @@
                 margin: 0 auto;
                 padding-bottom: 10px;
                 border-bottom: 1px solid $negro;
-                text-align: right;
-                font-size: 30px;
+                text-align: left;
+                font-size: 26px;
                 width: 90%;
                 font-weight: 900;
+                margin-left: 30px;
               }
             }
             .nota{
@@ -196,6 +197,7 @@
                 margin: 10px 0;
                 padding-bottom: 10px;
                 border-bottom: 1px solid #fff;
+                padding: 20px 0px;
               }
             }
             .nota{
@@ -254,8 +256,10 @@
               h2{
                 margin: 0;
                 text-align: left;
-                font-size: 30px;
+                border-bottom: 1px solid $negro;
+                font-size: 25px;
                 font-weight: 900;
+                padding-bottom: 10px;
               }
             }
             .nota{
@@ -323,8 +327,9 @@
             }
             .view-content{
               .views-row{
-                margin: 10px 0;
-                padding-bottom: 10px;
+                padding: 20px 0px;
+                margin: 20px 0;
+                padding-bottom: 20px;
                 border-bottom: 1px solid #fff;
               }
             }
@@ -495,7 +500,7 @@
           display: flex;
           display: -webkit-flex;
           display: -moz-flex;
-          height: 438px;
+          height: auto;
           position: relative;
           left: 0;
           transition: .3s;
@@ -526,7 +531,18 @@
                     border-bottom: 1px solid $orange;
                   }
                 }
-                .address, .promo{
+                .address{
+                  margin: 0 0 10px 0;
+                  display: flex;
+                  display: -webkit-flex;
+                  display: -moz-flex;
+                  align-items: center;
+                  -webkit-align-items: center;
+                  -moz-align-items: center;
+                  font-size: 16px;
+                  font-weight: 600;
+                }
+                .promo{
                   margin: 0 0 10px 0;
                   display: flex;
                   display: -webkit-flex;
@@ -834,6 +850,7 @@
               font-size: 20px;
               font-weight: $regular;
               p{margin: 0;}
+              a{color:#fff; text-decoration:none;}
             }
             .frameVideo{
               position: relative;
@@ -909,6 +926,7 @@
                 line-height: 22px;
                 overflow: hidden;
                 p{margin: 0;}
+                a{color:#fff; text-decoration:none;}
               }
             }
             iframe{
