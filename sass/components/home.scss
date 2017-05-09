@@ -850,7 +850,10 @@
               font-size: 20px;
               font-weight: $regular;
               p{margin: 0;}
-              a{color:#fff; text-decoration:none;}
+              a{
+                text-decoration: none;
+                color: $negro;
+              }
             }
             .frameVideo{
               position: relative;
@@ -926,7 +929,10 @@
                 line-height: 22px;
                 overflow: hidden;
                 p{margin: 0;}
-                a{color:#fff; text-decoration:none;}
+                a{
+                  text-decoration: none;
+                  color: $negro;
+                }
               }
             }
             iframe{
