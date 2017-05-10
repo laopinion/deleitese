@@ -24,6 +24,7 @@
       <h1 class="titulo"><?php print $title;?></h1>
       <div class="texto"><?php print render($content['body']);?></div> 
       <div class="fecha"><?php print render($content['field_fecha']);?></div>
+      <div class="autor"><?php print render($content['field_autor']);?></div>
       <div class="pauta p300x250"><h2 class="anuncio_txt">Publicidad</h2><div class="info"></div></div>
       <meta content="{{dato.ruta}}">
       <div class="url_original"></div>
