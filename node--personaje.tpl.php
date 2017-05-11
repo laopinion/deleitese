@@ -18,6 +18,7 @@
       </div>
     </div>    
     <div class="texto"><?php print render($content['body']);?></div>
+    <div class="autor"><?php print render($content['field_autor']);?></div>
   </div>
   <div class="right">
     <div class="foto"><?php print render($content['field_image']);?></div>

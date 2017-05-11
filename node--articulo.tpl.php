@@ -38,12 +38,13 @@
           <div ng-repeat='dato in article.items' class="li">
             <div id="articulo" in-view="changeUrl(dato.ruta, $index, $inview)">
               <div class="foto" ng-bind-html="dato.field_foto"></div>
-              <div class="contenido" in-view="changeUrl(dato.ruta, $index, $inview)">
-                <div class="seccion" ng-bind-html="dato.seccion" class="seccion"></div>
+              <div class="contenido">
+                <div class="seccion" ng-bind-html="dato.seccion"></div>
                 <div class="etiquetasScroll" ng-bind-html="dato.temas"></div>
-                <h1 class="titulo" ng-bind-html="dato.title" class="titulo"></h1>  
+                <h1 class="titulo" ng-bind-html="dato.title"></h1>  
                 <div ng-bind-html="dato.field_body" class="texto"></div>
-                <div class="fecha" ng-bind-html="dato.fecha" class="fecha"></div>
+                <div class="fecha" ng-bind-html="dato.fecha"></div>
+                <div class="autor" ng-bind-html="dato.autor"></div>
                 <meta content="{{dato.ruta}}">
               </div>
               <div class="mas"><span></span></div>

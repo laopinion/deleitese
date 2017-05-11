@@ -1397,7 +1397,7 @@ $(document).ready(function(){
 
   //https://api.instagram.com/v1/users/search?q=jandrey15&access_token=639755700.68a3d18.199aad0141594dda94252767a6ae31d0
   //username = 'deleitese_co'
-  var token = '2226104334.e8ca006.188ff5246bd9428babbaec16d50aa2a0',
+  var token = '2226104334.4571e32.203bcdd79e114da482790d733bd74431',
       username = 'deleitese_co',
       num_photos = 8;
 
