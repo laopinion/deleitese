@@ -26,7 +26,8 @@ jQuery (function($){
           <!--Chef--><?php if (!empty($content['field_chef'])){ print "<div class=chef><div class=icono></div><span>".render($content['field_chef'])."</span></div>";}?>  
         </div>
       </div>
-      <div class="texto"><?php print render($content['body']);?></div> 
+      <div class="texto"><?php print render($content['body']);?></div>
+      <div class="autor"><?php print render($content['field_autor']);?></div>
       <div class="comentarios">
         <div class="bloque"><?php include("disqus.tpl.php"); ?></div>
       </div>

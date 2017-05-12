@@ -48,7 +48,7 @@ app.factory('Article', function ($http){
     // var url = 'http://localhost/deleitese/api/v1/views/articlesrest?callback=JSON_CALLBACK&display_id=services_1&field_seccion_tid='+seccion+'&page='+this.page;
     $http.jsonp(url)
       .success(function(data){
-        console.log('ok'+data);
+        // console.log('ok'+data);
         // rutas.push(data.field_ruta);
         // console.log('Rutas ->'+rutas);
         for (var i = 0; i < data.length; i++){

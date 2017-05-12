@@ -110,6 +110,47 @@
         a:hover{text-decoration:underline;}
     }
     .fecha{padding:0px 10px;font-size:14px; font-weight:400; color:#FF8801; height: auto;width: 75%;margin: 10px 0px;}
+    .autor{
+      margin-top: 50px;
+      width: 312px;
+      .autorArticle{
+        display: flex;
+        align-items: center;
+        .photo{
+          position: relative;
+          .icono{
+            background:url(../images/rayitas.svg) no-repeat;
+            display: block;
+            height: 70px;
+            left: -20px;
+            top: -57px;
+            position: absolute;
+            width: 135px;
+          }
+          img{
+            background-color: $orange;
+            border-radius: 50%;
+            height: 92px;
+            width: 92px;
+          }
+        }
+        .info{
+          margin-left: 40px;
+          .name{
+            font-size: 25px;
+            color: $orange;
+          }
+          .contacto{
+            position: relative;
+            top: 15px;
+            font-size: 14px;
+          }
+          .summary{
+            font-size: 14px;
+          }
+        }
+      }
+    }
   }
   .mas{width:100%;height:3px; background:$orange;position: relative;margin:100px 0px;z-index:0;
     span{
@@ -225,7 +266,8 @@
       padding:0px 20px;
       position: relative;
       width:1240px;
-      .izq{width:780px;height:auto;position: relative; margin-right:20px;; 
+      .izq{width:780px;height:auto;position: relative; margin-right:20px;
+        .tipo{display: none;}
         .etiquetas{
           height: 20px;
           margin:20px 0px;
@@ -260,7 +302,48 @@
             a:hover{text-decoration:underline;}
         }
         .movil{ display: none; }
-      }
+        .autor{
+          margin-top: 50px;
+          width: 312px;
+          .autorArticle{
+            display: flex;
+            align-items: center;
+            .photo{
+              position: relative;
+              .icono{
+                background:url(../images/rayitas.svg) no-repeat;
+                display: block;
+                height: 70px;
+                left: -20px;
+                top: -57px;
+                position: absolute;
+                width: 135px;
+              }
+              img{
+                background-color: $orange;
+                border-radius: 50%;
+                height: 92px;
+                width: 92px;
+              }
+            }
+            .info{
+              margin-left: 40px;
+              .name{
+                font-size: 25px;
+                color: $orange;
+              }
+              .contacto{
+                position: relative;
+                top: 15px;
+                font-size: 14px;
+              }
+              .summary{
+                font-size: 14px;
+              }
+            }
+          }
+        }//Fin Autor
+      }//Fin left
       .der{width:400px; height:auto;position: relative; padding:0px !important;
           .up{background:$orange;width:100%; height:auto;float:left;padding:20px 0px;
               .ingredientes{padding:0px 10px;font-weight:300;font-size:18px;width: 90%;margin: 0px 20px;
@@ -496,6 +579,47 @@
       color: $orange;
       font-size: 18px;
       font-weight: $bold;
+    }
+    .autor{
+      margin-top: 50px;
+      width: 312px;
+      .autorArticle{
+        display: flex;
+        align-items: center;
+        .photo{
+          position: relative;
+          .icono{
+            background:url(../images/rayitas.svg) no-repeat;
+            display: block;
+            height: 70px;
+            left: -20px;
+            top: -57px;
+            position: absolute;
+            width: 135px;
+          }
+          img{
+            background-color: $orange;
+            border-radius: 50%;
+            height: 92px;
+            width: 92px;
+          }
+        }
+        .info{
+          margin-left: 40px;
+          .name{
+            font-size: 25px;
+            color: $orange;
+          }
+          .contacto{
+            position: relative;
+            top: 15px;
+            font-size: 14px;
+          }
+          .summary{
+            font-size: 14px;
+          }
+        }
+      }
     }
   }
   .right{
