@@ -115,8 +115,7 @@
       <span u="arrowright" class="jssora21r"></span>
     </div>
     
-    <div class="contenido">
-        
+    <div class="contenido">  
         <div class="izq">
           <h1 class="titulo"><?php print $title;?></h1>
           <?php
@@ -155,16 +154,19 @@
             }
           ?>
           <script>
-            jQuery(document).ready(function ($) {
+            jssor_slider1_starter = function (containerId) {
                 var options = {
                     $AutoPlay: true,
+
                     $PauseOnHover: 1,                               //[Optional] Whether to pause when mouse over if a slideshow is auto playing, default value is false
+
                     $ArrowKeyNavigation: true,                          //Allows arrow key to navigate or not
-                    $SlideWidth: 484,                                   //[Optional] Width of every slide in pixels, the default is width of 'slides' container
+                    $SlideWidth: 600,                                   //[Optional] Width of every slide in pixels, the default is width of 'slides' container
                     //$SlideHeight: 300,                                  //[Optional] Height of every slide in pixels, the default is width of 'slides' container
                     $SlideSpacing: 0,                                   //Space between each slide in pixels
                     $DisplayPieces: 2,                                  //Number of pieces to display (the slideshow would be disabled if the value is set to greater than 1), the default value is 1
                     $ParkingPosition: 100,                                //The offset position to park slide (this options applys only when slideshow disabled).
+
                     $ArrowNavigatorOptions: {                       //[Optional] Options to specify and enable arrow navigator or not
                         $Class: $JssorArrowNavigator$,              //[Requried] Class to create arrow navigator instance
                         $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
@@ -172,80 +174,61 @@
                         $Steps: 1                                       //[Optional] Steps to go for each navigation request, default value is 1
                     }
                 };
-                var jssor_slider2 = new $JssorSlider$("slider2_container", options);
+
+                var jssor_slider1 = new $JssorSlider$(containerId, options);
                 //responsive code begin
                 //you can remove responsive code if you don't want the slider scales while window resizes
                 function ScaleSlider() {
-                    var parentWidth = jssor_slider2.$Elmt.parentNode.clientWidth;
+                    var parentWidth = jssor_slider1.$Elmt.parentNode.clientWidth;
                     if (parentWidth)
-                        jssor_slider2.$ScaleWidth(Math.min(parentWidth, 800));
+                        jssor_slider1.$ScaleWidth(Math.min(parentWidth, 800));
                     else
-                        window.setTimeout(ScaleSlider, 30);
+                        $Jssor$.$Delay(ScaleSlider, 30);
                 }
-                ScaleSlider();
-                $(window).bind("load", ScaleSlider);
-                $(window).bind("resize", ScaleSlider);
-                $(window).bind("orientationchange", ScaleSlider);
-                //responsive code end
-            });
-        </script>
-        <div id="slider2_container" style="position: relative; top: 0px; left: 0px; width: 100%;height: 650px; overflow: hidden;">
-        <!-- Slides Container -->
-        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 100%; height: 650px;overflow: hidden;">
-            <?php 
-            if (!empty($node->field_menu)) {   
-              $i=0;
-              foreach($node->field_menu['und'] as $imagen) {           
-                $item = substr($content['field_menu'][$i]['#item']['uri'],8);
-                print "<div>";
-                print "
-                    <img u=image src='".base_path()."sites/default/files".$item."' alt='".render($content['field_menu'][$i]['#item']['alt'])."'/>
-                    
-                  </div>";
-                    $i++;
-                    }   
-                }    
-            ?> 
-        </div>
-        <style>
-            .jssora13l, .jssora13r {
-                display: block;
-                position: absolute;
-                /* size of arrow element */
-                width: 40px;
-                height: 50px;
-                cursor: pointer;
-                background: url(../img/a13.png) no-repeat;
-                overflow: hidden;
-            }
-            .jssora13l { background-position: -10px -35px; }
-            .jssora13r { background-position: -70px -35px; }
-            .jssora13l:hover { background-position: -130px -35px; }
-            .jssora13r:hover { background-position: -190px -35px; }
-            .jssora13l.jssora13ldn { background-position: -250px -35px; }
-            .jssora13r.jssora13rdn { background-position: -310px -35px; }
-        </style>
-        <span u="arrowleft" class="jssora13l" style="top: 123px; left: 30px;"></span>
-        <span u="arrowright" class="jssora13r" style="top: 123px; right: 30px;"></span>
-    </div>
 
-    </div>  
-      
-      <!--MOVIL-->
-      <!--
-        <h1 class="titulo"><?php // print $title;?></h1>
-        <div class="resumen"><?php // $view = views_get_view('detalle'); print $view->preview('block_5'); ?></div>
-        <div class="logo"><?php // print render($content['field_logo']);?></div>
-        <div class="numero"><?php // print render($content['field_llamar']);?></div>
-        <div class="tel"></div>
-        <div class="valoracion"><div class="estrellas"></div><span>Valoración</span></div>
-        <div class="texto"><?php // print render($content['body']);?></div> 
-        <div class="mapa"><h2>Ubicación</h2><?php // print render($content['field_mapa']);?></div>
-        <div class="comentarios">
-          <div class="bloque"><?php // include("disqus.tpl.php"); ?></div>
+                ScaleSlider();
+                $Jssor$.$AddEvent(window, "load", ScaleSlider);
+
+                $Jssor$.$AddEvent(window, "resize", $Jssor$.$WindowResizeFilter(window, ScaleSlider));
+                $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+                //responsive code end
+            };
+        </script>
+        <div id="slider2_container" style="position: relative; top: 0px; left: 0px; width: 800px;
+        height: 650px; overflow: hidden;">
+            <!-- Slides Container -->
+            <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 800px; height: 650px;
+                overflow: hidden;">
+                <?php 
+                if (!empty($node->field_menu)) {   
+                  $i=0;
+                  foreach($node->field_menu['und'] as $imagen) {           
+                    $item = substr($content['field_menu'][$i]['#item']['uri'],8);
+                    print "<div>";
+                    print "
+                        <img u=image src='".base_path()."sites/default/files".$item."' alt='".render($content['field_menu'][$i]['#item']['alt'])."'/>
+                        
+                      </div>";
+                        $i++;
+                        }   
+                    }    
+                ?> 
+            </div>
+            <style>
+                .jssora13l, .jssora21r {display: block;position: absolute;width: 55px;height: 55px;cursor: pointer;overflow: hidden;}
+                .jssora13l {top: 10px; left: -1px; background: url(http://www.deleitese.co/sites/default/themes/deleitese/images/btn_slide_izq.svg) 0px 0px/60px auto no-repeat; }
+                .jssora13r {top: 10px; right: 2px; background: url(http://www.deleitese.co/sites/default/themes/deleitese/images/btn_slide_der.svg) 0px 0px/60px auto no-repeat; }
+                .jssora13l:hover { opacity: 0.8; }
+                .jssora13r:hover {  opacity: 0.8;}
+                .jssora13l.jssora13ldn { background-position: -243px -33px; }
+                .jssora13r.jssora13rdn { background-position: -303px -33px; }
+            </style>
+            <span u="arrowleft" class="jssora13l"></span>
+            <span u="arrowright" class="jssora13r"></span>
+            <!-- Trigger -->
+            <script>
+                jssor_slider1_starter('slider2_container');
+            </script>
         </div>
-        <?php  // include("compartir.tpl.php"); ?>
-      </div>
-        -->
-      <!--FIN MOVIL-->
+    </div>  
 </div>
