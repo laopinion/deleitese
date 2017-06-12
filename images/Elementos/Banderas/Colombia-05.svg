@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="34.417px" height="34.25px" viewBox="0 0 34.417 34.25" enable-background="new 0 0 34.417 34.25" xml:space="preserve">
+<g id="Soporte">
+</g>
+<g id="Publicidad">
+</g>
+<g id="Iconos">
+	<g>
+		<defs>
+			<circle id="SVGID_3_" cx="17.5" cy="17.345" r="15.917"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_3_"  overflow="visible"/>
+		</clipPath>
+		<rect x="-4" y="14.75" clip-path="url(#SVGID_2_)" fill="#AA0202" width="41" height="19"/>
+		<rect x="-4" y="5.75" clip-path="url(#SVGID_2_)" fill="#1E2F5E" width="41" height="19"/>
+		<rect x="-4" y="-2.25" clip-path="url(#SVGID_2_)" fill="#EFD451" width="41" height="20"/>
+	</g>
+	<g>
+		<defs>
+			<circle id="SVGID_7_" cx="-20.5" cy="17.345" r="15.917"/>
+		</defs>
+		<clipPath id="SVGID_4_">
+			<use xlink:href="#SVGID_7_"  overflow="visible"/>
+		</clipPath>
+		<g clip-path="url(#SVGID_4_)">
+			<path fill-rule="evenodd" clip-rule="evenodd" fill="#FECD00" d="M6.079,22.622c0,3.559-0.001,7.117,0.004,10.676
+				c0,0.144-0.028,0.173-0.173,0.173c-17.89-0.005-35.78-0.005-53.67,0c-0.144,0-0.172-0.029-0.172-0.173
+				c0.005-3.559,0.004-7.117,0.004-10.676C-29.926,22.622-11.923,22.622,6.079,22.622z"/>
+			<path fill-rule="evenodd" clip-rule="evenodd" d="M-47.928,11.821c0-3.545,0-7.089-0.004-10.633c0-0.146,0.028-0.173,0.172-0.173
+				c17.891,0.004,35.78,0.004,53.67,0c0.145,0,0.173,0.027,0.173,0.173C6.078,4.732,6.079,8.276,6.079,11.821
+				C-11.923,11.821-29.926,11.821-47.928,11.821z"/>
+			<path fill-rule="evenodd" clip-rule="evenodd" fill="#DC0000" d="M-47.928,11.821c18.002,0,36.005,0,54.007,0
+				c0,3.6,0,7.201,0,10.801c-18.002,0-36.005,0-54.007,0C-47.928,19.022-47.928,15.42-47.928,11.821z"/>
+		</g>
+	</g>
+</g>
+<g id="Imagenes">
+</g>
+<g id="Cintillos">
+</g>
+<g id="Botones">
+</g>
+<g id="TXT">
+</g>
+<g id="Logo">
+</g>
+<g id="Guia">
+</g>
+</svg>

@@ -1,0 +1,191 @@
+.head_movil{display: none;}
+header{
+  #header{
+    height: 180px;
+    margin:0 auto;
+    position: relative; 
+    padding: 20px;   
+    width: 1240px; 
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    align-items: flex-end;
+    -webkit-align-items: flex-end;
+    -moz-align-items: flex-end;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    .center{
+      display: flex;
+      display: -webkit-flex;
+      display: -moz-flex;
+      align-items: flex-end;
+      -webkit-align-items: flex-end;
+      -moz-align-items: flex-end;
+      #logo{
+        padding:0px; 
+        position: relative;
+        width: 220px;
+        height: 98px; 
+        top: 0px; 
+        opacity: 1;
+        h1{
+          background:url(../images/logo.svg) no-repeat; 
+          height: 98px;
+          background-position: -49px -30px;
+          background-size: 310px;display:block; text-indent:-9999px; margin: 0 auto;
+          a {display:block; height:70px; text-indent:-9999px;}
+        }
+      }
+      .menu{
+        display: flex;
+        display: -webkit-flex;
+        display: -moz-flex;
+        align-items: flex-end;
+        -webkit-align-items: flex-end;
+        -moz-align-items: flex-end;
+        justify-content: center;
+        -webkit-justify-content: center;
+        -moz-justify-content: center;
+        height: 115px;
+        width: 815px;
+        .item_menu{
+          height: 115px;
+          display: flex;
+          display: -webkit-flex;
+          display: -moz-flex;
+          align-items: flex-end;
+          align-items: flex-end;
+          -webkit-align-items: flex-end;
+          -moz-align-items: flex-end;
+          justify-content: center;
+          -webkit-justify-content: center;
+          -moz-justify-content: center;
+          padding: 0;text-align:center;margin: 0px;
+        }
+        .noticias:hover{background:url(../images/btn_noticias.svg) no-repeat; background-position: 25px 28px; }
+        .personajes:hover{background:url(../images/btn_personajes.svg) no-repeat; background-position: 28px 13px; }
+        .recetas:hover{background:url(../images/btn_recetas.svg) no-repeat; background-position: 10px 13px;}
+        .restaurantes:hover{background:url(../images/btn_restaurantes.svg) no-repeat;background-position: 28px -3px; }
+        .promociones:hover{background:url(../images/btn_promociones.svg) no-repeat; background-position: 33px 10px; }
+        .foodies:hover{background:url(../images/btn_footies.svg) no-repeat; background-position: 15px 10px; }
+        .contactos:hover{background:url(../images/btn_contacto.svg) no-repeat; background-position: 20px 10px; }
+        
+        .active-noticias{background:url(../images/btn_noticias.svg) no-repeat; background-position: 25px 28px; }
+        .active-personajes{background:url(../images/btn_personajes.svg) no-repeat; background-position: 28px 13px; }
+        .active-recetas{background:url(../images/btn_recetas.svg) no-repeat; background-position: 10px 13px;}
+        .active-restaurantes{background:url(../images/btn_restaurantes.svg) no-repeat;background-position: 28px -3px; }
+        .active-promociones{background:url(../images/btn_promociones.svg) no-repeat; background-position: 33px 10px; }
+        .active-foodies{background:url(../images/btn_footies.svg) no-repeat; background-position: 15px 10px; }
+        .active-contactos{background:url(../images/btn_contacto.svg) no-repeat; background-position: 20px 10px; }
+        a{text-align: center;position: relative;font-size:18px;color:#000; font-weight:700; padding: 75px 12px 0 12px; text-decoration:none;height:20px;}
+      }
+      .search{display:none;}
+      .btnSeguir{
+        position: absolute;
+        top: 50px;
+        right: 155px;
+        display: flex;
+        display: -webkit-flex;
+        display: -moz-flex;
+        align-items: center;
+        -webkit-align-items: center;
+        -moz-align-items: center;
+        justify-content: space-between;
+        -webkit-justify-content: space-between;
+        -moz-justify-content: space-between;
+        width: 240px;
+        .icono{
+          background:url(../images/btn_unete.png) no-repeat; background-position: 25px 28px;
+          background-position: 0 0px;
+          display: block;
+          width: 100px;
+          height: 25px;
+          a{
+            display: block;
+            height: 30px;
+          }
+        }
+      }
+    }
+  }
+
+  .buscador{
+    background-color: $orange;
+    height: 158px;
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    .buscar{
+      display: flex;
+      display: -webkit-flex;
+      display: -moz-flex;
+      justify-content: center;
+      -webkit-justify-content: center;
+      -moz-justify-content: center;
+      align-items: center;
+      -webkit-align-items: center;
+      -moz-align-items: center;
+      .icono{
+        background:url(../images/encuentraRestaurante.png) no-repeat;
+        background-position: 0px 0px;
+        display: block;
+        height: 58px;
+        width: 178px;
+      }
+      form#search-block-form, form#search-block-form--2{
+        display: flex;
+        display: -webkit-flex;
+        display: -moz-flex;
+        align-items: center;
+        -webkit-align-items: center;
+        -moz-align-items: center;
+        .form-item-search-block-form input{
+          background-color: #EAEAEA;
+          border: none;
+          color: #333;
+          font-size: 18px;
+          height: 51px;
+          padding-left: 10px;
+          margin: 0 10px;
+          width: 600px;
+        }
+/*
+        .select{
+          width: 310px;
+          overflow: hidden;
+          background: #EAEAEA url("../images/iconoSelect.svg") 255px 3px/50px auto no-repeat;
+          select{
+            border: none;
+            color: #333;
+            cursor: pointer;
+            font-size: 18px;
+            height: 51px;
+            padding-left: 10px;
+            width: 310px;
+            box-shadow: none;
+            background: transparent;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+          }
+        }
+        */
+        #edit-submit, #edit-submit--1, #edit-submit--2, #edit-submit--3{
+          background:url(../images/buscar.png) no-repeat;
+          background-position: 0px 5px;
+          height: 50px;
+          width: 125px;
+          border: none;
+          padding: 0;
+          margin-left: 10px;
+          text-indent: -9999px;
+        }
+      }
+    }
+  }
+  
+}//Fin header

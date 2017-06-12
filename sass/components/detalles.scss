@@ -1,0 +1,921 @@
+#tabs{background-color: #FFF;border: 1px solid #DDD;padding: 10px;position: absolute;right: 0px;top: 150px;z-index: 3;
+    ul{border-bottom: none !important; padding: 10px !important; }
+    .primary li a{border-color: #bbb;border-style: solid solid none solid;border-width: 1px;height: auto;margin-right: 0.5em;padding: 0 1em;text-decoration: none;}
+    li a{background: none repeat scroll 0 0 #F8F8F8 !important;border: 1px solid #DDD !important;color: #666;display: inline-block;font: 10px/10px Arial;padding: 5px !important;text-align: center;text-transform: uppercase;}
+}
+#page{width: 100%; position: relative; float:left;background: #fff;}
+
+//PAGINAS
+#pagina{width:1024px;padding:20px 0px;margin:0 auto; position: relative;margin-top:50px;
+    .contenido{position: relative; float:left;
+        .movil{display:none;}
+        h1{font-size: 40px; line-height:42px; width: 100%;margin: 0 auto;padding: 0px 0px 20px 0px;text-align: left;height: auto;}
+        .texto{color:#333; font-weight:300;font-size:18px;line-height:20px;
+            a{color:#FF8801; text-decoration:none;}
+            a:hover{text-decoration:underline;}
+        }
+    }
+}
+//FIN PAGINAS
+
+//NOTAS
+.emergentes{display:block; position: fixed; bottom: 0px; right:0px; width: 350px;height: 560px;background: url(../images/marcoNotas.svg) -3px -3px/360px auto no-repeat transparent;z-index:1;
+    .content{float:right; position:relative;background: #474747;border: 2px solid #000;padding: 10px;width: 300px;
+        .rutas{position:relative; float:left; width:300px; height: auto;margin-bottom:10px;
+            .foto{position:relative; float:left; width:300px; height: auto;
+                img{width:100%; height:auto;}
+            }
+            .titulo{position: relative; float:left; height:35px;
+                a{color:#fff; font-size:16px; font-weight:500; line-height:18px;text-decoration:none;}
+            }
+        }
+    }
+}
+
+#articulo{
+  width:100%;
+  position: relative;
+  .foto{
+    width:100%; 
+    height:550px; 
+    position: relative;  
+    margin-bottom:10px; 
+    overflow: hidden; 
+    z-index:2;
+    img{
+      width:100%; 
+      height:auto;
+      background-position: 50% 0px;
+    }
+  }
+  .contenido{
+    position: relative; 
+    margin:0 auto;
+    width: 1240px;
+    padding:0px 20px;
+    .seccion{
+      width:75%; 
+      padding: 10px 0px; 
+      margin-bottom: 20px;
+      a{font-size:18px;font-weight:400; color:#000; text-decoration:underline; height:50px; text-transform:uppercase;}
+      a:hover{text-decoration:underline;}
+    }
+    .etiquetas{
+      width: 75%;
+      position: relative;
+      margin-bottom: 30px;
+      .field-items{
+        display: flex;
+        display: -webkit-flex;
+        display: -moz-flex;
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        a{color:$orange; position: relative;font-size:16px;line-height:18px; font-weight:300; text-decoration:none; margin-right: 30px;padding: 10px 0px;font-style: italic;}
+      }
+      .field-items .field-item:nth-child(2n+1){
+        a{
+          color: #000;
+        }
+      }
+      // .even {
+      //     a{color:#000;}
+      // }
+
+    }
+    .etiquetasScroll{
+      display: flex;
+      display: -webkit-flex;
+      display: -moz-flex;
+      flex-wrap: wrap;
+      -webkit-flex-wrap: wrap;
+      -moz-flex-wrap: wrap;
+      margin-bottom: 30px;
+      a{color:$orange; position: relative;font-size:16px;line-height:18px; font-weight:300; text-decoration:none; margin-right: 30px;padding: 10px 0px;font-style: italic;}
+    }
+    .etiquetasScroll a:nth-child(2n+1){
+      color: #000;
+    }
+    h1{
+      font-size: 40px; 
+      line-height:42px; 
+      width: 75%;
+      margin: 0;
+      padding: 0px 0px 20px 0px;
+      text-align: left; 
+      height: auto;
+    }
+    .texto{color:#333; font-weight:300;font-size:16px;line-height:18px;width: 75%;position: relative;
+        a{color:#FF8801; text-decoration:none;}
+        a:hover{text-decoration:underline;}
+    }
+    .fecha{padding:0px 10px;font-size:14px; font-weight:400; color:#FF8801; height: auto;width: 75%;margin: 10px 0px;}
+    .autor{
+      margin-top: 50px;
+      width: 312px;
+      .autorArticle{
+        display: flex;
+        align-items: center;
+        .photo{
+          position: relative;
+          .icono{
+            background:url(../images/rayitas.svg) no-repeat;
+            display: block;
+            height: 70px;
+            left: -20px;
+            top: -57px;
+            position: absolute;
+            width: 135px;
+          }
+          img{
+            background-color: $orange;
+            border-radius: 50%;
+            height: 92px;
+            width: 92px;
+          }
+        }
+        .info{
+          margin-left: 40px;
+          .name{
+            font-size: 25px;
+            color: $orange;
+          }
+          .contacto{
+            position: relative;
+            top: 15px;
+            font-size: 14px;
+          }
+          .summary{
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+  .mas{width:100%;height:3px; background:$orange;position: relative;margin:100px 0px;z-index:0;
+    span{
+      background: url(../images/icon_otras_notas.svg) 10px 10px/40px auto no-repeat $orange;
+      border-radius: 40px;
+      display: block;
+      height:60px; 
+      margin: 0 auto;
+      top: -30px;
+      position: relative; 
+      width: 60px; 
+    }
+  }
+  .load{
+    margin: 0 auto;
+    width: 300px;
+  }
+}
+//FIN NOTAS
+
+//RESTAURANTES
+#establecimiento{width:100%;float:left; position: relative;
+    .contenido{position: relative; margin:0 auto; width: 1240px;padding:0px 20px;
+        .izq{width:780px;height:auto; float:left;position: relative; margin-right:20px; border-right: none !important; margin-top:20px;
+            h1{font-size: 40px; line-height:42px; width: 100%;margin: 0 auto;padding: 0px 0px 20px 0px;text-align:left;float:left; height: auto;}
+            .especialidad{width: 100%;position: relative;float: left;margin: 0px;height: 30px;font-size:18px; font-weight:600; font-style:italic; color:$orange !important; background:none !important; margin-left:0px !important;
+                .triangulo{width: 0;height: 0;border-top: 35px solid transparent;border-left: 14px solid #000;border-bottom: 35px solid transparent; position: absolute;left: 10px;top: -15px;}
+                .icon{background:url(../images/iconos/icono_d.svg) -4px -1px/90px auto no-repeat #000;height: 50px;width: 70px;float: left;position: absolute;padding: 10px 5px;top: -15px;left: -70px;} 
+                span{color:#fff; float:left; position: relative;font-size:20px;font-weight:300; text-decoration:none; margin-left: 30px;padding: 10px 0px;font-style: italic;}
+            }
+            .texto{color:#333; font-weight:300;font-size:16px;line-height:18px;
+                a{color:#FF8801; text-decoration:none;}
+                a:hover{text-decoration:underline;}
+                img{width:100%; height:auto;}
+                iframe{width:100%; height:auto;}
+            }
+        }
+        .der{width:400px;height:auto; float:left; position: relative; padding:0px;
+            .up{background:#474747;width:100%; height:auto;float:left;padding-bottom:20px; border-bottom:1px solid $orange;
+                .logo{max-width:50%; height:auto; position: relative; float:left;margin-left: 20px; margin-top: 20px;
+                    img{width: 100%;height: auto;}
+                }
+                .valoracion{float:right;position: relative;width: auto;margin: 25% 10% 0px 10%;height: 40px;
+                    span{color:#fff; font-size: 18px; font-weight:500;}
+                }   
+            }
+            .down{background:#474747;width:360px; height:auto;float:left;position: relative;padding:20px;
+                .direccion{background: url(../images/restaurantes/icon_mapa.svg) 10px 0px/27px auto no-repeat transparent; width:100%; height:40px; float:left;position: relative;color:#fff; margin-bottom:20px;
+                    .field-item{margin-left:50px; float:left;padding: 10px 0px;}                    
+                }
+                .telefono{background: url(../images/restaurantes/icon_tel.svg) 10px 0px/27px auto no-repeat transparent; width:100%; height:40px; float:left;position: relative;color:#fff; margin-bottom:20px;
+                    a{margin-left:50px; float:left;padding: 10px 0px;color:#fff; text-decoration:none;top: -14px;position: relative;}
+                    .field-item{text-indent:-9999px;}
+                }
+                .horarios{background: url(../images/restaurantes/icon_horarios.svg) 4px 0px/40px auto no-repeat transparent; width:100%; height:auto; float:left;position: relative;color:#fff; margin-bottom:20px;
+                    .field-item{margin-left:50px; float:left;padding: 10px 0px; /*font-size:11px;*/}                    
+                }
+                .web{background: url(../images/restaurantes/icon_web.svg) 2px 6px/40px auto no-repeat transparent; width:100%; height:40px; float:left;position: relative; margin-bottom:20px;display:none;
+                    a{margin-left:50px; float:left;padding: 10px 0px;color:#fff; text-decoration:none;top: -14px;position: relative;}
+                    .field-item{text-indent:-9999px;}
+                }
+                .facebook{background: url(../images/restaurantes/icon_face.svg) 10px 3px/27px auto no-repeat transparent; width:50%; height:40px; float:left;position: relative;color:#fff; margin-bottom:20px;
+                    a{margin-left:50px; float:left;padding: 10px 0px;color:#fff; text-decoration:none;top: 2px;position: relative;}
+                }
+                .instagram{background: url(../images/restaurantes/icon_ins.svg) 10px 3px/27px auto no-repeat transparent; width:50%; height:40px; float:left;position: relative;color:#fff; margin-bottom:20px;
+                    a{margin-left:50px; float:left;padding: 10px 0px;color:#fff; text-decoration:none;top: -16px;position: relative;}
+                    .field-item{text-indent:-9999px;}
+                }
+                .pago{float:left; position:relative; width:100%; height:60px;
+                    .field-item{text-indent:-9999px;}
+                    span{color: #fff;top: -10px;position: relative;left: 10px;}
+                }
+            }
+            .mapa{width:397px; height:auto;float:left;position: relative;padding:0px;}
+        }
+        .menur{width:100%; height:auto; position: relative; float:left;margin-bottom:30px;
+            .titulo{position: relative; margin:0 auto; width:200px; height:60px; padding:20px 0px; border-bottom:1px solid $orange;
+                .icon{background: url(../images/restaurantes/menu.svg) 10px 2px/57px auto no-repeat transparent; position: relative; float:left;width:80px; height:60px;}
+                .txt{background: url(../images/restaurantes/menu_txt.png) 0px 2px/100px auto no-repeat transparent; position: relative; float:left;width:100px; height:60px;}
+            }   
+        }
+         
+    }
+    .mas{width:100%;height:3px; background:$orange;float:left; position: relative;margin:50px 0px;
+        span{width: 60px; height:60px; position: relative; margin-left:50%;background: url(../images/icon_otras_notas.svg) 10px 10px/40px auto no-repeat $orange;float: left;border-radius: 40px;top: -30px;}
+    }
+}
+//FIN RESTAURANTES
+
+
+//VIDEOS
+#video{width:100%;position: relative;
+    .video{display:none;}
+    .video-player{
+      position: relative;
+      padding-top: 56.25%;
+      iframe{
+        border: none;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .contenido{
+      display: flex;
+      display: -webkit-flex;
+      display: -moz-flex;
+      margin: 0 auto 50px auto;
+      padding:0px 20px;
+      position: relative;
+      width:1240px;
+      .izq{width:780px;height:auto;position: relative; margin-right:20px;
+        .tipo{display: none;}
+        .etiquetas{
+          height: 20px;
+          margin:20px 0px;
+          position: relative;
+          width: 100%;
+          .field-items{
+            display: flex;
+            display: -webkit-flex;
+            display: -moz-flex;
+            flex-wrap: wrap;
+            -webkit-flex-wrap: wrap;
+            -moz-flex-wrap: wrap;
+          }
+          a{
+            color: $orange;
+            position: relative;
+            font-size: 16px;
+            line-height: 18px;
+            font-weight: 300;
+            text-decoration: none;
+            margin-right: 30px;
+            padding: 10px 0px;
+            font-style: italic;
+          }
+          .even {
+              a{color:#000;}
+          }
+        }
+        h1{font-size: 40px; line-height:42px; width: 100%;margin: 0 auto;padding: 0px 0px 20px 0px;text-align:left;}
+        .texto{color:#333; font-weight:300;font-size:16px;line-height:18px; width:100%;
+            a{color:#FF8801; text-decoration:none;}
+            a:hover{text-decoration:underline;}
+        }
+        .movil{ display: none; }
+        .autor{
+          margin-top: 50px;
+          width: 312px;
+          .autorArticle{
+            display: flex;
+            align-items: center;
+            .photo{
+              position: relative;
+              .icono{
+                background:url(../images/rayitas.svg) no-repeat;
+                display: block;
+                height: 70px;
+                left: -20px;
+                top: -57px;
+                position: absolute;
+                width: 135px;
+              }
+              img{
+                background-color: $orange;
+                border-radius: 50%;
+                height: 92px;
+                width: 92px;
+              }
+            }
+            .info{
+              margin-left: 40px;
+              .name{
+                font-size: 25px;
+                color: $orange;
+              }
+              .contacto{
+                position: relative;
+                top: 15px;
+                font-size: 14px;
+              }
+              .summary{
+                font-size: 14px;
+              }
+            }
+          }
+        }//Fin Autor
+      }//Fin left
+      .der{width:400px; height:auto;position: relative; padding:0px !important;
+          .up{background:$orange;width:100%; height:auto;float:left;padding:20px 0px;
+              .ingredientes{padding:0px 10px;font-weight:300;font-size:18px;width: 90%;margin: 0px 20px;
+                  h2{font-weight:600;font-size:20px;width:280px;color:#000;text-align:center; width:100%;}
+                  p{margin: 5px 0px;}
+              }
+              .tiempo{padding:10px 0px;font-weight:300;font-size:20px;width: 90%;margin: 0px 20px;height:60px;
+                  .icono{background: url(../images/iconoReloj.svg) 5px 5px/50px auto no-repeat;height: 60px;width: 60px;float:left;position: relative;}       
+                  span{width: 80%;float:left;position: relative;height: 50px;
+                      .field p{margin:24px 0px 0px 10px;}
+                  }
+              }
+              .chef{padding:10px 0px;font-weight:300;font-size:20px;width: 90%;margin: 0px 20px;height:60px;
+                  .icono{background: url(../images/iconoChef.svg) 5px 5px/50px auto no-repeat;height: 60px;width: 60px;float:left;position: relative;}        
+                  span{width: 80%;float:left;position: relative;height: 50px;
+                      .field p{margin:24px 0px 0px 10px;}
+                  }
+              }
+          }
+        .masVideos{
+          background-color: $orange;
+          h3{
+            text-align: center;
+            margin: 0;
+            padding: 15px 0;
+          }
+          .view-display-id-block_1{
+            .view-content{
+              display: flex;
+              display: -webkit-flex;
+              display: -moz-flex;
+              flex-wrap: wrap;
+              -webkit-flex-wrap: wrap;
+              -moz-flex-wrap: wrap;
+              justify-content: center;
+              -webkit-justify-content: center;
+              -moz-justify-content: center;
+              margin: 0 auto;
+              width: 100%;
+              .views-row{
+                margin-bottom: 10px;
+                .nota{
+                  position: relative;
+                  .id{display: none;}
+                  .icono{
+                    background: url(../images/btn_video.svg) no-repeat;
+                    background-position: 0px 0px;
+                    background-size: 80px;
+                    display: block;
+                    height: 80px;
+                    width: 70px;
+                    position: absolute;
+                    top: 40px;
+                    left: 0;
+                    right: 0;
+                    margin: 0 auto;
+                    z-index: 5;
+                  }
+                  
+                  .summary{
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    margin: 0 auto;
+                    background-color: rgba(247, 147, 30, 0.8);
+                    height: 63px;
+                    width: 274px;
+                    padding: 10px;
+                    box-sizing: border-box;
+                    font-size: 20px;
+                    font-weight: $regular;
+                    line-height: 22px;
+                    overflow: hidden;
+                    a{
+                      text-decoration: none;
+                      color: $negro;
+                    }
+                    p{margin: 0;}
+                  }
+                }
+              }//Fin views-row
+            }
+          }
+        }
+      }
+    }
+    .mas{width:100%;height:3px; background:$orange;float:left; position: relative;margin:50px 0px;
+        span{width: 60px; height:60px; position: relative; margin-left:50%;background: url(../images/icon_otras_notas.svg) 10px 10px/40px auto no-repeat $orange;float: left;border-radius: 40px;top: -30px;}
+    }
+}
+//FIN VIDEOS
+
+//PROMOCION
+#promocion{width:100%;float:left; position: relative;
+    .contenido{position: relative; margin:0 auto;width: 1240px;padding:0px 20px;
+        .izq{width:780px;height:auto; float:left;position: relative; margin-right:20px; border-right:none; 
+            .foto{width:100%; height:auto; position: relative; float:left; margin-bottom:10px; overflow:hidden;
+                img{width:100%; height:auto;background-position: 50% 0px;}
+            }
+            .etiquetas{width: 100%;position: relative;float:left;height: 40px;margin:20px 0px;
+                a{color:$orange; float:left; position: relative;font-size:16px;line-height:18px; font-weight:300; text-decoration:none; margin-right: 30px;padding: 10px 0px;font-style: italic;}
+                .even {
+                    a{color:#000;}
+                }
+            }
+            h1{font-size: 40px; line-height:42px; width: 100%;margin: 0 auto;padding: 0px 0px 20px 0px;text-align:left;float:left; height: auto;}
+            .texto{color:#333; font-weight:300;font-size:16px;line-height:18px; width:100%;
+                a{color:#FF8801; text-decoration:none;}
+                a:hover{text-decoration:underline;}
+            }
+        }
+        .der{width:400px;height:auto; float:left; position: relative; padding:0px;
+            .up{background:$orange;width:100%; height:auto;float:left;padding:20px 0px;
+
+            }
+            //Promociones
+            .view-id-detalle.view-display-id-block_1{width:360px; height:auto; float:left; padding:0px 10px;
+                h2{font-weight:600;font-size:22px;width:280px;color:#000;text-align:center; width:100%;color:#fff;}
+                .views-row{width:100%; float:left; margin-bottom:20px;}
+                .promocion{width:100%; position: relative; float:left; height:auto;
+                    .foto{width:100%; height:auto; position: relative; float:left;margin:0px 10px;
+                        img{width:100%; height:auto;}
+                        img:hover{opacity:0.9;}
+                    }
+                    .titulo{position: relative; float:left; margin:10px 10px;
+                        a{color:#fff; font-size:16px; font-weight:500; line-height:18px;text-decoration:none;}
+                    }
+                }
+            }
+            //FIN Promociones
+        }
+    }
+    .mas{width:100%;height:3px; background:$orange;float:left; position: relative;margin:50px 0px;
+        span{width: 60px; height:60px; position: relative; margin-left:50%;background: url(../images/icon_otras_notas.svg) 10px 10px/40px auto no-repeat $orange;float: left;border-radius: 40px;top: -30px;}
+    }
+}
+//FIN PROMOCION
+
+
+//PERSONAJE
+#personaje{
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  justify-content: space-around;
+  -webkit-justify-content: space-around;
+  -moz-justify-content: space-around;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  margin: 0 auto;
+  width: 1240px;
+  .left{
+    width: 600px;
+    .nombre{
+      margin: 0 auto;
+      position: relative;
+      height: 180px;
+      width: 450px;
+      .title{
+        color: #935415;
+        font-size: 30px;
+        text-align: left;
+        margin: 0 0 40px 0;
+      }
+      .titulo{
+        font-size: 60px;
+        text-transform: uppercase;
+        text-align: left;
+        margin: 0;
+      }
+      .subtitulo{
+        position: absolute;
+        left: -76px;
+        font-size: 60px;
+        text-transform: uppercase;
+        text-align: right;
+        margin-top: 25px;
+        color: #fff;
+        background-color: $orange;
+        height: 70px;
+        display: flex;
+        display: -webkit-flex;
+        display: -moz-flex;
+        align-items: center;
+        -webkit-align-items: center;
+        -moz-align-items: center;
+        justify-content: space-between;
+        -webkit-justify-content: space-between;
+        -moz-justify-content: space-between;
+        padding: 0 75px;
+        box-sizing: border-box;
+      }
+    }
+    .text{
+      margin: 0 0 0 75px;
+      width: 358px;
+      .pais{
+        font-size: 24px;
+        display: flex;
+        display: -webkit-flex;
+        display: -moz-flex;
+        align-items: center;
+        -webkit-align-items: center;
+        -moz-align-items: center;
+        .icono{
+          display: block;
+          height: 35px;
+          margin-right: 12px;
+          width: 35px;
+        }
+      }
+      .slogan{
+        color: #935415;
+      }
+    }
+    .movil{ display: none; }
+    .texto{
+      margin-top: 50px;
+      a{
+        text-decoration: none;
+        color: $orange;
+      }
+      strong{
+        color: $orange;
+      }
+      img{
+        max-width: 600px;
+      }
+    }
+    .texto:first-letter{
+      color: $orange;
+      font-size: 18px;
+      font-weight: $bold;
+    }
+    .autor{
+      margin-top: 50px;
+      width: 312px;
+      .autorArticle{
+        display: flex;
+        align-items: center;
+        .photo{
+          position: relative;
+          .icono{
+            background:url(../images/rayitas.svg) no-repeat;
+            display: block;
+            height: 70px;
+            left: -20px;
+            top: -57px;
+            position: absolute;
+            width: 135px;
+          }
+          img{
+            background-color: $orange;
+            border-radius: 50%;
+            height: 92px;
+            width: 92px;
+          }
+        }
+        .info{
+          margin-left: 40px;
+          .name{
+            font-size: 25px;
+            color: $orange;
+          }
+          .contacto{
+            position: relative;
+            top: 15px;
+            font-size: 14px;
+          }
+          .summary{
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+  .right{
+    width: 470px;
+    .foto{
+      background-color: $orange;
+      border-bottom: 1px solid $negro;
+      height: auto;
+      overflow: hidden;
+      img{
+        display: block;
+        height: auto;
+        margin: 0 auto;
+        width: 400px;
+      }
+    }
+    .personajes{
+      background-color: $orange;
+      padding-top: 20px;
+      h2{
+        color: #935415;
+        font-size: 30px;
+        margin: 0 auto 30px auto;
+        text-align: center;
+        width: 180px;
+      }
+      .view-content{
+        display: flex;
+        display: -webkit-flex;
+        display: -moz-flex;
+        flex-wrap: wrap;        
+        -webkit-flex-wrap: wrap;        
+        -moz-flex-wrap: wrap;
+        justify-content: center;        
+        -webkit-justify-content: center;        
+        -moz-justify-content: center;    
+        .views-row{
+          background-color: #935415;
+          border: 1px solid #935415;
+          border-bottom: none;
+          height: 130px;
+          overflow: hidden;
+          width: 115px;
+          img{
+            display: block;
+            margin: 0 auto;
+          }
+        }
+        .views-row:hover{
+          background-color: $orange;
+        }
+      }
+    }
+  }
+
+  .comentarios{
+    margin: 50px auto;
+    width: 60%;
+  }
+}
+//FIN PERSONAJE
+
+        
+
+//EVENTO
+#evento{width:1024px;padding:20px 0px;margin:0 auto; position: relative;margin-top:50px;
+    .contenido{position: relative; float:left;
+        .movil{display:none;}
+        .izq{width:320px; margin-right:20px; border-right: 1px solid #000; height:auto; float:left;
+            .fecha{width:300px; padding:0px 10px;
+                .icono{background:url(../images/iconos/icono_fecha.svg) 0px 0px/55px auto no-repeat;height: 50px;width: 60px;float:left;position: relative;} 
+                .dia{font-size:18px; font-weight:400; color:#FF8801; height:50px; width:210px; margin-top:10px;float:left;
+                    label{font-weight:400;font-size:16px;width:210px;color:#000;}
+                }
+            }
+            .redes_sociales{position: relative;float:left;width:280px;padding:0px; height: 30px;margin: 20px 20px;
+                li{list-style:none; float:left; position: relative; width:40px;height:40px; margin:5px 10px;cursor:pointer;margin:0px;}
+                .fb{ 
+                    .st_facebook_large{background: url(../images/compartir.svg) no-repeat -5px -4px/270px auto transparent;position: relative; width: 40px; height: 40px; float: left; text-indent: -9999px; transition:all 0.2s ease; }
+                }
+                .tw{ 
+                    .st_twitter_large{background: url(../images/compartir.svg) no-repeat -45px -4px/270px auto transparent;position: relative; width: 40px; height: 40px; float: left; text-indent: -9999px; transition:all 0.2s ease; }
+                }
+                .go{ 
+                    .st_googleplus_large{background: url(../images/compartir.svg) no-repeat -85px -4px/270px auto transparent;position: relative; width: 40px; height: 40px; float: left; text-indent: -9999px; transition:all 0.2s ease; }
+                }
+                .pin{ 
+                    .st_pinterest_large{background: url(../images/compartir.svg) no-repeat -124px -4px/270px auto transparent;position: relative; width: 40px; height: 40px; float: left; text-indent: -9999px; transition:all 0.2s ease; }
+                }
+                .wp{
+                    .st_whatsapp_large{background:url(../images/compartir.svg) no-repeat -163px -4px/270px auto transparent;position: relative; width: 40px; height: 40px; float: left; text-indent: -9999px; transition:all 0.2s ease; }
+                }
+            }
+        //Recomendados
+        .view-id-detalle.view-display-id-block{width:300px; height:auto; float:left; padding:0px 10px;
+            h2{font-size: 30px;width: 280px;padding: 15px 10px;text-align: center;height: auto;background: #000;color: #fff;margin: 5px 0px;}
+            .views-row{width:300px; border-bottom:1px solid #000; float:left; margin-bottom:20px;}
+            .restaurante{width:280px; position: relative; float:left; height:auto;
+                .foto{width:280px; height:180px; position: relative; float:left;border:1px solid #000;margin:0px 10px;
+                    img{width:280px; height:180px;}
+                    img:hover{opacity:0.8;}
+                }
+                .nombre{width:280px; height:30px; position: relative; float:left;margin:10px;background:url(../images/iconos/icono_cubiertos.svg) 0px -5px/40px auto no-repeat;
+                    a{margin-left:50px; text-align:left;color:#000;font-size:20px; font-weight:400; text-decoration:none;height:30px;float:left; padding:5px 0px 0px 0px;}
+                }
+            }
+        }
+        //FIN Recomendados
+        //Promociones
+        .view-id-detalle.view-display-id-block_1{width:300px; height:auto; float:left; padding:0px 10px;
+            h2{font-size: 30px;width: 280px;padding: 15px 10px;text-align: center;height: auto;background: #000;color: #fff;margin: 5px 0px;}
+            .views-row{width:300px; float:left; margin-bottom:20px;}
+            .promocion{width:280px; position: relative; float:left; height:auto;
+                .foto{width:280px; height:auto; position: relative; float:left;border:1px solid #000;margin:0px 10px;
+                    img{width:280px; height:auto;}
+                    img:hover{opacity:0.8;}
+                }
+            }
+        }
+        //FIN Promociones
+        
+        }//FIN IZQUIERDA
+        .der{width: 660px;height: auto;float: left;padding: 0px 20px 0px 0px;
+            .foto{max-width:640px; height:auto; position: relative; float:left; margin-bottom:10px;
+                img{max-width:640px; height:auto;}
+            }
+            h1{font-size: 40px; line-height:42px; width: 100%;margin: 0 auto;padding: 0px 0px 20px 0px;text-align: left;height: auto;}
+            .texto{color:#333; font-weight:300;font-size:18px;line-height:20px;
+                a{color:#FF8801; text-decoration:none;}
+                a:hover{text-decoration:underline;}
+            }
+        }
+        .abajo{width:1024px;height: auto;float: left;padding: 20px 0px;position: relative;
+            //Mas notas
+            .view-id-mas.view-display-id-block{width:1024px; height:auto; float:left; padding:10px 0px;
+                h2{font-size: 40px;width: 1024px; height:30px; padding: 20px 0px;text-align: center;height: auto;background: #000;color: #fff;margin: 5px 0px 20px 0px;}
+                .views-row{width:500px;float:left; margin:0px 24px 20px 0px;}
+                .views-row-2, .views-row-4, .views-row-6, .views-row-8, .views-row-10, .views-row-12{margin:0px 0px 20px 0px;}
+                .nota{width:500px; position: relative; float:left; height:auto; background:#fff;
+                    .seccion{background:#FF8801; padding:3px 5px; position: absolute; top:10px;left:0px; z-index:1;
+                        a{color:#fff; text-decoration:none;}
+                    }
+                    .foto{width:235px; height:310px; position: relative; float:left;margin:0px;
+                        img{width:235px; height:310px}
+                        img:hover{opacity:0.8;}
+                    }
+                    .info{position: relative; background:#fff; width: 245px; height:auto; opacity: 1; float:left; transition: all 0.5s ease-in-out;
+                        .titulo{width:220px;font-size:20px; font-weight:300; text-transform:uppercase; line-height:22px; position: relative;text-align:center;padding: 10px 10px;
+                            a{color: #000; text-decoration:none;}
+                        }
+                        .resumen{width:220px; font-size:18px; line-height:20px; text-transform:none; padding:10px;position: relative;float:left;text-align:center;font-weight: 300;}
+                        .mas{background: #000;border-radius: 22px;width: 70px; padding:10px 10px; text-align:center; position: relative; float:left; margin:0px 75px 10px;
+                            a{position: relative;color: #fff;font-size: 18px;font-weight: 300;text-align: center;margin: 0 auto;text-decoration: none;}
+                        }
+                    }
+                    
+                }
+            }
+            //Fin Mas notas
+        }//FIN BOTTOM
+    }
+}
+//FIN EVENTO
+
+//COLUMNA
+#columna{width:1024px;padding:20px 0px;margin:0 auto; position: relative;margin-top:50px;
+    .contenido{position: relative; float:left;
+        .foto{width:1024px; height:550px; position: relative; float:left; margin-bottom:10px;}
+        .etiquetas{background:#FF8801; width: 955px;position: relative;float: left;margin: 20px 0px;height: 40px;margin-left: 70px;
+            .triangulo{width: 0;height: 0;border-top: 35px solid transparent;border-left: 14px solid #000;border-bottom: 35px solid transparent; position: absolute;left: 10px;top: -15px;}
+            .icon{background:url(../images/iconos/icono_d.svg) -4px -1px/90px auto no-repeat #000;height: 50px;width: 70px;float: left;position: absolute;padding: 10px 5px;top: -15px;left: -70px;} 
+            a{color:#fff; float:left; position: relative;font-size:16px;line-height:18px; font-weight:300; text-decoration:none; margin-left: 30px;padding: 10px 0px;font-style: italic;}
+        }
+        .movil{display:none;}
+        .izq{width:320px; margin-right:20px; border-right: 1px solid #000; height:auto; float:left;
+            .fecha{width:300px; padding:0px 10px;
+                .icono{background:url(../images/iconos/icono_fecha.svg) 0px 0px/55px auto no-repeat;height: 50px;width: 60px;float:left;position: relative;} 
+                .dia{font-size:18px; font-weight:400; color:#FF8801; height:50px; width:210px; margin-top:10px;float:left;
+                    label{font-weight:400;font-size:16px;width:210px;color:#000;}
+                }
+            }
+            .autor{width:300px; padding:0px 10px; margin-bottom:20px; float:left; position: relative;
+                h2 {font-size: 30px;width: 280px;padding: 15px 10px;text-align:left;height: auto;margin: 5px 0px;
+                    a{color:#000; text-decoration:none;}
+                }
+                .field-name-field-foto {width:280px; overflow:hidden; border-bottom:4px solid #FF8801;
+                    img{width:215px; height:auto; float:left; position: relative;}
+                }
+                .field-name-field-nombre-de-la-columna {width: 280px;font-size: 15px;font-weight: 300;text-transform: uppercase;line-height: 17px;position: relative;text-align:left;padding: 10px 0px;}
+                .field-type-text-with-summary{width: 280px;color: #333;font-weight: 300;font-size: 18px;line-height: 20px;}
+                a:hover{text-decoration:underline;}
+                label{font-weight:400;font-size:16px;width:210px;color:#000;}
+            }
+            .redes_sociales{position: relative;float:left;width:280px;padding:0px; height: 30px;margin: 20px 20px;
+                li{list-style:none; float:left; position: relative; width:40px;height:40px; margin:5px 10px;cursor:pointer;margin:0px;}
+                .fb{ 
+                    .st_facebook_large{background: url(../images/compartir.svg) no-repeat -5px -4px/270px auto transparent;position: relative; width: 40px; height: 40px; float: left; text-indent: -9999px; transition:all 0.2s ease; }
+                }
+                .tw{ 
+                    .st_twitter_large{background: url(../images/compartir.svg) no-repeat -45px -4px/270px auto transparent;position: relative; width: 40px; height: 40px; float: left; text-indent: -9999px; transition:all 0.2s ease; }
+                }
+                .go{ 
+                    .st_googleplus_large{background: url(../images/compartir.svg) no-repeat -85px -4px/270px auto transparent;position: relative; width: 40px; height: 40px; float: left; text-indent: -9999px; transition:all 0.2s ease; }
+                }
+                .pin{ 
+                    .st_pinterest_large{background: url(../images/compartir.svg) no-repeat -124px -4px/270px auto transparent;position: relative; width: 40px; height: 40px; float: left; text-indent: -9999px; transition:all 0.2s ease; }
+                }
+                .wp{
+                    .st_whatsapp_large{background:url(../images/compartir.svg) no-repeat -163px -4px/270px auto transparent;position: relative; width: 40px; height: 40px; float: left; text-indent: -9999px; transition:all 0.2s ease; }
+                }
+            }
+        //Recomendados
+        .view-id-detalle.view-display-id-block{width:300px; height:auto; float:left; padding:0px 10px;
+            h2{font-size: 30px;width: 280px;padding: 15px 10px;text-align: center;height: auto;background: #000;color: #fff;margin: 5px 0px;}
+            .views-row{width:300px; border-bottom:1px solid #000; float:left; margin-bottom:20px;}
+            .restaurante{width:280px; position: relative; float:left; height:auto;
+                .foto{width:280px; height:180px; position: relative; float:left;border:1px solid #000;margin:0px 10px;
+                    img{width:280px; height:180px;}
+                    img:hover{opacity:0.8;}
+                }
+                .nombre{width:280px; height:30px; position: relative; float:left;margin:10px;background:url(../images/iconos/icono_cubiertos.svg) 0px -5px/40px auto no-repeat;
+                    a{margin-left:50px; text-align:left;color:#000;font-size:20px; font-weight:400; text-decoration:none;height:30px;float:left; padding:5px 0px 0px 0px;}
+                }
+            }
+        }
+        //FIN Recomendados
+        //Promociones
+        .view-id-detalle.view-display-id-block_1{width:300px; height:auto; float:left; padding:0px 10px;
+            h2{font-size: 30px;width: 280px;padding: 15px 10px;text-align: center;height: auto;background: #000;color: #fff;margin: 5px 0px;}
+            .views-row{width:300px; float:left; margin-bottom:20px;}
+            .promocion{width:280px; position: relative; float:left; height:auto;
+                .foto{width:280px; height:auto; position: relative; float:left;border:1px solid #000;margin:0px 10px;
+                    img{width:280px; height:auto;}
+                    img:hover{opacity:0.8;}
+                }
+            }
+        }
+        //FIN Promociones
+        
+        }//FIN IZQUIERDA
+        .der{width: 660px;height: auto;float: left;padding: 0px 20px 0px 0px;
+            h1{font-size: 40px; line-height:42px; width: 100%;margin: 0 auto;padding: 0px 0px 20px 0px;text-align: left;height: auto;}
+            .texto{color:#333; font-weight:300;font-size:18px;line-height:20px;
+                a{color:#FF8801; text-decoration:none;}
+                a:hover{text-decoration:underline;}
+            }
+        }
+        .abajo{width:1024px;height: auto;float: left;padding: 20px 0px;position: relative;
+            //Mas notas
+            .view-id-mas.view-display-id-block{width:1024px; height:auto; float:left; padding:10px 0px;
+                h2{font-size: 40px;width: 1024px; height:30px; padding: 20px 0px;text-align: center;height: auto;background: #000;color: #fff;margin: 5px 0px 20px 0px;}
+                .views-row{width:500px;float:left; margin:0px 24px 20px 0px;}
+                .views-row-2, .views-row-4, .views-row-6, .views-row-8, .views-row-10, .views-row-12{margin:0px 0px 20px 0px;}
+                .nota{width:500px; position: relative; float:left; height:auto; background:#fff;
+                    .seccion{background:#FF8801; padding:3px 5px; position: absolute; top:10px;left:0px; z-index:1;
+                        a{color:#fff; text-decoration:none;}
+                    }
+                    .foto{width:235px; height:310px; position: relative; float:left;margin:0px;
+                        img{width:235px; height:310px}
+                        img:hover{opacity:0.8;}
+                    }
+                    .info{position: relative; background:#fff; width: 245px; height:auto; opacity: 1; float:left; transition: all 0.5s ease-in-out;
+                        .titulo{width:220px;font-size:20px; font-weight:300; text-transform:uppercase; line-height:22px; position: relative;text-align:center;padding: 10px 10px;
+                            a{color: #000; text-decoration:none;}
+                        }
+                        .resumen{width:220px; font-size:18px; line-height:20px; text-transform:none; padding:10px;position: relative;float:left;text-align:center;font-weight: 300;}
+                        .mas{background: #000;border-radius: 22px;width: 70px; padding:10px 10px; text-align:center; position: relative; float:left; margin:0px 75px 10px;
+                            a{position: relative;color: #fff;font-size: 18px;font-weight: 300;text-align: center;margin: 0 auto;text-decoration: none;}
+                        }
+                    }
+                }
+            }
+            //Fin Mas notas
+        }//FIN BOTTOM
+    }
+}
+//FIN COLUMNA
+
+//MANTENIMIENTO
+#maintenace{background:#FF991E; position: relative; float:left; height:100%; width:100%;
+  .head{background:#fff; position:relative; float:left; height:100px; width:100%;margin-top:70px;
+    .content{margin:0 auto;position:relative; width:100%; padding:0px;
+      #logo{padding:0px; position: relative;width: 220px;height: 98px; top: 0px; opacity: 1; margin:0 auto;
+        h1{background:url(../images/logo.svg) no-repeat; height: 98px;background-position: -49px -30px;background-size: 310px;display:block; text-indent:-9999px; margin: 0 auto;}
+      }
+    }
+  }
+  .info{position: relative; float:left; width:100%; height:auto;
+    .content{margin:0 auto;position:relative; padding-top:30px;
+      .olla{width:350px; height:450px; margin: 0 auto; position: relative;padding-bottom:40px;
+        img{width:100%; height:auto;}
+      }
+      .cinta{width:700px; height:150px; position: relative;margin: 0 auto;
+        img{width:100%; height:auto;}
+      }
+    }
+  }
+}
+      

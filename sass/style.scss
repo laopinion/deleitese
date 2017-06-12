@@ -1,0 +1,24 @@
+@import "general/general";
+@import "general/fonts";
+@import "general/color";
+
+
+// COMPONENT STYLES ------------------------------------------------------------
+@import "components/header";
+@import "components/footer";
+@import "components/home";
+@import "components/pautas";
+@import "components/detalles";
+@import "components/secciones";
+@import "components/personajes";
+@import "components/notas";
+@import "components/promociones";
+@import "components/recetas";
+@import "components/restaurantes";
+@import "components/contacto";
+@import "components/busqueda";
+// @import "components/media";
+@import "components/media768";
+@import "components/media600";
+@import "components/media480";
+@import "components/media380";

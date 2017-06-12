@@ -1,0 +1,103 @@
+#seccionNotas{
+  height: auto;
+  margin: 50px 0;
+  position: relative;
+  width: 100%;
+  .view-content{
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    justify-content: space-around;
+    -webkit-justify-content: space-around;
+    -moz-justify-content: space-around;
+    .views-row{
+      max-width: 499px;
+      position: relative;
+      margin-bottom: 140px;
+      a{
+        text-decoration: none;
+        color: $negro;
+        font-size: 20px;
+        font-weight: $light;
+        display: block;
+        line-height: 0;
+      }
+      .nota{
+        .foto{}
+        .seccion{ display: none; }
+        .text{
+          width: 400px;
+          height: 115px;
+          background-color: #F7931E;
+          padding: 10px 35px;
+          box-sizing: border-box;
+          position: absolute;
+          bottom: -69px;
+          left: 0;
+          right: 0;
+          margin: 0 auto;
+          a{
+            line-height: 24px;
+            text-align: center;
+            font-weight: 600;
+          }
+          .title{
+            margin: 10px 0 0 0;
+            position: relative;
+            z-index: 1;
+          }
+          .iconSeccion{
+            display: flex;
+            display: -webkit-flex;
+            display: -moz-flex;
+            justify-content: center;
+            -webkit-justify-content: center;
+            -moz-justify-content: center;
+            border-bottom: 1px solid #fff;
+            padding-bottom: 10px;
+            margin: 0 auto;
+            width: 215px;
+            .icono{
+              background-repeat: no-repeat;
+              display: block;
+              height: 27px;
+              width: 30px;
+            }
+            span{
+              font-size: 18px;
+              font-weight: $light;
+              position: relative;
+              right: -8px;
+              top: 5px;
+              text-align: center;
+              display: block;
+            }
+          }//Fin iconoSeccion
+        }
+        .text:before{
+          content: url("../images/marcoNoticias.png");
+          position: absolute;
+          top: -5px;
+          left: -12px;
+          z-index: 0;
+        }
+      }
+    }//Fin views
+  }//Fin view content
+  .item-list{
+    .pager{
+      .pager-item, .pager-next, .pager-last, .pager-previous, .pager-first{
+        background-color: $orange;
+        padding: 10px;
+        border-radius: 2px;
+        a{
+          text-decoration: none;
+          color: #fff;
+        }
+      }
+    }
+  }
+}

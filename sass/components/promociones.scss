@@ -1,0 +1,97 @@
+#promociones{
+  padding: 0 50px 0 50px;
+  position: relative;
+  margin: 50px 0;
+  .movil{ display: none; }
+  .view-display-id-block_6{
+    .view-content{
+      display: flex;
+      display: -webkit-flex;
+      display: -moz-flex;
+      flex-wrap: wrap;
+      -webkit-flex-wrap: wrap;
+      -moz-flex-wrap: wrap;
+      justify-content: center;
+      -webkit-justify-content: center;
+      -moz-justify-content: center;
+      .views-row{
+        margin: 0 28px 30px 0;
+        background-color: #fff;
+        border: 1px solid $orange;
+        width: 400px;
+        a{
+          text-decoration: none;
+          color: $negro;
+          font-size: 25px;
+          font-weight: $black;
+          line-height: 27px;
+        }
+        .nota{
+          .info{
+            box-sizing: border-box;
+            height: 152px;
+            overflow: hidden;
+            padding: 8px 20px;
+            h2{
+              margin: 0;
+              margin-bottom: 10px;
+              text-align: center;
+              a{
+                padding: 0 5px 5px 5px;
+                box-sizing: border-box;
+                border-bottom: 1px solid $orange;
+              }
+            }
+            .address{
+              margin: 0 0 10px 0;
+              display: flex;
+              display: -webkit-flex;
+              display: -moz-flex;
+              align-items: center;
+              -webkit-align-items: center;
+              -moz-align-items: center;
+              font-size: 16px;
+              font-weight: $regular;
+            }
+            .promo{
+              margin: 0 0 10px 0;
+              display: flex;
+              display: -webkit-flex;
+              display: -moz-flex;
+              align-items: center;
+              -webkit-align-items: center;
+              -moz-align-items: center;
+              font-size: 20px;
+              font-weight: $regular;
+            }
+            .address:before{
+              content: url("../images/iconoMapaPromo.svg");
+              height: 39px;
+              padding-right: 8px;
+            }
+            .promo:before{
+              content: url("../images/iconoCalendario.svg");
+              height: 39px;
+              padding-right: 8px;
+            }
+          }
+        }
+      }
+    }
+
+    .item-list{
+      .pager{
+        .pager-item, .pager-next, .pager-last, .pager-previous, .pager-first{
+          background-color: $orange;
+          padding: 10px;
+          border-radius: 2px;
+          a{
+            text-decoration: none;
+            color: #fff;
+          }
+        }
+      }
+    }//Fin item-list
+  }
+  
+}//Fin promociones

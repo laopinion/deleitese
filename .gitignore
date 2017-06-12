@@ -1,6 +1,13 @@
+<<<<<<< HEAD
 # Ignore configuration files that may contain sensitive information.
 sites/*/settings*.php
 
 # Ignore paths that contain user-generated content.
 sites/*/files
 sites/*/private
+=======
+.sass-cache/
+css/style.css
+css/style.css.map
+stylesheets/
+>>>>>>> 007f498bc9d49ff34d54890f5aa51161a06a3dcd

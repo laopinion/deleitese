@@ -1,0 +1,127 @@
+#recetas{
+  background-color: #fff;
+  margin-bottom: 80px;
+  height: auto;
+  width: 100%;
+  #videos{
+    position: relative;
+    .view-display-id-block_1{
+      .view-header{
+        padding: 50px 0 20px 0;
+        .video{
+          position: relative;
+          .summary{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            width: 405px;
+            height: 101px;
+            padding: 20px;
+            box-sizing: border-box;
+            background-color: rgba(247, 147, 30, 0.8);
+            font-size: 20px;
+            font-weight: $regular;
+            a{
+              text-decoration: none;
+              color: $negro;
+            }
+            p{margin: 0;}
+          }
+          .frameVideo{
+            position: relative;padding-top: 56.25%;
+            iframe{
+              position: absolute;left: 0;right: 0;top: 0;bottom: 0;width: 100%;height: 100%;
+            }
+          }
+        }
+      }//Fin view-header
+      .view-content{
+        margin: 0 auto;
+        display: flex;
+        display: -webkit-flex;
+        display: -moz-flex;
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        justify-content: center;
+        -webkit-justify-content: center;
+        -moz-justify-content: center;
+        width: 1240px;
+        .views-row{
+          cursor: pointer;
+          .video{
+            position: relative;
+            height: 199px;
+            .id{display: none;}
+            .icono{
+              background: url(../images/btn_video.svg) no-repeat;
+              background-position: 0px 0px;
+              background-size: 80px;
+              display: block;
+              height: 80px;
+              width: 70px;
+              position: absolute;
+              top: 40px;
+              left: 0;
+              right: 0;
+              margin: 0 auto;
+              z-index: 5;
+            }
+            .sombra{
+              position: absolute;
+              background-color: rgba(51, 51, 51, 0.6);
+              z-index: 1;
+              right: 0;
+              left: 0;
+              bottom: 0;
+              top: 0;
+              height: 199px;
+            }
+            .active{display: none;}
+            .summary{
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              right: 0;
+              margin: 0 auto;
+              background-color: rgba(247, 147, 30, 0.8);
+              height: 63px;
+              width: 274px;
+              padding: 10px;
+              box-sizing: border-box;
+              font-size: 20px;
+              font-weight: $regular;
+              line-height: 22px;
+              overflow: hidden;
+              a{
+                text-decoration: none;
+                color: #fff;
+              }
+              p{margin: 0;}
+            }
+          }
+          iframe{
+            display: none;
+          }
+        }//Fin views-row
+      }
+
+      .item-list{
+        margin-top: 50px;
+        .pager{
+          .pager-item, .pager-next, .pager-last, .pager-previous, .pager-first{
+            background-color: $orange;
+            padding: 10px;
+            border-radius: 2px;
+            a{
+              text-decoration: none;
+              color: #fff;
+            }
+          }
+        }
+      }//Fin item-list
+    }  
+  }//Fin videos
+}

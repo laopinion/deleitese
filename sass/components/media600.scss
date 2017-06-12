@@ -1,0 +1,126 @@
+@media screen and (max-width: 600px){
+  header{
+    .buscador{
+       .buscar{
+          padding: 0 5px;
+          form#search-block-form--2, form#search-block-form--2{
+            width: 100%;
+            div{
+              width: 100%;
+              .form-item-search-block-form{
+                input{
+                  box-sizing: border-box;
+                  margin: 0;
+                  width: 100%;
+                }
+              }
+              #edit-submit--3{
+                margin: 15px auto 0 auto;
+                display: block;
+              }
+            }
+          }
+          // #edit-submit, #edit-submit--1, #edit-submit--2, #edit-submit--3{
+          //   input{
+          //     flex: 1;
+          //     -webkit-flex: 1;
+          //     -moz-flex: 1;
+          //     margin-left: 0;
+          //   }
+          //   #edit-submit, #edit-submit--1, #edit-submit--2, #edit-submit--3{
+          //     background-position-x: 50%;
+          //     width: 100%;
+          //   }
+          //Fin form
+       }
+    }//Fin buscador
+  }
+  
+  #home{
+    #modulo1{
+      .newsletter{
+        h3{
+          background: url(../images/newsletterTitleMovil.svg) no-repeat;
+          height: 165px;
+          background-position-x: 50%;
+        }
+      }
+    }
+
+    #modulo2{
+      #videos{
+        .view-display-id-block_4{
+          .view-header .video{
+            .summary{
+              height: 60px;
+              padding: 8px;
+            }
+          }
+        }
+      }
+    }//Fin modulo2
+  }//Fin home
+
+  #seccionNotas{
+    .view-content{
+      .views-row{
+        margin-bottom: 40px;
+        width: 100%;
+        img{
+          height: auto;
+          width: 100%;
+        }
+        .nota{
+          .text{
+            height: auto;
+            position: static;
+            width: 100%;
+          }
+          .text:before{
+            content: "";
+          }
+        }
+      }
+    }
+  }//Seccion notas
+
+  #restaurantes{
+    .view-content{
+      .views-row{
+        width: 100%;
+        margin-bottom: 45px;
+        img{
+          width: 100%;
+          height: auto;
+        }
+        .nota{
+          .text:before{
+            content: "";
+          }
+          .text{
+            text-align: center;
+            position: static;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }//Fin restaurantes
+
+  #secciones{
+    .view-content{
+      .views-row{
+        width: 100%;
+        img{
+          height: auto;
+          width: 100%;
+        }
+        .nota{
+          .text{
+            width: 100%;
+          }
+        }
+      }
+    }
+  }//Fin secciones 
+}

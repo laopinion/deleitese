@@ -1,0 +1,127 @@
+#contacto{
+  margin-top: 80px;
+  margin-bottom: 80px;
+  h2{
+    margin: 0;
+  }
+  #info{
+    text-align: center;
+    margin: 0 auto;
+    width: 700px;
+    .direccion{
+      position: relative;
+      overflow: hidden;
+      .icono{
+        background:url(../images/iconoMapaPromo.svg) no-repeat;
+        background-position: 0px 0px;
+        display: block;
+        height: 45px;
+        position: absolute;
+        transition: .5s;
+        left: -25px;
+        right: 0;
+        // top: 185px;
+        top: -60px;
+        margin: 0 auto;
+        width: 32px;
+      }
+      h3{
+        color: $orange;
+      }
+      p{
+        color: $orange;
+        margin: 0 auto;
+        width: 320px;
+      }
+      .telefono{
+        .iconTel{
+          background:url(../images/contactoTelefono.svg) no-repeat;
+          background-position: 0px 0px;
+          display: block;
+          height: 150px;
+          margin: 50px auto 10px auto;
+          width: 15%;
+        }
+        p{
+          color: $orange;
+        }
+      }
+    }
+  }
+
+  #redesContacto{
+    margin-top: 60px;
+    .redes{
+      list-style: none;
+      display: flex;
+      display: -webkit-flex;
+      display: -moz-flex;
+      align-items: center;
+      -webkit-align-items: center;
+      -moz-align-items: center;
+      justify-content: center;
+      -webkit-justify-content: center;
+      -moz-justify-content: center;
+      background-color: #303030;
+      padding: 0;
+      position: relative;
+      margin: 15px auto;
+      height: 55px;
+      width: 390px;
+      .triLeft{
+        width: 0;
+        height: 0;
+        border-left: 15px solid #fff;
+        border-top: 50px solid transparent;
+        border-bottom: 50px solid transparent;
+        position: absolute;
+        left: 0;
+      }
+      .triRight{
+        width: 0; 
+        height: 0; 
+        border-bottom: 50px solid transparent;  /* izquierda flecha */
+        border-top: 50px solid transparent; /* derecha flecha */
+        border-right: 15px solid #fff; /* base flecha y color*/
+        position: absolute;
+        right: 0;
+      }
+      a{    
+        color: white;
+        text-decoration: none;
+        display: block;
+        height: 30px;
+        width: 30px;
+        &:hover{
+          opacity: 0.9;
+        }
+      }
+      li{
+        color: white;
+        text-transform: uppercase;
+        margin: 0 20px;
+        font-size: 20px;
+      }
+      .facebook{
+        a{
+          background:url(../images/redes.svg) 0px 0px/177px auto no-repeat; 
+        }
+      }
+      .twitter{
+        a{
+          background:url(../images/redes.svg) -49px 0px/177px auto no-repeat; 
+        }
+      }
+      .instagram{
+        a{
+          background:url(../images/redes.svg) -98px 0px/177px auto no-repeat; 
+        }
+      }
+      .youtube{
+        a{
+          background:url(../images/redes.svg) -147px 0px/177px auto no-repeat; 
+        }
+      }
+    }
+  }
+}

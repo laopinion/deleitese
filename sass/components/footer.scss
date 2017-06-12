@@ -1,0 +1,147 @@
+footer{  
+  background-color: $orange;
+  #footer{
+    width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    padding: 90px 0;
+    box-sizing: border-box;
+    .left{
+      width: 45%;
+      .logo{
+        height: 100px;
+        margin-bottom: 58px;
+        a{
+          background:url(../images/logo_footer.svg) no-repeat; height: 100px;display:block;
+        }
+      }
+      .copy{
+        .txt{
+          text-align: justify;
+        }
+        .red{
+          text-align: center;
+          margin-top: 70px;
+          font-size: 20px;
+          span{
+            font-weight: 700;
+            text-transform: uppercase;
+          }
+        }
+      }
+      .redes{
+        list-style: none;
+        display: flex;
+        display: -webkit-flex;
+        display: -moz-flex;
+        align-items: center;
+        -webkit-align-items: center;
+        -moz-align-items: center;
+        background-color: #303030;
+        padding: 0;
+        position: relative;
+        margin: 15px auto;
+        height: 55px;
+        width: 390px;
+        .triLeft{
+          width: 0;
+          height: 0;
+          border-left: 15px solid $orange;
+          border-top: 50px solid transparent;
+          border-bottom: 50px solid transparent;
+          position: absolute;
+          left: 0;
+        }
+        .triRight{
+          width: 0; 
+          height: 0; 
+          border-bottom: 50px solid transparent;  /* izquierda flecha */
+          border-top: 50px solid transparent; /* derecha flecha */
+          border-right: 15px solid $orange; /* base flecha y color*/
+          position: absolute;
+          right: 0;
+        }
+        a{    
+          color: white;
+          text-decoration: none;
+          display: block;
+          height: 30px;
+          width: 30px;
+          &:hover{
+            opacity: 0.9;
+          }
+        }
+        li{
+          color: white;
+          text-transform: uppercase;
+          margin: 0 9px;
+          font-size: 20px;
+        }
+        li:nth-child(2){
+          margin: 0 30px 0 45px;
+        }
+        .facebook{
+          a{
+            background:url(../images/redes.svg) 0px 0px/177px auto no-repeat; 
+          }
+        }
+        .twitter{
+          a{
+            background:url(../images/redes.svg) -49px 0px/177px auto no-repeat; 
+          }
+        }
+        .instagram{
+          a{
+            background:url(../images/redes.svg) -98px 0px/177px auto no-repeat; 
+          }
+        }
+        .youtube{
+          a{
+            background:url(../images/redes.svg) -147px 0px/177px auto no-repeat; 
+          }
+        }
+      }
+    }
+    .right{
+      width: 45%;
+      h2{
+        text-align: center;
+      }
+      .webform-client-form-551{
+        width: 452px;
+        margin: 0 auto;
+        .form-item{
+          margin-bottom: 1.5em;
+          label{
+            margin-bottom: 5px;
+            font-weight: normal;
+          }
+          input{
+            border: none;
+            height: 30px;
+            width: 100%;
+          }
+        }
+        .form-actions{
+          margin-top: 50px;
+          .webform-submit{
+            background-color: #303030;
+            border: none;
+            color: white;
+            height: 65px;
+            font-size: 20px;
+            width: 100%;
+            &:hover{
+              opacity: .9;
+            }
+          }
+        }
+      }
+    }
+  }
+}

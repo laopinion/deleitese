@@ -1,0 +1,160 @@
+@media screen and (max-width: 380px){
+
+  header{
+    #movil{
+      #logo{
+        h1{
+          background-size: 100%;
+          background-position-x: -12px;
+          height: auto;
+        }
+      }
+      .menu{
+        width: 85%;
+      }
+    }
+  }
+
+  #home{
+    #noticias{
+      .view-content{
+        .views-row{
+          .nota{
+            .text{
+              width: 100%;
+              padding: 8px;
+            }
+          }
+        }
+      }
+    }
+
+    #modulo1{
+      .personajes{
+        .view-display-id-block_1{
+          .view-content{
+            .views-row{
+              .personaje{
+                .foto{
+                  a{
+                    top: 6px;
+                    left: 6px;
+                  }
+                }
+                .info{
+                  .resumen{
+                    width: 100%;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #seccionNotas{
+    .view-content{
+      .views-row{
+        .nota{
+          .text{
+            padding: 8px;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  #restaurantes{
+    .view-content{
+      .views-row{
+        .nota{
+          .text{
+            padding: 8px;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  //Notas personaje
+  #personaje{
+    .left{
+      .nombre{
+        .title{
+          padding: 0 0 0 2%;
+          width: 96%;
+        }
+        .titulo{
+          font-size: 55px;
+          padding: 0 0 0 2%;
+          width: 96%;
+        }
+        .subtitulo{          
+          font-size: 55px;
+          padding: 0 0 0 2%;
+          width: 98%;
+        }
+      }
+      .text{
+        margin: 0;
+        padding: 0 0 0 2%;
+        width: 96%;
+      }
+    }
+  }
+
+  #recetas{
+    #videos{
+      .view-display-id-block_1{
+        .view-content{
+          .views-row{
+            img{
+              height: auto;
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .autor{
+    width: 100%;
+  }
+
+  footer{
+    #footer{
+      .left{
+        .redes{
+          li:nth-child(2){
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  //MANTENIMIENTO
+  #maintenace{
+    .head{
+      .content{margin:0 auto;position:relative; width:100%; padding:0px;
+        #logo{width: 100%;height: 90px;
+          h1{height: 90px;background-size: auto;background-size: 80%;background-position: 40%;}
+        }
+      }
+    }
+    .info{
+      .content{
+        .olla{width:100%; height:auto;padding-bottom:20px;
+        }
+        .cinta{width:100%; height:auto; 
+        }
+      }
+    }
+  }
+
+}

@@ -1,0 +1,3651 @@
+/* line 1, ../../sass/components/detalles.scss */
+#tabs {
+  background-color: #FFF;
+  border: 1px solid #DDD;
+  padding: 10px;
+  position: absolute;
+  right: -1px;
+  top: 150px;
+  z-index: 3;
+}
+/* line 2, ../../sass/components/detalles.scss */
+#tabs ul {
+  border-bottom: none !important;
+  padding: 10px !important;
+}
+/* line 3, ../../sass/components/detalles.scss */
+#tabs .primary li a {
+  border-color: #bbb;
+  border-style: solid solid none solid;
+  border-width: 1px;
+  height: auto;
+  margin-right: 0.5em;
+  padding: 0 1em;
+  text-decoration: none;
+}
+/* line 4, ../../sass/components/detalles.scss */
+#tabs li a {
+  background: none repeat scroll 0 0 #F8F8F8 !important;
+  border: 1px solid #DDD !important;
+  color: #666;
+  display: inline-block;
+  font: 10px/10px Arial;
+  padding: 5px !important;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 6, ../../sass/components/detalles.scss */
+#page {
+  width: 100%;
+  position: relative;
+  float: left;
+}
+
+/* line 9, ../../sass/components/detalles.scss */
+#pagina {
+  width: 1024px;
+  padding: 20px 0px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 50px;
+}
+/* line 10, ../../sass/components/detalles.scss */
+#pagina .contenido {
+  position: relative;
+  float: left;
+}
+/* line 11, ../../sass/components/detalles.scss */
+#pagina .contenido .movil {
+  display: none;
+}
+/* line 12, ../../sass/components/detalles.scss */
+#pagina .contenido h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  line-height: 42px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px 0px 20px 0px;
+  text-align: left;
+  height: auto;
+}
+/* line 13, ../../sass/components/detalles.scss */
+#pagina .contenido .texto {
+  color: #333;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 20px;
+}
+/* line 14, ../../sass/components/detalles.scss */
+#pagina .contenido .texto a {
+  color: #FF8801;
+  text-decoration: none;
+}
+/* line 15, ../../sass/components/detalles.scss */
+#pagina .contenido .texto a:hover {
+  text-decoration: underline;
+}
+
+/* line 22, ../../sass/components/detalles.scss */
+#articulo {
+  width: 1024px;
+  padding: 20px 0px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 50px;
+}
+/* line 23, ../../sass/components/detalles.scss */
+#articulo .contenido {
+  position: relative;
+  float: left;
+}
+/* line 24, ../../sass/components/detalles.scss */
+#articulo .contenido .foto {
+  width: 1024px;
+  height: 550px;
+  position: relative;
+  float: left;
+  margin-bottom: 10px;
+}
+/* line 25, ../../sass/components/detalles.scss */
+#articulo .contenido .etiquetas {
+  background: #FF8801;
+  width: 955px;
+  position: relative;
+  float: left;
+  margin: 20px 0px;
+  height: 40px;
+  margin-left: 70px;
+}
+/* line 26, ../../sass/components/detalles.scss */
+#articulo .contenido .etiquetas .triangulo {
+  width: 0;
+  height: 0;
+  border-top: 35px solid transparent;
+  border-left: 14px solid #000;
+  border-bottom: 35px solid transparent;
+  position: absolute;
+  left: 10px;
+  top: -15px;
+}
+/* line 27, ../../sass/components/detalles.scss */
+#articulo .contenido .etiquetas .icon {
+  background: url(../images/iconos/icono_d.svg) -4px -1px/90px auto no-repeat #000;
+  height: 50px;
+  width: 70px;
+  float: left;
+  position: absolute;
+  padding: 10px 5px;
+  top: -15px;
+  left: -70px;
+}
+/* line 28, ../../sass/components/detalles.scss */
+#articulo .contenido .etiquetas a {
+  color: #fff;
+  float: left;
+  position: relative;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 300;
+  text-decoration: none;
+  margin-left: 30px;
+  padding: 10px 0px;
+  font-style: italic;
+}
+/* line 30, ../../sass/components/detalles.scss */
+#articulo .contenido .movil {
+  display: none;
+}
+/* line 31, ../../sass/components/detalles.scss */
+#articulo .contenido .izq {
+  width: 320px;
+  margin-right: 20px;
+  border-right: 1px solid #000;
+  height: auto;
+  float: left;
+}
+/* line 32, ../../sass/components/detalles.scss */
+#articulo .contenido .izq .fecha {
+  width: 300px;
+  padding: 0px 10px;
+}
+/* line 33, ../../sass/components/detalles.scss */
+#articulo .contenido .izq .fecha .icono {
+  background: url(../images/iconos/icono_fecha.svg) 0px 0px/55px auto no-repeat;
+  height: 50px;
+  width: 60px;
+  float: left;
+  position: relative;
+}
+/* line 34, ../../sass/components/detalles.scss */
+#articulo .contenido .izq .fecha .dia {
+  font-size: 18px;
+  font-weight: 400;
+  color: #FF8801;
+  height: 50px;
+  width: 210px;
+  margin-top: 10px;
+  float: left;
+}
+/* line 35, ../../sass/components/detalles.scss */
+#articulo .contenido .izq .fecha .dia label {
+  font-weight: 400;
+  font-size: 16px;
+  width: 210px;
+  color: #000;
+}
+/* line 38, ../../sass/components/detalles.scss */
+#articulo .contenido .izq .seccion {
+  width: 300px;
+  padding: 0px 10px;
+  margin-bottom: 20px;
+}
+/* line 39, ../../sass/components/detalles.scss */
+#articulo .contenido .izq .seccion .icono {
+  background: url(../images/iconos/icono_seccion.svg) 3px 7px/50px auto no-repeat;
+  height: 50px;
+  width: 60px;
+  float: left;
+  position: relative;
+}
+/* line 40, ../../sass/components/detalles.scss */
+#articulo .contenido .izq .seccion .tax {
+  width: 210px;
+  margin-top: 10px;
+  float: left;
+}
+/* line 41, ../../sass/components/detalles.scss */
+#articulo .contenido .izq .seccion .tax a {
+  font-size: 18px;
+  font-weight: 400;
+  color: #FF8801;
+  height: 50px;
+  text-decoration: none;
+}
+/* line 42, ../../sass/components/detalles.scss */
+#articulo .contenido .izq .seccion .tax a:hover {
+  text-decoration: underline;
+}
+/* line 43, ../../sass/components/detalles.scss */
+#articulo .contenido .izq .seccion .tax label {
+  font-weight: 400;
+  font-size: 16px;
+  width: 210px;
+  color: #000;
+}
+/* line 46, ../../sass/components/detalles.scss */
+#articulo .contenido .izq .redes_sociales {
+  position: relative;
+  float: left;
+  width: 280px;
+  padding: 0px;
+  height: 30px;
+  margin: 20px 20px;
+}
+/* line 47, ../../sass/components/detalles.scss */
+#articulo .contenido .izq .redes_sociales li {
+  list-style: none;
+  float: left;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin: 5px 10px;
+  cursor: pointer;
+  margin: 0px;
+}
+/* line 49, ../../sass/components/detalles.scss */
+#articulo .contenido .izq .redes_sociales .fb .st_facebook_large {
+  background: url(../images/compartir.svg) no-repeat -5px -4px/270px auto transparent;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  float: left;
+  text-indent: -9999px;
+  transition: all 0.2s ease;
+}
+/* line 52, ../../sass/components/detalles.scss */
+#articulo .contenido .izq .redes_sociales .tw .st_twitter_large {
+  background: url(../images/compartir.svg) no-repeat -45px -4px/270px auto transparent;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  float: left;
+  text-indent: -9999px;
+  transition: all 0.2s ease;
+}
+/* line 55, ../../sass/components/detalles.scss */
+#articulo .contenido .izq .redes_sociales .go .st_googleplus_large {
+  background: url(../images/compartir.svg) no-repeat -85px -4px/270px auto transparent;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  float: left;
+  text-indent: -9999px;
+  transition: all 0.2s ease;
+}
+/* line 58, ../../sass/components/detalles.scss */
+#articulo .contenido .izq .redes_sociales .pin .st_pinterest_large {
+  background: url(../images/compartir.svg) no-repeat -124px -4px/270px auto transparent;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  float: left;
+  text-indent: -9999px;
+  transition: all 0.2s ease;
+}
+/* line 61, ../../sass/components/detalles.scss */
+#articulo .contenido .izq .redes_sociales .wp .st_whatsapp_large {
+  background: url(../images/compartir.svg) no-repeat -163px -4px/270px auto transparent;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  float: left;
+  text-indent: -9999px;
+  transition: all 0.2s ease;
+}
+/* line 65, ../../sass/components/detalles.scss */
+#articulo .contenido .izq .view-id-detalle.view-display-id-block {
+  width: 300px;
+  height: auto;
+  float: left;
+  padding: 0px 10px;
+}
+/* line 66, ../../sass/components/detalles.scss */
+#articulo .contenido .izq .view-id-detalle.view-display-id-block h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  width: 280px;
+  padding: 15px 10px;
+  text-align: center;
+  height: auto;
+  background: #000;
+  color: #fff;
+  margin: 5px 0px;
+}
+/* line 67, ../../sass/components/detalles.scss */
+#articulo .contenido .izq .view-id-detalle.view-display-id-block .views-row {
+  width: 300px;
+  border-bottom: 1px solid #000;
+  float: left;
+  margin-bottom: 20px;
+}
+/* line 68, ../../sass/components/detalles.scss */
+#articulo .contenido .izq .view-id-detalle.view-display-id-block .restaurante {
+  width: 280px;
+  position: relative;
+  float: left;
+  height: auto;
+}
+/* line 69, ../../sass/components/detalles.scss */
+#articulo .contenido .izq .view-id-detalle.view-display-id-block .restaurante .foto {
+  width: 280px;
+  height: 180px;
+  position: relative;
+  float: left;
+  border: 1px solid #000;
+  margin: 0px 10px;
+}
+/* line 70, ../../sass/components/detalles.scss */
+#articulo .contenido .izq .view-id-detalle.view-display-id-block .restaurante .foto img {
+  width: 280px;
+  height: 180px;
+}
+/* line 71, ../../sass/components/detalles.scss */
+#articulo .contenido .izq .view-id-detalle.view-display-id-block .restaurante .foto img:hover {
+  opacity: 0.8;
+}
+/* line 73, ../../sass/components/detalles.scss */
+#articulo .contenido .izq .view-id-detalle.view-display-id-block .restaurante .nombre {
+  width: 280px;
+  height: 30px;
+  position: relative;
+  float: left;
+  margin: 10px;
+  background: url(../images/iconos/icono_cubiertos.svg) 0px -5px/40px auto no-repeat;
+}
+/* line 74, ../../sass/components/detalles.scss */
+#articulo .contenido .izq .view-id-detalle.view-display-id-block .restaurante .nombre a {
+  margin-left: 50px;
+  text-align: left;
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  height: 30px;
+  float: left;
+  padding: 5px 0px 0px 0px;
+}
+/* line 80, ../../sass/components/detalles.scss */
+#articulo .contenido .izq .view-id-detalle.view-display-id-block_1 {
+  width: 300px;
+  height: auto;
+  float: left;
+  padding: 0px 10px;
+}
+/* line 81, ../../sass/components/detalles.scss */
+#articulo .contenido .izq .view-id-detalle.view-display-id-block_1 h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  width: 280px;
+  padding: 15px 10px;
+  text-align: center;
+  height: auto;
+  background: #000;
+  color: #fff;
+  margin: 5px 0px;
+}
+/* line 82, ../../sass/components/detalles.scss */
+#articulo .contenido .izq .view-id-detalle.view-display-id-block_1 .views-row {
+  width: 300px;
+  float: left;
+  margin-bottom: 20px;
+}
+/* line 83, ../../sass/components/detalles.scss */
+#articulo .contenido .izq .view-id-detalle.view-display-id-block_1 .promocion {
+  width: 280px;
+  position: relative;
+  float: left;
+  height: auto;
+}
+/* line 84, ../../sass/components/detalles.scss */
+#articulo .contenido .izq .view-id-detalle.view-display-id-block_1 .promocion .foto {
+  width: 280px;
+  height: auto;
+  position: relative;
+  float: left;
+  border: 1px solid #000;
+  margin: 0px 10px;
+}
+/* line 85, ../../sass/components/detalles.scss */
+#articulo .contenido .izq .view-id-detalle.view-display-id-block_1 .promocion .foto img {
+  width: 280px;
+  height: auto;
+}
+/* line 86, ../../sass/components/detalles.scss */
+#articulo .contenido .izq .view-id-detalle.view-display-id-block_1 .promocion .foto img:hover {
+  opacity: 0.8;
+}
+/* line 93, ../../sass/components/detalles.scss */
+#articulo .contenido .der {
+  width: 660px;
+  height: auto;
+  float: left;
+  padding: 0px 20px 0px 0px;
+}
+/* line 94, ../../sass/components/detalles.scss */
+#articulo .contenido .der h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  line-height: 42px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px 0px 20px 0px;
+  text-align: left;
+  height: auto;
+}
+/* line 95, ../../sass/components/detalles.scss */
+#articulo .contenido .der .texto {
+  color: #333;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 20px;
+}
+/* line 96, ../../sass/components/detalles.scss */
+#articulo .contenido .der .texto a {
+  color: #FF8801;
+  text-decoration: none;
+}
+/* line 97, ../../sass/components/detalles.scss */
+#articulo .contenido .der .texto a:hover {
+  text-decoration: underline;
+}
+/* line 100, ../../sass/components/detalles.scss */
+#articulo .contenido .abajo {
+  width: 1024px;
+  height: auto;
+  float: left;
+  padding: 20px 0px;
+  position: relative;
+}
+/* line 102, ../../sass/components/detalles.scss */
+#articulo .contenido .abajo .view-id-mas.view-display-id-block {
+  width: 1024px;
+  height: auto;
+  float: left;
+  padding: 10px 0px;
+}
+/* line 103, ../../sass/components/detalles.scss */
+#articulo .contenido .abajo .view-id-mas.view-display-id-block h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  width: 1024px;
+  height: 30px;
+  padding: 20px 0px;
+  text-align: center;
+  height: auto;
+  background: #000;
+  color: #fff;
+  margin: 5px 0px 20px 0px;
+}
+/* line 104, ../../sass/components/detalles.scss */
+#articulo .contenido .abajo .view-id-mas.view-display-id-block .views-row {
+  width: 500px;
+  float: left;
+  margin: 0px 24px 20px 0px;
+}
+/* line 105, ../../sass/components/detalles.scss */
+#articulo .contenido .abajo .view-id-mas.view-display-id-block .views-row-2, #articulo .contenido .abajo .view-id-mas.view-display-id-block .views-row-4, #articulo .contenido .abajo .view-id-mas.view-display-id-block .views-row-6, #articulo .contenido .abajo .view-id-mas.view-display-id-block .views-row-8, #articulo .contenido .abajo .view-id-mas.view-display-id-block .views-row-10, #articulo .contenido .abajo .view-id-mas.view-display-id-block .views-row-12 {
+  margin: 0px 0px 20px 0px;
+}
+/* line 106, ../../sass/components/detalles.scss */
+#articulo .contenido .abajo .view-id-mas.view-display-id-block .nota {
+  width: 500px;
+  position: relative;
+  float: left;
+  height: auto;
+  background: #fff;
+}
+/* line 107, ../../sass/components/detalles.scss */
+#articulo .contenido .abajo .view-id-mas.view-display-id-block .nota .seccion {
+  background: #FF8801;
+  padding: 3px 5px;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  z-index: 1;
+}
+/* line 108, ../../sass/components/detalles.scss */
+#articulo .contenido .abajo .view-id-mas.view-display-id-block .nota .seccion a {
+  color: #fff;
+  text-decoration: none;
+}
+/* line 110, ../../sass/components/detalles.scss */
+#articulo .contenido .abajo .view-id-mas.view-display-id-block .nota .foto {
+  width: 235px;
+  height: 310px;
+  position: relative;
+  float: left;
+  margin: 0px;
+}
+/* line 111, ../../sass/components/detalles.scss */
+#articulo .contenido .abajo .view-id-mas.view-display-id-block .nota .foto img {
+  width: 235px;
+  height: 310px;
+}
+/* line 112, ../../sass/components/detalles.scss */
+#articulo .contenido .abajo .view-id-mas.view-display-id-block .nota .foto img:hover {
+  opacity: 0.8;
+}
+/* line 114, ../../sass/components/detalles.scss */
+#articulo .contenido .abajo .view-id-mas.view-display-id-block .nota .info {
+  position: relative;
+  background: #fff;
+  width: 245px;
+  height: auto;
+  opacity: 1;
+  float: left;
+  transition: all 0.5s ease-in-out;
+}
+/* line 115, ../../sass/components/detalles.scss */
+#articulo .contenido .abajo .view-id-mas.view-display-id-block .nota .info .titulo {
+  width: 220px;
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 22px;
+  position: relative;
+  text-align: center;
+  padding: 10px 10px;
+}
+/* line 116, ../../sass/components/detalles.scss */
+#articulo .contenido .abajo .view-id-mas.view-display-id-block .nota .info .titulo a {
+  color: #000;
+  text-decoration: none;
+}
+/* line 118, ../../sass/components/detalles.scss */
+#articulo .contenido .abajo .view-id-mas.view-display-id-block .nota .info .resumen {
+  width: 220px;
+  font-size: 18px;
+  line-height: 20px;
+  text-transform: none;
+  padding: 10px;
+  position: relative;
+  float: left;
+  text-align: center;
+  font-weight: 300;
+}
+/* line 119, ../../sass/components/detalles.scss */
+#articulo .contenido .abajo .view-id-mas.view-display-id-block .nota .info .mas {
+  background: #000;
+  border-radius: 22px;
+  width: 70px;
+  padding: 10px 10px;
+  text-align: center;
+  position: relative;
+  float: left;
+  margin: 0px 75px 10px;
+}
+/* line 120, ../../sass/components/detalles.scss */
+#articulo .contenido .abajo .view-id-mas.view-display-id-block .nota .info .mas a {
+  position: relative;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+/* line 133, ../../sass/components/detalles.scss */
+#video {
+  width: 1024px;
+  padding: 20px 0px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 50px;
+}
+/* line 134, ../../sass/components/detalles.scss */
+#video .contenido {
+  position: relative;
+  float: left;
+}
+/* line 135, ../../sass/components/detalles.scss */
+#video .contenido .video {
+  display: none;
+}
+/* line 136, ../../sass/components/detalles.scss */
+#video .contenido .video-player {
+  position: relative;
+  float: left;
+  border: none;
+}
+/* line 137, ../../sass/components/detalles.scss */
+#video .contenido .etiquetas {
+  background: #FF8801;
+  width: 955px;
+  position: relative;
+  float: left;
+  margin: 20px 0px;
+  height: 40px;
+  margin-left: 70px;
+}
+/* line 138, ../../sass/components/detalles.scss */
+#video .contenido .etiquetas .triangulo {
+  width: 0;
+  height: 0;
+  border-top: 35px solid transparent;
+  border-left: 14px solid #000;
+  border-bottom: 35px solid transparent;
+  position: absolute;
+  left: 10px;
+  top: -15px;
+}
+/* line 139, ../../sass/components/detalles.scss */
+#video .contenido .etiquetas .icon {
+  background: url(../images/iconos/icono_d.svg) -4px -1px/90px auto no-repeat #000;
+  height: 50px;
+  width: 70px;
+  float: left;
+  position: absolute;
+  padding: 10px 5px;
+  top: -15px;
+  left: -70px;
+}
+/* line 140, ../../sass/components/detalles.scss */
+#video .contenido .etiquetas a {
+  color: #fff;
+  float: left;
+  position: relative;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 300;
+  text-decoration: none;
+  margin-left: 30px;
+  padding: 10px 0px;
+  font-style: italic;
+}
+/* line 142, ../../sass/components/detalles.scss */
+#video .contenido .movil {
+  display: none;
+}
+/* line 143, ../../sass/components/detalles.scss */
+#video .contenido .izq {
+  width: 320px;
+  margin-right: 20px;
+  border-right: 1px solid #000;
+  height: auto;
+  float: left;
+}
+/* line 144, ../../sass/components/detalles.scss */
+#video .contenido .izq .ingredientes {
+  padding: 0px 10px;
+  font-weight: 300;
+  font-size: 18px;
+  width: 270px;
+  color: #666;
+  margin: 0px 15px;
+}
+/* line 145, ../../sass/components/detalles.scss */
+#video .contenido .izq .ingredientes h2 {
+  font-weight: 400;
+  font-size: 20px;
+  width: 280px;
+  color: #FF8801;
+}
+/* line 146, ../../sass/components/detalles.scss */
+#video .contenido .izq .ingredientes strong {
+  font-weight: 500;
+  color: #000;
+}
+/* line 149, ../../sass/components/detalles.scss */
+#video .contenido .izq .tiempo {
+  width: 300px;
+  padding: 0px 10px;
+  font-weight: 300;
+  font-size: 20px;
+  width: 280px;
+  color: #FF8801;
+}
+/* line 150, ../../sass/components/detalles.scss */
+#video .contenido .izq .tiempo .icono {
+  background: url(../images/iconos/icono_tiempo.svg) 0px 0px/40px auto no-repeat;
+  height: 40px;
+  width: 50px;
+  float: left;
+  position: relative;
+}
+/* line 151, ../../sass/components/detalles.scss */
+#video .contenido .izq .tiempo span {
+  width: 230px;
+  float: left;
+  position: relative;
+  height: 50px;
+}
+/* line 152, ../../sass/components/detalles.scss */
+#video .contenido .izq .tiempo span .field p {
+  margin: 15px 0px;
+}
+/* line 155, ../../sass/components/detalles.scss */
+#video .contenido .izq .chef {
+  padding: 0px 10px;
+  font-weight: 300;
+  font-size: 20px;
+  width: 280px;
+  color: #FF8801;
+}
+/* line 156, ../../sass/components/detalles.scss */
+#video .contenido .izq .chef .icono {
+  background: url(../images/iconos/icono_chef.svg) 0px 0px/40px auto no-repeat;
+  height: 40px;
+  width: 50px;
+  float: left;
+  position: relative;
+}
+/* line 157, ../../sass/components/detalles.scss */
+#video .contenido .izq .chef span {
+  width: 230px;
+  float: left;
+  position: relative;
+  height: 50px;
+}
+/* line 158, ../../sass/components/detalles.scss */
+#video .contenido .izq .chef span .field p {
+  margin: 11px 0px;
+}
+/* line 162, ../../sass/components/detalles.scss */
+#video .contenido .izq .fecha {
+  width: 300px;
+  padding: 0px 10px;
+}
+/* line 163, ../../sass/components/detalles.scss */
+#video .contenido .izq .fecha .icono {
+  background: url(../images/iconos/icono_fecha.svg) 0px 0px/55px auto no-repeat;
+  height: 50px;
+  width: 60px;
+  float: left;
+  position: relative;
+}
+/* line 164, ../../sass/components/detalles.scss */
+#video .contenido .izq .fecha .dia {
+  font-size: 18px;
+  font-weight: 400;
+  color: #FF8801;
+  height: 50px;
+  width: 210px;
+  margin-top: 10px;
+  float: left;
+}
+/* line 165, ../../sass/components/detalles.scss */
+#video .contenido .izq .fecha .dia label {
+  font-weight: 400;
+  font-size: 16px;
+  width: 210px;
+  color: #000;
+}
+/* line 168, ../../sass/components/detalles.scss */
+#video .contenido .izq .seccion {
+  width: 300px;
+  padding: 0px 10px;
+  margin-bottom: 20px;
+}
+/* line 169, ../../sass/components/detalles.scss */
+#video .contenido .izq .seccion .icono {
+  background: url(../images/iconos/icono_seccion.svg) 3px 7px/50px auto no-repeat;
+  height: 50px;
+  width: 60px;
+  float: left;
+  position: relative;
+}
+/* line 170, ../../sass/components/detalles.scss */
+#video .contenido .izq .seccion .tax {
+  width: 210px;
+  margin-top: 10px;
+  float: left;
+}
+/* line 171, ../../sass/components/detalles.scss */
+#video .contenido .izq .seccion .tax a {
+  font-size: 18px;
+  font-weight: 400;
+  color: #FF8801;
+  height: 50px;
+  text-decoration: none;
+}
+/* line 172, ../../sass/components/detalles.scss */
+#video .contenido .izq .seccion .tax a:hover {
+  text-decoration: underline;
+}
+/* line 173, ../../sass/components/detalles.scss */
+#video .contenido .izq .seccion .tax label {
+  font-weight: 400;
+  font-size: 16px;
+  width: 210px;
+  color: #000;
+}
+/* line 176, ../../sass/components/detalles.scss */
+#video .contenido .izq .redes_sociales {
+  position: relative;
+  float: left;
+  width: 280px;
+  padding: 0px;
+  height: 30px;
+  margin: 20px 20px;
+}
+/* line 177, ../../sass/components/detalles.scss */
+#video .contenido .izq .redes_sociales li {
+  list-style: none;
+  float: left;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin: 5px 10px;
+  cursor: pointer;
+  margin: 0px;
+}
+/* line 179, ../../sass/components/detalles.scss */
+#video .contenido .izq .redes_sociales .fb .st_facebook_large {
+  background: url(../images/compartir.svg) no-repeat -5px -4px/270px auto transparent;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  float: left;
+  text-indent: -9999px;
+  transition: all 0.2s ease;
+}
+/* line 182, ../../sass/components/detalles.scss */
+#video .contenido .izq .redes_sociales .tw .st_twitter_large {
+  background: url(../images/compartir.svg) no-repeat -45px -4px/270px auto transparent;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  float: left;
+  text-indent: -9999px;
+  transition: all 0.2s ease;
+}
+/* line 185, ../../sass/components/detalles.scss */
+#video .contenido .izq .redes_sociales .go .st_googleplus_large {
+  background: url(../images/compartir.svg) no-repeat -85px -4px/270px auto transparent;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  float: left;
+  text-indent: -9999px;
+  transition: all 0.2s ease;
+}
+/* line 188, ../../sass/components/detalles.scss */
+#video .contenido .izq .redes_sociales .pin .st_pinterest_large {
+  background: url(../images/compartir.svg) no-repeat -124px -4px/270px auto transparent;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  float: left;
+  text-indent: -9999px;
+  transition: all 0.2s ease;
+}
+/* line 191, ../../sass/components/detalles.scss */
+#video .contenido .izq .redes_sociales .wp .st_whatsapp_large {
+  background: url(../images/compartir.svg) no-repeat -163px -4px/270px auto transparent;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  float: left;
+  text-indent: -9999px;
+  transition: all 0.2s ease;
+}
+/* line 195, ../../sass/components/detalles.scss */
+#video .contenido .izq .view-id-detalle.view-display-id-block {
+  width: 300px;
+  height: auto;
+  float: left;
+  padding: 0px 10px;
+}
+/* line 196, ../../sass/components/detalles.scss */
+#video .contenido .izq .view-id-detalle.view-display-id-block h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  width: 280px;
+  padding: 15px 10px;
+  text-align: center;
+  height: auto;
+  background: #000;
+  color: #fff;
+  margin: 5px 0px;
+}
+/* line 197, ../../sass/components/detalles.scss */
+#video .contenido .izq .view-id-detalle.view-display-id-block .views-row {
+  width: 300px;
+  border-bottom: 1px solid #000;
+  float: left;
+  margin-bottom: 20px;
+}
+/* line 198, ../../sass/components/detalles.scss */
+#video .contenido .izq .view-id-detalle.view-display-id-block .restaurante {
+  width: 280px;
+  position: relative;
+  float: left;
+  height: auto;
+}
+/* line 199, ../../sass/components/detalles.scss */
+#video .contenido .izq .view-id-detalle.view-display-id-block .restaurante .foto {
+  width: 280px;
+  height: 180px;
+  position: relative;
+  float: left;
+  border: 1px solid #000;
+  margin: 0px 10px;
+}
+/* line 200, ../../sass/components/detalles.scss */
+#video .contenido .izq .view-id-detalle.view-display-id-block .restaurante .foto img {
+  width: 280px;
+  height: 180px;
+}
+/* line 201, ../../sass/components/detalles.scss */
+#video .contenido .izq .view-id-detalle.view-display-id-block .restaurante .foto img:hover {
+  opacity: 0.8;
+}
+/* line 203, ../../sass/components/detalles.scss */
+#video .contenido .izq .view-id-detalle.view-display-id-block .restaurante .nombre {
+  width: 280px;
+  height: 30px;
+  position: relative;
+  float: left;
+  margin: 10px;
+  background: url(../images/iconos/icono_cubiertos.svg) 0px -5px/40px auto no-repeat;
+}
+/* line 204, ../../sass/components/detalles.scss */
+#video .contenido .izq .view-id-detalle.view-display-id-block .restaurante .nombre a {
+  margin-left: 50px;
+  text-align: left;
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  height: 30px;
+  float: left;
+  padding: 5px 0px 0px 0px;
+}
+/* line 210, ../../sass/components/detalles.scss */
+#video .contenido .izq .view-id-detalle.view-display-id-block_1 {
+  width: 300px;
+  height: auto;
+  float: left;
+  padding: 0px 10px;
+}
+/* line 211, ../../sass/components/detalles.scss */
+#video .contenido .izq .view-id-detalle.view-display-id-block_1 h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  width: 280px;
+  padding: 15px 10px;
+  text-align: center;
+  height: auto;
+  background: #000;
+  color: #fff;
+  margin: 5px 0px;
+}
+/* line 212, ../../sass/components/detalles.scss */
+#video .contenido .izq .view-id-detalle.view-display-id-block_1 .views-row {
+  width: 300px;
+  float: left;
+  margin-bottom: 20px;
+}
+/* line 213, ../../sass/components/detalles.scss */
+#video .contenido .izq .view-id-detalle.view-display-id-block_1 .promocion {
+  width: 280px;
+  position: relative;
+  float: left;
+  height: auto;
+}
+/* line 214, ../../sass/components/detalles.scss */
+#video .contenido .izq .view-id-detalle.view-display-id-block_1 .promocion .foto {
+  width: 280px;
+  height: auto;
+  position: relative;
+  float: left;
+  border: 1px solid #000;
+  margin: 0px 10px;
+}
+/* line 215, ../../sass/components/detalles.scss */
+#video .contenido .izq .view-id-detalle.view-display-id-block_1 .promocion .foto img {
+  width: 280px;
+  height: auto;
+}
+/* line 216, ../../sass/components/detalles.scss */
+#video .contenido .izq .view-id-detalle.view-display-id-block_1 .promocion .foto img:hover {
+  opacity: 0.8;
+}
+/* line 223, ../../sass/components/detalles.scss */
+#video .contenido .der {
+  width: 660px;
+  height: auto;
+  float: left;
+  padding: 0px 20px 0px 0px;
+}
+/* line 224, ../../sass/components/detalles.scss */
+#video .contenido .der h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  line-height: 42px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px 0px 20px 0px;
+  text-align: left;
+  height: auto;
+}
+/* line 225, ../../sass/components/detalles.scss */
+#video .contenido .der .texto {
+  color: #333;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 20px;
+}
+/* line 226, ../../sass/components/detalles.scss */
+#video .contenido .der .texto a {
+  color: #FF8801;
+  text-decoration: none;
+}
+/* line 227, ../../sass/components/detalles.scss */
+#video .contenido .der .texto a:hover {
+  text-decoration: underline;
+}
+/* line 230, ../../sass/components/detalles.scss */
+#video .contenido .abajo {
+  width: 1024px;
+  height: auto;
+  float: left;
+  padding: 20px 0px;
+  position: relative;
+}
+/* line 232, ../../sass/components/detalles.scss */
+#video .contenido .abajo .view-id-mas.view-display-id-block_1 {
+  width: 1024px;
+  height: auto;
+  float: left;
+  padding: 10px 0px;
+}
+/* line 233, ../../sass/components/detalles.scss */
+#video .contenido .abajo .view-id-mas.view-display-id-block_1 h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  width: 1024px;
+  height: 30px;
+  padding: 20px 0px;
+  text-align: center;
+  height: auto;
+  background: #000;
+  color: #fff;
+  margin: 5px 0px 20px 0px;
+}
+/* line 234, ../../sass/components/detalles.scss */
+#video .contenido .abajo .view-id-mas.view-display-id-block_1 .views-row {
+  width: 500px;
+  float: left;
+  margin: 0px 24px 20px 0px;
+}
+/* line 235, ../../sass/components/detalles.scss */
+#video .contenido .abajo .view-id-mas.view-display-id-block_1 .views-row-2, #video .contenido .abajo .view-id-mas.view-display-id-block_1 .views-row-4, #video .contenido .abajo .view-id-mas.view-display-id-block_1 .views-row-6, #video .contenido .abajo .view-id-mas.view-display-id-block_1 .views-row-8 {
+  margin: 0px 0px 20px 0px;
+}
+/* line 236, ../../sass/components/detalles.scss */
+#video .contenido .abajo .view-id-mas.view-display-id-block_1 .nota {
+  width: 500px;
+  position: relative;
+  float: left;
+  height: auto;
+  background: #fff;
+}
+/* line 237, ../../sass/components/detalles.scss */
+#video .contenido .abajo .view-id-mas.view-display-id-block_1 .nota .seccion {
+  background: #FF8801;
+  padding: 3px 5px;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  z-index: 1;
+}
+/* line 238, ../../sass/components/detalles.scss */
+#video .contenido .abajo .view-id-mas.view-display-id-block_1 .nota .seccion a {
+  color: #fff;
+  text-decoration: none;
+}
+/* line 240, ../../sass/components/detalles.scss */
+#video .contenido .abajo .view-id-mas.view-display-id-block_1 .nota .icon {
+  opacity: 1;
+  display: block;
+  background: url(../images/iconos/video.svg) -10px 15px/140px auto no-repeat;
+  height: 110px;
+  width: 110px;
+  display: block;
+  text-indent: -9999px;
+  float: left;
+  position: absolute;
+  left: 60px;
+  top: 100px;
+  opacity: 0.7;
+  z-index: 1;
+  transition: all 0.5s ease-in-out;
+}
+/* line 241, ../../sass/components/detalles.scss */
+#video .contenido .abajo .view-id-mas.view-display-id-block_1 .nota .video {
+  width: 235px;
+  height: 310px;
+  position: relative;
+  float: left;
+  margin: 0px;
+  display: block;
+}
+/* line 242, ../../sass/components/detalles.scss */
+#video .contenido .abajo .view-id-mas.view-display-id-block_1 .nota .video img {
+  width: 235px;
+  height: 310px;
+}
+/* line 243, ../../sass/components/detalles.scss */
+#video .contenido .abajo .view-id-mas.view-display-id-block_1 .nota .video img:hover {
+  opacity: 0.8;
+}
+/* line 245, ../../sass/components/detalles.scss */
+#video .contenido .abajo .view-id-mas.view-display-id-block_1 .nota .info {
+  position: relative;
+  background: #fff;
+  width: 245px;
+  height: auto;
+  opacity: 1;
+  float: left;
+  transition: all 0.5s ease-in-out;
+}
+/* line 246, ../../sass/components/detalles.scss */
+#video .contenido .abajo .view-id-mas.view-display-id-block_1 .nota .info .titulo {
+  width: 220px;
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 22px;
+  position: relative;
+  text-align: center;
+  padding: 10px 10px;
+}
+/* line 247, ../../sass/components/detalles.scss */
+#video .contenido .abajo .view-id-mas.view-display-id-block_1 .nota .info .titulo a {
+  color: #000;
+  text-decoration: none;
+}
+/* line 249, ../../sass/components/detalles.scss */
+#video .contenido .abajo .view-id-mas.view-display-id-block_1 .nota .info .resumen {
+  width: 220px;
+  font-size: 18px;
+  line-height: 20px;
+  text-transform: none;
+  padding: 10px;
+  position: relative;
+  float: left;
+  text-align: center;
+  font-weight: 300;
+}
+/* line 250, ../../sass/components/detalles.scss */
+#video .contenido .abajo .view-id-mas.view-display-id-block_1 .nota .info .mas {
+  background: #000;
+  border-radius: 22px;
+  width: 70px;
+  padding: 10px 10px;
+  text-align: center;
+  position: relative;
+  float: left;
+  margin: 0px 75px 10px;
+}
+/* line 251, ../../sass/components/detalles.scss */
+#video .contenido .abajo .view-id-mas.view-display-id-block_1 .nota .info .mas a {
+  position: relative;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+/* line 264, ../../sass/components/detalles.scss */
+#establecimiento {
+  position: relative;
+  margin-top: 50px;
+}
+/* line 265, ../../sass/components/detalles.scss */
+#establecimiento .foto {
+  width: 100%;
+  height: 550px;
+  position: relative;
+  float: left;
+  margin-bottom: 20px;
+  overflow: hidden;
+  top: 20px;
+}
+/* line 266, ../../sass/components/detalles.scss */
+#establecimiento .foto img {
+  z-index: -100;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: 0px;
+  top: 0px;
+}
+/* line 268, ../../sass/components/detalles.scss */
+#establecimiento .contenido {
+  position: relative;
+  width: 1024px;
+  padding: 20px 0px;
+  margin: 0 auto;
+}
+/* line 270, ../../sass/components/detalles.scss */
+#establecimiento .contenido .especialidad {
+  background: #FF8801;
+  width: 955px;
+  position: relative;
+  float: left;
+  margin: 20px 0px;
+  height: 40px;
+  margin-left: 70px;
+}
+/* line 271, ../../sass/components/detalles.scss */
+#establecimiento .contenido .especialidad .triangulo {
+  width: 0;
+  height: 0;
+  border-top: 35px solid transparent;
+  border-left: 14px solid #000;
+  border-bottom: 35px solid transparent;
+  position: absolute;
+  left: 10px;
+  top: -15px;
+}
+/* line 272, ../../sass/components/detalles.scss */
+#establecimiento .contenido .especialidad .icon {
+  background: url(../images/iconos/icono_d.svg) -4px -1px/90px auto no-repeat #000;
+  height: 50px;
+  width: 70px;
+  float: left;
+  position: absolute;
+  padding: 10px 5px;
+  top: -15px;
+  left: -70px;
+}
+/* line 273, ../../sass/components/detalles.scss */
+#establecimiento .contenido .especialidad span {
+  color: #fff;
+  float: left;
+  position: relative;
+  font-size: 20px;
+  font-weight: 300;
+  text-decoration: none;
+  margin-left: 30px;
+  padding: 10px 0px;
+  font-style: italic;
+}
+/* line 275, ../../sass/components/detalles.scss */
+#establecimiento .contenido .movil {
+  display: none;
+}
+/* line 276, ../../sass/components/detalles.scss */
+#establecimiento .contenido .izq {
+  width: 320px;
+  margin-right: 20px;
+  border-right: 1px solid #000;
+  height: auto;
+  float: left;
+}
+/* line 277, ../../sass/components/detalles.scss */
+#establecimiento .contenido .izq .fecha {
+  width: 300px;
+  padding: 0px 10px;
+}
+/* line 278, ../../sass/components/detalles.scss */
+#establecimiento .contenido .izq .fecha .icono {
+  background: url(../images/iconos/icono_fecha.svg) 0px 0px/55px auto no-repeat;
+  height: 50px;
+  width: 60px;
+  float: left;
+  position: relative;
+}
+/* line 279, ../../sass/components/detalles.scss */
+#establecimiento .contenido .izq .fecha .dia {
+  font-size: 18px;
+  font-weight: 400;
+  color: #FF8801;
+  height: 50px;
+  width: 210px;
+  margin-top: 10px;
+  float: left;
+}
+/* line 280, ../../sass/components/detalles.scss */
+#establecimiento .contenido .izq .fecha .dia label {
+  font-weight: 400;
+  font-size: 16px;
+  width: 210px;
+  color: #000;
+}
+/* line 283, ../../sass/components/detalles.scss */
+#establecimiento .contenido .izq .seccion {
+  width: 300px;
+  padding: 0px 10px;
+  margin-bottom: 20px;
+}
+/* line 284, ../../sass/components/detalles.scss */
+#establecimiento .contenido .izq .seccion .icono {
+  background: url(../images/iconos/icono_seccion.svg) 3px 7px/50px auto no-repeat;
+  height: 50px;
+  width: 60px;
+  float: left;
+  position: relative;
+}
+/* line 285, ../../sass/components/detalles.scss */
+#establecimiento .contenido .izq .seccion .tax {
+  width: 210px;
+  margin-top: 10px;
+  float: left;
+}
+/* line 286, ../../sass/components/detalles.scss */
+#establecimiento .contenido .izq .seccion .tax a {
+  font-size: 18px;
+  font-weight: 400;
+  color: #FF8801;
+  height: 50px;
+  text-decoration: none;
+}
+/* line 287, ../../sass/components/detalles.scss */
+#establecimiento .contenido .izq .seccion .tax a:hover {
+  text-decoration: underline;
+}
+/* line 288, ../../sass/components/detalles.scss */
+#establecimiento .contenido .izq .seccion .tax label {
+  font-weight: 400;
+  font-size: 16px;
+  width: 210px;
+  color: #000;
+}
+/* line 291, ../../sass/components/detalles.scss */
+#establecimiento .contenido .izq .redes_sociales {
+  position: relative;
+  float: left;
+  width: 280px;
+  padding: 0px;
+  height: 30px;
+  margin: 20px 20px;
+}
+/* line 292, ../../sass/components/detalles.scss */
+#establecimiento .contenido .izq .redes_sociales li {
+  list-style: none;
+  float: left;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin: 5px 10px;
+  cursor: pointer;
+  margin: 0px;
+}
+/* line 294, ../../sass/components/detalles.scss */
+#establecimiento .contenido .izq .redes_sociales .fb .st_facebook_large {
+  background: url(../images/compartir.svg) no-repeat -5px -4px/270px auto transparent;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  float: left;
+  text-indent: -9999px;
+  transition: all 0.2s ease;
+}
+/* line 297, ../../sass/components/detalles.scss */
+#establecimiento .contenido .izq .redes_sociales .tw .st_twitter_large {
+  background: url(../images/compartir.svg) no-repeat -45px -4px/270px auto transparent;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  float: left;
+  text-indent: -9999px;
+  transition: all 0.2s ease;
+}
+/* line 300, ../../sass/components/detalles.scss */
+#establecimiento .contenido .izq .redes_sociales .go .st_googleplus_large {
+  background: url(../images/compartir.svg) no-repeat -85px -4px/270px auto transparent;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  float: left;
+  text-indent: -9999px;
+  transition: all 0.2s ease;
+}
+/* line 303, ../../sass/components/detalles.scss */
+#establecimiento .contenido .izq .redes_sociales .pin .st_pinterest_large {
+  background: url(../images/compartir.svg) no-repeat -124px -4px/270px auto transparent;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  float: left;
+  text-indent: -9999px;
+  transition: all 0.2s ease;
+}
+/* line 306, ../../sass/components/detalles.scss */
+#establecimiento .contenido .izq .redes_sociales .wp .st_whatsapp_large {
+  background: url(../images/compartir.svg) no-repeat -163px -4px/270px auto transparent;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  float: left;
+  text-indent: -9999px;
+  transition: all 0.2s ease;
+}
+/* line 310, ../../sass/components/detalles.scss */
+#establecimiento .contenido .izq .view-id-detalle.view-display-id-block_3 {
+  width: 300px;
+  height: auto;
+  float: left;
+  padding: 0px 10px;
+}
+/* line 311, ../../sass/components/detalles.scss */
+#establecimiento .contenido .izq .view-id-detalle.view-display-id-block_3 h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  width: 280px;
+  padding: 15px 10px;
+  text-align: center;
+  height: auto;
+  background: #000;
+  color: #fff;
+  margin: 5px 0px;
+}
+/* line 312, ../../sass/components/detalles.scss */
+#establecimiento .contenido .izq .view-id-detalle.view-display-id-block_3 .views-row {
+  width: 300px;
+  border-bottom: 1px solid #000;
+  float: left;
+  margin-bottom: 0px;
+}
+/* line 313, ../../sass/components/detalles.scss */
+#establecimiento .contenido .izq .view-id-detalle.view-display-id-block_3 .establecimiento {
+  width: 280px;
+  position: relative;
+  float: left;
+  height: auto;
+  padding: 5px 10px;
+}
+/* line 314, ../../sass/components/detalles.scss */
+#establecimiento .contenido .izq .view-id-detalle.view-display-id-block_3 .establecimiento .icono {
+  background: url(../images/iconos/icono_establecimiento.svg) 0px 4px/44px auto no-repeat;
+  height: 44px;
+  width: 48px;
+  float: left;
+  position: relative;
+}
+/* line 315, ../../sass/components/detalles.scss */
+#establecimiento .contenido .izq .view-id-detalle.view-display-id-block_3 .establecimiento .nombre {
+  width: 200px;
+  height: 30px;
+  position: relative;
+  float: left;
+  margin: 15px 0px 0px 0px;
+}
+/* line 316, ../../sass/components/detalles.scss */
+#establecimiento .contenido .izq .view-id-detalle.view-display-id-block_3 .establecimiento .nombre a {
+  margin-left: 0px;
+  text-align: left;
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  height: 20px;
+  float: left;
+  padding: 5px 0px 0px 0px;
+}
+/* line 322, ../../sass/components/detalles.scss */
+#establecimiento .contenido .izq .view-id-detalle.view-display-id-block_1 {
+  width: 300px;
+  height: auto;
+  float: left;
+  padding: 0px 10px;
+}
+/* line 323, ../../sass/components/detalles.scss */
+#establecimiento .contenido .izq .view-id-detalle.view-display-id-block_1 h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  width: 280px;
+  padding: 15px 10px;
+  text-align: center;
+  height: auto;
+  background: #000;
+  color: #fff;
+  margin: 5px 0px;
+}
+/* line 324, ../../sass/components/detalles.scss */
+#establecimiento .contenido .izq .view-id-detalle.view-display-id-block_1 .views-row {
+  width: 300px;
+  float: left;
+  margin-bottom: 20px;
+}
+/* line 325, ../../sass/components/detalles.scss */
+#establecimiento .contenido .izq .view-id-detalle.view-display-id-block_1 .promocion {
+  width: 280px;
+  position: relative;
+  float: left;
+  height: auto;
+}
+/* line 326, ../../sass/components/detalles.scss */
+#establecimiento .contenido .izq .view-id-detalle.view-display-id-block_1 .promocion .foto {
+  width: 280px;
+  height: auto;
+  position: relative;
+  float: left;
+  border: 1px solid #000;
+  margin: 0px 10px;
+}
+/* line 327, ../../sass/components/detalles.scss */
+#establecimiento .contenido .izq .view-id-detalle.view-display-id-block_1 .promocion .foto img {
+  width: 280px;
+  height: auto;
+}
+/* line 328, ../../sass/components/detalles.scss */
+#establecimiento .contenido .izq .view-id-detalle.view-display-id-block_1 .promocion .foto img:hover {
+  opacity: 0.8;
+}
+/* line 335, ../../sass/components/detalles.scss */
+#establecimiento .contenido .der {
+  width: 660px;
+  height: auto;
+  float: left;
+  padding: 0px 20px 0px 0px;
+}
+/* line 336, ../../sass/components/detalles.scss */
+#establecimiento .contenido .der h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  line-height: 42px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px 0px 20px 0px;
+  text-align: left;
+  height: auto;
+}
+/* line 337, ../../sass/components/detalles.scss */
+#establecimiento .contenido .der .texto {
+  color: #333;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 20px;
+  margin-top: 150px;
+}
+/* line 338, ../../sass/components/detalles.scss */
+#establecimiento .contenido .der .texto a {
+  color: #FF8801;
+  text-decoration: none;
+}
+/* line 339, ../../sass/components/detalles.scss */
+#establecimiento .contenido .der .texto a:hover {
+  text-decoration: underline;
+}
+/* line 341, ../../sass/components/detalles.scss */
+#establecimiento .contenido .der .logo {
+  max-width: 50%;
+  height: auto;
+  position: relative;
+  float: left;
+}
+/* line 342, ../../sass/components/detalles.scss */
+#establecimiento .contenido .der .valoracion {
+  float: right;
+  position: relative;
+}
+/* line 344, ../../sass/components/detalles.scss */
+#establecimiento .contenido .abajo {
+  width: 1024px;
+  height: auto;
+  float: left;
+  padding: 20px 0px;
+  position: relative;
+}
+/* line 346, ../../sass/components/detalles.scss */
+#establecimiento .contenido .abajo .mapa {
+  width: 1024px;
+  height: auto;
+  float: left;
+  padding: 10px 0px;
+}
+/* line 347, ../../sass/components/detalles.scss */
+#establecimiento .contenido .abajo .mapa h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  width: 1024px;
+  height: 30px;
+  padding: 20px 0px;
+  text-align: center;
+  height: auto;
+  background: #000;
+  color: #fff;
+  margin: 5px 0px 20px 0px;
+}
+/* line 348, ../../sass/components/detalles.scss */
+#establecimiento .contenido .abajo .mapa .i4ewOd-pzNkMb-haAclf {
+  display: none !important;
+}
+/* line 352, ../../sass/components/detalles.scss */
+#establecimiento .contenido .abajo .view-id-mas.view-display-id-block_3 {
+  width: 1024px;
+  height: auto;
+  float: left;
+  padding: 10px 0px;
+}
+/* line 353, ../../sass/components/detalles.scss */
+#establecimiento .contenido .abajo .view-id-mas.view-display-id-block_3 h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  width: 1024px;
+  height: 30px;
+  padding: 20px 0px;
+  text-align: center;
+  height: auto;
+  background: #000;
+  color: #fff;
+  margin: 5px 0px 20px 0px;
+}
+/* line 354, ../../sass/components/detalles.scss */
+#establecimiento .contenido .abajo .view-id-mas.view-display-id-block_3 .views-row {
+  width: 500px;
+  float: left;
+  margin: 0px 24px 20px 0px;
+}
+/* line 355, ../../sass/components/detalles.scss */
+#establecimiento .contenido .abajo .view-id-mas.view-display-id-block_3 .views-row-2, #establecimiento .contenido .abajo .view-id-mas.view-display-id-block_3 .views-row-4, #establecimiento .contenido .abajo .view-id-mas.view-display-id-block_3 .views-row-6, #establecimiento .contenido .abajo .view-id-mas.view-display-id-block_3 .views-row-8, #establecimiento .contenido .abajo .view-id-mas.view-display-id-block_3 .views-row-10, #establecimiento .contenido .abajo .view-id-mas.view-display-id-block_3 .views-row-12 {
+  margin: 0px 0px 20px 0px;
+}
+/* line 356, ../../sass/components/detalles.scss */
+#establecimiento .contenido .abajo .view-id-mas.view-display-id-block_3 .nota {
+  width: 500px;
+  position: relative;
+  float: left;
+  height: auto;
+  background: #fff;
+}
+/* line 357, ../../sass/components/detalles.scss */
+#establecimiento .contenido .abajo .view-id-mas.view-display-id-block_3 .nota .foto {
+  width: 235px;
+  height: 310px;
+  position: relative;
+  float: left;
+  margin: 0px;
+  top: 0px;
+}
+/* line 358, ../../sass/components/detalles.scss */
+#establecimiento .contenido .abajo .view-id-mas.view-display-id-block_3 .nota .foto img {
+  width: 235px;
+  height: 310px;
+}
+/* line 359, ../../sass/components/detalles.scss */
+#establecimiento .contenido .abajo .view-id-mas.view-display-id-block_3 .nota .foto img:hover {
+  opacity: 0.8;
+}
+/* line 361, ../../sass/components/detalles.scss */
+#establecimiento .contenido .abajo .view-id-mas.view-display-id-block_3 .nota .info {
+  position: relative;
+  background: #fff;
+  width: 245px;
+  height: auto;
+  opacity: 1;
+  float: left;
+  transition: all 0.5s ease-in-out;
+}
+/* line 362, ../../sass/components/detalles.scss */
+#establecimiento .contenido .abajo .view-id-mas.view-display-id-block_3 .nota .info .titulo {
+  width: 220px;
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 22px;
+  position: relative;
+  text-align: center;
+  padding: 10px 10px;
+}
+/* line 363, ../../sass/components/detalles.scss */
+#establecimiento .contenido .abajo .view-id-mas.view-display-id-block_3 .nota .info .titulo a {
+  color: #000;
+  text-decoration: none;
+}
+/* line 365, ../../sass/components/detalles.scss */
+#establecimiento .contenido .abajo .view-id-mas.view-display-id-block_3 .nota .info .resumen {
+  width: 220px;
+  font-size: 18px;
+  line-height: 20px;
+  text-transform: none;
+  padding: 10px;
+  position: relative;
+  float: left;
+  text-align: center;
+  font-weight: 300;
+}
+/* line 366, ../../sass/components/detalles.scss */
+#establecimiento .contenido .abajo .view-id-mas.view-display-id-block_3 .nota .info .mas {
+  background: #000;
+  border-radius: 22px;
+  width: 70px;
+  padding: 10px 10px;
+  text-align: center;
+  position: relative;
+  float: left;
+  margin: 0px 75px 10px;
+}
+/* line 367, ../../sass/components/detalles.scss */
+#establecimiento .contenido .abajo .view-id-mas.view-display-id-block_3 .nota .info .mas a {
+  position: relative;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+/* line 381, ../../sass/components/detalles.scss */
+#personaje {
+  position: relative;
+  margin-top: 50px;
+}
+/* line 382, ../../sass/components/detalles.scss */
+#personaje .branding {
+  width: 100%;
+  height: 550px;
+  position: relative;
+  float: left;
+  margin-bottom: 50px;
+  overflow: hidden;
+  top: 20px;
+}
+/* line 383, ../../sass/components/detalles.scss */
+#personaje .branding img {
+  z-index: -100;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: 0px;
+}
+/* line 385, ../../sass/components/detalles.scss */
+#personaje .contenido {
+  position: relative;
+  width: 1024px;
+  padding: 20px 0px;
+  margin: 0 auto;
+}
+/* line 386, ../../sass/components/detalles.scss */
+#personaje .contenido .etiquetas {
+  background: #FF8801;
+  width: 955px;
+  position: relative;
+  float: left;
+  margin: 20px 0px;
+  height: 40px;
+  margin-left: 70px;
+}
+/* line 387, ../../sass/components/detalles.scss */
+#personaje .contenido .etiquetas .triangulo {
+  width: 0;
+  height: 0;
+  border-top: 35px solid transparent;
+  border-left: 14px solid #000;
+  border-bottom: 35px solid transparent;
+  position: absolute;
+  left: 10px;
+  top: -15px;
+}
+/* line 388, ../../sass/components/detalles.scss */
+#personaje .contenido .etiquetas .icon {
+  background: url(../images/iconos/icono_d.svg) -4px -1px/90px auto no-repeat #000;
+  height: 50px;
+  width: 70px;
+  float: left;
+  position: absolute;
+  padding: 10px 5px;
+  top: -15px;
+  left: -70px;
+}
+/* line 389, ../../sass/components/detalles.scss */
+#personaje .contenido .etiquetas a {
+  color: #fff;
+  float: left;
+  position: relative;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 300;
+  text-decoration: none;
+  margin-left: 30px;
+  padding: 10px 0px;
+  font-style: italic;
+}
+/* line 391, ../../sass/components/detalles.scss */
+#personaje .contenido .movil {
+  display: none;
+}
+/* line 392, ../../sass/components/detalles.scss */
+#personaje .contenido .izq {
+  width: 600px;
+  margin-right: 20px;
+  border-right: none;
+  height: auto;
+  float: left;
+}
+/* line 393, ../../sass/components/detalles.scss */
+#personaje .contenido .izq h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  line-height: 42px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px 0px 20px 0px;
+  text-align: center;
+  height: auto;
+}
+/* line 394, ../../sass/components/detalles.scss */
+#personaje .contenido .izq .texto {
+  color: #333;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 20px;
+}
+/* line 395, ../../sass/components/detalles.scss */
+#personaje .contenido .izq .texto a {
+  color: #FF8801;
+  text-decoration: none;
+}
+/* line 396, ../../sass/components/detalles.scss */
+#personaje .contenido .izq .texto a:hover {
+  text-decoration: underline;
+}
+/* line 398, ../../sass/components/detalles.scss */
+#personaje .contenido .izq .fecha {
+  width: 300px;
+  padding: 0px 10px;
+}
+/* line 399, ../../sass/components/detalles.scss */
+#personaje .contenido .izq .fecha .icono {
+  background: url(../images/iconos/icono_fecha.svg) 0px 0px/55px auto no-repeat;
+  height: 50px;
+  width: 60px;
+  float: left;
+  position: relative;
+}
+/* line 400, ../../sass/components/detalles.scss */
+#personaje .contenido .izq .fecha .dia {
+  font-size: 18px;
+  font-weight: 400;
+  color: #FF8801;
+  height: 50px;
+  width: 210px;
+  margin-top: 10px;
+  float: left;
+}
+/* line 401, ../../sass/components/detalles.scss */
+#personaje .contenido .izq .fecha .dia label {
+  font-weight: 400;
+  font-size: 16px;
+  width: 210px;
+  color: #000;
+}
+/* line 404, ../../sass/components/detalles.scss */
+#personaje .contenido .izq .redes_sociales {
+  position: relative;
+  float: left;
+  width: 280px;
+  padding: 0px;
+  height: 30px;
+  margin: 20px 20px;
+}
+/* line 405, ../../sass/components/detalles.scss */
+#personaje .contenido .izq .redes_sociales li {
+  list-style: none;
+  float: left;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin: 5px 10px;
+  cursor: pointer;
+  margin: 0px;
+}
+/* line 407, ../../sass/components/detalles.scss */
+#personaje .contenido .izq .redes_sociales .fb .st_facebook_large {
+  background: url(../images/compartir.svg) no-repeat -5px -4px/270px auto transparent;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  float: left;
+  text-indent: -9999px;
+  transition: all 0.2s ease;
+}
+/* line 410, ../../sass/components/detalles.scss */
+#personaje .contenido .izq .redes_sociales .tw .st_twitter_large {
+  background: url(../images/compartir.svg) no-repeat -45px -4px/270px auto transparent;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  float: left;
+  text-indent: -9999px;
+  transition: all 0.2s ease;
+}
+/* line 413, ../../sass/components/detalles.scss */
+#personaje .contenido .izq .redes_sociales .go .st_googleplus_large {
+  background: url(../images/compartir.svg) no-repeat -85px -4px/270px auto transparent;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  float: left;
+  text-indent: -9999px;
+  transition: all 0.2s ease;
+}
+/* line 416, ../../sass/components/detalles.scss */
+#personaje .contenido .izq .redes_sociales .pin .st_pinterest_large {
+  background: url(../images/compartir.svg) no-repeat -124px -4px/270px auto transparent;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  float: left;
+  text-indent: -9999px;
+  transition: all 0.2s ease;
+}
+/* line 419, ../../sass/components/detalles.scss */
+#personaje .contenido .izq .redes_sociales .wp .st_whatsapp_large {
+  background: url(../images/compartir.svg) no-repeat -163px -4px/270px auto transparent;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  float: left;
+  text-indent: -9999px;
+  transition: all 0.2s ease;
+}
+/* line 423, ../../sass/components/detalles.scss */
+#personaje .contenido .izq .view-id-detalle.view-display-id-block {
+  width: 300px;
+  height: auto;
+  float: left;
+  padding: 0px 10px;
+}
+/* line 424, ../../sass/components/detalles.scss */
+#personaje .contenido .izq .view-id-detalle.view-display-id-block h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  width: 280px;
+  padding: 15px 10px;
+  text-align: center;
+  height: auto;
+  background: #000;
+  color: #fff;
+  margin: 5px 0px;
+}
+/* line 425, ../../sass/components/detalles.scss */
+#personaje .contenido .izq .view-id-detalle.view-display-id-block .views-row {
+  width: 300px;
+  border-bottom: 1px solid #000;
+  float: left;
+  margin-bottom: 20px;
+}
+/* line 426, ../../sass/components/detalles.scss */
+#personaje .contenido .izq .view-id-detalle.view-display-id-block .restaurante {
+  width: 280px;
+  position: relative;
+  float: left;
+  height: auto;
+}
+/* line 427, ../../sass/components/detalles.scss */
+#personaje .contenido .izq .view-id-detalle.view-display-id-block .restaurante .foto {
+  width: 280px;
+  height: 180px;
+  position: relative;
+  float: left;
+  border: 1px solid #000;
+  margin: 0px 10px;
+}
+/* line 428, ../../sass/components/detalles.scss */
+#personaje .contenido .izq .view-id-detalle.view-display-id-block .restaurante .foto img {
+  width: 280px;
+  height: 180px;
+}
+/* line 429, ../../sass/components/detalles.scss */
+#personaje .contenido .izq .view-id-detalle.view-display-id-block .restaurante .foto img:hover {
+  opacity: 0.8;
+}
+/* line 431, ../../sass/components/detalles.scss */
+#personaje .contenido .izq .view-id-detalle.view-display-id-block .restaurante .nombre {
+  width: 280px;
+  height: 30px;
+  position: relative;
+  float: left;
+  margin: 10px;
+  background: url(../images/iconos/icono_cubiertos.svg) 0px -5px/40px auto no-repeat;
+}
+/* line 432, ../../sass/components/detalles.scss */
+#personaje .contenido .izq .view-id-detalle.view-display-id-block .restaurante .nombre a {
+  margin-left: 50px;
+  text-align: left;
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  height: 30px;
+  float: left;
+  padding: 5px 0px 0px 0px;
+}
+/* line 438, ../../sass/components/detalles.scss */
+#personaje .contenido .izq .view-id-detalle.view-display-id-block_1 {
+  width: 300px;
+  height: auto;
+  float: left;
+  padding: 0px 10px;
+}
+/* line 439, ../../sass/components/detalles.scss */
+#personaje .contenido .izq .view-id-detalle.view-display-id-block_1 h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  width: 280px;
+  padding: 15px 10px;
+  text-align: center;
+  height: auto;
+  background: #000;
+  color: #fff;
+  margin: 5px 0px;
+}
+/* line 440, ../../sass/components/detalles.scss */
+#personaje .contenido .izq .view-id-detalle.view-display-id-block_1 .views-row {
+  width: 300px;
+  float: left;
+  margin-bottom: 20px;
+}
+/* line 441, ../../sass/components/detalles.scss */
+#personaje .contenido .izq .view-id-detalle.view-display-id-block_1 .promocion {
+  width: 280px;
+  position: relative;
+  float: left;
+  height: auto;
+}
+/* line 442, ../../sass/components/detalles.scss */
+#personaje .contenido .izq .view-id-detalle.view-display-id-block_1 .promocion .foto {
+  width: 280px;
+  height: auto;
+  position: relative;
+  float: left;
+  border: 1px solid #000;
+  margin: 0px 10px;
+}
+/* line 443, ../../sass/components/detalles.scss */
+#personaje .contenido .izq .view-id-detalle.view-display-id-block_1 .promocion .foto img {
+  width: 280px;
+  height: auto;
+}
+/* line 444, ../../sass/components/detalles.scss */
+#personaje .contenido .izq .view-id-detalle.view-display-id-block_1 .promocion .foto img:hover {
+  opacity: 0.8;
+}
+/* line 451, ../../sass/components/detalles.scss */
+#personaje .contenido .der {
+  width: 380px;
+  height: auto;
+  float: left;
+  padding: 0px 20px 0px 0px;
+  top: -300px;
+  position: relative;
+}
+/* line 452, ../../sass/components/detalles.scss */
+#personaje .contenido .der .foto {
+  width: 380px;
+  height: auto;
+  position: relative;
+  float: left;
+  margin-bottom: 0px;
+  border-bottom: 4px solid #FF8801;
+}
+/* line 453, ../../sass/components/detalles.scss */
+#personaje .contenido .der .foto img {
+  width: 380px;
+  height: auto;
+}
+/* line 456, ../../sass/components/detalles.scss */
+#personaje .contenido .abajo {
+  width: 1024px;
+  height: auto;
+  float: left;
+  padding: 20px 0px;
+  position: relative;
+}
+/* line 458, ../../sass/components/detalles.scss */
+#personaje .contenido .abajo .view-id-mas.view-display-id-block_2 {
+  width: 1024px;
+  height: auto;
+  float: left;
+  padding: 10px 0px;
+}
+/* line 459, ../../sass/components/detalles.scss */
+#personaje .contenido .abajo .view-id-mas.view-display-id-block_2 h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  width: 1024px;
+  height: 30px;
+  padding: 20px 0px;
+  text-align: center;
+  height: auto;
+  background: #000;
+  color: #fff;
+  margin: 5px 0px 20px 0px;
+}
+/* line 460, ../../sass/components/detalles.scss */
+#personaje .contenido .abajo .view-id-mas.view-display-id-block_2 .views-row {
+  width: 500px;
+  float: left;
+  margin: 0px 24px 20px 0px;
+}
+/* line 461, ../../sass/components/detalles.scss */
+#personaje .contenido .abajo .view-id-mas.view-display-id-block_2 .views-row-2, #personaje .contenido .abajo .view-id-mas.view-display-id-block_2 .views-row-4, #personaje .contenido .abajo .view-id-mas.view-display-id-block_2 .views-row-6, #personaje .contenido .abajo .view-id-mas.view-display-id-block_2 .views-row-8, #personaje .contenido .abajo .view-id-mas.view-display-id-block_2 .views-row-10, #personaje .contenido .abajo .view-id-mas.view-display-id-block_2 .views-row-12 {
+  margin: 0px 0px 20px 0px;
+}
+/* line 462, ../../sass/components/detalles.scss */
+#personaje .contenido .abajo .view-id-mas.view-display-id-block_2 .nota {
+  width: 500px;
+  position: relative;
+  float: left;
+  height: auto;
+  background: #fff;
+}
+/* line 463, ../../sass/components/detalles.scss */
+#personaje .contenido .abajo .view-id-mas.view-display-id-block_2 .nota .seccion {
+  background: #FF8801;
+  padding: 3px 5px;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  z-index: 1;
+}
+/* line 464, ../../sass/components/detalles.scss */
+#personaje .contenido .abajo .view-id-mas.view-display-id-block_2 .nota .seccion a {
+  color: #fff;
+  text-decoration: none;
+}
+/* line 466, ../../sass/components/detalles.scss */
+#personaje .contenido .abajo .view-id-mas.view-display-id-block_2 .nota .icon {
+  opacity: 1;
+  display: block;
+  background: url(../images/iconos/video.svg) -10px 15px/140px auto no-repeat;
+  height: 110px;
+  width: 110px;
+  display: block;
+  text-indent: -9999px;
+  float: left;
+  position: absolute;
+  left: 60px;
+  top: 100px;
+  opacity: 0.7;
+  z-index: 1;
+  transition: all 0.5s ease-in-out;
+}
+/* line 467, ../../sass/components/detalles.scss */
+#personaje .contenido .abajo .view-id-mas.view-display-id-block_2 .nota .foto {
+  width: 235px;
+  height: 310px;
+  position: relative;
+  float: left;
+  margin: 0px;
+  display: block;
+  overflow: hidden;
+}
+/* line 468, ../../sass/components/detalles.scss */
+#personaje .contenido .abajo .view-id-mas.view-display-id-block_2 .nota .foto img {
+  width: 235px;
+  height: auto;
+}
+/* line 469, ../../sass/components/detalles.scss */
+#personaje .contenido .abajo .view-id-mas.view-display-id-block_2 .nota .foto img:hover {
+  opacity: 0.8;
+}
+/* line 471, ../../sass/components/detalles.scss */
+#personaje .contenido .abajo .view-id-mas.view-display-id-block_2 .nota .info {
+  position: relative;
+  background: #fff;
+  width: 245px;
+  height: auto;
+  opacity: 1;
+  float: left;
+  transition: all 0.5s ease-in-out;
+}
+/* line 472, ../../sass/components/detalles.scss */
+#personaje .contenido .abajo .view-id-mas.view-display-id-block_2 .nota .info .titulo {
+  width: 220px;
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 22px;
+  position: relative;
+  text-align: center;
+  padding: 10px 10px;
+}
+/* line 473, ../../sass/components/detalles.scss */
+#personaje .contenido .abajo .view-id-mas.view-display-id-block_2 .nota .info .titulo a {
+  color: #000;
+  text-decoration: none;
+}
+/* line 475, ../../sass/components/detalles.scss */
+#personaje .contenido .abajo .view-id-mas.view-display-id-block_2 .nota .info .resumen {
+  width: 220px;
+  font-size: 18px;
+  line-height: 20px;
+  text-transform: none;
+  padding: 10px;
+  position: relative;
+  float: left;
+  text-align: center;
+  font-weight: 300;
+}
+/* line 476, ../../sass/components/detalles.scss */
+#personaje .contenido .abajo .view-id-mas.view-display-id-block_2 .nota .info .mas {
+  background: #000;
+  border-radius: 22px;
+  width: 70px;
+  padding: 10px 10px;
+  text-align: center;
+  position: relative;
+  float: left;
+  margin: 0px 75px 10px;
+}
+/* line 477, ../../sass/components/detalles.scss */
+#personaje .contenido .abajo .view-id-mas.view-display-id-block_2 .nota .info .mas a {
+  position: relative;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+/* line 490, ../../sass/components/detalles.scss */
+#promocion {
+  width: 1024px;
+  padding: 20px 0px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 50px;
+}
+/* line 491, ../../sass/components/detalles.scss */
+#promocion .contenido {
+  position: relative;
+  float: left;
+}
+/* line 492, ../../sass/components/detalles.scss */
+#promocion .contenido .movil {
+  display: none;
+}
+/* line 493, ../../sass/components/detalles.scss */
+#promocion .contenido .izq {
+  width: 320px;
+  margin-right: 20px;
+  border-right: 1px solid #000;
+  height: auto;
+  float: left;
+}
+/* line 494, ../../sass/components/detalles.scss */
+#promocion .contenido .izq .fecha {
+  width: 300px;
+  padding: 0px 10px;
+}
+/* line 495, ../../sass/components/detalles.scss */
+#promocion .contenido .izq .fecha .icono {
+  background: url(../images/iconos/icono_fecha.svg) 0px 0px/55px auto no-repeat;
+  height: 50px;
+  width: 60px;
+  float: left;
+  position: relative;
+}
+/* line 496, ../../sass/components/detalles.scss */
+#promocion .contenido .izq .fecha .dia {
+  font-size: 18px;
+  font-weight: 400;
+  color: #FF8801;
+  height: 50px;
+  width: 210px;
+  margin-top: 10px;
+  float: left;
+}
+/* line 497, ../../sass/components/detalles.scss */
+#promocion .contenido .izq .fecha .dia label {
+  font-weight: 400;
+  font-size: 16px;
+  width: 210px;
+  color: #000;
+}
+/* line 500, ../../sass/components/detalles.scss */
+#promocion .contenido .izq .redes_sociales {
+  position: relative;
+  float: left;
+  width: 280px;
+  padding: 0px;
+  height: 30px;
+  margin: 20px 20px;
+}
+/* line 501, ../../sass/components/detalles.scss */
+#promocion .contenido .izq .redes_sociales li {
+  list-style: none;
+  float: left;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin: 5px 10px;
+  cursor: pointer;
+  margin: 0px;
+}
+/* line 503, ../../sass/components/detalles.scss */
+#promocion .contenido .izq .redes_sociales .fb .st_facebook_large {
+  background: url(../images/compartir.svg) no-repeat -5px -4px/270px auto transparent;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  float: left;
+  text-indent: -9999px;
+  transition: all 0.2s ease;
+}
+/* line 506, ../../sass/components/detalles.scss */
+#promocion .contenido .izq .redes_sociales .tw .st_twitter_large {
+  background: url(../images/compartir.svg) no-repeat -45px -4px/270px auto transparent;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  float: left;
+  text-indent: -9999px;
+  transition: all 0.2s ease;
+}
+/* line 509, ../../sass/components/detalles.scss */
+#promocion .contenido .izq .redes_sociales .go .st_googleplus_large {
+  background: url(../images/compartir.svg) no-repeat -85px -4px/270px auto transparent;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  float: left;
+  text-indent: -9999px;
+  transition: all 0.2s ease;
+}
+/* line 512, ../../sass/components/detalles.scss */
+#promocion .contenido .izq .redes_sociales .pin .st_pinterest_large {
+  background: url(../images/compartir.svg) no-repeat -124px -4px/270px auto transparent;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  float: left;
+  text-indent: -9999px;
+  transition: all 0.2s ease;
+}
+/* line 515, ../../sass/components/detalles.scss */
+#promocion .contenido .izq .redes_sociales .wp .st_whatsapp_large {
+  background: url(../images/compartir.svg) no-repeat -163px -4px/270px auto transparent;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  float: left;
+  text-indent: -9999px;
+  transition: all 0.2s ease;
+}
+/* line 519, ../../sass/components/detalles.scss */
+#promocion .contenido .izq .view-id-detalle.view-display-id-block {
+  width: 300px;
+  height: auto;
+  float: left;
+  padding: 0px 10px;
+}
+/* line 520, ../../sass/components/detalles.scss */
+#promocion .contenido .izq .view-id-detalle.view-display-id-block h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  width: 280px;
+  padding: 15px 10px;
+  text-align: center;
+  height: auto;
+  background: #000;
+  color: #fff;
+  margin: 5px 0px;
+}
+/* line 521, ../../sass/components/detalles.scss */
+#promocion .contenido .izq .view-id-detalle.view-display-id-block .views-row {
+  width: 300px;
+  border-bottom: 1px solid #000;
+  float: left;
+  margin-bottom: 20px;
+}
+/* line 522, ../../sass/components/detalles.scss */
+#promocion .contenido .izq .view-id-detalle.view-display-id-block .restaurante {
+  width: 280px;
+  position: relative;
+  float: left;
+  height: auto;
+}
+/* line 523, ../../sass/components/detalles.scss */
+#promocion .contenido .izq .view-id-detalle.view-display-id-block .restaurante .foto {
+  width: 280px;
+  height: 180px;
+  position: relative;
+  float: left;
+  border: 1px solid #000;
+  margin: 0px 10px;
+}
+/* line 524, ../../sass/components/detalles.scss */
+#promocion .contenido .izq .view-id-detalle.view-display-id-block .restaurante .foto img {
+  width: 280px;
+  height: 180px;
+}
+/* line 525, ../../sass/components/detalles.scss */
+#promocion .contenido .izq .view-id-detalle.view-display-id-block .restaurante .foto img:hover {
+  opacity: 0.8;
+}
+/* line 527, ../../sass/components/detalles.scss */
+#promocion .contenido .izq .view-id-detalle.view-display-id-block .restaurante .nombre {
+  width: 280px;
+  height: 30px;
+  position: relative;
+  float: left;
+  margin: 10px;
+  background: url(../images/iconos/icono_cubiertos.svg) 0px -5px/40px auto no-repeat;
+}
+/* line 528, ../../sass/components/detalles.scss */
+#promocion .contenido .izq .view-id-detalle.view-display-id-block .restaurante .nombre a {
+  margin-left: 50px;
+  text-align: left;
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  height: 30px;
+  float: left;
+  padding: 5px 0px 0px 0px;
+}
+/* line 534, ../../sass/components/detalles.scss */
+#promocion .contenido .izq .view-id-detalle.view-display-id-block_1 {
+  width: 300px;
+  height: auto;
+  float: left;
+  padding: 0px 10px;
+}
+/* line 535, ../../sass/components/detalles.scss */
+#promocion .contenido .izq .view-id-detalle.view-display-id-block_1 h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  width: 280px;
+  padding: 15px 10px;
+  text-align: center;
+  height: auto;
+  background: #000;
+  color: #fff;
+  margin: 5px 0px;
+}
+/* line 536, ../../sass/components/detalles.scss */
+#promocion .contenido .izq .view-id-detalle.view-display-id-block_1 .views-row {
+  width: 300px;
+  float: left;
+  margin-bottom: 20px;
+}
+/* line 537, ../../sass/components/detalles.scss */
+#promocion .contenido .izq .view-id-detalle.view-display-id-block_1 .promocion {
+  width: 280px;
+  position: relative;
+  float: left;
+  height: auto;
+}
+/* line 538, ../../sass/components/detalles.scss */
+#promocion .contenido .izq .view-id-detalle.view-display-id-block_1 .promocion .foto {
+  width: 280px;
+  height: auto;
+  position: relative;
+  float: left;
+  border: 1px solid #000;
+  margin: 0px 10px;
+}
+/* line 539, ../../sass/components/detalles.scss */
+#promocion .contenido .izq .view-id-detalle.view-display-id-block_1 .promocion .foto img {
+  width: 280px;
+  height: auto;
+}
+/* line 540, ../../sass/components/detalles.scss */
+#promocion .contenido .izq .view-id-detalle.view-display-id-block_1 .promocion .foto img:hover {
+  opacity: 0.8;
+}
+/* line 547, ../../sass/components/detalles.scss */
+#promocion .contenido .der {
+  width: 660px;
+  height: auto;
+  float: left;
+  padding: 0px 20px 0px 0px;
+}
+/* line 548, ../../sass/components/detalles.scss */
+#promocion .contenido .der .foto {
+  max-width: 640px;
+  height: auto;
+  position: relative;
+  float: left;
+  margin-bottom: 10px;
+}
+/* line 549, ../../sass/components/detalles.scss */
+#promocion .contenido .der .foto img {
+  max-width: 640px;
+  height: auto;
+}
+/* line 551, ../../sass/components/detalles.scss */
+#promocion .contenido .der h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  line-height: 42px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px 0px 20px 0px;
+  text-align: left;
+  height: auto;
+}
+/* line 552, ../../sass/components/detalles.scss */
+#promocion .contenido .der .texto {
+  color: #333;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 20px;
+}
+/* line 553, ../../sass/components/detalles.scss */
+#promocion .contenido .der .texto a {
+  color: #FF8801;
+  text-decoration: none;
+}
+/* line 554, ../../sass/components/detalles.scss */
+#promocion .contenido .der .texto a:hover {
+  text-decoration: underline;
+}
+/* line 557, ../../sass/components/detalles.scss */
+#promocion .contenido .abajo {
+  width: 1024px;
+  height: auto;
+  float: left;
+  padding: 20px 0px;
+  position: relative;
+}
+/* line 559, ../../sass/components/detalles.scss */
+#promocion .contenido .abajo .view-id-mas.view-display-id-block {
+  width: 1024px;
+  height: auto;
+  float: left;
+  padding: 10px 0px;
+}
+/* line 560, ../../sass/components/detalles.scss */
+#promocion .contenido .abajo .view-id-mas.view-display-id-block h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  width: 1024px;
+  height: 30px;
+  padding: 20px 0px;
+  text-align: center;
+  height: auto;
+  background: #000;
+  color: #fff;
+  margin: 5px 0px 20px 0px;
+}
+/* line 561, ../../sass/components/detalles.scss */
+#promocion .contenido .abajo .view-id-mas.view-display-id-block .views-row {
+  width: 500px;
+  float: left;
+  margin: 0px 24px 20px 0px;
+}
+/* line 562, ../../sass/components/detalles.scss */
+#promocion .contenido .abajo .view-id-mas.view-display-id-block .views-row-2, #promocion .contenido .abajo .view-id-mas.view-display-id-block .views-row-4, #promocion .contenido .abajo .view-id-mas.view-display-id-block .views-row-6, #promocion .contenido .abajo .view-id-mas.view-display-id-block .views-row-8, #promocion .contenido .abajo .view-id-mas.view-display-id-block .views-row-10, #promocion .contenido .abajo .view-id-mas.view-display-id-block .views-row-12 {
+  margin: 0px 0px 20px 0px;
+}
+/* line 563, ../../sass/components/detalles.scss */
+#promocion .contenido .abajo .view-id-mas.view-display-id-block .nota {
+  width: 500px;
+  position: relative;
+  float: left;
+  height: auto;
+  background: #fff;
+}
+/* line 564, ../../sass/components/detalles.scss */
+#promocion .contenido .abajo .view-id-mas.view-display-id-block .nota .seccion {
+  background: #FF8801;
+  padding: 3px 5px;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  z-index: 1;
+}
+/* line 565, ../../sass/components/detalles.scss */
+#promocion .contenido .abajo .view-id-mas.view-display-id-block .nota .seccion a {
+  color: #fff;
+  text-decoration: none;
+}
+/* line 567, ../../sass/components/detalles.scss */
+#promocion .contenido .abajo .view-id-mas.view-display-id-block .nota .foto {
+  width: 235px;
+  height: 310px;
+  position: relative;
+  float: left;
+  margin: 0px;
+}
+/* line 568, ../../sass/components/detalles.scss */
+#promocion .contenido .abajo .view-id-mas.view-display-id-block .nota .foto img {
+  width: 235px;
+  height: 310px;
+}
+/* line 569, ../../sass/components/detalles.scss */
+#promocion .contenido .abajo .view-id-mas.view-display-id-block .nota .foto img:hover {
+  opacity: 0.8;
+}
+/* line 571, ../../sass/components/detalles.scss */
+#promocion .contenido .abajo .view-id-mas.view-display-id-block .nota .info {
+  position: relative;
+  background: #fff;
+  width: 245px;
+  height: auto;
+  opacity: 1;
+  float: left;
+  transition: all 0.5s ease-in-out;
+}
+/* line 572, ../../sass/components/detalles.scss */
+#promocion .contenido .abajo .view-id-mas.view-display-id-block .nota .info .titulo {
+  width: 220px;
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 22px;
+  position: relative;
+  text-align: center;
+  padding: 10px 10px;
+}
+/* line 573, ../../sass/components/detalles.scss */
+#promocion .contenido .abajo .view-id-mas.view-display-id-block .nota .info .titulo a {
+  color: #000;
+  text-decoration: none;
+}
+/* line 575, ../../sass/components/detalles.scss */
+#promocion .contenido .abajo .view-id-mas.view-display-id-block .nota .info .resumen {
+  width: 220px;
+  font-size: 18px;
+  line-height: 20px;
+  text-transform: none;
+  padding: 10px;
+  position: relative;
+  float: left;
+  text-align: center;
+  font-weight: 300;
+}
+/* line 576, ../../sass/components/detalles.scss */
+#promocion .contenido .abajo .view-id-mas.view-display-id-block .nota .info .mas {
+  background: #000;
+  border-radius: 22px;
+  width: 70px;
+  padding: 10px 10px;
+  text-align: center;
+  position: relative;
+  float: left;
+  margin: 0px 75px 10px;
+}
+/* line 577, ../../sass/components/detalles.scss */
+#promocion .contenido .abajo .view-id-mas.view-display-id-block .nota .info .mas a {
+  position: relative;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+/* line 590, ../../sass/components/detalles.scss */
+#evento {
+  width: 1024px;
+  padding: 20px 0px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 50px;
+}
+/* line 591, ../../sass/components/detalles.scss */
+#evento .contenido {
+  position: relative;
+  float: left;
+}
+/* line 592, ../../sass/components/detalles.scss */
+#evento .contenido .movil {
+  display: none;
+}
+/* line 593, ../../sass/components/detalles.scss */
+#evento .contenido .izq {
+  width: 320px;
+  margin-right: 20px;
+  border-right: 1px solid #000;
+  height: auto;
+  float: left;
+}
+/* line 594, ../../sass/components/detalles.scss */
+#evento .contenido .izq .fecha {
+  width: 300px;
+  padding: 0px 10px;
+}
+/* line 595, ../../sass/components/detalles.scss */
+#evento .contenido .izq .fecha .icono {
+  background: url(../images/iconos/icono_fecha.svg) 0px 0px/55px auto no-repeat;
+  height: 50px;
+  width: 60px;
+  float: left;
+  position: relative;
+}
+/* line 596, ../../sass/components/detalles.scss */
+#evento .contenido .izq .fecha .dia {
+  font-size: 18px;
+  font-weight: 400;
+  color: #FF8801;
+  height: 50px;
+  width: 210px;
+  margin-top: 10px;
+  float: left;
+}
+/* line 597, ../../sass/components/detalles.scss */
+#evento .contenido .izq .fecha .dia label {
+  font-weight: 400;
+  font-size: 16px;
+  width: 210px;
+  color: #000;
+}
+/* line 600, ../../sass/components/detalles.scss */
+#evento .contenido .izq .redes_sociales {
+  position: relative;
+  float: left;
+  width: 280px;
+  padding: 0px;
+  height: 30px;
+  margin: 20px 20px;
+}
+/* line 601, ../../sass/components/detalles.scss */
+#evento .contenido .izq .redes_sociales li {
+  list-style: none;
+  float: left;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin: 5px 10px;
+  cursor: pointer;
+  margin: 0px;
+}
+/* line 603, ../../sass/components/detalles.scss */
+#evento .contenido .izq .redes_sociales .fb .st_facebook_large {
+  background: url(../images/compartir.svg) no-repeat -5px -4px/270px auto transparent;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  float: left;
+  text-indent: -9999px;
+  transition: all 0.2s ease;
+}
+/* line 606, ../../sass/components/detalles.scss */
+#evento .contenido .izq .redes_sociales .tw .st_twitter_large {
+  background: url(../images/compartir.svg) no-repeat -45px -4px/270px auto transparent;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  float: left;
+  text-indent: -9999px;
+  transition: all 0.2s ease;
+}
+/* line 609, ../../sass/components/detalles.scss */
+#evento .contenido .izq .redes_sociales .go .st_googleplus_large {
+  background: url(../images/compartir.svg) no-repeat -85px -4px/270px auto transparent;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  float: left;
+  text-indent: -9999px;
+  transition: all 0.2s ease;
+}
+/* line 612, ../../sass/components/detalles.scss */
+#evento .contenido .izq .redes_sociales .pin .st_pinterest_large {
+  background: url(../images/compartir.svg) no-repeat -124px -4px/270px auto transparent;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  float: left;
+  text-indent: -9999px;
+  transition: all 0.2s ease;
+}
+/* line 615, ../../sass/components/detalles.scss */
+#evento .contenido .izq .redes_sociales .wp .st_whatsapp_large {
+  background: url(../images/compartir.svg) no-repeat -163px -4px/270px auto transparent;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  float: left;
+  text-indent: -9999px;
+  transition: all 0.2s ease;
+}
+/* line 619, ../../sass/components/detalles.scss */
+#evento .contenido .izq .view-id-detalle.view-display-id-block {
+  width: 300px;
+  height: auto;
+  float: left;
+  padding: 0px 10px;
+}
+/* line 620, ../../sass/components/detalles.scss */
+#evento .contenido .izq .view-id-detalle.view-display-id-block h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  width: 280px;
+  padding: 15px 10px;
+  text-align: center;
+  height: auto;
+  background: #000;
+  color: #fff;
+  margin: 5px 0px;
+}
+/* line 621, ../../sass/components/detalles.scss */
+#evento .contenido .izq .view-id-detalle.view-display-id-block .views-row {
+  width: 300px;
+  border-bottom: 1px solid #000;
+  float: left;
+  margin-bottom: 20px;
+}
+/* line 622, ../../sass/components/detalles.scss */
+#evento .contenido .izq .view-id-detalle.view-display-id-block .restaurante {
+  width: 280px;
+  position: relative;
+  float: left;
+  height: auto;
+}
+/* line 623, ../../sass/components/detalles.scss */
+#evento .contenido .izq .view-id-detalle.view-display-id-block .restaurante .foto {
+  width: 280px;
+  height: 180px;
+  position: relative;
+  float: left;
+  border: 1px solid #000;
+  margin: 0px 10px;
+}
+/* line 624, ../../sass/components/detalles.scss */
+#evento .contenido .izq .view-id-detalle.view-display-id-block .restaurante .foto img {
+  width: 280px;
+  height: 180px;
+}
+/* line 625, ../../sass/components/detalles.scss */
+#evento .contenido .izq .view-id-detalle.view-display-id-block .restaurante .foto img:hover {
+  opacity: 0.8;
+}
+/* line 627, ../../sass/components/detalles.scss */
+#evento .contenido .izq .view-id-detalle.view-display-id-block .restaurante .nombre {
+  width: 280px;
+  height: 30px;
+  position: relative;
+  float: left;
+  margin: 10px;
+  background: url(../images/iconos/icono_cubiertos.svg) 0px -5px/40px auto no-repeat;
+}
+/* line 628, ../../sass/components/detalles.scss */
+#evento .contenido .izq .view-id-detalle.view-display-id-block .restaurante .nombre a {
+  margin-left: 50px;
+  text-align: left;
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  height: 30px;
+  float: left;
+  padding: 5px 0px 0px 0px;
+}
+/* line 634, ../../sass/components/detalles.scss */
+#evento .contenido .izq .view-id-detalle.view-display-id-block_1 {
+  width: 300px;
+  height: auto;
+  float: left;
+  padding: 0px 10px;
+}
+/* line 635, ../../sass/components/detalles.scss */
+#evento .contenido .izq .view-id-detalle.view-display-id-block_1 h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  width: 280px;
+  padding: 15px 10px;
+  text-align: center;
+  height: auto;
+  background: #000;
+  color: #fff;
+  margin: 5px 0px;
+}
+/* line 636, ../../sass/components/detalles.scss */
+#evento .contenido .izq .view-id-detalle.view-display-id-block_1 .views-row {
+  width: 300px;
+  float: left;
+  margin-bottom: 20px;
+}
+/* line 637, ../../sass/components/detalles.scss */
+#evento .contenido .izq .view-id-detalle.view-display-id-block_1 .promocion {
+  width: 280px;
+  position: relative;
+  float: left;
+  height: auto;
+}
+/* line 638, ../../sass/components/detalles.scss */
+#evento .contenido .izq .view-id-detalle.view-display-id-block_1 .promocion .foto {
+  width: 280px;
+  height: auto;
+  position: relative;
+  float: left;
+  border: 1px solid #000;
+  margin: 0px 10px;
+}
+/* line 639, ../../sass/components/detalles.scss */
+#evento .contenido .izq .view-id-detalle.view-display-id-block_1 .promocion .foto img {
+  width: 280px;
+  height: auto;
+}
+/* line 640, ../../sass/components/detalles.scss */
+#evento .contenido .izq .view-id-detalle.view-display-id-block_1 .promocion .foto img:hover {
+  opacity: 0.8;
+}
+/* line 647, ../../sass/components/detalles.scss */
+#evento .contenido .der {
+  width: 660px;
+  height: auto;
+  float: left;
+  padding: 0px 20px 0px 0px;
+}
+/* line 648, ../../sass/components/detalles.scss */
+#evento .contenido .der .foto {
+  max-width: 640px;
+  height: auto;
+  position: relative;
+  float: left;
+  margin-bottom: 10px;
+}
+/* line 649, ../../sass/components/detalles.scss */
+#evento .contenido .der .foto img {
+  max-width: 640px;
+  height: auto;
+}
+/* line 651, ../../sass/components/detalles.scss */
+#evento .contenido .der h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  line-height: 42px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px 0px 20px 0px;
+  text-align: left;
+  height: auto;
+}
+/* line 652, ../../sass/components/detalles.scss */
+#evento .contenido .der .texto {
+  color: #333;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 20px;
+}
+/* line 653, ../../sass/components/detalles.scss */
+#evento .contenido .der .texto a {
+  color: #FF8801;
+  text-decoration: none;
+}
+/* line 654, ../../sass/components/detalles.scss */
+#evento .contenido .der .texto a:hover {
+  text-decoration: underline;
+}
+/* line 657, ../../sass/components/detalles.scss */
+#evento .contenido .abajo {
+  width: 1024px;
+  height: auto;
+  float: left;
+  padding: 20px 0px;
+  position: relative;
+}
+/* line 659, ../../sass/components/detalles.scss */
+#evento .contenido .abajo .view-id-mas.view-display-id-block {
+  width: 1024px;
+  height: auto;
+  float: left;
+  padding: 10px 0px;
+}
+/* line 660, ../../sass/components/detalles.scss */
+#evento .contenido .abajo .view-id-mas.view-display-id-block h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  width: 1024px;
+  height: 30px;
+  padding: 20px 0px;
+  text-align: center;
+  height: auto;
+  background: #000;
+  color: #fff;
+  margin: 5px 0px 20px 0px;
+}
+/* line 661, ../../sass/components/detalles.scss */
+#evento .contenido .abajo .view-id-mas.view-display-id-block .views-row {
+  width: 500px;
+  float: left;
+  margin: 0px 24px 20px 0px;
+}
+/* line 662, ../../sass/components/detalles.scss */
+#evento .contenido .abajo .view-id-mas.view-display-id-block .views-row-2, #evento .contenido .abajo .view-id-mas.view-display-id-block .views-row-4, #evento .contenido .abajo .view-id-mas.view-display-id-block .views-row-6, #evento .contenido .abajo .view-id-mas.view-display-id-block .views-row-8, #evento .contenido .abajo .view-id-mas.view-display-id-block .views-row-10, #evento .contenido .abajo .view-id-mas.view-display-id-block .views-row-12 {
+  margin: 0px 0px 20px 0px;
+}
+/* line 663, ../../sass/components/detalles.scss */
+#evento .contenido .abajo .view-id-mas.view-display-id-block .nota {
+  width: 500px;
+  position: relative;
+  float: left;
+  height: auto;
+  background: #fff;
+}
+/* line 664, ../../sass/components/detalles.scss */
+#evento .contenido .abajo .view-id-mas.view-display-id-block .nota .seccion {
+  background: #FF8801;
+  padding: 3px 5px;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  z-index: 1;
+}
+/* line 665, ../../sass/components/detalles.scss */
+#evento .contenido .abajo .view-id-mas.view-display-id-block .nota .seccion a {
+  color: #fff;
+  text-decoration: none;
+}
+/* line 667, ../../sass/components/detalles.scss */
+#evento .contenido .abajo .view-id-mas.view-display-id-block .nota .foto {
+  width: 235px;
+  height: 310px;
+  position: relative;
+  float: left;
+  margin: 0px;
+}
+/* line 668, ../../sass/components/detalles.scss */
+#evento .contenido .abajo .view-id-mas.view-display-id-block .nota .foto img {
+  width: 235px;
+  height: 310px;
+}
+/* line 669, ../../sass/components/detalles.scss */
+#evento .contenido .abajo .view-id-mas.view-display-id-block .nota .foto img:hover {
+  opacity: 0.8;
+}
+/* line 671, ../../sass/components/detalles.scss */
+#evento .contenido .abajo .view-id-mas.view-display-id-block .nota .info {
+  position: relative;
+  background: #fff;
+  width: 245px;
+  height: auto;
+  opacity: 1;
+  float: left;
+  transition: all 0.5s ease-in-out;
+}
+/* line 672, ../../sass/components/detalles.scss */
+#evento .contenido .abajo .view-id-mas.view-display-id-block .nota .info .titulo {
+  width: 220px;
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 22px;
+  position: relative;
+  text-align: center;
+  padding: 10px 10px;
+}
+/* line 673, ../../sass/components/detalles.scss */
+#evento .contenido .abajo .view-id-mas.view-display-id-block .nota .info .titulo a {
+  color: #000;
+  text-decoration: none;
+}
+/* line 675, ../../sass/components/detalles.scss */
+#evento .contenido .abajo .view-id-mas.view-display-id-block .nota .info .resumen {
+  width: 220px;
+  font-size: 18px;
+  line-height: 20px;
+  text-transform: none;
+  padding: 10px;
+  position: relative;
+  float: left;
+  text-align: center;
+  font-weight: 300;
+}
+/* line 676, ../../sass/components/detalles.scss */
+#evento .contenido .abajo .view-id-mas.view-display-id-block .nota .info .mas {
+  background: #000;
+  border-radius: 22px;
+  width: 70px;
+  padding: 10px 10px;
+  text-align: center;
+  position: relative;
+  float: left;
+  margin: 0px 75px 10px;
+}
+/* line 677, ../../sass/components/detalles.scss */
+#evento .contenido .abajo .view-id-mas.view-display-id-block .nota .info .mas a {
+  position: relative;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+/* line 690, ../../sass/components/detalles.scss */
+#columna {
+  width: 1024px;
+  padding: 20px 0px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 50px;
+}
+/* line 691, ../../sass/components/detalles.scss */
+#columna .contenido {
+  position: relative;
+  float: left;
+}
+/* line 692, ../../sass/components/detalles.scss */
+#columna .contenido .foto {
+  width: 1024px;
+  height: 550px;
+  position: relative;
+  float: left;
+  margin-bottom: 10px;
+}
+/* line 693, ../../sass/components/detalles.scss */
+#columna .contenido .etiquetas {
+  background: #FF8801;
+  width: 955px;
+  position: relative;
+  float: left;
+  margin: 20px 0px;
+  height: 40px;
+  margin-left: 70px;
+}
+/* line 694, ../../sass/components/detalles.scss */
+#columna .contenido .etiquetas .triangulo {
+  width: 0;
+  height: 0;
+  border-top: 35px solid transparent;
+  border-left: 14px solid #000;
+  border-bottom: 35px solid transparent;
+  position: absolute;
+  left: 10px;
+  top: -15px;
+}
+/* line 695, ../../sass/components/detalles.scss */
+#columna .contenido .etiquetas .icon {
+  background: url(../images/iconos/icono_d.svg) -4px -1px/90px auto no-repeat #000;
+  height: 50px;
+  width: 70px;
+  float: left;
+  position: absolute;
+  padding: 10px 5px;
+  top: -15px;
+  left: -70px;
+}
+/* line 696, ../../sass/components/detalles.scss */
+#columna .contenido .etiquetas a {
+  color: #fff;
+  float: left;
+  position: relative;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 300;
+  text-decoration: none;
+  margin-left: 30px;
+  padding: 10px 0px;
+  font-style: italic;
+}
+/* line 698, ../../sass/components/detalles.scss */
+#columna .contenido .movil {
+  display: none;
+}
+/* line 699, ../../sass/components/detalles.scss */
+#columna .contenido .izq {
+  width: 320px;
+  margin-right: 20px;
+  border-right: 1px solid #000;
+  height: auto;
+  float: left;
+}
+/* line 700, ../../sass/components/detalles.scss */
+#columna .contenido .izq .fecha {
+  width: 300px;
+  padding: 0px 10px;
+}
+/* line 701, ../../sass/components/detalles.scss */
+#columna .contenido .izq .fecha .icono {
+  background: url(../images/iconos/icono_fecha.svg) 0px 0px/55px auto no-repeat;
+  height: 50px;
+  width: 60px;
+  float: left;
+  position: relative;
+}
+/* line 702, ../../sass/components/detalles.scss */
+#columna .contenido .izq .fecha .dia {
+  font-size: 18px;
+  font-weight: 400;
+  color: #FF8801;
+  height: 50px;
+  width: 210px;
+  margin-top: 10px;
+  float: left;
+}
+/* line 703, ../../sass/components/detalles.scss */
+#columna .contenido .izq .fecha .dia label {
+  font-weight: 400;
+  font-size: 16px;
+  width: 210px;
+  color: #000;
+}
+/* line 706, ../../sass/components/detalles.scss */
+#columna .contenido .izq .autor {
+  width: 300px;
+  padding: 0px 10px;
+  margin-bottom: 20px;
+  float: left;
+  position: relative;
+}
+/* line 707, ../../sass/components/detalles.scss */
+#columna .contenido .izq .autor h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  width: 280px;
+  padding: 15px 10px;
+  text-align: left;
+  height: auto;
+  margin: 5px 0px;
+}
+/* line 708, ../../sass/components/detalles.scss */
+#columna .contenido .izq .autor h2 a {
+  color: #000;
+  text-decoration: none;
+}
+/* line 710, ../../sass/components/detalles.scss */
+#columna .contenido .izq .autor .field-name-field-foto {
+  width: 280px;
+  overflow: hidden;
+  border-bottom: 4px solid #FF8801;
+}
+/* line 711, ../../sass/components/detalles.scss */
+#columna .contenido .izq .autor .field-name-field-foto img {
+  width: 215px;
+  height: auto;
+  float: left;
+  position: relative;
+}
+/* line 713, ../../sass/components/detalles.scss */
+#columna .contenido .izq .autor .field-name-field-nombre-de-la-columna {
+  width: 280px;
+  font-size: 15px;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 17px;
+  position: relative;
+  text-align: left;
+  padding: 10px 0px;
+}
+/* line 714, ../../sass/components/detalles.scss */
+#columna .contenido .izq .autor .field-type-text-with-summary {
+  width: 280px;
+  color: #333;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 20px;
+}
+/* line 715, ../../sass/components/detalles.scss */
+#columna .contenido .izq .autor a:hover {
+  text-decoration: underline;
+}
+/* line 716, ../../sass/components/detalles.scss */
+#columna .contenido .izq .autor label {
+  font-weight: 400;
+  font-size: 16px;
+  width: 210px;
+  color: #000;
+}
+/* line 718, ../../sass/components/detalles.scss */
+#columna .contenido .izq .redes_sociales {
+  position: relative;
+  float: left;
+  width: 280px;
+  padding: 0px;
+  height: 30px;
+  margin: 20px 20px;
+}
+/* line 719, ../../sass/components/detalles.scss */
+#columna .contenido .izq .redes_sociales li {
+  list-style: none;
+  float: left;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin: 5px 10px;
+  cursor: pointer;
+  margin: 0px;
+}
+/* line 721, ../../sass/components/detalles.scss */
+#columna .contenido .izq .redes_sociales .fb .st_facebook_large {
+  background: url(../images/compartir.svg) no-repeat -5px -4px/270px auto transparent;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  float: left;
+  text-indent: -9999px;
+  transition: all 0.2s ease;
+}
+/* line 724, ../../sass/components/detalles.scss */
+#columna .contenido .izq .redes_sociales .tw .st_twitter_large {
+  background: url(../images/compartir.svg) no-repeat -45px -4px/270px auto transparent;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  float: left;
+  text-indent: -9999px;
+  transition: all 0.2s ease;
+}
+/* line 727, ../../sass/components/detalles.scss */
+#columna .contenido .izq .redes_sociales .go .st_googleplus_large {
+  background: url(../images/compartir.svg) no-repeat -85px -4px/270px auto transparent;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  float: left;
+  text-indent: -9999px;
+  transition: all 0.2s ease;
+}
+/* line 730, ../../sass/components/detalles.scss */
+#columna .contenido .izq .redes_sociales .pin .st_pinterest_large {
+  background: url(../images/compartir.svg) no-repeat -124px -4px/270px auto transparent;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  float: left;
+  text-indent: -9999px;
+  transition: all 0.2s ease;
+}
+/* line 733, ../../sass/components/detalles.scss */
+#columna .contenido .izq .redes_sociales .wp .st_whatsapp_large {
+  background: url(../images/compartir.svg) no-repeat -163px -4px/270px auto transparent;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  float: left;
+  text-indent: -9999px;
+  transition: all 0.2s ease;
+}
+/* line 737, ../../sass/components/detalles.scss */
+#columna .contenido .izq .view-id-detalle.view-display-id-block {
+  width: 300px;
+  height: auto;
+  float: left;
+  padding: 0px 10px;
+}
+/* line 738, ../../sass/components/detalles.scss */
+#columna .contenido .izq .view-id-detalle.view-display-id-block h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  width: 280px;
+  padding: 15px 10px;
+  text-align: center;
+  height: auto;
+  background: #000;
+  color: #fff;
+  margin: 5px 0px;
+}
+/* line 739, ../../sass/components/detalles.scss */
+#columna .contenido .izq .view-id-detalle.view-display-id-block .views-row {
+  width: 300px;
+  border-bottom: 1px solid #000;
+  float: left;
+  margin-bottom: 20px;
+}
+/* line 740, ../../sass/components/detalles.scss */
+#columna .contenido .izq .view-id-detalle.view-display-id-block .restaurante {
+  width: 280px;
+  position: relative;
+  float: left;
+  height: auto;
+}
+/* line 741, ../../sass/components/detalles.scss */
+#columna .contenido .izq .view-id-detalle.view-display-id-block .restaurante .foto {
+  width: 280px;
+  height: 180px;
+  position: relative;
+  float: left;
+  border: 1px solid #000;
+  margin: 0px 10px;
+}
+/* line 742, ../../sass/components/detalles.scss */
+#columna .contenido .izq .view-id-detalle.view-display-id-block .restaurante .foto img {
+  width: 280px;
+  height: 180px;
+}
+/* line 743, ../../sass/components/detalles.scss */
+#columna .contenido .izq .view-id-detalle.view-display-id-block .restaurante .foto img:hover {
+  opacity: 0.8;
+}
+/* line 745, ../../sass/components/detalles.scss */
+#columna .contenido .izq .view-id-detalle.view-display-id-block .restaurante .nombre {
+  width: 280px;
+  height: 30px;
+  position: relative;
+  float: left;
+  margin: 10px;
+  background: url(../images/iconos/icono_cubiertos.svg) 0px -5px/40px auto no-repeat;
+}
+/* line 746, ../../sass/components/detalles.scss */
+#columna .contenido .izq .view-id-detalle.view-display-id-block .restaurante .nombre a {
+  margin-left: 50px;
+  text-align: left;
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  height: 30px;
+  float: left;
+  padding: 5px 0px 0px 0px;
+}
+/* line 752, ../../sass/components/detalles.scss */
+#columna .contenido .izq .view-id-detalle.view-display-id-block_1 {
+  width: 300px;
+  height: auto;
+  float: left;
+  padding: 0px 10px;
+}
+/* line 753, ../../sass/components/detalles.scss */
+#columna .contenido .izq .view-id-detalle.view-display-id-block_1 h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  width: 280px;
+  padding: 15px 10px;
+  text-align: center;
+  height: auto;
+  background: #000;
+  color: #fff;
+  margin: 5px 0px;
+}
+/* line 754, ../../sass/components/detalles.scss */
+#columna .contenido .izq .view-id-detalle.view-display-id-block_1 .views-row {
+  width: 300px;
+  float: left;
+  margin-bottom: 20px;
+}
+/* line 755, ../../sass/components/detalles.scss */
+#columna .contenido .izq .view-id-detalle.view-display-id-block_1 .promocion {
+  width: 280px;
+  position: relative;
+  float: left;
+  height: auto;
+}
+/* line 756, ../../sass/components/detalles.scss */
+#columna .contenido .izq .view-id-detalle.view-display-id-block_1 .promocion .foto {
+  width: 280px;
+  height: auto;
+  position: relative;
+  float: left;
+  border: 1px solid #000;
+  margin: 0px 10px;
+}
+/* line 757, ../../sass/components/detalles.scss */
+#columna .contenido .izq .view-id-detalle.view-display-id-block_1 .promocion .foto img {
+  width: 280px;
+  height: auto;
+}
+/* line 758, ../../sass/components/detalles.scss */
+#columna .contenido .izq .view-id-detalle.view-display-id-block_1 .promocion .foto img:hover {
+  opacity: 0.8;
+}
+/* line 765, ../../sass/components/detalles.scss */
+#columna .contenido .der {
+  width: 660px;
+  height: auto;
+  float: left;
+  padding: 0px 20px 0px 0px;
+}
+/* line 766, ../../sass/components/detalles.scss */
+#columna .contenido .der h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  line-height: 42px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px 0px 20px 0px;
+  text-align: left;
+  height: auto;
+}
+/* line 767, ../../sass/components/detalles.scss */
+#columna .contenido .der .texto {
+  color: #333;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 20px;
+}
+/* line 768, ../../sass/components/detalles.scss */
+#columna .contenido .der .texto a {
+  color: #FF8801;
+  text-decoration: none;
+}
+/* line 769, ../../sass/components/detalles.scss */
+#columna .contenido .der .texto a:hover {
+  text-decoration: underline;
+}
+/* line 772, ../../sass/components/detalles.scss */
+#columna .contenido .abajo {
+  width: 1024px;
+  height: auto;
+  float: left;
+  padding: 20px 0px;
+  position: relative;
+}
+/* line 774, ../../sass/components/detalles.scss */
+#columna .contenido .abajo .view-id-mas.view-display-id-block {
+  width: 1024px;
+  height: auto;
+  float: left;
+  padding: 10px 0px;
+}
+/* line 775, ../../sass/components/detalles.scss */
+#columna .contenido .abajo .view-id-mas.view-display-id-block h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  width: 1024px;
+  height: 30px;
+  padding: 20px 0px;
+  text-align: center;
+  height: auto;
+  background: #000;
+  color: #fff;
+  margin: 5px 0px 20px 0px;
+}
+/* line 776, ../../sass/components/detalles.scss */
+#columna .contenido .abajo .view-id-mas.view-display-id-block .views-row {
+  width: 500px;
+  float: left;
+  margin: 0px 24px 20px 0px;
+}
+/* line 777, ../../sass/components/detalles.scss */
+#columna .contenido .abajo .view-id-mas.view-display-id-block .views-row-2, #columna .contenido .abajo .view-id-mas.view-display-id-block .views-row-4, #columna .contenido .abajo .view-id-mas.view-display-id-block .views-row-6, #columna .contenido .abajo .view-id-mas.view-display-id-block .views-row-8, #columna .contenido .abajo .view-id-mas.view-display-id-block .views-row-10, #columna .contenido .abajo .view-id-mas.view-display-id-block .views-row-12 {
+  margin: 0px 0px 20px 0px;
+}
+/* line 778, ../../sass/components/detalles.scss */
+#columna .contenido .abajo .view-id-mas.view-display-id-block .nota {
+  width: 500px;
+  position: relative;
+  float: left;
+  height: auto;
+  background: #fff;
+}
+/* line 779, ../../sass/components/detalles.scss */
+#columna .contenido .abajo .view-id-mas.view-display-id-block .nota .seccion {
+  background: #FF8801;
+  padding: 3px 5px;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  z-index: 1;
+}
+/* line 780, ../../sass/components/detalles.scss */
+#columna .contenido .abajo .view-id-mas.view-display-id-block .nota .seccion a {
+  color: #fff;
+  text-decoration: none;
+}
+/* line 782, ../../sass/components/detalles.scss */
+#columna .contenido .abajo .view-id-mas.view-display-id-block .nota .foto {
+  width: 235px;
+  height: 310px;
+  position: relative;
+  float: left;
+  margin: 0px;
+}
+/* line 783, ../../sass/components/detalles.scss */
+#columna .contenido .abajo .view-id-mas.view-display-id-block .nota .foto img {
+  width: 235px;
+  height: 310px;
+}
+/* line 784, ../../sass/components/detalles.scss */
+#columna .contenido .abajo .view-id-mas.view-display-id-block .nota .foto img:hover {
+  opacity: 0.8;
+}
+/* line 786, ../../sass/components/detalles.scss */
+#columna .contenido .abajo .view-id-mas.view-display-id-block .nota .info {
+  position: relative;
+  background: #fff;
+  width: 245px;
+  height: auto;
+  opacity: 1;
+  float: left;
+  transition: all 0.5s ease-in-out;
+}
+/* line 787, ../../sass/components/detalles.scss */
+#columna .contenido .abajo .view-id-mas.view-display-id-block .nota .info .titulo {
+  width: 220px;
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 22px;
+  position: relative;
+  text-align: center;
+  padding: 10px 10px;
+}
+/* line 788, ../../sass/components/detalles.scss */
+#columna .contenido .abajo .view-id-mas.view-display-id-block .nota .info .titulo a {
+  color: #000;
+  text-decoration: none;
+}
+/* line 790, ../../sass/components/detalles.scss */
+#columna .contenido .abajo .view-id-mas.view-display-id-block .nota .info .resumen {
+  width: 220px;
+  font-size: 18px;
+  line-height: 20px;
+  text-transform: none;
+  padding: 10px;
+  position: relative;
+  float: left;
+  text-align: center;
+  font-weight: 300;
+}
+/* line 791, ../../sass/components/detalles.scss */
+#columna .contenido .abajo .view-id-mas.view-display-id-block .nota .info .mas {
+  background: #000;
+  border-radius: 22px;
+  width: 70px;
+  padding: 10px 10px;
+  text-align: center;
+  position: relative;
+  float: left;
+  margin: 0px 75px 10px;
+}
+/* line 792, ../../sass/components/detalles.scss */
+#columna .contenido .abajo .view-id-mas.view-display-id-block .nota .info .mas a {
+  position: relative;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  margin: 0 auto;
+  text-decoration: none;
+}

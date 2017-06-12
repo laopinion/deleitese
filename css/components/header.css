@@ -1,0 +1,92 @@
+/* line 1, ../../sass/components/header.scss */
+.top {
+  background: #fff;
+  height: 80px;
+  width: 100%;
+  padding: 10px 0px;
+  position: fixed;
+  z-index: 10;
+}
+/* line 2, ../../sass/components/header.scss */
+.top .center {
+  width: 1004px;
+  position: relative;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+/* line 3, ../../sass/components/header.scss */
+.top .center #logo {
+  padding: 0px;
+  position: relative;
+  width: 210px;
+  height: 70px;
+  float: left;
+  top: 0px;
+  opacity: 1;
+  transition: all 0.5s ease-in-out;
+}
+/* line 4, ../../sass/components/header.scss */
+.top .center #logo h1 {
+  background: url(../images/logo.svg) -15px -20px/230px auto no-repeat;
+  height: 70px;
+  width: auto;
+  display: block;
+  text-indent: -9999px;
+  margin: 0 auto;
+}
+/* line 5, ../../sass/components/header.scss */
+.top .center #logo h1 a {
+  display: block;
+  height: 70px;
+  text-indent: -9999px;
+}
+/* line 8, ../../sass/components/header.scss */
+.top .center .menu {
+  width: 654px;
+  margin: 0px;
+  float: right;
+  position: relative;
+  padding: 0px;
+  padding: 0px;
+  top: -10px;
+  height: 70px;
+}
+/* line 9, ../../sass/components/header.scss */
+.top .center .menu .item_menu {
+  height: 70px;
+  padding: 27px 0px;
+  text-align: center;
+  width: 16%;
+  float: left;
+  margin: 0px;
+}
+/* line 10, ../../sass/components/header.scss */
+.top .center .menu .noticias:hover {
+  background: url(../images/btn_noticias.svg) 23px 0px/60px auto no-repeat;
+}
+/* line 11, ../../sass/components/header.scss */
+.top .center .menu a {
+  margin-top: 40px;
+  float: left;
+  text-align: center;
+  width: 90px;
+  position: relative;
+  font: 'Lato', sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000;
+  font-weight: 300;
+  padding: 0px 10px;
+  text-decoration: none;
+  height: 20px;
+}
+/* line 13, ../../sass/components/header.scss */
+.top .center .search {
+  display: none;
+}
+/* line 14, ../../sass/components/header.scss */
+.top .center .fb_iframe_widget {
+  position: absolute;
+  top: 5px;
+  right: 0px;
+}

@@ -1,0 +1,467 @@
+@media screen and (max-width: 480px){
+  header{
+    #movil{
+      .hamburLogo{
+        width: 100%;
+      }
+      #logo{
+        width: 100%;
+      }
+      .menu{
+        width: 70%;
+        .btnSeguir{
+          margin-top: 20px;
+          flex: 1;
+          -webkit-flex: 1;
+          -moz-flex: 1;
+          height: auto;
+          flex-wrap: wrap;
+          -webkit-flex-wrap: wrap;
+          -moz-flex-wrap: wrap;
+        }
+      }
+    }
+
+    .buscador{
+      .buscar{
+        form#search-block-form, form#search-block-form--2{
+          width: 100%;
+          input{
+            width: 100%;
+            flex: initial;
+            -webkit-flex: initial;
+            -moz-flex: initial;
+            margin: 0 0 10px 0;
+          }
+        }
+      }
+    }
+  }//Fin header
+
+  #home{
+
+    #rutas{
+      .notas{
+        .grafiLeft{ display: none; }
+        .grafiRight{ display: none; }
+
+        .leftOrange{
+          height: auto;
+          .left{
+            background-color: #F7931E;
+            flex-wrap: wrap;
+            -webkit-flex-wrap: wrap;
+            -moz-flex-wrap: wrap;
+            justify-content: center;
+            -webkit-justify-content: center;
+            -moz-justify-content: center;
+            height: auto;
+            .destacada{
+              width: 300px;
+            }
+            .lateral{
+              width: 100%;
+              height: auto;
+            }
+          }//Fin left
+        }
+
+        .rightNegro{
+          .right{
+            flex-wrap: wrap;
+            -webkit-flex-wrap: wrap;
+            -moz-flex-wrap: wrap;
+            justify-content: center;
+            -webkit-justify-content: center;
+            -moz-justify-content: center;
+            background-color: #F7931E;
+            .lateral{
+              width: 100%;
+              height: auto;
+              .view-rutas, .view-Rutas{
+                width: 100%;
+              }
+              .view-Rutas{
+                width: 100%;
+              }
+            }
+          }
+        }
+      }//fin notas
+    }//fin rutas
+    
+    #noticias{
+      .view-content{
+        .views-row{
+          width: 100%;
+          margin-bottom: 45px;
+          img{
+            width: 100%;
+            height: auto;
+          }
+          .nota{
+            .text:before{
+              content: "";
+            }
+            .text{
+              height: auto;
+              position: static;
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+
+    #modulo1{
+      .notas{
+        padding: 100px 5px 0 5px;
+        .view-display-id-block_8{
+          .view-content{
+            .views-row{
+              width: 100%;
+              .foto{
+                img{
+                  width: 100%;
+                  height: auto;
+                }
+              }
+            }
+          }
+        }
+      }
+      .newsletter{
+        .webform-client-form-552{
+          .form-item{
+            input{
+              width: 98%;
+            }
+          }
+        }
+      }
+
+      .personajes{
+        padding-bottom: 40px;
+        .view-display-id-block_1{
+          padding: 0;
+          width: 100%;
+          .view-content{
+            .views-row{
+              width: 100%;
+              .personaje{
+                .marcoMovil{ 
+                  display: block;
+                  width: 100%;
+                  height: 523px;
+                  background: url(../images/marcoPersonajes.png) no-repeat;
+                  background-position: -2px 0;
+                  background-size: 100%;
+                  position: absolute;
+                  z-index: 2;
+                }
+                .foto{
+                  width: 100%;
+                  a{
+                    width: 92%;
+                    height: auto;
+                    margin: 0px auto;
+                    position: relative;
+                    top: 8px;
+                    padding: 4px 0;
+                    left: 8px;
+                    z-index: 2;
+                    img{
+                      width: 98%;
+                      height: auto;
+                      margin: 0 auto;
+                      display: block;
+                      position: relative;
+                      top: 4px;
+                    }
+                  }
+                }
+                .foto:before{ content: initial; }
+                .info{
+                  top: 45px;
+                  .titulo{
+                    height: auto;
+                    position: static;
+                    a{
+                      line-height: 47px;
+                      width: auto;
+                    }
+                  }
+                  .resumen{
+                    position: static;
+                  }
+                }
+              }//Fin personaje
+            }
+          }
+        }
+      }//fin personajes
+
+    }//Fin modulo 1
+
+    #modulo2{
+      #videos{
+        .view-display-id-block_4{
+          .view-header{
+            .video{
+              .summary{
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    #modulo3{
+      #galeriaInstagram{
+        li{
+          height: auto;
+          margin-bottom: 20px;
+          width: 100%;
+          img{
+            display: block;
+            margin: 0 auto;
+            height: 320px;
+            width: 320px;
+          }
+          .data{
+            justify-content: center;
+            -webkit-justify-content: center;
+            -moz-justify-content: center;
+          }
+        }
+      }
+    }
+
+    .slides{
+      .next{
+        background-size: 40px;
+        height: 35px;
+        width: 43px;
+      }
+      .prev{
+        background-size: 40px;
+        height: 35px;
+        width: 43px;
+      }
+    }
+  }//Fin home
+  
+  //Seccion Personajes
+  #personajes{
+    padding-bottom: 40px;
+    article{
+      .view-display-id-block_2{
+        padding: 0;
+        width: 100%;
+        .view-content{
+          .views-row{
+            width: 100%;
+            .personaje{
+              top: 0;
+              .marcoMovil{ 
+                display: block;
+                width: 100%;
+                height: 523px;
+                background: url(../images/marcoPersonajes2.svg) no-repeat;
+                background-position: -2px 0;
+                background-size: 100%;
+                position: absolute;
+                z-index: 2;
+              }
+              .foto{
+                width: 100%;
+                a{
+                  width: 95%;
+                  height: auto;
+                  margin: 0;
+                  position: relative;
+                  top: 4px;
+                  padding: 0px 0;
+                  left: 4%;
+                  z-index: 2;
+                  img{
+                    width: 98%;
+                    height: auto;
+                    margin: 0 auto;
+                    display: block;
+                    position: relative;
+                    top: 0;
+                  }
+                }
+              }
+              .foto:before{ content: initial; }
+              .info{
+                top: 45px;
+                height: auto;
+                width: 100%;
+                .titulo{
+                  height: auto;
+                  position: static;
+                  a{
+                    line-height: 47px;
+                    width: auto;
+                  }
+                }
+                .resumen{
+                  position: static;
+                  width: 100%;
+                }
+              }
+            }//Fin personaje
+          }
+        }
+      }
+    }
+  }//FIn personajes
+
+  #promociones{
+    padding: 0;
+    .view-display-id-block_6{
+      .view-content{
+        .views-row{
+          border-right: none;
+          border-left: none;
+          border-top: none;
+          margin-right: 0;
+          width: 100%;
+          img{
+            height: auto;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  #promocion{
+    .contenido{
+      .der{
+        .view-id-detalle.view-display-id-block_1{
+          padding: 0;
+          width: 96%;
+          .promocion{
+            .foto{
+              margin: 0 2%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  //Nota personaje
+  #personaje{
+    .left{
+      .nombre{
+        .titulo{
+          width: 75%;
+          padding: 0 0 0 7%;
+        }
+        .subtitulo{
+          box-sizing: initial;
+          padding: 0 0 0 6%;
+          width: 94%;
+          left: 0;
+        }
+      }
+      .movil{
+        .foto{
+          img{
+            width: 100%;
+          }
+        }
+      }
+      .text{
+        width: 90%;
+      }
+    }
+  }
+
+  #contacto{
+    #info{
+      width: 100%;
+      .direccion{
+        .icono{display: none;}
+        p{
+          width: 100%;
+        }
+        img{
+          height: auto;
+          width: 100%;
+        }
+      }
+    }
+    #redesContacto{
+      .redes{
+        width: 100%;
+      }
+    }
+  }
+
+  #establecimiento{
+    .contenido{
+      .izq{
+          h1{margin-top: 20px;}
+      }
+      .der{
+        width: 100%;
+        .up{height:360px;
+          .logo{max-width: 88%;}
+          .valoracion{margin: 5% 35%;}
+        }
+        .down{
+          box-sizing: border-box;
+          width: 100%;
+          .facebook, .instagram{width:100%;}
+        }
+        .mapa{width:100%;}
+      }
+    }
+  }
+
+  #slider2_container{
+    img{
+      width: 100%!important;
+      height: auto !important;
+    }
+    div{
+      width: 100%!important;
+    }
+  }
+
+  .autor{
+    margin: 50px auto 0 auto;
+  }
+
+  footer{
+    #footer{
+      padding-left: 5px;
+      padding-right: 5px;
+      box-sizing: border-box;
+      .right{
+        .webform-client-form-551{
+          width: 100%;
+        }
+      }
+      .left{
+        padding: 20px 5px;
+        .redes{
+          justify-content: center;
+          -webkit-justify-content: center;
+          -moz-justify-content: center;
+          width: 100%;
+          li:nth-child(2){
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+
+}

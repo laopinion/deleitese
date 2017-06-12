@@ -1,0 +1,19 @@
+.pauta {display: inline-block;vertical-align:top;margin-bottom: 10px;float:left; overflow:hidden;}
+.pauta_movil {display: inline-block;vertical-align:top;margin-bottom: 20px;float:left; overflow:hidden;margin:0 auto;}
+.anuncio_txt {font-size: 9px;text-transform: uppercase;color: #999;margin-bottom: 4px;}
+.pauta .info {background-color: #eee; width:100%;}
+.pauta .info .ad{margin: 0 auto;position: relative;width: 300px;}
+.pauta300x250 {border:1px solid #ccc;}
+.pauta468x60 {border:1px solid #ccc;float:left;}
+.p468x60 {width: 468px;height: 80px;padding: 10px 0px 0px 0px;position: relative;top: 0px;}
+.p300x250 {width: 300px;height: auto;/*height: 270px;*/padding: 10px 0px 0px 0px;position: relative;top: 0px;}
+.p300x600 {width: 100%;height: auto;/*height: 270px;*/padding: 10px 0px 0px 0px;position: relative;top: 0px;}
+.p300x100 {width: 300px;height: auto;/*height: 100px;*/padding: 10px 0px 0px 0px;position: relative;top: 0px;}
+.p728x90 {width: 728px;height: 110px;padding: 10px 10px 0px 0px;position: relative;top: 0px;}
+.p220x90 {width: 220px;height: 110px;padding: 10px 0px 0px 0px;position: relative;top: 0px;}
+.p200x200 {width: 200px;height: 220px;padding: 0px 0px 0px 0px;position: relative;top: 0px;float:left;}
+.p88x31 {width: 88px;height: 31px;padding: 10px 0px 0px 0px;position: relative;top: 0px;float:left;left:30px; margin:0px;}
+.p1000x30 {width: 1000px;height: auto;padding:0px;position: relative;top: 10px;left:-20px;z-index:2;}
+.p1000x30_nota {width: 1000px;height: auto;padding:0px;position: relative;top: -10px;left:-20px;}
+.barraflotante {bottom: 0;left: 0;margin: 0 auto;position: fixed;right: 0;width: 1000px;z-index: 100;}
+.p320x50 {width: 320px;height: 90px;/*height: 270px;*/padding: 10px 0px 0px 0px;position: relative;top: 0px;}
